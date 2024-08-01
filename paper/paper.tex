@@ -94,58 +94,51 @@ among these groups. The results showed that AI tools had a positive impact on
 academic performance, especially for students with less prior experience.
 
 \begin{table*}[htbp]
-\caption{Categories and Descriptions}
+\caption{Categories of Analysis}
     \begin{center}
-    \begin{tabular}{|p{3cm}|p{3cm}|p{5cm}|}
+    \begin{tabular}{|p{3cm}|p{5cm}|p{3cm}|}
     \hline
-    \textbf{Critical Thinking} & \textbf{Category} & \textbf{Description} \\
+    \textbf{Category} & \textbf{Description} & \textbf{Critical Thinking} \\
     \hline
-    \multirow{6}{3cm}{Tends to promote} & Debugging Help & Prompts that seek
-    help to identify, fix errors, or understand the provided code snippet. \\
-    & Conceptual Questions & Prompts that are more about understanding concepts
-    or algorithms rather than specific code. \\
-    & Student Correction & Prompts where the student corrects the bot. \\
+    Debugging Help & Prompts that seek help to identify, fix errors, or understand the provided code snippet. & \multirow{6}{3cm}{Tends to promote.} \\
+    Conceptual Questions & Prompts that are more about understanding concepts or algorithms rather than specific code. & \\
+    Student Correction & Prompts where the student corrects the bot. & \\
     \hline
-    \multirow{6}{3cm}{Tends not to promote} & Code Snippet & Prompts that ask
-    for a specific part of the code, like a function or a segment. \\
-    & Complete Solution & Prompts that request an entire solution or a complete
-    code snippet. \\
-    & Multiple Question Exercise & Prompts where the user wants to solve a
-    multiple-question exercise. \\
+    Code Snippet & Prompts that ask for a specific part of the code, like a function or a segment. & \multirow{6}{3cm}{Tends not to promote.} \\
+    Complete Solution & Prompts that request an entire solution or a complete code snippet. & \\
+    Multiple Question & Prompts where the user wants to solve a multiple-question exercise. & \\
     \hline
-    \multirow{3}{3cm}{Neutral} & Language Change & Prompts that request a change
-    of idiom. \\
-    & Uncategorized & Prompts that do not fit into any of the above categories. \\
+    Language Change & Prompts that request a change of idiom to convey a message more effectively. & \multirow{3}{3cm}{Neutral.} \\
+    Uncategorized & Prompts that do not fit into any of the above categories. & \\
     \hline
     \end{tabular}
     \label{tab:categories}
     \end{center}
 \end{table*}
 
+The table \ref{tab:categories} shows the categories of analysis used in this
+study. The categories were based on the work of
+\cite{10.1007/978-3-031-64299-9_20}, with the addition of four new categories.
+Also, we group the categories to understand the impact on critical thinking.
+
+
 \section{Method}
 
-Initially, we identified four initial categories were identified for classifying
-student messages with the bot, as outlined in the article "Coding with AI: How
-Are Tools Like ChatGPT Being Used by Students in Foundational Programming
-Courses." These initial categories are as follows: (1) Debugging Help: Messages
-that seek assistance in identifying and fixing errors or understanding the
-provided code snippet; (2) Code Snippet: Messages requesting a specific part
-of the code, such as a function or a segment; (3) Conceptual Questions: Messages
-focused on understanding concepts or algorithms rather than specific code;
-and (4) Complete Solution: Messages requesting an entire solution or a complete
-code snippet.
+CharlieBot is a ChatGPT-based bot that provides assistance to students in
+Java programming courses in UC3M. CharlieBot logs all conversations with
+students, which were used for this study. The goal was to categorize student
+messages to understand how students interact with the bot and identify patterns
+in their study habits.
 \\
-Upon further exploration of the data, it was determined that four additional
-categories could be added, resulting in a total of eight categories: (1)
-Multiple Question Exercise: Messages where the user seeks to solve a multiple-question
-exercise; (2) Student Correction: Messages where the student corrects the bot;
-(3) Language Change: Messages requesting a change of language; and (4)
-Uncategorized: Messages that do not fit into any of the aforementioned
-categories.
+The categories outlined in \cite{10.1007/978-3-031-64299-9_20} served as the
+foundation for classifying student messages. However, it was identified that
+some categories were missing, necessitating the addition of four new categories.
+Table \ref{tab:categories} presents these categories along with their
+descriptions.
 \\
 Subsequently, these eight categories were input into Claude.ai, accompanied by
 detailed instructions on the desired structure of the input and the expected
-format of the output. For each conversation in the CharlieBot log, a .csv file
+format of the output. For each conversation with the CharlieBot log, a .csv file
 was downloaded, and Claude was tasked with classifying the user messages into
 one of the eight categories.
 

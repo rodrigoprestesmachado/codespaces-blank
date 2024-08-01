@@ -40,7 +40,7 @@
 				"workbench.iconTheme": "eq-material-theme-icons-light",
 				"editor.rulers": [80,120],
 				"workbench.colorCustomizations": {
-					"editorRuler.foreground": "#F3F7FF"
+					"editorRuler.foreground": "#e9ecf3"
 				},
 				"cSpell.enabled": true,
 				"cSpell.language": "en, pt_BR, pt"

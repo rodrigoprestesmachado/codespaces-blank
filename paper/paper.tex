@@ -13,7 +13,8 @@
     T\kern-.1667em\lower.7ex\hbox{E}\kern-.125emX}}
 \begin{document}
 
-\title{An In-Depth Analysis of Student Prompts With CharlieBot \\
+\title{Analysis of Programming Students' Prompts to Identify Patterns of
+Critical Thinking in Interactions with Generative AI \\
 {\footnotesize \textsuperscript{*}Note: Sub-titles are not captured in Xplore and
 should not be used}
 \thanks{Identify applicable funding agency here. If none, delete this.}
@@ -72,10 +73,24 @@ component, formatting, style, styling, insert
 
 %What is the problem to be solved?
 
-According \cite{LO2024105100} further research about the use of AI tools in
+According \cite{Kwan24} further research about the use of AI tools in
 education is needed to understand how these tools can be used to improve
 students' learning experience. In particular, the study suggested that future
 research on students' study habits.
+
+Problems
+
+The literature suggests a concern regarding the impact of ChatGPT on students'
+critical thinking abilities. Vargas \cite{Vargas2023} indicated that
+ChatGPT use might lead to an overreliance on the tool, potentially diminishing
+students' critical thinking skills. Similarly, Cai \cite{cai23} identified
+overdependence and reduced intellectual engagement as significant drawbacks of
+ChatGPT-supported learning. Chan \cite{chan23} also noted that this
+reliance could result in a decrease in critical thinking, as students might make
+decisions based solely on the information provided by ChatGPT. Collectively,
+these studies highlight a common theme of reduced critical engagement and
+overreliance on ChatGPT in educational contexts.
+
 
 
 % Are there any existing solutions?
@@ -88,10 +103,41 @@ research on students' study habits.
 
 \section{Background}
 
-The paper \cite{10343037} examined students from different demographic groups
+The paper \cite{Kwan24} examined students from different demographic groups
 using AI tools like ChatGPT, comparing perceptions and impacts
 among these groups. The results showed that AI tools had a positive impact on
 academic performance, especially for students with less prior experience.
+
+\subsection{Critical Thinking}
+
+Critical thinking is a fundamental skill for students to develop, as it enables
+them to analyze, evaluate, and synthesize information. This skill is essential
+for problem-solving and decision-making, making it a crucial aspect of
+educational success, specifically in programming courses. However, the use of AI
+tools like ChatGPT has raised concerns about the potential impact on students'
+critical thinking abilities \cite{Vargas2023} \cite{cai23} \cite{chan23}.
+
+In the other hand, the study of \cite{zhang24} suggested that incorporating
+ChatGPT could stimulate students' critical thinking, probably because they
+had to assess the correctness of ChatGPT's answers.
+
+Regarding self-regulation, \cite{cai23} noted that ChatGPT allowed students to
+regulate their learning pace.
+
+\cite{wu24} found that ChatGPT-supported learning not only promoted students'
+self-regulation but also increased their self-efficacy.
+
+Finally, some students asserted that the use of ChatGPT enhanced the depth of
+their thinking and understanding \cite{chan23}.
+
+\subsection{CharlieBot}
+
+CharlieBot is a ChatGPT-based bot that provides assistance to students in Java
+programming courses at UC3M. The bot uses RAG(retrieval augmented generation) to
+generate responses to student queries, providing explanations, code snippets,
+and debugging help. The goal of CharlieBot is to support students in their
+learning process by providing personalized assistance and feedback.
+
 
 \begin{table*}[htbp]
 \caption{Categories of Analysis}
@@ -118,7 +164,7 @@ academic performance, especially for students with less prior experience.
 
 The table \ref{tab:categories} shows the categories of analysis used in this
 study. The categories were based on the work of
-\cite{10.1007/978-3-031-64299-9_20}, with the addition of four new categories.
+\cite{Ghimire24} with the addition of four new categories.
 Also, we group the categories to understand the impact on critical thinking.
 
 
@@ -130,11 +176,12 @@ students, which were used for this study. The goal was to categorize student
 messages to understand how students interact with the bot and identify patterns
 in their study habits.
 \\
-The categories outlined in \cite{10.1007/978-3-031-64299-9_20} served as the
-foundation for classifying student messages. However, it was identified that
-some categories were missing, necessitating the addition of four new categories.
-Table \ref{tab:categories} presents these categories along with their
-descriptions.
+The categories outlined in \cite{Ghimire24} served as the
+foundation for classifying student messages (Debugging Help, Conceptual
+Questions, Code Snippet and Complete Solution). However, it was identified that
+some categories were missing, necessitating the addition of new categories
+(Student Correction, Multiple Question, Language Change and Uncategorized). Table
+\ref{tab:categories} presents these categories along with their descriptions.
 \\
 Subsequently, these eight categories were input into Claude.ai, accompanied by
 detailed instructions on the desired structure of the input and the expected
@@ -174,7 +221,7 @@ categories:
 
 Approximately 64\% of the messages pertain to categories associated with
 critical thinking, corroborating with the findings of
-\cite{10.1007/978-3-031-64299-9_20}. In contrast, around 28\% of the messages
+\cite{Ghimire24}. In contrast, around 28\% of the messages
 indicate a preference among students for ready-made answers.
 
 \section{Conclusion}

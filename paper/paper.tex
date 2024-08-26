@@ -164,14 +164,14 @@ regulate their learning pace.
 \cite{wu24} found that ChatGPT-supported learning not only promoted students'
 self-regulation but also increased their self-efficacy.
 
-\subsection{CharlieBot}
+\subsection{The CharlieBot}
 
-CharlieBot is a ChatGPT-based bot that provides assistance to students in Java
-programming courses at UC3M. The bot uses RAG(retrieval augmented generation) to
-generate responses to student queries, providing explanations, code snippets,
-and debugging help. The goal of CharlieBot is to support students in their
-learning process by providing personalized assistance and feedback.
-
+CharlieBot is a ChatGPT 3.5 based bot that provides assistance to students in a
+Java programming courses at UC3M. The bot uses the content of UC3M Java
+programming course at EdX to supply a RAG(Retrieval-Augmented Generation) system
+and thus try to respond more accurately to students' questions \cite{Sun24}.
+The main goal of CharlieBot is support students in their learning process by
+providing personalized assistance and feedback.
 
 \begin{table*}[htbp]
 \caption{Categories of Analysis}
@@ -196,51 +196,21 @@ learning process by providing personalized assistance and feedback.
     \end{center}
 \end{table*}
 
-The table \ref{tab:categories} shows the categories of analysis used in this
-study. The categories were based on the work of
-\cite{Ghimire24} with the addition of four new categories.
-Also, we group the categories to understand the impact on critical thinking.
-
-
 \section{Method}
 
-CharlieBot is a ChatGPT-based bot that provides assistance to students in
-Java programming courses in UC3M. CharlieBot logs all conversations with
-students, which were used for this study. The goal was to categorize student
-messages to understand how students interact with the bot and identify patterns
-in their study habits.
-\\
-The categories outlined in \cite{Ghimire24} served as the
-foundation for classifying student messages (Debugging Help, Conceptual
-Questions, Code Snippet and Complete Solution). However, it was identified that
-some categories were missing, necessitating the addition of new categories
-(Student Correction, Multiple Question, Language Change and Uncategorized). Table
-\ref{tab:categories} presents these categories along with their descriptions.
-\\
-Subsequently, these eight categories were input into Claude.ai, accompanied by
-detailed instructions on the desired structure of the input and the expected
-format of the output. For each conversation with the CharlieBot log, a .csv file
-was downloaded, and Claude was tasked with classifying the user messages into
-one of the eight categories.
+The study was conducted in two phases: categorization and analysis. The
+categorization phase involved classifying student messages into eight
+categories. The table \ref{tab:categories} shows the categories of analysis
+and their description. The initial categories were based on the work
+of \cite{Ghimire24}, however, four new categories were added due to the need to
+give more detail to the classification. Beside of that, the categories were
+grouped to understand the impact on critical thinking.
 
-The classifications made by Claude were then manually reviewed. In cases where
-there was disagreement with the classification, manual adjustments were made,
-and the accuracy of Claude's classification was recorded. Each conversation
-with CharlieBot was saved into a .csv file containing the original conversation,
-along with two additional columns: "Classification" to denote the category and
-"AI" to indicate Claude's accuracy.
-
-As new categorizations were completed, an example was submitted to Claude's
-knowledge base to enhance accuracy. Initially, Claude began with an example
-representing 1\% of the total memory of its knowledge base. As classifications
-were progressively completed, more examples were provided to Claude to increase
-the percentage of its knowledge base occupied by relevant examples.
-
-Upon completion of all categorizations, all resulting .csv files were consolidated
-for final counts and analysis using the Pandas library. This methodology
-facilitated an efficient categorization of student messages, thereby enabling
-a comprehensive analysis of how tools such as ChatGPT are utilized in foundational
-programming courses.
+The analysis phase involved to understand the way that the students interact
+with CharlieBot. The students messages were collected from the logs of the bot
+and categorized manually by the authors. A total of YYY messages, of the first
+semester of 2024, were analyzed. The participants were students of the YYY
+semester of the Computer Science at UC3M where Java programming is taught.
 
 \section{Results and Discussion}
 
@@ -259,6 +229,14 @@ critical thinking, corroborating with the findings of
 indicate a preference among students for ready-made answers.
 
 \section{Conclusion}
+
+The results of this study suggest that students interact with CharlieBot in a
+manner that promotes critical thinking. The majority of the messages analyzed
+were related to debugging help, conceptual questions, and student correction,
+indicating that students are actively engaging with the bot to understand
+concepts and solve problems. This is a positive outcome, as it suggests that
+CharlieBot is being used as a tool to enhance learning rather than a crutch for
+students to rely on.
 
 \bibliographystyle{IEEEtran}
 \bibliography{references}

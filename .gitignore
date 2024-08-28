@@ -6,7 +6,7 @@
 *.fls
 *.log
 *.synctex.gz
-
 *.toc
 *.out
 *.bcf
+*.pdf

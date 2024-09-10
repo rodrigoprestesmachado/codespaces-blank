@@ -72,7 +72,7 @@ weAEdYae8v5Ol94;semantic_search;;09:35:42 - 26/06/2024;;
 weAEdYae8v5Ol95;CharlieBOT;"El método bluf implementa una recursión no lineal en cascada. Esto se debe a que las llamadas recursivas no siguen un patrón lineal, sino que se ramifican en dos direcciones diferentes dependiendo de las condiciones b == 0 y a%2 == 0. Por lo tanto, la respuesta correcta es:
 c. No lineal en cascada
 ¿Hay algo más en lo que pueda ayudarte?";09:35:44 - 26/06/2024;;
-weAEdYae8v5Ol96;User;es la b.;09:35:54 - 26/06/2024;Correction;No
+weAEdYae8v5Ol96;User;es la b.;09:35:54 - 26/06/2024;Student Correction;No
 weAEdYae8v5Ol97;semantic_search;;09:35:54 - 26/06/2024;;
 weAEdYae8v5Ol98;CharlieBOT;"Mis disculpas, pero la recursión implementada por el método bluf es en realidad no lineal en cascada, ya que las llamadas recursivas se ramifican en dos direcciones diferentes dependiendo de las condiciones b == 0 y a%2 == 0. La respuesta correcta es:
 c. No lineal en cascada

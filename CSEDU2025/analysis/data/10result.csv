@@ -181,7 +181,7 @@ num_wizards += getRight().getNumberWizards(hogwartsHouse) + getLeft().getNumberW
 return num_wizards;: Devuelve el recuento total de magos pertenecientes a la casa de Hogwarts especificada en el árbol binario.
  
 En resumen, este método recorre de forma recursiva el árbol binario, verifica la casa de Hogwarts de cada mago y acumula el recuento de magos pertenecientes a la casa especificada. Si tienes más preguntas o necesitas más ayuda, ¡no dudes en preguntar!";20:55:52 - 25/06/2024;;
-EnmUUqhaSo62Rne;User;wizard es una clase y el getHogwarts house es unn metododo get de un atributo de la clase javaa;20:57:07 - 25/06/2024;Student correction;Yes
+EnmUUqhaSo62Rne;User;wizard es una clase y el getHogwarts house es unn metododo get de un atributo de la clase javaa;20:57:07 - 25/06/2024;Student Correction;Yes
 EnmUUqhaSo62Rne;semantic_search;;20:57:07 - 25/06/2024;;
 EnmUUqhaSo62Rne;CharlieBOT;"Gracias por la aclaración. Teniendo en cuenta que Wizard es una clase y getHogwartsHouse es un método de acceso (getter) para un atributo de la clase Java, el análisis del código se mantiene similar, pero con esa información adicional. Dado que getHogwartsHouse es un método de acceso para un atributo de la clase Wizard, la línea:
 

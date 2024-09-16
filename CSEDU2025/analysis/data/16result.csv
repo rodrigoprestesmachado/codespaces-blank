@@ -1,4 +1,4 @@
-Id;Role;Message;Datetime;classification;AI - 4%
+Id;Role;Message;Datetime;Classification;AI - 4%
 gFs7mwJ5GGtkKNI;User;"explicame detalladamente este codigo public void insert(E info){
     Node newNode = new Node(info);
     Node current, previous;

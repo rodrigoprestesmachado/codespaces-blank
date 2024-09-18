@@ -1,0 +1,100 @@
+
+1) Sequências de Perguntas Conceituais
+
+O estudante reconhece que para progredir é essencial compreender conceitos
+fundamentais. Ao identificar lacunas em seu entendimento, ele percebe a 
+necessidade de suporte para aprofundar seu conhecimento em certos tópicos.
+Nesse contexto, recorrer ao bot com perguntas conceituais torna-se uma 
+estratégia eficaz para preencher essas lacunas.
+A formulação de uma sequência de perguntas reflete a conscientização de que
+há pontos não compreendidos e o reconhecimento da necessidade de aprimorar
+o entendimento para continuar avançando. Assim, o objetivo imediato ao 
+realizar essas perguntas é obter maior clareza sobre os conceitos essenciais.
+Dessa forma, o ato de fazer perguntas conceituais ao bot é uma estratégia 
+ativa de aprendizado, demonstrando um esforço deliberado para clarificar e 
+fortalecer a compreensão teórica.
+
+
+2) Sequência de perguntas de depuração de código
+
+O estudante entende que a tarefa envolve depurar código, o que exige a 
+identificação e correção de erros para que o programa funcione como esperado.
+Reconhecendo a dificuldade em solucionar o problema de forma autônoma, ou 
+sentindo que necessita de suporte adicional, o estudante percebe que pedir 
+ajuda ao bot para identificar a causa dos erros é uma estratégia eficaz 
+para superar esse obstáculo.
+
+As experiências metacognitivas durante o processo de depuração estão associadas
+à frustração e à incerteza que surgem ao lidar com código que não executa corretamente.
+O objetivo principal ao fazer uma série de perguntas relacionadas à depuração é 
+encontrar e corrigir os erros para garantir o funcionamento adequado do código. 
+
+Fazer perguntas sobre debugging reflete uma estratégia ativa de resolução de problemas,
+onde o estudante está engajado em um processo iterativo de tentativa e erro. Ao dividir
+o problema em partes menores e fazer perguntas específicas sobre cada trecho do código,
+o estudante controla o processo de depuração de forma estruturada.
+
+Enquanto as perguntas conceituais têm como objetivo um entendimento teórico mais
+profundo, o suporte para debugging se concentra em uma compreensão prática do 
+funcionamento do código. No entanto, essas duas abordagens podem se complementar,
+à medida que o estudante alterna entre a depuração e a compreensão de conceitos 
+para enfrentar problemas mais complexos de forma eficaz.
+
+
+3) Pedido de Trecho de Código ou Solução Completa Seguido por Perguntas Conceituais
+
+O estudante inicialmente adota uma abordagem pragmática, buscando uma solução 
+pronta para resolver a tarefa rapidamente. No entanto, ao perceber a necessidade 
+de entender o raciocínio por trás da solução, ele transita para uma abordagem mais 
+reflexiva, fazendo perguntas conceituais para explorar os princípios teóricos subjacentes.
+A reflexão metacognitiva ocorre após o estudante ter obtido a solução prática, o que
+indica que o foco inicial estava em concluir a tarefa. Contudo, com o progresso, ele 
+passa a reconhecer a importância de aprofundar seu entendimento sobre o conteúdo conceitual.
+
+Esse padrão sugere que o estudante está explorando um equilíbrio entre duas abordagens: o
+aprendizado prático, que visa resolver problemas de maneira eficiente, e o aprendizado 
+teórico, que busca uma compreensão mais profunda dos fundamentos. Ao alternar entre essas 
+duas estratégias, o estudante demonstra uma consciência crescente da importância de integrar
+tanto a prática quanto a teoria para obter um aprendizado mais completo.
+
+
+4) Pedido de Trecho de Código ou Solução Completa Seguido por Sequência de pedidos de auxílio para depuração
+
+Ao solicitar uma solução completa ou um trecho de código, o estudante demonstra uma 
+dependência inicial de ajuda externa para resolver o problema. No entanto, a subsequente
+sequência de depuração sugere que ele está se esforçando para resolver os erros de maneira
+ativa, sinalizando um movimento progressivo em direção à autonomia na resolução de 
+problemas de implementação. Embora já possua a solução em mãos, o código não funciona
+como esperado, o que desencadeia uma série de ações de depuração.
+
+Nesse processo, a estudante monitora continuamente seu progresso e ajusta sua abordagem,
+buscando entender onde o código está falhando. O engajamento cognitivo, que começa de maneira 
+mais passiva (com a solicitação da solução), torna-se progressivamente mais ativo e prático à 
+medida que o estudante diagnostica e corrige os erros. Isso revela que ele ainda não domina 
+completamente o código ou a lógica subjacente, levando-o a recorrer à ajuda com a depuração.
+
+A sequência de depuração reflete uma tentativa de internalizar o processo, à medida que o estudante
+se esforça para compreender como corrigir o código e fazê-lo funcionar corretamente. Esse 
+comportamento demonstra uma evolução do aprendizado, passando da dependência inicial para 
+um envolvimento mais ativo na solução dos problemas técnicos.
+
+
+5) Sequência de perguntas múltipla escolha
+
+O estudante compreende que seu objetivo imediato é simplesmente obter a resposta correta.
+Ele reconhece que pedir diretamente ao bot pode economizar tempo, mas também sabe que essa
+abordagem não contribui para o desenvolvimento das habilidades cognitivas necessárias. 
+Ao optar por uma solução rápida e que demanda menos esforço, o estudante revela uma 
+possível falta de motivação para entender o conteúdo subjacente à pergunta. Nesse 
+contexto, as experiências metacognitivas podem envolver sentimentos como pressão 
+pelo tempo, desmotivação ou falta de confiança.
+Ao solicitar a resposta de uma questão de múltipla escolha, o estudante está priorizando
+a conclusão da tarefa com o mínimo de esforço, em vez de buscar a compreensão do conceito
+por trás da pergunta. O foco, portanto, está no resultado prático (obter a resposta correta), 
+e não no processo de aprendizado conceitual.
+Essa estratégia de curto prazo pode ser eficaz para finalizar a tarefa, mas não promove o
+desenvolvimento de um aprendizado profundo ou habilidades de resolução de problemas. 
+Aqui, a abordagem de controle está centrada em minimizar o esforço, o que indica uma
+preferência por um aprendizado superficial, em detrimento de uma compreensão mais 
+significativa e duradoura.
+

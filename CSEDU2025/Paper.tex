@@ -72,13 +72,13 @@ understanding of the underlying concepts. \cite{cai23} further identified
 overdependence and reduced intellectual engagement as significant drawbacks of
 using ChatGPT in learning.
 
-Regardless of teachers' preferences or beliefs, preliminary surveys
-performed by \cite{Dickey24} revealed that at least 54.5\% of students are
-already using GenAI for homework. This highlights the need to understand how
-students are interacting with these tools and how they can be used to enhance
-learning. Furthermore, a review by \cite{Lo24} emphasized the necessity for
-extended studies and objective measures to gather more robust evidence on the
-use of GenAI tools in education.
+Regardless of teachers' preferences or beliefs, a preliminary surveys performed
+by \cite{Dickey24} revealed that at least 54.5\% of students are already using
+GenAI for homework. This highlights the need to understand how students are
+interacting with these tools and how they can be used to enhance learning.
+Furthermore, a review by \cite{Lo24} emphasized the necessity for extended
+studies and objective measures to gather more robust evidence on the use of
+GenAI tools in education.
 
 % Are there any existing solutions?
 
@@ -141,24 +141,67 @@ ChatGPT, comparing perceptions and impacts among these groups. The results
 showed that AI tools had a positive impact on academic performance, especially
 for students with less prior experience.
 
-\subsection{Critical Thinking}
+% Critical thinking is a fundamental skill for students to develop, as it enables
+% them to analyze, evaluate, and synthesize information. This skill is essential
+% for problem-solving and decision-making, making it a crucial aspect of
+% educational success, specifically in programming courses. However, the use of AI
+% tools like ChatGPT has raised concerns about the potential impact on students'
+% critical thinking abilities \cite{Murillo23} \cite{cai23} \cite{chan23}.
 
-Critical thinking is a fundamental skill for students to develop, as it enables
-them to analyze, evaluate, and synthesize information. This skill is essential
-for problem-solving and decision-making, making it a crucial aspect of
-educational success, specifically in programming courses. However, the use of AI
-tools like ChatGPT has raised concerns about the potential impact on students'
-critical thinking abilities \cite{Murillo23} \cite{cai23} \cite{chan23}.
+% In the other hand, the study of \cite{zhang24} suggested that incorporating
+% ChatGPT could stimulate students' critical thinking, probably because they
+% had to assess the correctness of ChatGPT's answers.
 
-In the other hand, the study of \cite{zhang24} suggested that incorporating
-ChatGPT could stimulate students' critical thinking, probably because they
-had to assess the correctness of ChatGPT's answers.
+% Regarding self-regulation, \cite{cai23} noted that ChatGPT allowed students to
+% regulate their learning pace.
 
-Regarding self-regulation, \cite{cai23} noted that ChatGPT allowed students to
-regulate their learning pace.
+% \cite{wu24} found that ChatGPT-supported learning not only promoted students'
+% self-regulation but also increased their self-efficacy.
 
-\cite{wu24} found that ChatGPT-supported learning not only promoted students'
-self-regulation but also increased their self-efficacy.
+\begin{table*}[htbp]
+  \caption{Categories of Analysis}
+      \begin{center}
+      \begin{tabular}{|p{4cm}|p{9cm}|}
+      \hline
+      \textbf{Category} & \textbf{Description} \\
+      \hline
+      Debugging Help & * Prompts that seek help to identify, fix errors, or understand the provided code snippet. \\
+      Conceptual Question & * Prompts that are more about understanding concepts or algorithms rather than specific code. \\
+      Student Correction & * Prompts where the student corrects the bot. \\
+      \hline
+      Code Snippet & * Prompts that ask for a specific part of the code, like a function or a segment. \\
+      Complete Solution & * Prompts that request an entire solution or a complete code snippet. \\
+      Multiple Question & * Prompts where the user wants to solve a multiple-question exercise. \\
+      \hline
+      Language Change & * Prompts that request a change of idiom to convey a message more effectively. \\
+      Uncategorized & * Prompts that do not fit into any of the above categories. \\
+      \hline
+      \end{tabular}
+      \label{tab:categories}
+      \end{center}
+  \end{table*}
+
+
+\subsection{Metacognition}
+
+The use of GenAI tools can help students learning by providing rapid assistance
+and feedback. However, it is important to teach students how to use these tools
+properly to promote learning. In this sense, it is important that students are
+aware of the cognitive processes.
+
+Metacognition is defined as the awareness about the cognitive processes.
+\cite{flavell79} defined a model of cognitive monitoring in four classes of
+phenomena that can act or interact with each other, which are: Metacognitive
+Knowledge, Metacognitive Experience, Metacognitive Task, and Metacognitive
+Strategies. Metacognitive knowledge refers beliefs about what factor or
+variables affect the course and outcome of cognitive enterprise. It is
+subdivided into three majors categories or variables: Person, Task, and
+Strategy. Metacognitive experience refers to the feelings and emotions
+associated with cognitive activities. Metacognitive task refers to the type of
+task or problem that the individual is facing. Metacognitive strategies refer to
+the methods or techniques that individuals use to control their cognitive
+processes.
+
 
 \subsection{CharlieBot}
 
@@ -185,29 +228,6 @@ and categorized manually by the authors. A total of YYY messages, of the first
 semester of 2024, were analyzed. The participants were students of the YYY
 semester of the Computer Science at UC3M where Java programming is taught.
 
-\begin{table*}[htbp]
-  \caption{Categories of Analysis}
-      \begin{center}
-      \begin{tabular}{|p{4cm}|p{6cm}|p{3cm}|}
-      \hline
-      \textbf{Category} & \textbf{Description} & \textbf{Critical Thinking} \\
-      \hline
-      Debugging Help & Prompts that seek help to identify, fix errors, or understand the provided code snippet. & \multirow{7}{3cm}{Tends to promote.} \\
-      Conceptual Questions & Prompts that are more about understanding concepts or algorithms rather than specific code. & \\
-      Student Correction & Prompts where the student corrects the bot. & \\
-      \hline
-      Code Snippet & Prompts that ask for a specific part of the code, like a function or a segment. & \multirow{6}{3cm}{Tends not to promote.} \\
-      Complete Solution & Prompts that request an entire solution or a complete code snippet. & \\
-      Multiple Question & Prompts where the user wants to solve a multiple-question exercise. & \\
-      \hline
-      Language Change & Prompts that request a change of idiom to convey a message more effectively. & \multirow{4}{3cm}{Neutral.} \\
-      Uncategorized & Prompts that do not fit into any of the above categories. & \\
-      \hline
-      \end{tabular}
-      \label{tab:categories}
-      \end{center}
-  \end{table*}
-
 \section{Results and Discussion}
 
 The Figure \ref{fig:graph1} shows the distribution of the messages in the
@@ -215,21 +235,85 @@ categories:
 
 \begin{figure}[h!]
     \centering
-    \includegraphics[scale=0.55]{img/figure1.png}
+    \includegraphics[scale=0.6]{img/figure1.png}
     \caption{Classification of messages.}
     \label{fig:graph1}
 \end{figure}
 
-Approximately 64\% of the messages pertain to categories associated with
-critical thinking, corroborating with the findings of
-\cite{Ghimire24}. In contrast, around 28\% of the messages
-indicate a preference among students for ready-made answers.
+% Approximately 64\% of the messages pertain to categories associated with
+% critical thinking, corroborating with the findings of
+% \cite{Ghimire24}. In contrast, around 28\% of the messages
+% indicate a preference among students for ready-made answers.
+
+% Uncategorized
+
+The Figure \ref{fig:graph1} shows that around 5\% of the prompts
+written by students were not categorized. These messages range from
+greetings to the Bot, such as a simple "\textit{Hola}," to
+contextual statements like "\textit{Estoy repasando orientación a
+objetos.}"
+
+% Multiple Choice
+\subsubsection*{Sequence of Multiple Choice}
+
+Around 16.9\% of the messages were classified as Multiple Choice. These prompts
+typically involve students sending one or more exercises to CharlieBot, asking
+for the solution.
+
+We identified a sequence of Multiple Choice patterns in some of the
+conversations. From the point of view of Metacognitive Knowledge, a possible
+interpretation of this complex phenomenon is that students may believe in their
+inability to answer several questions. They may also assume that the questions
+share a common theme, and solving them together may help consolidate knowledge.
+Additionally, they might understand that obtaining the answers quickly is more
+efficient.
+
+Regarding Metacognitive Experiences, students may experience feelings such as
+cognitive overload, a sense of urgency, and/or confidence in ready-made answers,
+which can often lead to relief and a reduction of frustration.
+
+Concerning the Metacognitive about the Task, one interpretation may be that the
+student simply wants to complete the task quickly to alleviate the workload,
+and/or obtain a correct answer without focusing on deeper learning at
+this moment.
+
+In relation to Metacognitive Strategies, students are likely focusing on saving
+time and/or possibly lacking planning skills. They may also perceive that
+solving the questions on their own requires too much cognitive effort, but this
+pattern might reveal a lack of progress monitoring and understanding of
+concepts. After obtaining the answers, the metacognitive evaluation process
+could lead to feelings of satisfaction, but further reflection may indicate that
+the strategy was not effective in supporting deep learning. Depending on this
+evaluation, it may influence future decision-making to change the strategy.
+
+% Conceptual Questions
+\subsubsection*{Sequence of Conceptual Question}
+
+Messages classified as conceptual questions represent around 32\% of all
+messages. Regarding Metacognitive Knowledge, about these sequences of prompts
+related with conceptual questions, one possible interpretation may be that the
+students are aware they have not fully mastered a concept and are trying to
+understand it, demonstrating a good level of self-awareness. In this sense, the
+student realizes that the problem requires an understanding of concepts in order
+to advance in their studies. In this way, the student applies an active learning
+strategy. About Metacognitive Experience, several types of feelings may be
+associated at this moment, such as actively reflecting on the answers,
+uncertainty and/or confusion when trying to understand the concept, frustration
+for not progressing, and satisfaction as their questions are answered in a
+way that facilitates understanding. Regarding the type of metacognition related
+to the Task, the student recognized the difficult and may be trying to achieve a
+deeper understanding of the evolved concepts to later apply in practice. With
+respect to Metacognitive Strategies, the student demonstrates a metacognitive
+planning process when identifying their knowledge gaps. They may start with more
+general questions to obtain an overview of the concept and then ask more
+specific questions as they gain more clarity. Because the questions are in
+sequence, the student probably can adequately monitor their progress.
 
 
 % Spacing
 Spacing, a well-established learning strategy, was examined by analyzing
- the time intervals between users’ interactions with CharlieBot. Although
- only 12\% of the conversations exhibited message delays exceeding 24 hours,
+the time intervals between users’ interactions with CharlieBot. Although
+only 12\% of the conversations exhibited message delays exceeding 24 hours,
 40\% involved response times longer than 60 minutes. These findings suggest
 that students typically do not extend conversations across multiple days.
 However, the data also reveal that a substantial number of conversations

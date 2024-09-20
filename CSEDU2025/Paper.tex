@@ -156,31 +156,29 @@ for students with less prior experience.
 % regulate their learning pace.
 
 % \cite{wu24} found that ChatGPT-supported learning not only promoted students'
-% self-regulation but also increased their self-efficacy.
-
 \begin{table*}[htbp]
-  \caption{Categories of Analysis}
-      \begin{center}
-      \begin{tabular}{|p{4cm}|p{9cm}|}
+  \caption{Categories - adapted from \cite{Ghimire24}}
+  \begin{center}
+    \renewcommand{\arraystretch}{1.5} % Increase the spacing between rows
+    \begin{tabular}{|p{3,5cm}|p{11cm}|}
       \hline
       \textbf{Category} & \textbf{Description} \\
       \hline
-      Debugging Help & * Prompts that seek help to identify, fix errors, or understand the provided code snippet. \\
-      Conceptual Question & * Prompts that are more about understanding concepts or algorithms rather than specific code. \\
-      Student Correction & * Prompts where the student corrects the bot. \\
+      Debugging Help & Prompts that seek help to identify, fix errors, or understand the provided code snippet. \\
+      Conceptual Question & Prompts that are more about understanding concepts than specific code. \\
+      Student Correction & Prompts where the student corrects the bot. \\
       \hline
-      Code Snippet & * Prompts that ask for a specific part of the code, like a function or a segment. \\
-      Complete Solution & * Prompts that request an entire solution or a complete code snippet. \\
-      Multiple Question & * Prompts where the user wants to solve a multiple-question exercise. \\
+      Code Snippet & Prompts that ask for a specific part of the code, like a function or a segment. \\
+      Complete Solution & Prompts that request an entire solution or a complete code snippet. \\
+      Multiple Question & Prompts where the user wants to solve a multiple-question exercise (Quiz). \\
       \hline
-      Language Change & * Prompts that request a change of idiom to convey a message more effectively. \\
-      Uncategorized & * Prompts that do not fit into any of the above categories. \\
+      Language Change & Prompts that request a change of idiom. \\
+      Uncategorized & Prompts that do not fit into any of the above categories. \\
       \hline
-      \end{tabular}
-      \label{tab:categories}
-      \end{center}
-  \end{table*}
-
+    \end{tabular}
+    \label{tab:categories}
+  \end{center}
+\end{table*}
 
 \subsection{Metacognition}
 
@@ -214,31 +212,33 @@ providing personalized assistance and feedback.
 
 \section{\uppercase{Method}}
 
-The study was conducted in two phases: categorization and analysis. The
-categorization phase involved classifying student messages into eight
+The study was conducted in three phases: data collection, categorization, and
+analysis. During the first semester of 2024, student interactions with
+CharlieBot were collected as part of the Java programming course at UC3M.
+The categorization phase involved classifying student messages into eight
 categories. The table \ref{tab:categories} shows the categories of analysis and
 their description. The initial categories were based on the work of
 \cite{Ghimire24}, however, four new categories were added due to the need to
-give more detail to the classification. Beside of that, the categories were
-grouped to understand the impact on critical thinking.
-
-The analysis phase involved to understand the way that the students interact
-with CharlieBot. The students messages were collected from the logs of the bot
-and categorized manually by the authors. A total of YYY messages, of the first
-semester of 2024, were analyzed. The participants were students of the YYY
-semester of the Computer Science at UC3M where Java programming is taught.
-
-\section{Results and Discussion}
+give more detail to the classification. The analysis phase involved to
+understand the way that the students interact with CharlieBot.
+\section{\uppercase{Results and Discussion}}
 
 The Figure \ref{fig:graph1} shows the distribution of the messages in the
 categories:
 
 \begin{figure}[h!]
     \centering
-    \includegraphics[scale=0.6]{img/figure1.png}
+    \includegraphics[scale=0.62]{img/figure1.png}
     \caption{Classification of messages.}
     \label{fig:graph1}
 \end{figure}
+
+\begin{figure*}[htbp]
+  \centering
+  \includegraphics[scale=0.52]{img/figure2.png}
+  \caption{Examples of conversations.}
+  \label{fig:graph2}
+\end{figure*}
 
 % Approximately 64\% of the messages pertain to categories associated with
 % critical thinking, corroborating with the findings of
@@ -286,43 +286,100 @@ could lead to feelings of satisfaction, but further reflection may indicate that
 the strategy was not effective in supporting deep learning. Depending on this
 evaluation, it may influence future decision-making to change the strategy.
 
+% Debugging help
+\subsubsection*{Sequence of Debugging Help}
+
+Around 30.9\% of the messages were classified as Debugging Help. Besides of
+that, we identified a pattern of a sequences of Debugging Help in the
+conversations. These prompts typically start with a message requesting a
+Complete Solution or a Code Snippet. After that, the students normally chance
+from passive to more active learning strategy.
+
+In terms of Metacognitive Knowledge, the student probably recognizes that they
+do not have the necessary tools or knowledge to debug the code on their own.
+Concerning the understanding of the task, they may know that debugging is not
+just a matter of superficial corrections but requires understanding the
+underlying logic. Thus, the student apparently believes that the sequence of
+questions related to debugging will help them understand the codes.
+
+In terms of Metacognitive Experiences, some feelings may arise at this moment,
+such as frustration or uncertainty in the face of errors, confusion during the
+process, and also growing confidence or satisfaction as they better understand
+the code and possible corrections.
+
+With respect to Metacognitive related with the objective of the Task, the
+student is probably focused on understanding the code in practical terms,
+identifying errors, and learning how to better debug in the future.
+
+As for Metacognitive associated with the Strategy, the student has requested
+external help and realizes that dividing the debugging task into several
+questions can result in a better understanding of the code. They can monitor
+their progress throughout the process, adjusting their questions as necessary,
+evaluate the effectiveness of the responses received, and reflect on what was
+learned during the process.
+
+\begin{figure*}[htbp]
+  \centering
+  \includegraphics[scale=0.55]{img/figure3.png}
+  \caption{Interaction times per categories.}
+  \label{fig:graph3}
+\end{figure*}
+
 % Conceptual Questions
 \subsubsection*{Sequence of Conceptual Question}
 
 Messages classified as conceptual questions represent around 32\% of all
-messages. Regarding Metacognitive Knowledge, about these sequences of prompts
-related with conceptual questions, one possible interpretation may be that the
-students are aware they have not fully mastered a concept and are trying to
-understand it, demonstrating a good level of self-awareness. In this sense, the
-student realizes that the problem requires an understanding of concepts in order
-to advance in their studies. In this way, the student applies an active learning
-strategy. About Metacognitive Experience, several types of feelings may be
-associated at this moment, such as actively reflecting on the answers,
-uncertainty and/or confusion when trying to understand the concept, frustration
-for not progressing, and satisfaction as their questions are answered in a
-way that facilitates understanding. Regarding the type of metacognition related
-to the Task, the student recognized the difficult and may be trying to achieve a
-deeper understanding of the evolved concepts to later apply in practice. With
-respect to Metacognitive Strategies, the student demonstrates a metacognitive
-planning process when identifying their knowledge gaps. They may start with more
-general questions to obtain an overview of the concept and then ask more
-specific questions as they gain more clarity. Because the questions are in
-sequence, the student probably can adequately monitor their progress.
+messages. We have found a pattern of sequences of Conceptual Questions in some
+conversations. Some conversations are entirely composed of messages classified
+as Conceptual Questions. In other cases, the sequence of Conceptual questions
+starts with a request for a Complete Solution or a Code Snippet, followed by
+a progression of Conceptual Questions. In both cases, the student is actively
+engaging with the bot to understand the concepts and compromised with more
+deep learning.
 
+Regarding Metacognitive Knowledge, these sequences of prompts classified as
+Conceptual Question, can be interpreted that the students are aware they have
+not fully mastered a concept and are trying to understand it, demonstrating a
+good level of self-awareness. In this sense, the student realizes that the
+problem requires an understanding of concepts in order to advance in their
+studies. In this way, the student applies an active learning strategy.
+
+About Metacognitive Experience, several types of feelings may be associated at
+this moment, such as actively reflecting on the answers, uncertainty and/or
+confusion when trying to understand the concept, frustration for not
+progressing, and satisfaction as their questions are answered in a way that
+facilitates understanding.
+
+Regarding the type of Metacognition related to objective of the Task, the
+students may recognize the difficult and trying to achieve a deeper
+understanding of the evolved concepts to later apply in practice.
+
+With respect to Metacognitive Strategies, the student demonstrates a sence of
+planning to identify their knowledge gaps. They may start with more general
+questions to obtain an overview of the concept and then ask more specific
+questions as they gain more clarity. Because the questions are in sequence, the
+student probably can adequately monitor their progress.
+
+\subsection*{Lack of Interleaving}
+
+% Interleaving
+Interleaving, a technique that involves alternating the conversation among
+different types of categories.
+
+% Eglington, L. G., & Kang, S. H. (2017). Interleaved presentation benefits
+% science category learning. Journal of Applied Research in Memory and Cognition,
+% 6, 475-485
+
+\subsection*{Spacing}
 
 % Spacing
-Spacing, a well-established learning strategy, was examined by analyzing
-the time intervals between users’ interactions with CharlieBot. Although
-only 12\% of the conversations exhibited message delays exceeding 24 hours,
-40\% involved response times longer than 60 minutes. These findings suggest
-that students typically do not extend conversations across multiple days.
-However, the data also reveal that a substantial number of conversations
-feature one or more pauses exceeding an hour, a practice known to enhance
-knowledge retention.
-
-% Categories Time
-
-
+Spacing, a well-established learning strategy \cite{Carvalho20}, was examined
+by analyzing the time intervals between users’ interactions with CharlieBot.
+Although only 7.4\% of the conversations exhibited message delays exceeding 24
+hours, 26.19\% involved response times longer than 60 minutes. These findings
+suggest that students typically do not extend conversations across multiple days.
+However, the data also reveal that some conversations had one or more pauses
+exceeding an hour, a practice known to enhance knowledge retention.
 
 
 \section{Conclusion}

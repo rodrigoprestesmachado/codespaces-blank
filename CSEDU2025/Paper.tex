@@ -18,7 +18,10 @@
 
 \begin{document}
 
-\title{Analysis of Programming Students' Prompts with Generative AI}
+\title{
+  Temporary: An Analysis of Programming Students’ Interaction Prompts with
+  Generative AI: A Metacognitive Perspective
+}
 
 \author{\authorname{Rodrigo Prestes Machado\sup{1}\orcidAuthor{0000-0003-0428-6387},
 Carlos Alario Hoyos\sup{2}\orcidAuthor{0000-0002-3082-0814},
@@ -32,7 +35,7 @@ Madrid, Spain}
 \email{\ rodrigo.prestes@poa.ifrs.edu.br, \{calario,pcallejo, ayres,cdk\}@it.uc3m.es}
 }
 
-\keywords{Generative Artificial Intelligence, Programming Education, Chatbots}
+\keywords{Generative Artificial Intelligence, Metacognition, Programming Education, Chatbots}
 
 \abstract{The abstract should summarize the contents of the paper and should
 contain at least 70 and at most 200 words. The text must be set to 9-point font
@@ -43,93 +46,93 @@ size.}
 \section{\uppercase{Introduction}}
 \label{sec:introduction}
 
-% %What is the problem to be solved?
-
-Recent advancements in Generative Artificial Intelligence (GenAI) have opened
-up new possibilities in education. In programming courses, students can utilize
-GenAI tools to improve their understanding, receiving assistance, feedback, and
+Recent advancements in Generative Artificial Intelligence (GenAI) have opened up
+new possibilities in education. In programming courses, students can utilize
+GenAI tools to improve their understanding, receive feedback, and obtain
 detailed explanations.
 
-The study of \cite{chan23} revealed that both undergraduate and postgraduate
-students exhibit positive attitudes toward the use of GenAI in teaching and
-learning, noting that it enhances the depth of their thinking and understanding.
-Additionally, a systematic review conducted by \cite{Lo24} demonstrated that
-students could effectively learn from ChatGPT, leading to improved understanding
-and academic achievement. Besides of that, it was also observed that ChatGPT
-enables students to regulate their learning pace, promoting self-regulation
-\citep{Baha24} \citep{cai23}.
+The study guided by \cite{chan23} revealed that both undergraduate and
+postgraduate students exhibit positive attitudes toward the use of GenAI in
+teaching and learning, noting that it enhances the depth of their thinking and
+understanding. Additionally, a systematic review conducted by \cite{Lo24}
+demonstrated that students could effectively learn from ChatGPT, leading to
+improved understanding and academic achievement. Besides that, it was also
+observed that ChatGPT enables students to regulate their learning pace
+\citep{Baha24} and can potentially support students’ self-regulated learning,
+especially for those with previous technical and disciplinary knowledge
+\citep{Xia23}.
 
-In the other hand, researchers have concerns about the impact of these
-tools on students. The systematic review of \cite{Murillo23} indicated that
+On the other hand, researchers have concerns about the impact of these tools on
+students. The systematic review conducted by \cite{Murillo23} indicated that
 ChatGPT use might lead to an overreliance on the tool. \cite{chan23} also noted
 that this reliance could result in a decrease in critical thinking, as students
 might make decisions based solely on the information provided by ChatGPT.
 
-The student's confidence is warranted, as shown by \cite{Puryear22}, who
-demonstrated that GitHub Copilot can generate solutions for student assignments
-with accuracy rates ranging from 68\% to 95\%. However, this raises concerns that
-students might rely too heavily on GenAI tools, potentially neglecting a deeper
-understanding of the underlying concepts. \cite{cai23} further identified
-overdependence and reduced intellectual engagement as significant drawbacks of
-using ChatGPT in learning.
+The student’s confidence is justified, as demonstrated by \cite{Puryear22}, who
+found that GitHub Copilot can generate solutions for student assignments with
+accuracy rates ranging from 68\% to 95\%. However, this also raises concerns
+that students may become overly reliant on GenAI tools, potentially bypassing
+the opportunity to develop a deeper understanding of underlying concepts.
+\cite{cai23} further highlighted overdependence and diminished intellectual
+engagement as significant drawbacks associated with the use of ChatGPT in
+learning.
 
 Regardless of teachers' preferences or beliefs, a preliminary surveys performed
 by \cite{Dickey24} revealed that at least 54.5\% of students are already using
-GenAI for homework. This highlights the need to understand how students are
-interacting with these tools and how they can be used to enhance learning.
-Furthermore, a review by \cite{Lo24} emphasized the necessity for extended
-studies and objective measures to gather more robust evidence on the use of
-GenAI tools in education.
+GenAI for homework. This highlights the need to increase the understanding of
+how students are interacting with these tools and how they can be used to
+enhance learning. Furthermore, a review organized by \cite{Lo24} emphasized the
+necessity for extended studies and objective measures to gather more robust
+evidence on the use of GenAI tools in education.
 
-% % Are there any existing solutions?
+The primary objective of this study is to analyze the interactions between
+students in a Java programming course and an educational bot powered by
+ChatGPT 3.5, enhanced with Retrieval-Augmented Generation (RAG) capabilities,
+within the context of two Metacognitive strategies: Interleaving and Spacing.
+To achieve this objective, we formulated three research questions:
 
-To deal with this issue, some researchers have proposed different pedagogical
-strategies \cite{Denny24} introduced the concept of \textit{Prompt
-Problems}, where students solve programming exercises by formulating natural
-language prompts. \cite{Prasad24} proposed a self-regulated learning framework
-using GenAI to solve programming problems. \cite{Lauren23} explored the
-integration of GenAI with evidence-based learning strategies in computer science
-and engineering courses.
-
-% % Which is the best?
-
-The study of effective educational strategies in use of GenAI tools in education
-context are important for determining the best training for educators. However,
-as these tools gain popularity among students \cite{Dickey24} the urgency to
-equip educators with best practices may lag behind their rapid adoption.
-Therefore, analyzing students' interaction patterns with GenAI tools is
-important for understanding how these tools are being used and how educators can
-leverage them to enhance learning. In addition, these interaction patterns can
-create new opportunities to redesign GenAI tools to better support pedagogical
-strategies without repressing the development of abstract, critical and creative
-thinking.
+\begin{enumerate}
+  \item What was the distribution pattern of the classified messages?
+  \item Was there a space between student prompts? If so, which category promote the largest spacing between submissions?
+  \item Do students' conversations with the bot alternate between practical and theoretical approaches, thereby promoting interleaving?
+\end{enumerate}
 
 % % What is its main limitation?
 
-Nevertheless, it is important to consider how GenAI tools affect students across
-different demographic groups, knowledge areas, cultural backgrounds
-\cite{catalan21} \cite{neo22} and students' prior experience. Thus, this works
-is limited to a specific group of students and a specific GenAI tool. The
-results may not be generalizable to other populations or tools.
+However, it is crucial to consider how GenAI tools impact students across
+various demographic groups, academic disciplines, cultural backgrounds, and
+levels of prior experience \citep{catalan21} \citep{neo22}. Consequently, this
+study is limited to a specific group of students and focuses on the use of a
+single GenAI tool. As a result, the findings may not be generalizable to other
+populations or tools.
 
-% % What do you hope to achieve?
+%% Are there any existing solutions?
+% To deal with this issue, some researchers have proposed different pedagogical
+% strategies \cite{Denny24} introduced the concept of \textit{Prompt
+% Problems}, where students solve programming exercises by formulating natural
+% language prompts. \cite{Prasad24} proposed a self-regulated learning framework
+% using GenAI to solve programming problems. \cite{Lauren23} explored the
+% integration of GenAI with evidence-based learning strategies in computer science
+% and engineering courses.
 
-This study aims to analyze the interactions between students and CharlieBot,
-an ChatGPT 3.5 based bot developed by UC3M that leverages Retrieval-Augmented
-Generation (RAG) to enhance its contextual understanding of Java programming.
-We created three research questions to guide our analysis:
+%% Which is the best?
 
-RQ1: What was the distribution pattern of the classified messages?
-
-RQ2: Was there a time gap between student submissions? If so, which category
-showed the largest spacing between submissions?
-
-RQ3: Do students’ conversations with the bot alternate between practical and
-theoretical approaches, thereby promoting interleaving?
+% The study of effective educational strategies in use of GenAI tools in education
+% context are important for determining the best training for educators. However,
+% as these tools gain popularity among students \cite{Dickey24} the urgency to
+% equip educators with best practices may lag behind their rapid adoption.
+% Therefore, analyzing students' interaction patterns with GenAI tools is
+% important for understanding how these tools are being used and how educators can
+% leverage them to enhance learning. In addition, these interaction patterns can
+% create new opportunities to redesign GenAI tools to better support pedagogical
+% strategies without repressing the development of abstract, critical and creative
+% thinking.
 
 \section{\uppercase{Theoretical Framework}}
 
 \subsection{Related Work}
+
+TODO: Work in progress
 
 % The advancements in GenAI and its use in programming courses have raised
 % possibilities and concerns among educators and researchers. The study of
@@ -166,6 +169,7 @@ theoretical approaches, thereby promoting interleaving?
 
 % Regarding self-regulation, \cite{cai23} noted that ChatGPT allowed students to
 % regulate their learning pace.
+
 \begin{table*}[htbp]
   \caption{Categories - adapted from \cite{Ghimire24}}
   \begin{center}
@@ -208,7 +212,7 @@ outcomes of cognitive activities. It is divided into three types: beliefs about
 personal abilities, perceived difficulty in the task, and previously used
 strategies. Metacognitive Experience refers to the feelings that arise
 before, during, and after cognitive activity, such as frustration, confusion,
-and satisfaction, among others. Metacognitive goals are the key to regulating
+and satisfaction, among others. Metacognitive Goals are the key to regulating
 thought as they relate to the goals the individual seeks to achieve, directly
 influencing the actions taken. For example, if a student’s goal is to complete
 a task quickly, they may adopt a more passive approach to learning. Lastly,
@@ -247,19 +251,23 @@ In the categorization phase, the students' messages were manually classified
 into eight distinct categories for analysis. Initially, \cite{Ghimire24}
 proposed four categories: Debugging Help, Conceptual Question, Code Snippet,
 and Complete Solution. However, the data collected indicated the need for
-additional categories, resulting in the inclusion of four more: Multiple Choice
-(Quiz), Student Corrections, Language Change, and Uncategorized. Table
-\ref{tab:categories} presents these categories along with their respective
-descriptions.
+additional categories, leading to the inclusion of four more: Multiple Choice
+(Quiz), Student Corrections, Language Change, and Uncategorized. In this study,
+students were free to use the bot as they wished, which contributed to the
+emergence of these additional categories. Table \ref{tab:categories} presents
+these categories along with their respective descriptions.
 
-The analysis phase involved the use of Python scripts in the Jupyter Notebook
-environment to extract relevant information from previously classified
-data. The datasets and code snippets used in this process are available at: YYY.
+The analysis phase involved the use of Python scripts to extract information
+from previously classified data. The datasets and code snippets used in this
+process are available at: YYY.
 
 \section{\uppercase{Results and Discussion}}
 
-The results of the analysis are presented in this section, addressing the
-research questions posed in the introduction.
+A total of 343 students' messages were categorized across 42 conversations, with
+an average of 8.17 messages per conversation. This data offers insights into how
+users engage with CharlieBot and the types of prompts they submit. The analysis
+results are presented in this section, addressing the research questions
+outlined in the introduction.
 
 The Figure \ref{fig:graph1} shows the distribution of the messages in the
 categories:
@@ -271,86 +279,6 @@ categories:
     \label{fig:graph1}
 \end{figure}
 
-\subsection{Classification of Messages}
-
-The Figure \ref{fig:graph1} shows that around 5\% of the prompts
-written by students were not categorized. These messages range from
-greetings to the Bot, such as a simple "\textit{Hola}," to
-contextual statements like "\textit{Estoy repasando orientación a
-objetos.}"
-
-% Approximately 64\% of the messages pertain to categories associated with
-% critical thinking, corroborating with the findings of
-% \cite{Ghimire24}. In contrast, around 28\% of the messages
-% indicate a preference among students for ready-made answers.
-
-% Since most of the messages are located in categories where students are 
-% notoriously more active in their learning (conceptual questions 32.1% and 
-% Debugging Help 30.9%), it seems that students are trying to use the AI in a 
-% way that promotes their learning. However, the pattern of conversations with 
-% sequential blocks and also little spacing may suggest that there is a gap in 
-% knowledge of study strategies.
-
-\begin{figure*}[htbp]
-  \centering
-  \includegraphics[scale=0.55]{img/figure3.png}
-  \caption{Interaction times per categories.}
-  \label{fig:graph3}
-\end{figure*}
-
-\subsection{Spacing}
-
-% Spacing
-Spacing, a well-established learning strategy \citep{Carvalho20}, was examined
-by analyzing the time intervals between users’ interactions with CharlieBot.
-Although only 7.4\% of the conversations exhibited message delays exceeding 24
-hours, 26.19\% involved response times longer than 60 minutes. These findings
-suggest that students typically do not extend conversations across multiple days.
-However, the data also reveal that some conversations had one or more pauses
-exceeding an hour, a practice known to enhance knowledge retention.
-
-% Another interesting study technique is spacing. Only 7.4% of the conversations
-% exhibited message delays exceeding 24 hours and 26.19% involved response times 
-% longer than 60 minutes. However, Carlos told me that this may be due to some 
-% limitation of the bot, as it only maintains a conversation while the browser 
- % tab is open.
-
- % There is a big difference (I haven't looked at it statistically yet) in the 
-%  interaction time with the Bot when a student asks conceptual questions. 
-%  Perhaps this actually makes sense, since it is a category where, from the 
-%  point of view of the metacognitive objective, the student is more concerned 
-%  with understanding a concept and deeper learning.
-
-\subsection{Interleaving}
-
-% Interleaving
-
-Intervealing is a study strategy that involves mixing or alternating different
-topics or problems within a single learning session. This
-approach has been shown to be useful for promoting long-term learning and
-improving the application of knowledge in other situations \cite{Rivers21}.
-
-When analyzing the classification of messages in conversations, we identified
-the presence of sequences of messages belonging to the same category, that it
-could suggest a low occurrence of interleaving. To better assess the extent of
-these sequences, we calculated the percentage of messages that were part of
-repeated blocks.
-
-Considering blocks with at least three messages, we observed that 56.2\% of the
-students' prompts were grouped into some sequence. When analyzing blocks with a
-minimum of 4 messages, we found that 47.5\% of the prompts were part of
-continuous sequences. These results indicate a moderate incidence of
-interleaving among the students' messages.
-
-To illustrate the presence of blocks the Figure \ref{fig:graph2} presents
-examples of conversations and their classification. In Conversation 2, the
-student alternates messages among Code Snippet, Debugging Help and Conceptual
-Question, showing an tendency of interleaving between practical and theoretical
-perspectives. In contrast, in Conversation 10, the student focused on a single
-block of Conceptual Question. Although the focus was on understanding a
-theoretical concept, this conversation tended not to promote interleaving, due
-to the absence of alternation between different types of tasks.
-
 \begin{figure*}[htbp]
   \centering
   \includegraphics[scale=0.52]{img/figure2.png}
@@ -358,15 +286,190 @@ to the absence of alternation between different types of tasks.
   \label{fig:graph2}
 \end{figure*}
 
-% % Conceptual Questions
+\subsection{Classification of Messages}
+
+About the first research question: \textit{What was the distribution pattern of
+the classified messages?.}
+
+According to Figure \ref{fig:graph1} messages classified as
+Conceptual Question account for 32.1\% of the total. Often, the sequence of
+Conceptual Question begins with a request for a Complete Solution or Code
+Snippet, which then evolves into a series of Conceptual Question, as seen in
+conversation 2 of Figure \ref{fig:graph2}. In other cases, the conversation
+consists entirely of messages classified as Conceptual Question, such as in
+conversation 10 of Figure \ref{fig:graph2}. This type of message indicates that
+students recognize they have not yet fully mastered a concept and are seeking to
+better understand it. In this context, the student realizes that solving the
+problem requires understanding the concepts, thereby applying an active learning
+strategy.
+
+As shown in Figure \ref{fig:graph1}, approximately 30.9\% of the messages were
+classified as Debugging Help. These prompts often begin with a request for a
+Complete Solution or Code Snippet. Following this, students typically shift
+from a passive to a more active learning strategy, as illustrated by the start
+of conversation 12 in Figure \ref{fig:graph2}. Debugging Help messages represent
+a form of active learning, where students likely focus on gaining a practical
+understanding of the code, identifying errors, and improving their debugging
+skills for future tasks.
+
+Since most of the messages are located in categories where students are
+notoriously engaged in more active in their learning (Conceptual Question and
+Debugging Help) corroborating with the findings of \cite{Ghimire24} which showed
+that the prompts are also localized in the same categories
+
+Requests for the bot to generate a Code Snippet or Complete Solution accounted
+for 10.5\% of student messages. These prompts reflected a desire for more
+direct answers; however, it was observed that, after receiving these solutions,
+many students transitioned to a more active approach in seeking to understand
+the code or the underlying concepts. Thus, it can be inferred that prompts
+within the Code Snippet or Complete Solution category were often used as a
+starting point for more in-depth study.
+
+Multiple-choice exercise resolutions accounted for 16.9\% of the responses.
+These prompts typically involved students submitting one or more exercises to
+CharlieBot and requesting solutions. We identified sequences of multiple-choice
+questions, as illustrated by conversations 8, 9, and 15 in \ref{fig:graph2}.
+This less active learning approach can occur for various reasons, ranging from
+the belief that reviewing solutions to similar questions enhances learning, to
+issues such as negligence, poor planning, or other possible factors.
+
+Student corrections to the bot’s responses accounted for 2.6\% of the
+interactions. In most cases, these corrections occurred when the student already
+had the correct answer to an exercise and identified an error in the bot’s
+response, as illustrated in conversations 4 and 9 in Figure \ref{fig:graph2}.
+These corrections highlight that, although the bot provides quick feedback, it
+is not always accurate, and its errors can be difficult for students to
+identify.
+
+The Figure \ref{fig:graph1} also shows that around 5\% of the prompts written by
+students were not categorized. These messages range from greetings to the Bot,
+such as a simple "\textit{Hola}," to contextual statements like
+"\textit{Estoy repasando orientación a objetos.}"
+
+\subsection{Spacing}
+
+% Spacing
+
+About the second research question: \textit{Was there a space between student
+prompts? If so, which category promotes the largest spacing between
+submissions?}
+
+Spacing, a well-established learning strategy \citep{Carvalho20}, was analyzed
+by examining the time intervals between users' interactions with CharlieBot.
+Only 9\% of the conversations showed message delays exceeding 24 hours,
+indicating that students generally do not extend interactions across multiple
+days. However, this students' behavior is directly influenced by the
+implementation of the initial version of CharlieBot, which was designed to keep
+the chat session active only while the student kept the browser tab open and
+avoided reloading the page.
+
+On the other hand, about 26.2\% of the conversations, or roughly a quarter,
+included pauses longer than 60 minutes, a practice known to help with knowledge
+retention. However, this data only shows that students paused their use of the
+AI, which could mean they were reflecting on the topic independently or engaging
+in unrelated activities, making it uncertain in what context the students were
+applying spacing.
+
+There is a noticeable difference in the interaction time with the bot when a
+student asks a conceptual question. This was probably due to the fact that, in
+this category, the student is more focused on understanding a concept and
+engaging in deeper learning, which aligns with the metacognitive goal of
+promoting comprehension and long-term retention. The Figure \ref{fig:graph3}
+shows the average interaction time per category.
+
+\begin{figure*}[htbp]
+  \centering
+  \includegraphics[scale=0.55]{img/figure3.png}
+  \caption{Average interaction time per category.}
+  \label{fig:graph3}
+\end{figure*}
+
+\subsection{Interleaving}
+
+% Interleaving
+
+Regarding the third research question: \textit{Do students' conversations with
+the bot alternate between practical and theoretical approaches, thereby
+promoting interleaving?}
+
+Intervealing is a learning strategy that involves mixing or alternating
+different topics or problems within a single learning session. This approach has
+been shown to be useful for promoting long-term learning and improving the
+application of knowledge in other situations \citep{Rivers21}.
+
+When analyzing the classification of messages in conversations, we identified
+the presence of sequences of messages belonging to the same category, that it
+could suggest a low occurrence of interleaving. To illustrate the presence of
+blocks the Figure \ref{fig:graph2} presents examples of conversations and their
+classification. In Conversation 2, the student alternates messages among Code
+Snippet, Debugging Help and Conceptual Question, showing an tendency of
+interleaving from practical to theoretical perspective. In contrast, in
+Conversation 10, the student focused on a single block of Conceptual Question.
+Although the focus was on understanding a theoretical concept, this conversation
+tended not to promote interleaving, due to the absence of alternation between
+different types of tasks.
+
+To better assess the extent of these sequences, we calculated the percentage of
+messages that were part of repeated blocks. Considering blocks with at least
+three messages, we observed that 56.2\% of the students' prompts were grouped
+into some sequence. When analyzing blocks with a minimum of four messages, we
+found that 47.5\% of the prompts were part of continuous sequences.
+
+However, if we consider that sequential messages from a certain point indicate
+that the student is \textit{blocked} (or focused) on a task, the remaining space
+for interleaving is 43.8\%, assuming a block starting from at least three
+consecutive messages, and 52.5\% for blocks starting from four consecutive
+messages. Thus, the data suggest that interleaving occurs on students'
+conversations with CharlieBot but in which situations and with what type of
+students profile is a study that needs to be further investigated.
+
+\section{Conclusion and Future Work}
+
+TODO: Work in progress
+
+* Although the data indicates some use of interleaving and spacing strategies,
+we believe that students can be guided to adopt a more deliberate approach in
+utilizing GenAI, enabling them to more effectively harness these tools to
+enhance their learning.
+
+* Due to the anonymity of the interactions, it's unclear whether
+students were intentionally using interleaving and spacing strategies or if
+these patterns emerged naturally. Future research should investigate whether
+students were consciously applying.
+
+* To provide teachers with valuable data for analyzing how students are using
+the tools, we are developing an AI model to automatically classify student
+messages. This will enable educators to better understand student behavior and
+offer more targeted support where needed.
+
+\section*{ACKNOWLEDGEMENTS}
+
+The authors would like to thank the Federal Institute of Education, Science and
+Technology (IFRS) for the partial financial support provided for the execution
+of this research.
+
+\bibliographystyle{apalike}
+{\small
+\bibliography{References}}
+
+\section*{\uppercase{\textit{Appendix}}}
+
+If any, the appendix should appear directly after the
+references without numbering, and not on a new page. To do so please use the
+following command: \textit{$\backslash$section*\{APPENDIX\}}
+
+\end{document}
+
+
+% % Conceptual Question
 % \subsubsection*{Sequence of Conceptual Question}
 
-% Messages classified as conceptual questions represent around 32\% of all
-% messages. We have found a pattern of sequences of Conceptual Questions in some
+% Messages classified as conceptual question represent around 32\% of all
+% messages. We have found a pattern of sequences of Conceptual Question in some
 % conversations. Some conversations are entirely composed of messages classified
-% as Conceptual Questions. In other cases, the sequence of Conceptual questions
+% as Conceptual Question. In other cases, the sequence of Conceptual question
 % starts with a request for a Complete Solution or a Code Snippet, followed by
-% a progression of Conceptual Questions. In both cases, the student is actively
+% a progression of Conceptual Question. In both cases, the student is actively
 % engaging with the bot to understand the concepts and compromised with more
 % deep learning.
 
@@ -457,33 +560,3 @@ to the absence of alternation between different types of tasks.
 % their progress throughout the process, adjusting their questions as necessary,
 % evaluate the effectiveness of the responses received, and reflect on what was
 % learned during the process.
-
-
-\section{Conclusion}
-
-The results of this study suggest that students interact with CharlieBot in a
-manner that promotes critical thinking. The majority of the messages analyzed
-were related to debugging help, conceptual questions, and student correction,
-indicating that students are actively engaging with the bot to understand
-concepts and solve problems. This is a positive outcome, as it suggests that
-CharlieBot is being used as a tool to enhance learning rather than a crutch for
-students to rely on.
-
-\section*{ACKNOWLEDGEMENTS}
-
-The authors would like to thank the Federal Institute of Education, Science and
-Technology (IFRS) for the partial financial support provided for the execution
-of this research.
-
-\bibliographystyle{apalike}
-{\small
-\bibliography{References}}
-
-\section*{\uppercase{Appendix}}
-
-If any, the appendix should appear directly after the
-references without numbering, and not on a new page. To do so please use the
-following command: \textit{$\backslash$section*\{APPENDIX\}}
-
-\end{document}
-

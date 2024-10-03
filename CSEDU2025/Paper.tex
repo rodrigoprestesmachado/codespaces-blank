@@ -35,39 +35,52 @@ de Madrid, Leganés (Madrid), Spain}
 \email{\ rodrigo.prestes@poa.ifrs.edu.br, \{calario,pcallejo, ayres,cdk\}@it.uc3m.es}
 }
 
-\keywords{Generative Artificial Intelligence, Metacognition, Programming Education, Chatbots}
+\keywords{
+  Programming Education, Generative Artificial Intelligence, Chatbots and
+  Metacognition
+}
 
-\abstract{This study investigates the interaction patterns of programming
-students with a generative AI-powered chatbot (CharlieBot) in the context of a
-Java programming course. Specifically, it explores how students utilize the bot,
-enhanced with Retrieval-Augmented Generation (RAG), along with two metacognitive
-strategies: interleavBaha24Sun24ing and spacing. The methodology analyzed and
-classified student conversations, focusing on types of interactions such as
-conceptual questions and debugging help. The results indicate that most
-interactions are focused on active learning strategies, although the deliberate use
-of interleaving and spacing is limited. The study highlights the need for more
-guidance on the strategic use of AI tools to improve learning outcomes.}
+\abstract{
+This study examines the interactions of programming students with a chatbot,
+CharlieBot, powered by OpenAI's GPT-3.5 and enhanced with the
+Retrieval-Augmented Generation (RAG) technique, within the context of a Java
+programming course. It investigates how students use the bot while employing two
+metacognitive strategies: interleaving and spacing. Using the logs of student
+interactions with the bot, the methodology involved classifying and analyzing
+student prompts into eight distinct categories. The findings reveal that while
+most interactions emphasize active learning strategies, students demonstrate
+limited conscious application of interleaving and spacing. This study
+underscores the necessity for increased guidance on the strategic use of AI
+tools to enhance learning outcomes.
+}
 
 \twocolumn\maketitle\normalsize\setcounter{footnote}{0}
 
 \section{\uppercase{Introduction}}
 \label{sec:introduction}
 
-Recent advances in Generative Artificial Intelligence (GenAI) have opened up
-new possibilities in education. In programming courses, students can utilize
-GenAI tools to improve their understanding, receive feedback, and obtain
-detailed explanations.
+Recent advancements in Generative Artificial Intelligence (GenAI) have created
+new opportunities in both professional programming \citep{Peng23}
+\citep{Pandey24} and education \citep{Puryear22}. In programming courses,
+students can employ GenAI tools to enhance their understanding, receive
+personalized feedback, and access detailed explanations. For example, GitHub
+Copilot, a tool that is integrated into development environments, assists by
+providing real-time suggestions and accelerating code writing, which could help
+streamline the learning process \citep{Denny23}. Educational chatbots, on the
+other hand, try to guide students through coding challenges, answer questions,
+and attempt to foster a deeper comprehension of programming concepts
+\citep{Labadze23}.
 
 The study guided by \cite{chan23} revealed that both undergraduate and
 postgraduate students exhibit positive attitudes towards the use of GenAI in
-teaching and learning, noting that it improves the depth of their thinking and
-understanding. Furthermore, a systematic review conducted by \cite{Lo24}
+teaching and learning, noting that it may improve the depth of their thinking
+and understanding. Furthermore, a systematic review conducted by \cite{Lo24}
 demonstrated that students could effectively learn from ChatGPT, leading to
-improved understanding and academic achievement. Besides that, it was also
-observed that ChatGPT enables students to regulate their learning pace
-\citep{Baha24} and can potentially support students’ self-regulated learning,
-especially for those with previous technical and disciplinary knowledge
-\citep{Xia23}.
+improved understanding and academic achievement \citep{Callejo24}. Besides that,
+it was also observed that ChatGPT enables students to regulate their learning
+pace \citep{Baha24} and can potentially support students’ self-regulated
+learning, especially for those with previous technical and disciplinary
+knowledge \citep{Xia23}.
 
 However, researchers are concerned about the impact of these tools on
 students. The systematic review conducted by \cite{Murillo23} indicated that
@@ -93,26 +106,36 @@ enhance learning. Furthermore, a review organized by \cite{Lo24} emphasized the
 need for extended studies and objective measures to gather more robust
 evidence on the use of GenAI tools in education.
 
-The primary objective of this study is to analyze the interactions between
-students in a Java programming course and an educational bot powered by
-ChatGPT 3.5, enhanced with Retrieval-Augmented Generation (RAG) capabilities,
-within the context of two Metacognitive strategies: Interleaving and Spacing.
-To achieve this objective, we formulate three research questions:
+In response to the growing need for deeper insights into the use of GenAI tools
+in educational settings, this study aims to help address this gap by analyzing
+the interactions between students in a Java programming course and an
+educational bot powered by gpt-3.5 from OpenAI, enhanced with
+Retrieval-Augmented Generation (RAG) technique. Specifically, it focuses on
+examining these interactions within the context of the metacognitive strategies
+employed by the students. To achieve this objective, we formulate three research
+questions:
 
-\begin{enumerate}
-  \item What was the distribution pattern of the classified messages?
-  \item Was there a space between the student prompts? If so, which category promotes the largest spacing between submissions?
-  \item Do students' conversations with the bot alternate between practical and theoretical approaches, thereby promoting interleaving?
-\end{enumerate}
+\begin{itemize}
+  \item RQ1 - What was the distribution pattern of the classified messages?
+  \item RQ2 - Was there a space between the student prompts? If so, which
+  category promotes the largest spacing between submissions?
+  \item RQ3 - Do students' conversations with the bot alternate between
+  practical and theoretical approaches, thereby promoting interleaving?
+\end{itemize}
 
 % % What is its main limitation?
 
-However, it is crucial to consider how GenAI tools impact students in
+It is important to consider how GenAI tools impact students in
 various demographic groups, academic disciplines, cultural backgrounds, and
-levels of previous experience \citep{catalan21} \citep{neo22}. Consequently, this
-study is limited to a specific group of students and focuses on the use of a
-single GenAI tool. As a result, the findings may not be generalizable to other
+levels of previous experience \citep{catalan21} \citep{neo22}. Consequently,
+this study is limited to a specific group of students and focuses on the use of
+a single GenAI tool. As a result, the findings may not be generalizable to other
 populations or tools.
+
+This paper is organized as follows: Section 2 presents the theoretical
+framework, Section 3 describes the material and methods used in the study,
+Section 4 presents the results and discussion, and Section 5 concludes the
+paper and outlines future work.
 
 %% Are there any existing solutions?
 % To deal with this issue, some researchers have proposed different pedagogical
@@ -138,45 +161,10 @@ populations or tools.
 
 \section{\uppercase{Theoretical Framework}}
 
-\subsection{Related Work}
-
-TODO: Work in progress.
-
-% The advancements in GenAI and its use in programming courses have raised
-% possibilities and concerns among educators and researchers. The study of
-% \cite{Yilmaz23} found that the main benefit of using ChatGPT in programming
-% learning is to provide providing fast and mostly correct answers to questions,
-% improving thinking skills, facilitating debugging, and increasing
-% self-confidence. In contrast, the study the same appoint limitations such ask
-% laziness, being unable to answer some questions, or giving incomplete/incorrect
-% answers, causing professional anxiety in students.
-
-% From a cognitive perspective, \cite{Lo24} shown that students were able to
-% learn from ChatGPT, which increased their understanding and achievement.
-% However, concerns were raised that the growing use of AI tools might lead to a
-% decline in critical thinking among students. Teachers and stakeholders should
-% continue to investigate pedagogical approaches that leverage ChatGPT to enhance
-% students' understanding and critical thinking. For example, teachers can
-% instruct students to fact-check and validate information produced by ChatGPT.
-
-% Examined students from different demographic groups using AI tools like
-% ChatGPT, comparing perceptions and impacts among these groups. The results
-% showed that AI tools had a positive impact on academic performance, especially
-% for students with less prior experience.
-
-% Critical thinking is a fundamental skill for students to develop, as it enables
-% them to analyze, evaluate, and synthesize information. This skill is essential
-% for problem-solving and decision-making, making it a crucial aspect of
-% educational success, specifically in programming courses. However, the use of AI
-% tools like ChatGPT has raised concerns about the potential impact on students'
-% critical thinking abilities \cite{Murillo23} \cite{cai23} \cite{chan23}.
-
-% In the other hand, the study of \cite{zhang24} suggested that incorporating
-% ChatGPT could stimulate students' critical thinking, probably because they
-% had to assess the correctness of ChatGPT's answers.
-
-% Regarding self-regulation, \cite{cai23} noted that ChatGPT allowed students to
-% regulate their learning pace.
+This section presents the theoretical framework that underpins the study. First,
+we introduce the concept of metacognition used in this study. Next, we discuss
+related work that explores the use of metacognitive strategies and scaffolds
+in educational settings.
 
 \begin{table*}[htbp]
   \caption{Categories - adapted from \cite{Ghimire24}}
@@ -202,18 +190,15 @@ TODO: Work in progress.
 
 \subsection{Metacognition}
 
-The use of generative artificial intelligence tools can support the important
-mechanism of learning regulation by students \citep{larsen18}, since these
-technologies frequently generate automatic and often accurate responses
-\cite{Puryear22}, it becomes essential for students to use these tools more
-strategically to promote conscious and active learning.
-
-The Theory of Metacognition addresses awareness of mental processes.
-\cite{flavell79} proposed a model of metacognitive monitoring that includes four
-interrelated phenomena: Metacognitive Knowledge, Metacognitive Experience,
- Metacognitive Goals, and Metacognitive Actions. These processes do not occur
-in isolation, but they influence each other, altering cognitive progress over
-time.
+Given that generative AI often produces automatic and highly accurate responses
+\citep{Puryear22}, it is essential for students to use these tools within an
+active learning process to enhance their learning outcomes. This active
+learning process can be further understood through the lens of Metacognition, which
+focuses on the awareness of one’s mental processes. \cite{flavell79} proposed a
+model of metacognitive monitoring that includes four interrelated phenomena:
+Metacognitive Knowledge, Metacognitive Experience, Metacognitive Goals, and
+Metacognitive Actions. These processes do not occur in isolation, but they
+influence each other, altering cognitive progress over time.
 
 Metacognitive knowledge includes beliefs about variables that affect the
 outcomes of cognitive activities. It is divided into three types: beliefs about
@@ -230,6 +215,39 @@ determine how to approach a task, such as spacing their study sessions
 \citep{Ouhao18, Carvalho20}, interleaving topics \citep{Rivers21}, utilizing
 retrieval practice \citep{larsen18}, and other strategies.
 
+Spacing and interleaving are two metacognitive strategies that have been shown to
+enhance learning outcomes. Spacing refers to the practice of distributing study
+sessions over time, which has been shown to improve long-term retention and
+understanding of the material \citep{Carvalho20}. Interleaving involves mixing
+different topics or problems within a single learning session, which has been
+shown to enhance long-term learning and the application of knowledge in other
+situations \citep{Rivers21}.
+
+\subsection{Related Work}
+
+Studies on the use of metacognitive strategies indicate that these practices can
+be applied to teaching the conscious use of generative AI. \cite{Zheng19}
+investigated the effects of metacognitive scaffolds on group behavior,
+performance, and cognitive load in computer-supported collaborative
+environments. The results showed positive impacts on metacognitive
+behavior and group performance without increasing cognitive load.
+
+\cite{LiWei23} proposed a metacognition-based collaborative approach to enhance
+performance in collaborative programming. The findings indicated that this
+approach influenced computational thinking, critical thinking, and
+metacognitive awareness.
+
+Similarly, \cite{Wang23} explored how metacognitive instruction affects
+computational thinking, critical thinking, and metacognitive skills in
+collaborative programming, observing improvements in problem-solving and
+collaboration.
+
+These studies demonstrate the relevance of metacognition in enhancing
+performance and skills in collaborative environments without imposing additional
+cognitive load. Based on this, it is possible to suggest that metacognitive
+strategies may also be useful in teaching a more conscious and critical use of
+generative AI tools.
+
 \section{\uppercase{Material and Method}}
 
 This section outlines the tools and procedures used in this study. CharlieBot
@@ -240,7 +258,7 @@ interaction with students.
 \subsection{CharlieBot}
 
 CharlieBot is an educational bot built on ChatGPT 3.5 and enhanced with
-Retrieval-Augmented Generation (RAG) capabilities to improve the precision of
+Retrieval-Augmented Generation (RAG) technique to improve the precision of
 responses provided to students \cite{Sun24}. The RAG feature was developed using
 materials from a MOOC, including text, exercises, video transcripts, and other
 resources.
@@ -321,8 +339,8 @@ understanding of the code, identifying errors, and improving their debugging
 skills for future tasks.
 
 Since most of the messages are located in categories where students are
-notoriously engaged in being more active in their learning (conceptual question
-and problem solving help), corroborating the findings of \cite{Ghimire24} which
+notoriously engaged in being more active in their learning (Conceptual Question
+and Debugging Help), corroborating the findings of \cite{Ghimire24} which
 showed that the questions are also localized in the same categories.
 
 Requests for the bot to generate a Code Snippet or Complete Solution accounted

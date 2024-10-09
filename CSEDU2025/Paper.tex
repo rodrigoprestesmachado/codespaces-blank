@@ -50,8 +50,8 @@ interactions with the bot, the methodology involved classifying and analyzing
 student prompts into eight distinct categories. The findings reveal that while
 most interactions emphasize active learning strategies, students demonstrate
 limited conscious application of interleaving and spacing. This study
-underscores the necessity for increased guidance on the strategic use of AI
-tools to enhance learning outcomes.
+underscores the need for more guidance on the strategic use of AI
+tools to improve learning outcomes.
 }
 
 \twocolumn\maketitle\normalsize\setcounter{footnote}{0}
@@ -59,60 +59,63 @@ tools to enhance learning outcomes.
 \section{\uppercase{Introduction}}
 \label{sec:introduction}
 
-Recent advancements in Generative Artificial Intelligence (GenAI) have created
+Recent advances in Generative Artificial Intelligence (GenAI) have created
 new opportunities in both professional programming \citep{Peng23}
 \citep{Pandey24} and education \citep{Puryear22}. In programming courses,
-students can employ GenAI tools to enhance their understanding, receive
+students can employ GenAI tools to improve their understanding, receive
 personalized feedback, and access detailed explanations. For example, GitHub
-Copilot, a tool that is integrated into development environments, assists by
+Copilot, a tool that is integrated into development environments, assists in
 providing real-time suggestions and accelerating code writing, which could help
 streamline the learning process \citep{Denny23}. Educational chatbots, on the
 other hand, try to guide students through coding challenges, answer questions,
-and attempt to foster a deeper comprehension of programming concepts
+and try to foster a deeper understanding of programming concepts
 \citep{Labadze23}.
 
-The study guided by \cite{chan23} revealed that both undergraduate and
-postgraduate students exhibit positive attitudes towards the use of GenAI in
-teaching and learning, noting that it may improve the depth of their thinking
-and understanding. Furthermore, a systematic review conducted by \cite{Lo24}
-demonstrated that students could effectively learn from ChatGPT, leading to
-improved understanding and academic achievement \citep{Callejo24}. Besides that,
-it was also observed that ChatGPT enables students to regulate their learning
-pace \citep{Baha24} and can potentially support students’ self-regulated
-learning, especially for those with previous technical and disciplinary
-knowledge \citep{Xia23}.
+The study conducted by \cite{chan23} revealed that both undergraduate and
+postgraduate students have positive attitudes towards the use of GenAI.
+Furthermore, a systematic review organized by \cite{Lo24} demonstrated that
+students can effectively learn from ChatGPT, resulting in improved comprehension
+and academic achievement \citep{Callejo24}. Furthermore, it was observed that
+ChatGPT allows students to regulate their learning pace \citep{Baha24} and can
+potentially support self-regulated learning, particularly for students with
+prior technical and disciplinary knowledge \citep{Xia23}.
 
-However, researchers are concerned about the impact of these tools on
-students. The systematic review conducted by \cite{Murillo23} indicated that
-the use of ChatGPT could lead to an overreliance on the tool. \cite{chan23} also
-noted that this dependency could result in a decrease in critical thinking, as
-students could make decisions based solely on the information provided by
-ChatGPT.
+However, researchers have also expressed concerns about the impact of these
+tools on students. The systematic review by \cite{Murillo23} indicated that the
+use of ChatGPT could lead to overreliance on the tool. \cite{chan23} noted that
+overdependence on ChatGPT could lead to a decrease in critical thinking, as
+students can make decisions based solely on the information provided by the tool.
+As a potential consequence, \cite{Eason23} observed in a study that when
+programming students lost access to ChatGPT-4, those who had previously relied
+on it saw their performance drop by 17\%. In contrast, students who had never
+used the tool were unaffected and outperformed their peers.
 
-The student’s confidence is justified, as demonstrated by \cite{Puryear22}, who
-found that GitHub Copilot can generate solutions for student assignments with
-accuracy rates ranging from 68\% to 95\%. However, this also raises concerns
-that students may become overly dependent on GenAI tools, potentially bypassing
-the opportunity to develop a deeper understanding of the underlying concepts.
-\cite{cai23} further highlighted the overdependence and diminished intellectual
-engagement as significant drawbacks associated with the use of ChatGPT in
-learning.
+The confidence of students in these tools is well founded, as shown by
+\cite{Puryear22}, who found that GitHub Copilot can generate solutions for
+student assignments with precision rates ranging from 68\% to 95\%. However,
+\cite{Boudouaia24} observed that using ChatGPT without a structured learning
+approach did not provide significant improvement over traditional self-directed
+learning methods in programming. This raises concerns that students may become
+overly dependent on generative AI tools, potentially hindering their learning
+progress and missing opportunities to develop a deeper understanding of
+fundamental concepts.
 
 Regardless of teachers' preferences or beliefs, preliminary surveys conducted
-by \cite{Dickey24} revealed that at least 54.5\% of students are already using
-GenAI for homework. This highlights the need to increase the understanding of
-how students interact with these tools and how they can be used to
-enhance learning. Furthermore, a review organized by \cite{Lo24} emphasized the
-need for extended studies and objective measures to gather more robust
-evidence on the use of GenAI tools in education.
+by \cite{Dickey24} indicate that more than 54,5\% of students are already using
+GenAI for homework, likely due to their perception of this technology as
+advantageous and intuitive \citep{Boudouaia24}. All of these studies highlight
+the need to increase the understanding of how students interact with these tools
+and how they can be used to improve learning. Furthermore, a review organized by
+\cite{Lo24} emphasized the need for extended studies and objective measures to
+gather more robust evidence on the use of GenAI tools in education.
 
-In response to the growing need for deeper insights into the use of GenAI tools
+In response to the growing need for deeper insight into the use of GenAI tools
 in educational settings, this study aims to help address this gap by analyzing
 the interactions between students in a Java programming course and an
-educational bot powered by gpt-3.5 from OpenAI, enhanced with
+educational bot powered by gpt-3.5 from OpenAI, enhanced with the
 Retrieval-Augmented Generation (RAG) technique. Specifically, it focuses on
 examining these interactions within the context of the metacognitive strategies
-employed by the students. To achieve this objective, we formulate three research
+employed by students. To achieve this objective, we formulate three research
 questions:
 
 \begin{itemize}
@@ -123,7 +126,7 @@ questions:
   practical and theoretical approaches, thereby promoting interleaving?
 \end{itemize}
 
-% % What is its main limitation?
+% What is its main limitation?
 
 It is important to consider how GenAI tools impact students in
 various demographic groups, academic disciplines, cultural backgrounds, and
@@ -193,12 +196,12 @@ in educational settings.
 Given that generative AI often produces automatic and highly accurate responses
 \citep{Puryear22}, it is essential for students to use these tools within an
 active learning process to enhance their learning outcomes. This active
-learning process can be further understood through the lens of Metacognition, which
-focuses on the awareness of one’s mental processes. \cite{flavell79} proposed a
-model of metacognitive monitoring that includes four interrelated phenomena:
-Metacognitive Knowledge, Metacognitive Experience, Metacognitive Goals, and
-Metacognitive Actions. These processes do not occur in isolation, but they
-influence each other, altering cognitive progress over time.
+learning process can be further understood through the lens of Metacognition,
+which focuses on the awareness of one’s mental processes. \cite{flavell79}
+proposed a model of metacognitive monitoring that includes four interrelated
+phenomena: Metacognitive Knowledge, Metacognitive Experience, Metacognitive
+Goals, and Metacognitive Actions. These processes do not occur in isolation, but
+they influence each other, altering cognitive progress over time.
 
 Metacognitive knowledge includes beliefs about variables that affect the
 outcomes of cognitive activities. It is divided into three types: beliefs about
@@ -222,6 +225,20 @@ understanding of the material \citep{Carvalho20}. Interleaving involves mixing
 different topics or problems within a single learning session, which has been
 shown to enhance long-term learning and the application of knowledge in other
 situations \citep{Rivers21}.
+
+In this study, we propose a variation of the interleaving concept, which we call
+Perspective Interleaving. Unlike traditional interleaving, which typically
+involves alternating between different topics or problem types, Perspective
+Interleaving focuses on students' ability to shift between distinct viewpoints.
+There are factors that suggest the Perspective Interleaving hypothesis can
+benefit student learning. Even without an explicit alternation between different
+types of problems, the student can constantly change their perspective, which
+relates to the concept of contextual discrimination. Furthermore, Kolb's
+Experiential Learning Theory reinforces this idea, stating that alternating
+between concrete experiences and abstract reflections is essential to sustain
+the learning cycle. Finally, deliberately shifting one's perspective on a
+specific problem can help students reflect on their approach and improve their
+metacognitive strategies.
 
 \subsection{Related Work}
 

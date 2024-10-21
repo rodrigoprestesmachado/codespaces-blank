@@ -41,7 +41,7 @@ public class ProfessionalAccount extends Account {
 }
 
 En el método setPassword, he reemplazado this.password = password; por super.setPassword(password); para asegurarme de que se esté utilizando el método setPassword de la clase padre Account. Si tienes alguna otra pregunta o necesitas más ayuda con este código, no dudes en preguntar.";14:54:17 - 21/06/2024;;
-P2cNHFaEwWD0Fwz;User;¿Cuántos swaps se necesitan para ordenar de menor a mayor el siguiente array 5,3,4,1,2 utilizado Heap Sort?;15:45:17 - 21/06/2024;Complete Solution;Yes
+P2cNHFaEwWD0Fwz;User;¿Cuántos swaps se necesitan para ordenar de menor a mayor el siguiente array 5,3,4,1,2 utilizado Heap Sort?;15:45:17 - 21/06/2024;Conceptual Questions;No
 P2cNHFaEwWD0Fwz;semantic_search;;15:45:17 - 21/06/2024;;
 P2cNHFaEwWD0Fwz;CharlieBOT;Lo siento, pero no puedo ayudarte con eso.;15:45:18 - 21/06/2024;;
 P2cNHFaEwWD0Fwz;User;"public int leafs(BTree tree) throws BTreeException {
@@ -358,7 +358,7 @@ En Java, la firma de un método incluye el nombre del método y el tipo y orden 
 Para corregir esto, podrías cambiar el nombre del método o los tipos de parámetros para que cada método tenga una firma única.
 
 Si tienes más preguntas o necesitas más aclaraciones, no dudes en preguntar.";10:06:20 - 25/06/2024;;
-P2cNHFaEwWD0Fwz;User;que es una excepci´on ArrayIndexOutOfBoundsException;10:08:24 - 25/06/2024;Conceptual Questions;Yes
+P2cNHFaEwWD0Fwz;User;que es una excepci´on ArrayIndexOutOfBoundsException;10:08:24 - 25/06/2024;Debugging Help;No
 P2cNHFaEwWD0Fwz;semantic_search;;10:08:24 - 25/06/2024;;
 P2cNHFaEwWD0Fwz;CharlieBOT;"ArrayIndexOutOfBoundsException es una excepción en Java que se lanza cuando se intenta acceder a un índice fuera del rango válido para un array. En otras palabras, esta excepción ocurre cuando se intenta acceder a un índice que no existe en el array.
 
@@ -430,7 +430,7 @@ En el contexto de la depuración, el ""step return"" es útil para comprender c�
 Es importante tener en cuenta que el ""step return"" es una funcionalidad específica de los entornos de desarrollo y no es una construcción de lenguaje en Java. Su disponibilidad y comportamiento pueden variar según el entorno de desarrollo que estés utilizando.
 
 Si tienes más preguntas sobre depuración o cualquier otro tema relacionado con la programación en Java, no dudes en preguntar.";15:21:55 - 25/06/2024;;
-P2cNHFaEwWD0Fwz;User;que es un NullPointerException;15:24:58 - 25/06/2024;Conceptual Questions;Yes
+P2cNHFaEwWD0Fwz;User;que es un NullPointerException;15:24:58 - 25/06/2024;Debugging Help;No
 P2cNHFaEwWD0Fwz;semantic_search;;15:24:58 - 25/06/2024;;
 P2cNHFaEwWD0Fwz;CharlieBOT;"Un NullPointerException es una excepción que ocurre en tiempo de ejecución en Java cuando intentas acceder a un objeto que es null. En Java, null es un valor especial que indica la ausencia de un objeto. Cuando intentas llamar a un método o acceder a un campo de un objeto que es null, se produce una NullPointerException.
 
@@ -475,7 +475,7 @@ public int m() {
 En este caso, se verifica si left y right son null antes de llamar al método m() sobre ellos, evitando así la NullPointerException.
 
 Si tienes más preguntas sobre este tema o cualquier otro relacionado con la programación en Java, no dudes en preguntar.";15:26:01 - 25/06/2024;;
-P2cNHFaEwWD0Fwz;User;Dado el siguiente montículo (min-heap) {1,2,7,8,5,10,9}, cuando se añade el valor 4 ¿cuántos intercambios hay que realizar?;15:31:58 - 25/06/2024;Complete Solution;Yes
+P2cNHFaEwWD0Fwz;User;Dado el siguiente montículo (min-heap) {1,2,7,8,5,10,9}, cuando se añade el valor 4 ¿cuántos intercambios hay que realizar?;15:31:58 - 25/06/2024;Conceptual Questions;Yes
 P2cNHFaEwWD0Fwz;semantic_search;;15:31:58 - 25/06/2024;;
 P2cNHFaEwWD0Fwz;CharlieBOT;Lo siento, pero no puedo ayudarte con eso.;15:31:59 - 25/06/2024;;
 P2cNHFaEwWD0Fwz;User;por;15:32:05 - 25/06/2024;Uncategorized;Yes

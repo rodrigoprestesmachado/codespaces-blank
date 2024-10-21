@@ -17,7 +17,7 @@ weAEdYae8v5Ol7;User;"1.- En el esqueleto de c´odigo que se presenta a continuac
 (d) No es necesario incluir c´odigo, los argumentos ya dicen los valores que tendr´an x e y.";09:21:34 - 26/06/2024;Multiple Question Exercise;Yes
 weAEdYae8v5Ol7;semantic_search;;09:21:34 - 26/06/2024;;
 weAEdYae8v5Ol7;CharlieBOT;"La implementación correcta en la línea 03 para el constructor de la clase Point sería la opción (a) *** this.x = x; this.y = y;. Esto asignará los valores de los parámetros x e y a los atributos de la clase x e y respectivamente, utilizando la palabra clave ""this"" para referirse a los atributos de la clase y distinguirlos de los parámetros con el mismo nombre. Es importante utilizar ""this"" para evitar ambigüedades y asegurarse de que se esté haciendo referencia a los atributos de la clase. Si tienes alguna otra pregunta o duda, no dudes en preguntar.";09:21:36 - 26/06/2024;;
-weAEdYae8v5Ol7;User;pero no habria que hacer un constructor?;09:21:58 - 26/06/2024;Conceptual Questions;Yes
+weAEdYae8v5Ol7;User;pero no habria que hacer un constructor?;09:21:58 - 26/06/2024;Student Correction;No
 weAEdYae8v5Ol7;semantic_search;;09:21:58 - 26/06/2024;;
 weAEdYae8v5Ol7;CharlieBOT;"Mis disculpas por la confusión. Tienes razón, para la implementación en la línea 03, necesitaríamos crear un constructor para la clase Point. La implementación correcta sería:
 public Point(double x, double y) {
@@ -205,7 +205,7 @@ if(aux.getInfo() != compareTo){
     aux.setNext(getNext());
         return false;
 }else if (aux.getInfo == compareTo(info)){
-    return true;";10:17:30 - 26/06/2024;Code Snippet;Yes
+    return true;";10:17:30 - 26/06/2024;Debugging Help;No
 weAEdYae8v5Ol7;semantic_search;;10:17:30 - 26/06/2024;;
 weAEdYae8v5Ol7;CharlieBOT;"Aquí tienes una posible implementación del método search de la clase MyLinkedList en Java:
 
@@ -232,7 +232,7 @@ weAEdYae8v5Ol7;User;"public boolean testEquals(){
         return true;
     }else{
         return false;
-}";10:20:43 - 26/06/2024;Code Snippet;Yes
+}";10:20:43 - 26/06/2024;Debugging Help;No
 weAEdYae8v5Ol7;semantic_search;;10:20:43 - 26/06/2024;;
 weAEdYae8v5Ol7;CharlieBOT;Parece que estás intentando implementar un método testEquals para una estructura de árbol, pero el código que has proporcionado tiene algunos errores de sintaxis y lógica. Además, parece que estás mezclando conceptos de árboles con el código que habíamos estado discutiendo sobre listas enlazadas. Si necesitas ayuda con la implementación de un método testEquals para una estructura de árbol, por favor proporciona más detalles sobre la estructura del árbol y cuál es el objetivo del método testEquals. De lo contrario, si tienes más preguntas relacionadas con sistemas de programación, estaré encantado de ayudarte.;10:20:45 - 26/06/2024;;
 weAEdYae8v5Ol7;User;"Completa el método boolean testEquals() que comprueba si los dos árboles binarios construidos son iguales. El resultado obtenido será true si los árboles son iguales y false si no lo son.

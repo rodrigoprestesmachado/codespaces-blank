@@ -1,6 +1,6 @@
-Id;Role;Message;Datetime;Classification;AI - 1%
-1LIlNQ39QRzunj;User;dime la complejidad de los algoritmos selection, inserion , bubble y quicksort;16:19:35 - 23/06/2024;Conceptual Questions;Yes
-1LIlNQ39QRzunj;semantic_search;;16:19:35 - 23/06/2024;;
+Id;Role;Message;Datetime;Classification;Topic;Change;AI - 1%
+1LIlNQ39QRzunj;User;dime la complejidad de los algoritmos selection, inserion , bubble y quicksort;16:19:35 - 23/06/2024;Conceptual Questions;Sorting;No;Yes
+1LIlNQ39QRzunj;semantic_search;;16:19:35 - 23/06/2024;;;;
 1LIlNQ39QRzunj;CharlieBOT;"La complejidad de los algoritmos de ordenación se puede medir en términos de
 tiempo y espacio. En el caso de la complejidad temporal, se suele hablar de la
 complejidad en el peor caso, en el caso promedio y en el mejor caso. En cuanto a
@@ -19,9 +19,9 @@ espacial, requiere O(log n) de memoria adicional debido a la recursión.   Es
 importante tener en cuenta que la complejidad de Quick Sort puede variar
 dependiendo de la elección del pivote y de la implementación del algoritmo. Si
 necesitas más detalles sobre alguno de estos algoritmos o tienes alguna otra
-pregunta relacionada con sistemas de programación, estaré encantado de ayudarte.";16:19:39 - 23/06/2024;;
-1LIlNQ39QRzunj;User;ordena el array 5,1,10,9 3 de manera ascendente con quicksort;16:24:32 - 23/06/2024;Complete Solution;Yes
-1LIlNQ39QRzunj;semantic_search;;16:24:32 - 23/06/2024;;
+pregunta relacionada con sistemas de programación, estaré encantado de ayudarte.";16:19:39 - 23/06/2024;;;;
+1LIlNQ39QRzunj;User;ordena el array 5,1,10,9 3 de manera ascendente con quicksort;16:24:32 - 23/06/2024;Complete Solution;Sorting;No;Yes
+1LIlNQ39QRzunj;semantic_search;;16:24:32 - 23/06/2024;;;;
 1LIlNQ39QRzunj;CharlieBOT;"Claro, puedo ayudarte con eso. Aquí tienes el código en JAVA para ordenar el
 array utilizando el algoritmo de Quick Sort: public class Main {     public
 static void main(String[] args) {         int[] array = {5, 1, 10, 9, 3};
@@ -37,9 +37,9 @@ j--;             } else { swap(a, i, j);             }         }         swap(a,
 l, j);         return j; }      public static void swap(int[] a, int i, int j) {
 int aux = a[i]; a[i] = a[j];         a[j] = aux;     } }  Al ejecutar este
 código, obtendrás el array ordenado de manera ascendente: [1, 3, 5, 9, 10]. Si
-necesitas ayuda con algo más, no dudes en preguntar.";16:24:35 - 23/06/2024;;
-1LIlNQ39QRzunj;User;cuantos pasos son necesarios;16:25:14 - 23/06/2024;Debugging Help;No
-1LIlNQ39QRzunj;semantic_search;nan;16:25:14 - 23/06/2024;;
+necesitas ayuda con algo más, no dudes en preguntar.";16:24:35 - 23/06/2024;;;;
+1LIlNQ39QRzunj;User;cuantos pasos son necesarios;16:25:14 - 23/06/2024;Debugging Help;Sorting;No;No
+1LIlNQ39QRzunj;semantic_search;nan;16:25:14 - 23/06/2024;;;;
 1LIlNQ39QRzunj;CharlieBOT;"El número de pasos necesarios para ordenar un array utilizando el algoritmo de
 Quick Sort puede variar dependiendo del contenido del array y de la elección de
 pivotes en cada iteración. En el mejor caso, el algoritmo tiene una complejidad
@@ -51,9 +51,9 @@ embargo, en promedio, el algoritmo tiene un rendimiento de O(n log n). Dicho
 esto, el número exacto de pasos necesarios para ordenar un array específico con
 Quick Sort puede variar dependiendo de la implementación y de los datos de
 entrada. Si tienes alguna otra pregunta o necesitas más detalles, no dudes en
-preguntar.";16:25:16 - 23/06/2024;;
-1LIlNQ39QRzunj;User;haz los pasos sin codigo;16:25:25 - 23/06/2024;Debugging Help;No
-1LIlNQ39QRzunj;semantic_search;nan;16:25:25 - 23/06/2024;;
+preguntar.";16:25:16 - 23/06/2024;;;;
+1LIlNQ39QRzunj;User;haz los pasos sin codigo;16:25:25 - 23/06/2024;Debugging Help;Sorting;No;No
+1LIlNQ39QRzunj;semantic_search;nan;16:25:25 - 23/06/2024;;;;
 1LIlNQ39QRzunj;CharlieBOT;"Claro, puedo guiarte a través de los pasos para ordenar el array {5, 1, 10, 9,
 3} utilizando el algoritmo de Quick Sort: Paso 1: Seleccionamos el primer
 elemento como pivote, en este caso 5. Paso 2: Reordenamos el array de manera que
@@ -68,9 +68,9 @@ seleccionamos 10 como pivote, lo que nos da {9, 10}. Paso 7: Después de
 completar los pasos anteriores, el array ordenado será {1, 3, 5, 9, 10}. Estos
 son los pasos generales para ordenar el array utilizando el algoritmo de Quick
 Sort. Si necesitas más detalles sobre algún paso en particular, no dudes en
-preguntar.";16:25:28 - 23/06/2024;;
-1LIlNQ39QRzunj;User;encuantas operaaciones de intercambio, o swaps has utilizado;16:26:31 - 23/06/2024;Debugging Help;No
-1LIlNQ39QRzunj;semantic_search;nan;16:26:31 - 23/06/2024;;
+preguntar.";16:25:28 - 23/06/2024;;;;
+1LIlNQ39QRzunj;User;encuantas operaaciones de intercambio, o swaps has utilizado;16:26:31 - 23/06/2024;Debugging Help;Sorting;No;No
+1LIlNQ39QRzunj;semantic_search;nan;16:26:31 - 23/06/2024;;;;
 1LIlNQ39QRzunj;CharlieBOT;"En el caso del array {5, 1, 10, 9, 3}, el número de intercambios o swaps
 realizados durante el proceso de ordenamiento con el algoritmo de Quick Sort
 sería el siguiente: Paso 1: Al seleccionar 5 como pivote, no se realiza ningún
@@ -82,22 +82,22 @@ durante el proceso recursivo. Paso 5: No se realizan intercambios en este paso.
 Paso 6: Se realiza 1 intercambio para ordenar el subarray derecho, quedando como
 {9, 10}. En total, se realizaron 3 intercambios durante el proceso de
 ordenamiento del array {5, 1, 10, 9, 3} con el algoritmo de Quick Sort. Si
-tienes alguna otra pregunta o necesitas más detalles, no dudes en preguntar.";16:26:37 - 23/06/2024;;
-1LIlNQ39QRzunj;User;necesto que metas un nodo en una cola que esta vacia;13:44:36 - 24/06/2024;Code Snippet;Yes
-1LIlNQ39QRzunj;semantic_search;nan;13:44:36 - 24/06/2024;;
+tienes alguna otra pregunta o necesitas más detalles, no dudes en preguntar.";16:26:37 - 23/06/2024;;;;
+1LIlNQ39QRzunj;User;necesto que metas un nodo en una cola que esta vacia;13:44:36 - 24/06/2024;Code Snippet;Data structures;Yes;Yes
+1LIlNQ39QRzunj;semantic_search;nan;13:44:36 - 24/06/2024;;;;
 1LIlNQ39QRzunj;CharlieBOT;"import java.util.LinkedList; import java.util.Queue;  public class Main { public
 static void main(String[] args) {         // Creamos una cola vacía
 Queue<Integer> cola = new LinkedList<>();          // Añadimos un nodo a la cola
 cola.add(5);          System.out.println(""Cola después de añadir el nodo: "" +
-cola);     } }";13:44:38 - 24/06/2024;;
-1LIlNQ39QRzunj;User;utiliza el metodo enqueue;13:45:30 - 24/06/2024;Code Snippet;Yes
-1LIlNQ39QRzunj;semantic_search;nan;13:45:30 - 24/06/2024;;
+cola);     } }";13:44:38 - 24/06/2024;;;;
+1LIlNQ39QRzunj;User;utiliza el metodo enqueue;13:45:30 - 24/06/2024;Code Snippet;Data structures;No;Yes
+1LIlNQ39QRzunj;semantic_search;nan;13:45:30 - 24/06/2024;;;;
 1LIlNQ39QRzunj;CharlieBOT;"import java.util.LinkedList; import java.util.Queue;  public class Main { public
 static void main(String[] args) {         // Creamos una cola vacía
 Queue<Integer> cola = new LinkedList<>();          // Añadimos un nodo a la cola
 utilizando el método enqueue (add)         cola.add(5); System.out.println(""Cola
-después de añadir el nodo: "" + cola);     } }";13:45:31 - 24/06/2024;;
-1LIlNQ39QRzunj;User;cuando una recursion es por cascada y cuando es anidada;16:57:17 - 24/06/2024;Conceptual Questions;Yes
+después de añadir el nodo: "" + cola);     } }";13:45:31 - 24/06/2024;;;;
+1LIlNQ39QRzunj;User;cuando una recursion es por cascada y cuando es anidada;16:57:17 - 24/06/2024;Conceptual Questions;Recursion;Yes;Yes
 1LIlNQ39QRzunj;semantic_search;"iteración Recursión  Proceso por el cual un método se llama a sí mismo de forma
 continuada hasta que se llegue a un determinado estado Caso recursivo: El método
 se invoca a sí mismo Caso base: Permite salir de la recursión   Un método
@@ -115,7 +115,7 @@ base Caso recursivo  Ejemplo 4: Cuenta atrás (con contador > 0) public static
 void cuentaAtras(int contador){     if(contador == 0){ return;     }     else{
 System.out.println(contador+"" ""); cuentaAtras(--contador);         return;     }
 }   Caso base Caso recursivo Ejercicio 1  Implementa el método recursivo
-square(int n), el cual permite calcular el cuadrado de n (cuando n > 1)";16:57:17 - 24/06/2024;;
+square(int n), el cual permite calcular el cuadrado de n (cuando n > 1)";16:57:17 - 24/06/2024;;;;
 1LIlNQ39QRzunj;CharlieBOT;"La recursión en cascada ocurre cuando una función se llama a sí misma varias
 veces en su propio cuerpo. Por ejemplo, en el siguiente código, la función
 factorial se llama a sí misma dos veces: public static int factorial(int n) { if
@@ -125,9 +125,9 @@ recursiva llama a otra función recursiva. Por ejemplo, en el siguiente código,
 la función a llama a la función b, y la función b llama a la función a: public
 static void a(int n) {     if (n > 0) {         b(n - 1);     } }  public static
 void b(int n) {     if (n > 0) {         a(n - 1);     } }  Es importante tener
-en cuenta que la recursión anidada no es tan común como la recursión en cascada.";16:57:20 - 24/06/2024;;
-1LIlNQ39QRzunj;User;para que sirve el distintio final;07:38:28 - 25/06/2024;Conceptual Questions;Yes
-1LIlNQ39QRzunj;semantic_search;nan;07:38:28 - 25/06/2024;;
+en cuenta que la recursión anidada no es tan común como la recursión en cascada.";16:57:20 - 24/06/2024;;;;
+1LIlNQ39QRzunj;User;para que sirve el distintio final;07:38:28 - 25/06/2024;Conceptual Questions;Java;Yes;Yes
+1LIlNQ39QRzunj;semantic_search;nan;07:38:28 - 25/06/2024;;;;
 1LIlNQ39QRzunj;CharlieBOT;"El modificador final en Java se puede aplicar a variables, métodos y clases, y
 tiene diferentes significados en cada caso:  Variables: Cuando se aplica a una
 variable, indica que el valor de esa variable no puede cambiar una vez que se le
@@ -139,9 +139,9 @@ metodoFinal() {     // Cuerpo del método }   Clases: Cuando se aplica a una
 clase, indica que la clase no puede tener subclases. Es decir, la clase final no
 puede ser extendida. public final class ClaseFinal {     // Cuerpo de la clase }
 En resumen, el modificador final se utiliza para crear elementos inmutables
-(variables), prevenir la modificación de métodos y evitar la herencia de clases.";07:38:30 - 25/06/2024;;
-1LIlNQ39QRzunj;User;par que sirve static;07:39:47 - 25/06/2024;Conceptual Questions;Yes
-1LIlNQ39QRzunj;semantic_search;nan;07:39:47 - 25/06/2024;;
+(variables), prevenir la modificación de métodos y evitar la herencia de clases.";07:38:30 - 25/06/2024;;;;
+1LIlNQ39QRzunj;User;par que sirve static;07:39:47 - 25/06/2024;Conceptual Questions;Java;No;Yes
+1LIlNQ39QRzunj;semantic_search;nan;07:39:47 - 25/06/2024;;;;
 1LIlNQ39QRzunj;CharlieBOT;"El modificador static en Java se utiliza para crear variables y métodos que
 pertenecen a la clase en lugar de pertenecer a instancias individuales de la
 clase. Aquí tienes algunos usos comunes del modificador static:  Variables
@@ -161,10 +161,10 @@ clase. Estos bloques se utilizan para inicializar variables estáticas. public
 class Ejemplo {     static {         // Código de inicialización estática     }
 }    En resumen, el modificador static se utiliza para crear variables y métodos
 que pertenecen a la clase en lugar de a instancias individuales, y para
-inicializar variables estáticas.";07:39:51 - 25/06/2024;;
+inicializar variables estáticas.";07:39:51 - 25/06/2024;;;;
 1LIlNQ39QRzunj;User;"en un ejercicio de arboles cuando hay que poner tree.isempty() y cuando vale con
-poner isempty() solo";09:08:11 - 25/06/2024;Conceptual Questions;Yes
-1LIlNQ39QRzunj;semantic_search;nan;09:08:11 - 25/06/2024;;
+poner isempty() solo";09:08:11 - 25/06/2024;Conceptual Questions;Data structures;Yes;Yes
+1LIlNQ39QRzunj;semantic_search;nan;09:08:11 - 25/06/2024;;;;
 1LIlNQ39QRzunj;CharlieBOT;"En Java, si estás trabajando con un objeto de tipo Tree y estás llamando al
 método isEmpty(), debes tener en cuenta el contexto en el que estás realizando
 la llamada al método. Si estás dentro de la clase Tree y quieres llamar al
@@ -179,9 +179,9 @@ isEmpty() usando el nombre de la instancia, de la siguiente manera: Tree tree =
 new Tree(); if (tree.isEmpty()) {     // Hacer algo si el árbol está vacío }  En
 resumen, si estás dentro de la clase Tree, puedes llamar al método isEmpty()
 directamente. Si estás fuera de la clase Tree, necesitas usar el nombre de la
-instancia seguido de un punto para llamar al método isEmpty().";09:08:14 - 25/06/2024;;
-1LIlNQ39QRzunj;User;cual es el metodo mas eficiente segun las complejidades;12:30:38 - 25/06/2024;Conceptual Questions;Yes
-1LIlNQ39QRzunj;semantic_search;nan;12:30:38 - 25/06/2024;;
+instancia seguido de un punto para llamar al método isEmpty().";09:08:14 - 25/06/2024;;;;
+1LIlNQ39QRzunj;User;cual es el metodo mas eficiente segun las complejidades;12:30:38 - 25/06/2024;Conceptual Questions;Sorting;Yes;Yes
+1LIlNQ39QRzunj;semantic_search;nan;12:30:38 - 25/06/2024;;;;
 1LIlNQ39QRzunj;CharlieBOT;"En el contexto de árboles, la eficiencia de los métodos depende de la operación
 que se esté realizando y de la implementación específica del árbol. Aquí hay
 algunos métodos comunes y sus complejidades típicas:  Búsqueda (search):  En un
@@ -202,9 +202,9 @@ estructura y el equilibrio del árbol, así como de la operación específica qu
 esté realizando. Es importante considerar el peor de los casos, el caso promedio
 y el mejor de los casos al evaluar la eficiencia de un método en un árbol. Si
 tienes una operación específica en mente, estaré encantado de proporcionarte más
-detalles sobre la eficiencia de esa operación en un árbol.";12:30:43 - 25/06/2024;;
-1LIlNQ39QRzunj;User;es mas eficiente log n o nlogn;12:31:00 - 25/06/2024;Conceptual Questions;Yes
-1LIlNQ39QRzunj;semantic_search;nan;12:31:00 - 25/06/2024;;
+detalles sobre la eficiencia de esa operación en un árbol.";12:30:43 - 25/06/2024;;;;
+1LIlNQ39QRzunj;User;es mas eficiente log n o nlogn;12:31:00 - 25/06/2024;Conceptual Questions;Sorting;No;Yes
+1LIlNQ39QRzunj;semantic_search;nan;12:31:00 - 25/06/2024;;;;
 1LIlNQ39QRzunj;CharlieBOT;"En términos de eficiencia, O(log n) es más eficiente que O(n log n). La notación
 O(log n) representa una complejidad logarítmica, lo que significa que el tiempo
 de ejecución aumenta de manera muy lenta a medida que n crece. Por otro lado,
@@ -212,9 +212,9 @@ O(n log n) representa una complejidad logarítmica lineal, que es más rápida q
 una complejidad lineal pura (O(n)), pero aún así crece más rápido que una
 complejidad logarítmica. En resumen, en términos de eficiencia, O(log n) es más
 eficiente que O(n log n) ya que el crecimiento logarítmico es más lento que el
-crecimiento logarítmico lineal.";12:31:02 - 25/06/2024;;
-1LIlNQ39QRzunj;User;como se implementa el metodo compareto;13:46:29 - 25/06/2024;Code Snippet;Yes
-1LIlNQ39QRzunj;semantic_search;nan;13:46:29 - 25/06/2024;;
+crecimiento logarítmico lineal.";12:31:02 - 25/06/2024;;;;
+1LIlNQ39QRzunj;User;como se implementa el metodo compareto;13:46:29 - 25/06/2024;Code Snippet;Java;Yes;Yes
+1LIlNQ39QRzunj;semantic_search;nan;13:46:29 - 25/06/2024;;;;
 1LIlNQ39QRzunj;CharlieBOT;"En Java, el método compareTo se implementa en la interfaz Comparable. Este
 método se utiliza para comparar el objeto actual con otro objeto especificado.
 La firma del método compareTo es la siguiente: public int compareTo(T o);  Donde
@@ -234,8 +234,8 @@ del método compareTo compara dos objetos Persona basándose en su edad. La rest
 de las edades proporciona el resultado que cumple con las reglas mencionadas
 anteriormente. Es importante recordar que al implementar la interfaz Comparable,
 se debe proporcionar una lógica de comparación coherente y que cumpla con las
-reglas establecidas para el método compareTo.";13:46:33 - 25/06/2024;;
-1LIlNQ39QRzunj;User;a que se refiere la palabra this en java;15:52:08 - 25/06/2024;Conceptual Questions;Yes
+reglas establecidas para el método compareTo.";13:46:33 - 25/06/2024;;;;
+1LIlNQ39QRzunj;User;a que se refiere la palabra this en java;15:52:08 - 25/06/2024;Conceptual Questions;Java;No;Yes
 1LIlNQ39QRzunj;semantic_search;"avanzada del sistema – Opciones avanzadas - Variables de entorno Estructura del
 Lenguaje Java Escenario II: Comprender el código  Te informan de que en tan solo
 una hora es la primera reunión de programadores y para entonces tienes que haber
@@ -260,7 +260,7 @@ Creación de un objeto Identificadores Palabras reservadas Tipos primitivos y de
 referencia en Java  Java imperativo Escenario III: Implementar un método  Una
 vez terminada la reunión de programadores y para probar tu pericia antes de
 integrarte en el equipo, tu jefe decide encargarte la implementación de varios
-métodos sencillos.";15:52:08 - 25/06/2024;;
+métodos sencillos.";15:52:08 - 25/06/2024;;;;
 1LIlNQ39QRzunj;CharlieBOT;"En Java, la palabra clave this se refiere a la instancia actual de la clase en
 la que se está utilizando. Se utiliza para hacer referencia a los miembros de la
 clase actual, como atributos y métodos. Algunos usos comunes de this incluyen:
@@ -280,9 +280,9 @@ la instancia actual de la clase. Por ejemplo: public class MiClase {     public
 MiClase obtenerInstancia() {         return this; // Devuelve la instancia
 actual de MiClase     } }    En resumen, la palabra clave this se refiere a la
 instancia actual de la clase y se utiliza para acceder a los miembros de la
-clase, llamar a otros constructores o devolver la instancia actual.";15:52:12 - 25/06/2024;;
-1LIlNQ39QRzunj;User;COMO FUNCIONA SUPER;20:45:25 - 25/06/2024;Conceptual Questions;Yes
-1LIlNQ39QRzunj;semantic_search;nan;20:45:25 - 25/06/2024;;
+clase, llamar a otros constructores o devolver la instancia actual.";15:52:12 - 25/06/2024;;;;
+1LIlNQ39QRzunj;User;COMO FUNCIONA SUPER;20:45:25 - 25/06/2024;Conceptual Questions;Java;No;Yes
+1LIlNQ39QRzunj;semantic_search;nan;20:45:25 - 25/06/2024;;;;
 1LIlNQ39QRzunj;CharlieBOT;"En Java, la palabra clave super se utiliza para hacer referencia a la clase
 padre inmediata de la clase actual. Se puede utilizar super para acceder a los
 miembros de la clase padre, llamar al constructor de la clase padre o invocar
@@ -302,9 +302,9 @@ clases padre, se puede utilizar super para especificar a cuál clase padre se
 está haciendo referencia.   En resumen, la palabra clave super se utiliza para
 hacer referencia a la clase padre inmediata y se puede utilizar para acceder a
 los miembros de la clase padre, llamar al constructor de la clase padre o evitar
-ambigüedad en la herencia múltiple.";20:45:29 - 25/06/2024;;
+ambigüedad en la herencia múltiple.";20:45:29 - 25/06/2024;;;;
 1LIlNQ39QRzunj;User;"haz un metodo recursivo que dado un arbol de strings devuelva el numero de nodos
-hoja de dicho arbol";21:52:15 - 25/06/2024;Complete Solution;Yes
+hoja de dicho arbol";21:52:15 - 25/06/2024;Complete Solution;Recursion;Yes;Yes
 1LIlNQ39QRzunj;semantic_search;"Estructura de un libro o documento Definición no recursiva Un árbol consiste en
 un conjunto de nodos y un conjunto de aristas, de forma que:  Se distingue un
 nodo llamado raíz A cada nodo h (hijo), excepto la raíz, le llega una arista de
@@ -325,7 +325,7 @@ el que para cada nodo n:  Todas las claves de los nodos del subárbol izquierdo
 son menores que la clave de n Y todas las del subárbol derecho mayores.
 Montículos (heaps) Un montículo (binario) es un árbol binario completo en el que
 cada nodo tiene una clave mayor(*) que la de su padre (min-heap). Aplicaciones:
-Colas con prioridad Ordenación (Heap Sort)  Ejercicios""";21:52:15 - 25/06/2024;;
+Colas con prioridad Ordenación (Heap Sort)  Ejercicios""";21:52:15 - 25/06/2024;;;;
 1LIlNQ39QRzunj;CharlieBOT;"Claro, puedo ayudarte con eso. Aquí tienes un método recursivo en Java que
 recorre un árbol de strings y devuelve el número de nodos hoja: public class
 Arbol {     private String valor;     private Arbol izquierdo;     private Arbol
@@ -343,9 +343,9 @@ contarNodosHoja es recursivo y cuenta el número de nodos hoja en el árbol. Si 
 nodo actual es una hoja, devuelve 1. Si no, hace la llamada recursiva a los
 subárboles izquierdo y derecho, y devuelve la suma de los nodos hoja encontrados
 en ambos subárboles. Espero que este método sea útil para tu aplicación. Si
-necesitas más ayuda, no dudes en preguntar.";21:52:23 - 25/06/2024;;
-1LIlNQ39QRzunj;User;como funciona heapsort;12:14:52 - 26/06/2024;Conceptual Questions;Yes
-1LIlNQ39QRzunj;semantic_search;nan;12:14:52 - 26/06/2024;;
+necesitas más ayuda, no dudes en preguntar.";21:52:23 - 25/06/2024;;;;
+1LIlNQ39QRzunj;User;como funciona heapsort;12:14:52 - 26/06/2024;Conceptual Questions;Sorting;Yes;Yes
+1LIlNQ39QRzunj;semantic_search;nan;12:14:52 - 26/06/2024;;;;
 1LIlNQ39QRzunj;CharlieBOT;"Heapsort es un algoritmo de ordenamiento que utiliza una estructura de datos
 llamada heap. Un heap es un árbol binario completo que cumple con la propiedad
 de heap, que puede ser un max-heap o un min-heap. En el caso de heapsort, se
@@ -358,9 +358,9 @@ cada extracción para mantener la propiedad de heap. Los elementos extraídos se
 colocan al final del arreglo, lo que resulta en un arreglo ordenado al final del
 proceso.   El tiempo de ejecución de heapsort es O(n log n) en el peor caso, lo
 que lo hace eficiente para grandes conjuntos de datos. Si necesitas más detalles
-sobre la implementación en Java o algún otro aspecto, no dudes en preguntar.";12:14:56 - 26/06/2024;;
-1LIlNQ39QRzunj;User;aplicalo para ordenar 5,3,4,1,2 de menor a mayor;12:16:24 - 26/06/2024;Complete Solution;Yes
-1LIlNQ39QRzunj;semantic_search;nan;12:16:24 - 26/06/2024;;
+sobre la implementación en Java o algún otro aspecto, no dudes en preguntar.";12:14:56 - 26/06/2024;;;;
+1LIlNQ39QRzunj;User;aplicalo para ordenar 5,3,4,1,2 de menor a mayor;12:16:24 - 26/06/2024;Complete Solution;Sorting;No;Yes
+1LIlNQ39QRzunj;semantic_search;nan;12:16:24 - 26/06/2024;;;;
 1LIlNQ39QRzunj;CharlieBOT;"Claro, puedo mostrarte cómo implementar el algoritmo de heapsort en Java para
 ordenar el arreglo {5, 3, 4, 1, 2} de menor a mayor. Aquí tienes un ejemplo de
 código: import java.util.Arrays;  public class HeapSort {     public static void
@@ -383,9 +383,9 @@ int swap = arr[i];             arr[i] = arr[largest];             arr[largest] =
 swap;              // Recursivamente heapify el subárbol afectado heapify(arr,
 n, largest);         }     } }  Al ejecutar este código, obtendrás el arreglo
 ordenado {1, 2, 3, 4, 5}. Si tienes alguna pregunta sobre el código o el
-algoritmo, no dudes en preguntar.";12:16:29 - 26/06/2024;;
-1LIlNQ39QRzunj;User;explica los swaps sin el codigo;12:16:42 - 26/06/2024;Debugging Help;No
-1LIlNQ39QRzunj;semantic_search;nan;12:16:42 - 26/06/2024;;
+algoritmo, no dudes en preguntar.";12:16:29 - 26/06/2024;;;;
+1LIlNQ39QRzunj;User;explica los swaps sin el codigo;12:16:42 - 26/06/2024;Debugging Help;Sorting;No;No
+1LIlNQ39QRzunj;semantic_search;nan;12:16:42 - 26/06/2024;;;;
 1LIlNQ39QRzunj;CharlieBOT;"Claro, sin entrar en detalles de código, los swaps en el algoritmo de heapsort
 se utilizan para reorganizar el arreglo y mantener la propiedad de heap durante
 la construcción del heap y la extracción del máximo. Durante la construcción del
@@ -401,9 +401,9 @@ swaps son fundamentales para mantener la estructura de datos del heap y
 garantizar que el algoritmo de heapsort funcione correctamente para ordenar el
 arreglo. Espero que esta explicación te haya ayudado a comprender el papel de
 los swaps en el algoritmo de heapsort. Si tienes más preguntas, no dudes en
-hacerlas.";12:16:45 - 26/06/2024;;
-1LIlNQ39QRzunj;User;hazlo con el ejemplo;12:16:56 - 26/06/2024;Debugging Help;No
-1LIlNQ39QRzunj;semantic_search;nan;12:16:56 - 26/06/2024;;
+hacerlas.";12:16:45 - 26/06/2024;;;;
+1LIlNQ39QRzunj;User;hazlo con el ejemplo;12:16:56 - 26/06/2024;Debugging Help;Sorting;No;No
+1LIlNQ39QRzunj;semantic_search;nan;12:16:56 - 26/06/2024;;;;
 1LIlNQ39QRzunj;CharlieBOT;"Claro, con el ejemplo del arreglo {5, 3, 4, 1, 2}, el proceso de swaps se vería
 de la siguiente manera durante la construcción del heap y la extracción del
 máximo:  Construcción del heap:  Se realizarían swaps para reorganizar el
@@ -417,15 +417,15 @@ cumpla con la propiedad de heap, lo cual implicaría más swaps entre nodos. Est
 swaps se realizan para garantizar que el arreglo esté ordenado de menor a mayor
 al final del proceso de heapsort. Espero que esta explicación te haya ayudado a
 visualizar cómo se realizan los swaps con el ejemplo dado. Si tienes más
-preguntas, no dudes en hacerlas.";12:17:00 - 26/06/2024;;
-1LIlNQ39QRzunj;User;cuantos swaps has hecho;12:20:31 - 26/06/2024;Debugging Help;No
-1LIlNQ39QRzunj;semantic_search;nan;12:20:31 - 26/06/2024;;
+preguntas, no dudes en hacerlas.";12:17:00 - 26/06/2024;;;;
+1LIlNQ39QRzunj;User;cuantos swaps has hecho;12:20:31 - 26/06/2024;Debugging Help;Sorting;No;No
+1LIlNQ39QRzunj;semantic_search;nan;12:20:31 - 26/06/2024;;;;
 1LIlNQ39QRzunj;CharlieBOT;"En el ejemplo dado, se realizaron 3 swaps durante la construcción del heap y 2
 swaps durante la extracción del máximo, para un total de 5 swaps en total.
 Espero que esta información sea útil. Si tienes más preguntas o necesitas más
-aclaraciones, no dudes en preguntar.";12:20:32 - 26/06/2024;;
-1LIlNQ39QRzunj;User;para que sirve static;13:01:21 - 26/06/2024;Conceptual Questions;Yes
-1LIlNQ39QRzunj;semantic_search;nan;13:01:21 - 26/06/2024;;
+aclaraciones, no dudes en preguntar.";12:20:32 - 26/06/2024;;;;
+1LIlNQ39QRzunj;User;para que sirve static;13:01:21 - 26/06/2024;Conceptual Questions;Java;Yes;Yes
+1LIlNQ39QRzunj;semantic_search;nan;13:01:21 - 26/06/2024;;;;
 1LIlNQ39QRzunj;CharlieBOT;"El modificador ""static"" en Java se utiliza para crear variables y métodos que
 pertenecen a la clase en sí misma, en lugar de pertenecer a instancias
 individuales de la clase. Algunos usos comunes de ""static"" son:  Variables
@@ -441,4 +441,4 @@ bloques se ejecutan cuando la clase es cargada por primera vez.   El uso de
 ""static"" es fundamental para la programación en Java, ya que permite la creación
 de elementos que pertenecen a la clase en sí misma, en lugar de pertenecer a
 instancias individuales de la clase. Si necesitas más ejemplos o aclaraciones
-sobre el uso de ""static"", no dudes en preguntar.";13:01:25 - 26/06/2024;;
+sobre el uso de ""static"", no dudes en preguntar.";13:01:25 - 26/06/2024;;;;

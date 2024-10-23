@@ -1,0 +1,33 @@
+@startuml
+
+state "Sorting and searching" as Sorting
+state "Data structure" as DS
+state "Recursion" as Recursion
+state "Java" as Java
+
+[*] --> Sorting : 1: 0 h
+Sorting : 2: CQ, CSO, DH, DH, DH - 7 min
+Sorting --> DS : 3: 21,3 h \n Spacing \n Interleaving
+DS : 4: CS, CS  - 0.9 min
+DS --> Recursion : 5: 3.2 h \n Spacing \n Interleaving
+Recursion : 6: CQ - 0 min
+Recursion --> Java : 7: 14,7 h \n Spacing \n Interleaving
+Java : 8: CQ, CQ - 1,3 min
+Java --> DS : 9: 1,5 h \n Spacing \n Interleaving
+DS : 10: CQ - 0 min
+DS --> Sorting : 11: 3,4 h \n Spacing \n Interleaving
+Sorting : 12: CQ, CQ - 0,4 min
+Sorting --> Java : 13: 1,3 h \n Spacing \n Interleaving
+Java : 14: CS - 0 min
+Java --> Java : 15: 2,1 h \n Spacing \n Retriavel
+Java : 16: CQ - 0 min
+Java --> Java : 17: 4,9 h \n Spacing \n Retriavel
+Java : 18: CQ - 0 min
+Java --> Recursion : 19: 1,1 h \n Spacing \n Interleaving
+Recursion: 20: CSO - 0 min
+Recursion --> Sorting : 21: 14,4 h \n Spacing \n Interleaving
+Sorting : 22: CQ, CSO, DH, DH, DH - 5,6 min
+Sorting --> Java : 23: 40.8 min \n Interleaving
+Java : 24: CQ - 0 min
+
+@enduml

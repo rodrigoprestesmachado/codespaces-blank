@@ -1,4 +1,4 @@
-Id;Role;Message;Datetime;Classification;AI -4%;
+Id;Role;Message;Datetime;Classification;AI - 4%;
 Te6kOmGJXYpu5ZA;User;para introducir datos a una cola como se hace;19:15:55 - 25/06/2024;Conceptual Questions;Yes;
 Te6kOmGJXYpu5ZA;semantic_search;;19:15:55 - 25/06/2024;;;
 Te6kOmGJXYpu5ZA;CharlieBOT;"Para introducir datos a una cola en Java, puedes utilizar la interfaz Queue y su implementación LinkedList. Aquí tienes un ejemplo de cómo hacerlo:

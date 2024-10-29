@@ -1,5 +1,5 @@
-Id;Role;Message;Datetime;Classification;AI - 11%
-oQL6xX9W2uNxXKy;User;en este quicksort cuantos swaps tiene: {5,3,10,9,2};14:56:07 - 29/05/2024;Conceptual Questions;No
+Id;Role;Message;Datetime;Classification;Topic;Change;AI - 11%
+oQL6xX9W2uNxXKy;User;en este quicksort cuantos swaps tiene: {5,3,10,9,2};14:56:07 - 29/05/2024;Conceptual Questions;Sorting;No;No
 oQL6xX9W2uNxXKy;semantic_search;"#### Quick Sort
 - Elige un dato, el pivote, de la lista.
 - Reordena la lista de forma que:
@@ -45,7 +45,7 @@ public static void swap (int[] a, int i, int j) {
     a[j]=aux;
  }""
 
-Quick Sort.";14:56:07 - 29/05/2024;;
+Quick Sort.";14:56:07 - 29/05/2024;;;;
 oQL6xX9W2uNxXKy;CharlieBOT;"Para determinar cuántos swaps tiene el algoritmo de ordenamiento Quick Sort para el arreglo {5,3,10,9,2}, debemos seguir el algoritmo paso a paso y contar los swaps que se realizan. Primero, el pivote se elige como el primer elemento del arreglo, que es 5. Luego, se reordena la lista de forma que los datos menores que el pivote estén a la izquierda del pivote y los datos mayores a su derecha. El proceso de ordenamiento y los swaps se realizan de la siguiente manera:
 
 Se compara 3 con el pivote 5, por lo que se realiza un swap entre 3 y 5.
@@ -53,4 +53,4 @@ Se compara 10 con el pivote 5, y como 10 es mayor, no se realiza ningún swap.
 Se compara 9 con el pivote 5, y como 9 es mayor, no se realiza ningún swap.
 Se compara 2 con el pivote 5, por lo que se realiza un swap entre 2 y 10.
 
-Después de estos pasos, el arreglo queda ordenado de la siguiente manera: {3,2,5,9,10}. Por lo tanto, el número de swaps realizados es 2. Recuerda que el algoritmo Quick Sort realiza swaps para reordenar los elementos de la lista de acuerdo al pivote. Si tienes alguna otra pregunta relacionada con sistemas de programación, no dudes en preguntar.";14:56:12 - 29/05/2024;;
+Después de estos pasos, el arreglo queda ordenado de la siguiente manera: {3,2,5,9,10}. Por lo tanto, el número de swaps realizados es 2. Recuerda que el algoritmo Quick Sort realiza swaps para reordenar los elementos de la lista de acuerdo al pivote. Si tienes alguna otra pregunta relacionada con sistemas de programación, no dudes en preguntar.";14:56:12 - 29/05/2024;;;;

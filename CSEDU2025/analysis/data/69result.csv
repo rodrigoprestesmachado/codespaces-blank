@@ -1,6 +1,6 @@
-Id;Role;Message;Datetime;Classification;AI - 11%
-K3H4qUU37Abx3MK;User;me puedes hacer un codigo para el bubble sort;08:48:01 - 29/05/2024;Complete Solution;No
-K3H4qUU37Abx3MK;semantic_search;;08:48:01 - 29/05/2024;;
+Id;Role;Message;Datetime;Classification;Topic;Change;AI - 11%
+K3H4qUU37Abx3MK;User;me puedes hacer un codigo para el bubble sort;08:48:01 - 29/05/2024;Complete Solution;Sorting;No;No
+K3H4qUU37Abx3MK;semantic_search;;08:48:01 - 29/05/2024;;;;
 K3H4qUU37Abx3MK;CharlieBOT;"¡Claro que sí! Aquí tienes un ejemplo de código para el algoritmo de ordenamiento de burbuja en Java:
 
 public class BubbleSort {
@@ -36,9 +36,9 @@ public class BubbleSort {
     }
 }
 
-Este código ordenará un arreglo de números utilizando el algoritmo de ordenamiento de burbuja. Espero que te sea útil. Si tienes alguna otra pregunta, no dudes en preguntar.";08:48:05 - 29/05/2024;;
-K3H4qUU37Abx3MK;User;y en generico;08:50:56 - 29/05/2024;Code Snippet;Yes
-K3H4qUU37Abx3MK;semantic_search;;08:50:56 - 29/05/2024;;
+Este código ordenará un arreglo de números utilizando el algoritmo de ordenamiento de burbuja. Espero que te sea útil. Si tienes alguna otra pregunta, no dudes en preguntar.";08:48:05 - 29/05/2024;;;;
+K3H4qUU37Abx3MK;User;y en generico;08:50:56 - 29/05/2024;Code Snippet;Sorting;No;Yes
+K3H4qUU37Abx3MK;semantic_search;;08:50:56 - 29/05/2024;;;;
 K3H4qUU37Abx3MK;CharlieBOT;"Claro, puedo mostrarte cómo implementar el algoritmo de ordenamiento de burbuja de manera genérica en Java utilizando el concepto de programación genérica. Aquí tienes un ejemplo:
 
 public class BubbleSort {
@@ -80,4 +80,4 @@ public class BubbleSort {
     }
 }
 
-En este ejemplo, la función bubbleSort está definida como genérica, lo que permite ordenar arreglos de cualquier tipo que implemente la interfaz Comparable. Luego se muestra un ejemplo de ordenamiento de un arreglo de enteros y un arreglo de cadenas. Espero que esto te sea útil. Si tienes más preguntas, no dudes en preguntar.";08:51:00 - 29/05/2024;;
+En este ejemplo, la función bubbleSort está definida como genérica, lo que permite ordenar arreglos de cualquier tipo que implemente la interfaz Comparable. Luego se muestra un ejemplo de ordenamiento de un arreglo de enteros y un arreglo de cadenas. Espero que esto te sea útil. Si tienes más preguntas, no dudes en preguntar.";08:51:00 - 29/05/2024;;;;

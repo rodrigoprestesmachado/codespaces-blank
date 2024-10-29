@@ -1,5 +1,5 @@
 Id;Role;Message;Datetime;Classification;Topic;Change;AI - 4%
-3Wt7jbuOtfk9Hka;User;que hace este codigo;09:28:41 - 16/06/2024;Uncategorized;Uncategorized;Yes;No
+3Wt7jbuOtfk9Hka;User;que hace este codigo;09:28:41 - 16/06/2024;Uncategorized;Java;No;No
 3Wt7jbuOtfk9Hka;semantic_search;;09:28:41 - 16/06/2024;;;;
 3Wt7jbuOtfk9Hka;CharlieBOT;¡Hola! Para poder ayudarte, necesitaría que me proporciones el código del que quieres que te explique su funcionamiento. Una vez que lo tengas, estaré encantado de ayudarte a entenderlo.;09:28:42 - 16/06/2024;;;;
 3Wt7jbuOtfk9Hka;User;"int numbers[] = {1, 2, 3, 4, 5, 6};
@@ -69,7 +69,7 @@ int suma = a + b; // Utilizando el operador de suma con variables numéricas
 boolean esMayor = (a > b); // Utilizando el operador de comparación con variables numéricas
 
 En este caso, se utilizan operadores aritméticos y de comparación con variables numéricas para realizar operaciones y comparaciones. Si tienes más preguntas sobre el uso de operadores en Java o cualquier otro tema relacionado con la programación de sistemas, no dudes en preguntar.";09:58:15 - 16/06/2024;;;;
-3Wt7jbuOtfk9Hka;User;hazme un resumen;09:58:39 - 16/06/2024;Uncategorized;Uncategorized;No;Yes
+3Wt7jbuOtfk9Hka;User;hazme un resumen;09:58:39 - 16/06/2024;Uncategorized;Java;No;Yes
 3Wt7jbuOtfk9Hka;semantic_search;;09:58:39 - 16/06/2024;;;;
 3Wt7jbuOtfk9Hka;CharlieBOT;"Claro, aquí tienes un resumen sobre variables y operadores en Java:
 

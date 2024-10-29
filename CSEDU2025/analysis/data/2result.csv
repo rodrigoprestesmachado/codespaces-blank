@@ -83,14 +83,14 @@ Paso 6: Se realiza 1 intercambio para ordenar el subarray derecho, quedando como
 {9, 10}. En total, se realizaron 3 intercambios durante el proceso de
 ordenamiento del array {5, 1, 10, 9, 3} con el algoritmo de Quick Sort. Si
 tienes alguna otra pregunta o necesitas más detalles, no dudes en preguntar.";16:26:37 - 23/06/2024;;;;
-1LIlNQ39QRzunj;User;necesto que metas un nodo en una cola que esta vacia;13:44:36 - 24/06/2024;Code Snippet;Data structures;Yes;Yes
+1LIlNQ39QRzunj;User;necesto que metas un nodo en una cola que esta vacia;13:44:36 - 24/06/2024;Code Snippet;Data Structures;Yes;Yes
 1LIlNQ39QRzunj;semantic_search;nan;13:44:36 - 24/06/2024;;;;
 1LIlNQ39QRzunj;CharlieBOT;"import java.util.LinkedList; import java.util.Queue;  public class Main { public
 static void main(String[] args) {         // Creamos una cola vacía
 Queue<Integer> cola = new LinkedList<>();          // Añadimos un nodo a la cola
 cola.add(5);          System.out.println(""Cola después de añadir el nodo: "" +
 cola);     } }";13:44:38 - 24/06/2024;;;;
-1LIlNQ39QRzunj;User;utiliza el metodo enqueue;13:45:30 - 24/06/2024;Code Snippet;Data structures;No;Yes
+1LIlNQ39QRzunj;User;utiliza el metodo enqueue;13:45:30 - 24/06/2024;Code Snippet;Data Structures;No;Yes
 1LIlNQ39QRzunj;semantic_search;nan;13:45:30 - 24/06/2024;;;;
 1LIlNQ39QRzunj;CharlieBOT;"import java.util.LinkedList; import java.util.Queue;  public class Main { public
 static void main(String[] args) {         // Creamos una cola vacía
@@ -163,7 +163,7 @@ class Ejemplo {     static {         // Código de inicialización estática    
 que pertenecen a la clase en lugar de a instancias individuales, y para
 inicializar variables estáticas.";07:39:51 - 25/06/2024;;;;
 1LIlNQ39QRzunj;User;"en un ejercicio de arboles cuando hay que poner tree.isempty() y cuando vale con
-poner isempty() solo";09:08:11 - 25/06/2024;Conceptual Questions;Data structures;Yes;Yes
+poner isempty() solo";09:08:11 - 25/06/2024;Conceptual Questions;Data Structures;Yes;Yes
 1LIlNQ39QRzunj;semantic_search;nan;09:08:11 - 25/06/2024;;;;
 1LIlNQ39QRzunj;CharlieBOT;"En Java, si estás trabajando con un objeto de tipo Tree y estás llamando al
 método isEmpty(), debes tener en cuenta el contexto en el que estás realizando

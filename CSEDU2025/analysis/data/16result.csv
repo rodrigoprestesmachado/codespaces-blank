@@ -1,4 +1,4 @@
-Id;Role;Message;Datetime;Classification;AI - 4%
+Id;Role;Message;Datetime;Classification;Topic;Change;AI - 4%
 gFs7mwJ5GGtkKNI;User;"explicame detalladamente este codigo public void insert(E info){
     Node newNode = new Node(info);
     Node current, previous;
@@ -32,8 +32,8 @@ gFs7mwJ5GGtkKNI;User;"explicame detalladamente este codigo public void insert(E 
             }
         }
     }
-}";19:21:26 - 24/06/2024;Debugging Help;Yes
-gFs7mwJ5GGtkKNI;semantic_search;;19:21:26 - 24/06/2024;;
+}";19:21:26 - 24/06/2024;Debugging Help;Data Structures;No;Yes
+gFs7mwJ5GGtkKNI;semantic_search;;19:21:26 - 24/06/2024;;;;
 gFs7mwJ5GGtkKNI;CharlieBOT;"Este código es una implementación de un método de inserción en una lista enlazada ordenada. Te explicaré paso a paso lo que hace:
 
 Se define un método público llamado ""insert"" que recibe un parámetro de tipo genérico E llamado ""info"".
@@ -52,9 +52,9 @@ Si no se ha encontrado igualdad, se verifica si el nodo anterior es igual al nod
 
 El método termina después de realizar la inserción.
 
-Es importante destacar que este código asume que la clase del tipo genérico E implementa la interfaz Comparable, ya que se utilizan comparaciones con el método ""compareTo"". Espero que esta explicación te haya ayudado a comprender el código. Si tienes alguna otra pregunta, no dudes en preguntar.";19:21:30 - 24/06/2024;;
-gFs7mwJ5GGtkKNI;User;mas detalladamente;19:21:35 - 24/06/2024;Debugging Help;Yes
-gFs7mwJ5GGtkKNI;semantic_search;;19:21:35 - 24/06/2024;;
+Es importante destacar que este código asume que la clase del tipo genérico E implementa la interfaz Comparable, ya que se utilizan comparaciones con el método ""compareTo"". Espero que esta explicación te haya ayudado a comprender el código. Si tienes alguna otra pregunta, no dudes en preguntar.";19:21:30 - 24/06/2024;;;;
+gFs7mwJ5GGtkKNI;User;mas detalladamente;19:21:35 - 24/06/2024;Debugging Help;Data Structures;No;Yes
+gFs7mwJ5GGtkKNI;semantic_search;;19:21:35 - 24/06/2024;;;;
 gFs7mwJ5GGtkKNI;CharlieBOT;"Claro, vamos a desglosar el código en más detalle:
 
 Se define un método público llamado ""insert"" que recibe un parámetro de tipo genérico E llamado ""info"".
@@ -113,4 +113,4 @@ Si no se ha encontrado igualdad, se verifica si el nodo anterior es igual al nod
 
 El método termina después de realizar la inserción.
 
-Espero que esta explicación más detallada te haya ayudado a comprender el código. Si tienes alguna otra pregunta, no dudes en preguntar.";19:21:40 - 24/06/2024;;
+Espero que esta explicación más detallada te haya ayudado a comprender el código. Si tienes alguna otra pregunta, no dudes en preguntar.";19:21:40 - 24/06/2024;;;;

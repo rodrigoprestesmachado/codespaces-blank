@@ -1,6 +1,6 @@
-Id;Role;Menssage;Datetime;Classification;AI - 11%
-caZQftvOAr8d9Sd;User;me puedes hacer un codigo generico para el bubble sort;08:47:35 - 29/05/2024;Complete Solution;No
-caZQftvOAr8d9Sd;semantic_search;;08:47:35 - 29/05/2024;;
+Id;Role;Message;Datetime;Classification;Topic;Change;AI - 11%
+caZQftvOAr8d9Sd;User;me puedes hacer un codigo generico para el bubble sort;08:47:35 - 29/05/2024;Complete Solution;Sorting;No;No
+caZQftvOAr8d9Sd;semantic_search;;08:47:35 - 29/05/2024;;;;
 caZQftvOAr8d9Sd;CharlieBOT;"¡Claro que sí! Aquí tienes un ejemplo genérico de cómo implementar el algoritmo de ordenamiento ""Bubble Sort"" en Java:
 
 public class BubbleSort {
@@ -30,4 +30,4 @@ public class BubbleSort {
 
 Este código utiliza el concepto de ""generics"" en Java para permitir que el algoritmo de ordenamiento funcione con cualquier tipo de datos que implemente la interfaz Comparable. De esta manera, puedes usar el algoritmo con arrays de enteros, cadenas, objetos personalizados, etc.
 
-Espero que este ejemplo te sea útil. Si tienes alguna pregunta adicional, no dudes en preguntar.";08:47:39 - 29/05/2024;;
+Espero que este ejemplo te sea útil. Si tienes alguna pregunta adicional, no dudes en preguntar.";08:47:39 - 29/05/2024;;;;

@@ -163,7 +163,7 @@ public class DequeExample {
 }  
 
 En este ejemplo, se crea un Deque utilizando la implementación ArrayDeque, se agregan elementos al principio y al final, se acceden y eliminan elementos, y se recorren los elementos en el Deque.";16:39:12 - 25/06/2024;;
-sqzdRuqNHXHJIWH;User;que es un NullPointerException;16:39:54 - 25/06/2024;Conceptual Questions;Yes
+sqzdRuqNHXHJIWH;User;que es un NullPointerException;16:39:54 - 25/06/2024;Debugging Help;No
 sqzdRuqNHXHJIWH;semantic_search;;16:39:54 - 25/06/2024;;
 sqzdRuqNHXHJIWH;CharlieBOT;"Un NullPointerException es una excepción que ocurre en tiempo de ejecución en Java cuando intentas acceder a un objeto que es null. En otras palabras, estás tratando de llamar a un método o acceder a un campo de un objeto que no ha sido inicializado, lo que provoca esta excepción. Por ejemplo, si intentas llamar un método o acceder a un campo de un objeto que es null, como en el siguiente código: 
 String text = null; 

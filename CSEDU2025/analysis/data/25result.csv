@@ -1,4 +1,4 @@
-Id;Role;Message;Datetime;Classification;AI = 4%
+Id;Role;Message;Datetime;Classification;AI - 4%
 zDA0vG61KVAIG4y;User;"Dado el array data = f0, 1, 2, 3g, >cu´al es el valor de data tras terminar la ejecuci´on del siguiente m´etodo? 
 public void mystery(int[] data) { 
     if(data.length>=2) { 

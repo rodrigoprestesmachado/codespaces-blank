@@ -42,16 +42,18 @@ de Madrid, Leganés (Madrid), Spain}
 }
 
 \abstract{
-This study examines the interactions of programming students with a chatbot
-powered by OpenAI's GPT-3.5 and enhanced with the Retrieval-Augmented Generation
-(RAG) technique, within the context of a Java programming course. It
-investigates how students use the bot while employing two metacognitive
-strategies: interleaving and spacing. Using the logs of student interactions
-with the bot, the methodology involved classifying and analyzing student prompts
-into eight distinct categories. The findings reveal that while most interactions
-emphasize active learning strategies, students demonstrate limited conscious
-application of interleaving and spacing. This study underscores the need for
-more guidance on the strategic use of AI tools to improve learning outcomes.
+The aim of this study is to analyze the interactions of programming students
+with a chatbot powered by OpenAI's GPT-3.5, enhanced with the Retrieval
+Augmented Generation (RAG) technique, within the context of a Java programming
+course. The study investigates how students use the chatbot while employing
+two metacognitive strategies: interleaving and spacing. By analyzing the logs
+of student interactions with the chatbot, the methodology involved
+classifying and categorizing student prompts into eight distinct types. The
+findings reveal that, while most interactions focus on active learning
+strategies, students show limited conscious application of study strategies such
+as interleaving and spacing. The study highlights the need for more
+comprehensive guidance on the strategic use of AI tools to enhance learning
+outcomes.
 }
 
 \twocolumn\maketitle\normalsize\setcounter{footnote}{0}
@@ -119,8 +121,8 @@ questions:
 \begin{itemize}
   \item RQ1 - What distribution patterns emerged in the classified student
   interaction prompts with the educational chatbot?
-  \item RQ2 - Was there spacing between student prompts, and if so, which
-  category led to the most rapid and consistent interactions with the bot?
+  \item RQ2 - Was there spacing between student prompts? Which category led to
+  the most rapid and consistent interactions with the bot?
   \item RQ3 - Do students' interactions with the bot alternate between study
   topics to suggest interleaving?
 \end{itemize}
@@ -138,28 +140,6 @@ This paper is organized as follows. Section 2 presents the theoretical
 framework, Section 3 describes the material and methods used in the study,
 Section 4 presents the results and discussion, and Section 5 concludes the
 paper and outlines future work.
-
-%% Are there any existing solutions?
-% To deal with this issue, some researchers have proposed different pedagogical
-% strategies \cite{Denny24} introduced the concept of \textit{Prompt
-% Problems}, where students solve programming exercises by formulating natural
-% language prompts. \cite{Prasad24} proposed a self-regulated learning framework
-% using GenAI to solve programming problems. \cite{Lauren23} explored the
-% integration of GenAI with evidence-based learning strategies in computer science
-% and engineering courses.
-
-%% Which is the best?
-
-% The study of effective educational strategies in use of GenAI tools in education
-% context are important for determining the best training for educators. However,
-% as these tools gain popularity among students \cite{Dickey24} the urgency to
-% equip educators with best practices may lag behind their rapid adoption.
-% Therefore, analyzing students' interaction patterns with GenAI tools is
-% important for understanding how these tools are being used and how educators can
-% leverage them to enhance learning. In addition, these interaction patterns can
-% create new opportunities to redesign GenAI tools to better support pedagogical
-% strategies without repressing the development of abstract, critical and creative
-% thinking.
 
 \section{\uppercase{Theoretical Framework}}
 
@@ -365,7 +345,8 @@ available at: https://github.com/rodrigoprestesmachado/uc3m.
 \begin{figure*}[htbp]
   \centering
   \includegraphics[scale=0.39]{img/figure3.png}
-  \caption{Average interaction time per category.}
+  \caption{Subsections per conversation. \textit{A zero value indicates
+  no subsection and no spacing.}}
   \label{fig:graph3}
 \end{figure*}
 
@@ -376,11 +357,12 @@ an average of 7.72 messages per conversation. This data offers insights into how
 users engage with CharlieBot and the types of prompts they submit. The results
 of the analysis are presented in this section, addressing the research questions
 outlined in the introduction. Figure \ref{fig:graph1} shows the distribution of
-the messages in the categories.
+the messages in the categories. The following sections present the results and
+discussions of each research questions.
 
 \subsection{Categorization of messages}
 
-About the first research question: \textit{RQ1: What distribution patterns
+About the first research question: \textit{RQ1 - What distribution patterns
 emerged in the classified student interaction prompts with the educational
 chatbot?}
 
@@ -460,9 +442,8 @@ were typically requests for the bot to switch languages, as seen in conversation
 
 \subsection{Spacing}
 
-About the second research question: \textit{RQ2: Was there spacing between
-student prompts, and if so, which category led to the most rapid and consistent
-interactions with the bot?}
+About the first part of the second research question: \textit{RQ2 - Was there
+spacing between student prompts?}
 
 For the analysis of the spacing, we initially considered a minimum interval of
 60 minutes as a reference to define the significant spacing \citep{Gadella24}.
@@ -485,6 +466,9 @@ students must close the browser tab and start a new conversation, which results
 in losing the previous chat history.
 
 \subsubsection{Interaction Time per Category}
+
+About the second part of the second research question: \textit{RQ2 - Which
+category led to the most rapid and consistent interactions with the bot?}
 
 When a student requests a code snippet (CS), it is generally predictable that
 they will resume interaction with the bot within a short period of time, as
@@ -513,10 +497,6 @@ responses may lead to a slower follow-up interaction, possibly indicating a
 moment of deeper reflection on the part of the students. However, since both the
 mean and standard deviation are below the overall average, this could indicate
 a more passive behavior, as students obtain ready-made answers from the bot.
-
-% This less active learning approach can occur for various reasons, ranging from
-% the belief that reviewing solutions to similar questions enhances learning, to
-% issues such as negligence, poor planning, or other possible factors.
 
 The average time for students to resume interaction in the correction category
 (SC) is close to the overall average (3.17), although the high standard
@@ -561,7 +541,7 @@ approaches and depths in the learning process.
 
 \subsection{Interleaving}
 
-About the third research question: \textit{RQ3: Do students' interactions with
+About the third research question: \textit{RQ3 - Do students' interactions with
 the bot alternate between study topics to suggest interleaving?}
 
 To analyze the interweaving of topics, sections were initially divided into
@@ -591,140 +571,29 @@ interaction.
 
 \section{Conclusion and Future Work}
 
-The objective of this work was to analyze the interaction of second-semester
-Java programming students with an educational bot developed using the RAG
-technique, employing two metacognitive strategies: spacing and interleaving.
+The objective of this work was to analyze the interactions of Java programming
+students with an educational bot developed using the RAG technique, employing
+two metacognitive study strategies: spacing and interleaving.
 
-Initially, the theory of metacognition, alongside the classification of student
-actions, has proven effective in understanding and revealing how students
-utilize the bot. Although the data shows that most messages fall within the
-categories of Conceptual Questions and Debugging Help categories identified as
-promoting slower but potentially deeper engagement with the bot, indicative of a
-more active form of learning—the findings also reveal that students' use of
-spacing and interleaving strategies remains quite limited. Encouraging students
-to apply these strategies more intentionally could significantly enhance their
-learning outcomes. To further explore this, a broader study is planned to
-examine, for instance, the relationship between student profiles and their
-strategies in using a Generative AI tool. Additionally, to support educators
-in analyzing student behavior and providing more targeted assistance, an AI
-model is being developed to automatically classify student messages, offering
-valuable insights into the ways these tools are being employed.
+The theory of metacognition, along with the classification of student actions,
+proved effective in understanding and revealing how students utilize the bot.
+The results showed that most messages fall into the categories of Conceptual
+Questions and Debugging Help, both known for promoting slower engagement and
+potentially fostering more active learning. However, the results also indicated
+that students' use of study strategies such as spacing and interleaving remains
+limited, from which we can conclude that encouraging students to apply these
+strategies more intentionally could enhance their learning while using GenAI.
 
-% The results suggest that most student interactions with GenAI tools are centered
-% on active learning strategies, although the deliberate use of interleaving and
-% spacing techniques remains limited. Guiding students toward a more intentional
-% application of these strategies could enhance their learning outcomes. The
-% anonymity of interactions leaves it unclear whether these strategies were used
-% deliberately or emerged naturally, highlighting the need for future research on
-% students' conscious application of these methods. To support educators in
-% analyzing student behavior and offering more targeted assistance, an AI model
-% is being developed to automatically classify student messages, providing
-% valuable insights into how these tools are being utilized.
-
+To further explore this, a broader study is planned to examine, for instance,
+the relationship between student profiles, use of metacognitive scaffolds, their
+effective study strategies in using a GenAI and, learning outcomes.
+Additionally, to support educators in analyzing student behavior and providing
+more targeted assistance, an AI model is being developed to automatically
+classify student messages, offering valuable insights into how these tools are
+being used.
 
 \bibliographystyle{apalike}
 {\small
 \bibliography{References}}
 
 \end{document}
-
-
-% % Conceptual Question
-% \subsubsection*{Sequence of Conceptual Question}
-
-% Messages classified as conceptual question represent around 32\% of all
-% messages. We have found a pattern of sequences of Conceptual Question in some
-% conversations. Some conversations are entirely composed of messages classified
-% as Conceptual Question. In other cases, the sequence of Conceptual question
-% starts with a request for a Complete Solution or a Code Snippet, followed by
-% a progression of Conceptual Question. In both cases, the student is actively
-% engaging with the bot to understand the concepts and compromised with more
-% deep learning.
-
-% Regarding Metacognitive Knowledge, these sequences of prompts classified as
-% Conceptual Question, can be interpreted that the students are aware they have
-% not fully mastered a concept and are trying to understand it, demonstrating a
-% good level of self-awareness. In this sense, the student realizes that the
-% problem requires an understanding of concepts in order to advance in their
-% studies. In this way, the student applies an active learning strategy.
-
-% About Metacognitive Experience, several types of feelings may be associated at
-% this moment, such as actively reflecting on the answers, uncertainty and/or
-% confusion when trying to understand the concept, frustration for not
-% progressing, and satisfaction as their questions are answered in a way that
-% facilitates understanding.
-
-% Regarding the type of Metacognition related to objective of the Task, the
-% students may recognize the difficult and trying to achieve a deeper
-% understanding of the evolved concepts to later apply in practice.
-
-% With respect to Metacognitive Strategies, the student demonstrates a sence of
-% planning to identify their knowledge gaps. They may start with more general
-% questions to obtain an overview of the concept and then ask more specific
-% questions as they gain more clarity. Because the questions are in sequence, the
-% student probably can adequately monitor their progress.
-
-% % Multiple Choice
-% \subsubsection*{Sequence of Multiple Choice}
-
-% Around 16.9\% of the messages were classified as Multiple Choice. These prompts
-% typically involve students sending one or more exercises to CharlieBot, asking
-% for the solution.
-
-% We identified a sequence of Multiple Choice patterns in some of the
-% conversations. From the point of view of Metacognitive Knowledge, a possible
-% interpretation of this complex phenomenon is that students may believe in their
-% inability to answer several questions. They may also assume that the questions
-% share a common theme, and solving them together may help consolidate knowledge.
-% Additionally, they might understand that obtaining the answers quickly is more
-% efficient.
-
-% Regarding Metacognitive Experiences, students may experience feelings such as
-% cognitive overload, a sense of urgency, and/or confidence in ready-made answers,
-% which can often lead to relief and a reduction of frustration.
-
-% Concerning the Metacognitive about the Task, one interpretation may be that the
-% student simply wants to complete the task quickly to alleviate the workload,
-% and/or obtain a correct answer without focusing on deeper learning at
-% this moment.
-
-% In relation to Metacognitive Strategies, students are likely focusing on saving
-% time and/or possibly lacking planning skills. They may also perceive that
-% solving the questions on their own requires too much cognitive effort, but this
-% pattern might reveal a lack of progress monitoring and understanding of
-% concepts. After obtaining the answers, the metacognitive evaluation process
-% could lead to feelings of satisfaction, but further reflection may indicate that
-% the strategy was not effective in supporting deep learning. Depending on this
-% evaluation, it may influence future decision-making to change the strategy.
-
-% % Debugging help
-% \subsubsection*{Sequence of Debugging Help}
-
-% Around 30.9\% of the messages were classified as Debugging Help. Besides of
-% that, we identified a pattern of a sequences of Debugging Help in the
-% conversations. These prompts typically start with a message requesting a
-% Complete Solution or a Code Snippet. After that, the students normally chance
-% from passive to more active learning strategy.
-
-% In terms of Metacognitive Knowledge, the student probably recognizes that they
-% do not have the necessary tools or knowledge to debug the code on their own.
-% Concerning the understanding of the task, they may know that debugging is not
-% just a matter of superficial corrections but requires understanding the
-% underlying logic. Thus, the student apparently believes that the sequence of
-% questions related to debugging will help them understand the codes.
-
-% In terms of Metacognitive Experiences, some feelings may arise at this moment,
-% such as frustration or uncertainty in the face of errors, confusion during the
-% process, and also growing confidence or satisfaction as they better understand
-% the code and possible corrections.
-
-% With respect to Metacognitive related with the objective of the Task, the
-% student is probably focused on understanding the code in practical terms,
-% identifying errors, and learning how to better debug in the future.
-
-% As for Metacognitive associated with the Strategy, the student has requested
-% external help and realizes that dividing the debugging task into several
-% questions can result in a better understanding of the code. They can monitor
-% their progress throughout the process, adjusting their questions as necessary,
-% evaluate the effectiveness of the responses received, and reflect on what was
-% learned during the process.

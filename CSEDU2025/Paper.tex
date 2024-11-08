@@ -25,15 +25,15 @@
 }
 
 \author{\authorname{Rodrigo Prestes Machado\sup{1}\orcidAuthor{0000-0003-0428-6387},
-Carlos Alario Hoyos\sup{2}\orcidAuthor{0000-0002-3082-0814},
-Patricia Callejo Pinardo\sup{2}\orcidAuthor{0000-0001-6124-6213},
+Carlos Alario-Hoyos\sup{2}\orcidAuthor{0000-0002-3082-0814},
+Patricia Callejo\sup{2}\orcidAuthor{0000-0001-6124-6213},
 Iria Estévez-Ayres\sup{2}\orcidAuthor{0000-0002-1047-5398},
 Carlos Delgado Kloos\sup{2}\orcidAuthor{0000-0003-4093-3705}}
 \affiliation{\sup{1}Department of Informatics, Instituto Federal de Educação,
 Ciência e Tecnologia, Porto Alegre, Brazil}
 \affiliation{\sup{2}Department of Telematics Engineering, Universidad Carlos III
 de Madrid, Leganés (Madrid), Spain}
-\email{\ rodrigo.prestes@poa.ifrs.edu.br, \{calario,pcallejo, ayres,cdk\}@it.uc3m.es}
+\email{\ rodrigo.prestes@poa.ifrs.edu.br, \{calario, pcallejo, ayres, cdk\}@it.uc3m.es}
 }
 
 \keywords{
@@ -46,14 +46,13 @@ The aim of this study is to analyze the interactions of programming students
 with a chatbot powered by OpenAI's GPT-3.5, enhanced with the Retrieval
 Augmented Generation (RAG) technique, within the context of a Java programming
 course. The study investigates how students use the chatbot while employing
-two metacognitive strategies: interleaving and spacing. By analyzing the logs
-of student interactions with the chatbot, the methodology involved
-classifying and categorizing student prompts into eight distinct types. The
-findings reveal that, while most interactions focus on active learning
-strategies, students show limited conscious application of study strategies such
-as interleaving and spacing. The study highlights the need for more
-comprehensive guidance on the strategic use of AI tools to enhance learning
-outcomes.
+two metacognitive strategies: interleaving and spacing. The methodology involved
+classifying and categorizing the students' interaction prompts with the chatbot
+into eight distinct categories. The findings reveal that, while most
+interactions focus on active learning strategies, students demonstrate limited
+conscious application of metacognitive strategies. The study highlights the need
+for more comprehensive guidance on the strategic use of AI tools to enhance
+learning outcomes.
 }
 
 \twocolumn\maketitle\normalsize\setcounter{footnote}{0}
@@ -75,10 +74,10 @@ and try to foster a deeper understanding of programming concepts
 
 The study conducted by \cite{chan23} revealed that both undergraduate and
 postgraduate students have positive attitudes towards the use of GenAI.
-Furthermore, a systematic review organized by \cite{Lo24} demonstrated that
-students can effectively learn from ChatGPT, resulting in improved comprehension
-and academic achievement \citep{Callejo24}. Furthermore, it was observed that
-ChatGPT allows students to regulate their learning pace \citep{Baha24} and can
+A systematic review organized by \cite{Lo24} demonstrated that students can
+effectively learn from ChatGPT, resulting in improved comprehension and academic
+achievement \citep{Callejo24}. Furthermore, it was observed that ChatGPT may
+allow students to regulate their learning pace \citep{Baha24} and can
 potentially support self-regulated learning, particularly for students with
 prior technical and disciplinary knowledge \citep{Xia23}.
 
@@ -86,9 +85,9 @@ However, researchers have also expressed concerns about the impact of these
 tools on students. The systematic review by \cite{Murillo23} indicated that the
 use of ChatGPT could lead to overreliance on the tool. \cite{chan23} noted that
 overdependence on ChatGPT could lead to a decrease in critical thinking, as
-students can make decisions based solely on the information provided by the tool.
-As a potential consequence, \cite{Bastani24} observed in a study that when
-programming students lost access to ChatGPT-4, those who had previously relied
+students can make decisions based solely on the information provided by the
+tool. As a potential consequence, \cite{Bastani24} observed in a study that when
+programming students lost access to ChatGPT, those who had previously relied
 on it saw their performance drop by 17\%. In contrast, students who had never
 used the tool were unaffected and outperformed their peers.
 
@@ -103,16 +102,16 @@ progress and missing opportunities to develop a deeper understanding of
 fundamental concepts.
 
 Regardless of teachers' preferences or beliefs, preliminary surveys conducted
-by \cite{Dickey24} indicate that more than 54,5\% of students are already using
+by \cite{Dickey24} indicate that more than 54.5\% of students are already using
 GenAI for homework, likely due to their perception of this technology as
 advantageous and intuitive \citep{Boudouaia24}. All of these studies highlight
 the need to increase the understanding of how students interact with these tools
-and how they can be used to improve learning, as emphasized \cite{Lo24}.
+and how they can be used to improve learning, as emphasized by \cite{Lo24}.
 
 In response to the growing need for deeper insight into the use of GenAI tools
 in educational settings, this study aims to help address this gap by analyzing
 the interactions between students in a Java programming course and an
-educational bot powered by OpenAI gpt-3.5, enhanced with the
+educational chatbot powered by OpenAI gpt-3.5, enhanced with the
 Retrieval-Augmented Generation (RAG) technique. Specifically, it focuses on
 examining these interactions within the context of two metacognitive strategies:
 spacing and interleaving. To achieve this objective, we formulate three research
@@ -122,19 +121,10 @@ questions:
   \item RQ1 - What distribution patterns emerged in the classified student
   interaction prompts with the educational chatbot?
   \item RQ2 - Was there spacing between student prompts? Which category led to
-  the most rapid and consistent interactions with the bot?
-  \item RQ3 - Do students' interactions with the bot alternate between study
+  the most rapid and consistent interactions with the chatbot?
+  \item RQ3 - Do students' interactions with the chatbot alternate between study
   topics to suggest interleaving?
 \end{itemize}
-
-% What is its main limitation?
-
-It is important to consider how GenAI tools impact students in
-various demographic groups, academic disciplines, cultural backgrounds, and
-levels of previous experience \citep{catalan21} \citep{neo22}. Consequently,
-this study is limited to a specific group of students and focuses on the use of
-a single GenAI tool. As a result, the findings may not be generalizable to other
-populations or tools.
 
 This paper is organized as follows. Section 2 presents the theoretical
 framework, Section 3 describes the material and methods used in the study,
@@ -158,7 +148,7 @@ in educational settings.
       \hline
       Debugging Help (DH) & Prompts that seek help to identify, fix errors, or understand the provided code snippet. \\
       Conceptual Question (CQ) & Prompts that are more about understanding concepts than specific code. \\
-      Student Correction (SC) & Prompts where the student corrects the bot. \\
+      Student Correction (SC) & Prompts where the student corrects the chatbot. \\
       Code Snippet  (CS) & Prompts that ask for a specific part of the code, like a function or a segment. \\
       Complete Solution (CSO) & Prompts that request an entire solution or a complete code snippet. \\
       Multiple Question (MQ) & Prompts where the user wants to solve a multiple choice exercise (Quiz). \\
@@ -172,7 +162,7 @@ in educational settings.
 
 \subsection{Metacognition}
 
-Given that generative AI often produces highly accurate and automatic responses
+Given that GenAI often produces highly accurate and automatic responses
 \citep{Puryear22}, it is essential that students use these tools within an
 active learning process to enhance their learning outcomes. This active
 learning process can be further understood through the lens of metacognition,
@@ -293,7 +283,7 @@ interaction with students.
 
 \subsection{CharlieBot}
 
-CharlieBot is an educational bot built on ChatGPT 3.5 and enhanced with
+CharlieBot is an educational chatbot built on ChatGPT 3.5 and enhanced with
 Retrieval-Augmented Generation (RAG) technique to improve the precision of
 responses provided to students \cite{Sun24}. The RAG approach was developed
 using materials from a MOOC, including text, exercises, video transcripts, and
@@ -325,30 +315,22 @@ or their academic performance.
 
 In the categorization phase, the students' messages were manually classified
 into eight distinct categories for analysis, representing different types of
-prompt that students use when interacting with the bot. Initially,
+prompt that students use when interacting with the chatbot. Initially,
 \cite{Ghimire24} proposed four categories: Debugging Help (DH), Conceptual
 Question (CQ), Code Snippet (CS), and Complete Solution (CSO). However, the data
 collected indicated the need for additional categories, leading to the inclusion
 of four more: Multiple Question (MQ), Student Corrections (SC), Language Change
-(LC), and Uncategorized (U). In this study, students were free to use the bot as
-they wanted, which contributed to the emergence of these additional categories.
-Table \ref{tab:categories} presents these categories along with their respective
-descriptions. To facilitate the analysis of interleaving, the prompt topics were
-also categorized according to the course subjects, which are: (1) Java, (2)
-Object Orientation, (3) Testing, (4) Recursion, (5) Data Structures, and (6)
-Sorting and Searching Algorithms.
+(LC), and Uncategorized (U). In this study, students were free to use the
+chatbot as they wanted, which contributed to the emergence of these additional
+categories. Table \ref{tab:categories} presents these categories along with
+their respective descriptions. To facilitate the analysis of interleaving, the
+prompt topics were also categorized according to the course subjects, which are:
+(1) Java, (2) Object Orientation, (3) Testing, (4) Recursion, (5) Data
+Structures, and (6) Sorting and Searching Algorithms.
 
 The analysis phase involved the use of Python scripts to extract information
 from previously classified data. The datasets and code used in this process are
 available at: https://github.com/rodrigoprestesmachado/uc3m.
-
-\begin{figure*}[htbp]
-  \centering
-  \includegraphics[scale=0.39]{img/figure3.png}
-  \caption{Subsections per conversation. \textit{A zero value indicates
-  no subsection and no spacing.}}
-  \label{fig:graph3}
-\end{figure*}
 
 \section{\uppercase{Results and Discussion}}
 
@@ -360,6 +342,14 @@ outlined in the introduction. Figure \ref{fig:graph1} shows the distribution of
 the messages in the categories. The following sections present the results and
 discussions of each research questions.
 
+\begin{figure*}[htbp]
+  \centering
+  \includegraphics[scale=0.39]{img/figure3.png}
+  \caption{Subsections per conversation. \textit{A zero value indicates
+  no subsection and no spacing.}}
+  \label{fig:graph3}
+\end{figure*}
+
 \subsection{Categorization of messages}
 
 About the first research question: \textit{RQ1 - What distribution patterns
@@ -370,7 +360,7 @@ According to Figure \ref{fig:graph1} messages classified as
 Conceptual Question account for 35.8\% of the total. Sequences of Conceptual
 Questions often start from a practical perspective of a given code, as
 illustrated in conversation 4 of Figure \ref{fig:graph2}, which presents
-examples of students' interactions with the bot. In other cases, the
+examples of students' interactions with the chatbot. In other cases, the
 conversation consists entirely of messages classified as Conceptual Question,
 such as in conversation 15 of Figure \ref{fig:graph2}.
 
@@ -388,7 +378,7 @@ These prompts typically involved students submitting one or more exercises to
 CharlieBot and requesting solutions. The conversation 13 in \ref{fig:graph2}
 illustrates a sequence of multiple choice questions.
 
-Requests for the bot to generate a Code Snippet or Complete Solution accounted
+Requests for the chatbot to generate a Code Snippet or Complete Solution accounted
 for 8.2\% of student messages. These prompts reflected a desire for more
 direct answers; however, it was observed that, after receiving these solutions,
 many students transitioned to a more active approach in seeking to understand
@@ -396,24 +386,24 @@ the code or the underlying concepts. Thus, it can be inferred that the prompts
 within the Code Snippet or Complete Solution category were often used as a
 starting point for a more in-depth study.
 
-Student corrections to bot responses accounted for 4.2\% of the interactions.
+Student corrections to chatbot responses accounted for 4.2\% of the interactions.
 In most cases, these corrections occurred when the student already had the
-correct answer to an exercise and identified an error in the bot response, as
-illustrated in conversation 2 in Figure \ref{fig:graph2}. These corrections
-highlight that, although the bot provides quick feedback, it is not always
+correct answer to an exercise and identified an error in the chatbot response,
+as illustrated in conversation 2 in Figure \ref{fig:graph2}. These corrections
+highlight that, although the chatbot provides quick feedback, it is not always
 accurate.
 
 Figure \ref{fig:graph1} also indicates that approximately 5.8\% of the prompts
 written by students were classified as Uncategorized. These messages include
-expressions of gratitude toward the bot, such as a simple '\textit{thanks}',
+expressions of gratitude toward the chatbot, such as a simple '\textit{thanks}',
 contextual statements like '\textit{I'm reviewing object orientation}', as well
 as requests for additional exercises and summaries. Depending on the type of
 investigation, there is opportunity for these messages to be further subdivided
 into new categories.
 
 Finally, 1.3\% of the messages were classified as Language Change. These prompts
-were typically requests for the bot to switch languages, as seen in conversation
-9 in Figure \ref{fig:graph2}.
+were typically requests for the chatbot to switch languages, as seen in
+conversation 9 in Figure \ref{fig:graph2}.
 
 \begin{table*}[htbp]
   \caption{Average and Standard Deviation of Different Categories (in minutes)}
@@ -468,41 +458,41 @@ in losing the previous chat history.
 \subsubsection{Interaction Time per Category}
 
 About the second part of the second research question: \textit{RQ2 - Which
-category led to the most rapid and consistent interactions with the bot?}
+category led to the most rapid and consistent interactions with the chatbot?}
 
 When a student requests a code snippet (CS), it is generally predictable that
-they will resume interaction with the bot within a short period of time, as
+they will resume interaction with the chatbot within a short period of time, as
 indicated by the mean (1.26) and standard deviation (1.74) of the Code Snippet
 category in Table \ref{tab:averages}. This result is noteworthy because,
 although some requests are simple and lead to quick responses, others may be
 more complex and would require more time for reflection. However, the low
 average response time and minimal variability may indicate that students adopt a
-more passive learning posture when requesting the bot to generate small pieces
+more passive learning posture when requesting the chatbot to generate small pieces
 of code.
 
 Despite some occasional variation (3.54), prompts classified as Uncategorized
 exhibit a relatively low average time (1.65) for students to resume interaction
-with the bot. This variation occurs, in part, due to situations where students
+with the chatbot. This variation occurs, in part, due to situations where students
 end the conversation with an uncategorized message, such as a simple
 \textit{'thanks'} but later choose to resume the interaction.
 
-When a student requests the bot to change the language (LC) in a response, the
+When a student requests the chatbot to change the language (LC) in a response, the
 new interaction happens quickly (1.89) with little variation in response time
 (3.28), meaning it is predictable that the student will continue interacting.
 
 Although still below the overall average, students take a moderate amount of
-time (2.65) to resume interaction with the bot after requesting the solution to
+time (2.65) to resume interaction with the chatbot after requesting the solution to
 a multiple-choice question (MQ). The variation (6.10) suggests that some
 responses may lead to a slower follow-up interaction, possibly indicating a
 moment of deeper reflection on the part of the students. However, since both the
 mean and standard deviation are below the overall average, this could indicate
-a more passive behavior, as students obtain ready-made answers from the bot.
+a more passive behavior, as students obtain ready-made answers from the chatbot.
 
 The average time for students to resume interaction in the correction category
 (SC) is close to the overall average (3.17), although the high standard
 deviation (7.33) indicates significant variation. In some cases, students are
-already familiar with the answer and only seek a quick correction from the bot;
-in others, they detect flaws in the bot's responses and need to carefully
+already familiar with the answer and only seek a quick correction from the chatbot;
+in others, they detect flaws in the chatbot's responses and need to carefully
 examine the subsequent answer to identify potential errors, which suggests a
 more active behavior.
 
@@ -515,15 +505,15 @@ while others involve requests for analysis of more complex code, like
 \textit{'explain this piece of code (accompanied by a complete method).'}
 
 Conceptual questions (CQ) generally result in a high average time (5.41) for
-students to re-engage with the bot. Moreover, the high standard deviation
+students to re-engage with the chatbot. Moreover, the high standard deviation
 (10.54) indicates an unpredictable variation in response times. This
 unpredictability may be attributed to the fact that, in some cases, the
 complexity of the question and answer demands more reflection time from the
 student, whereas in others, lesser complexity allows for a quicker interaction
-with the bot.
+with the chatbot.
 
 Finally, a message classified as a Complete Solution request (SCO) exhibits the
-longest average time (6.55) for students to resume interaction with the bot.
+longest average time (6.55) for students to resume interaction with the chatbot.
 Additionally, the high standard deviation (10.14) highlights significant
 unpredictability in response time. After requesting a complete solution,
 students tend to take longer to return, due to the complexity of the problems
@@ -542,12 +532,12 @@ approaches and depths in the learning process.
 \subsection{Interleaving}
 
 About the third research question: \textit{RQ3 - Do students' interactions with
-the bot alternate between study topics to suggest interleaving?}
+the chatbot alternate between study topics to suggest interleaving?}
 
 To analyze the interweaving of topics, sections were initially divided into
 those that exhibited spacing and those that did not.
 
-In conversations with the bot that did not include spacing (66.7\% of the total
+In conversations with the chatbot that did not include spacing (66.7\% of the total
 conversations), approximately 19.2\% of the messages resulted in a change of
 topic. Qualitative analysis of what led to this interweaving indicates that
 part of it was due to students' requests for assistance in solving exercises
@@ -557,11 +547,11 @@ Additionally, some instances of interweaving were observed after a prolonged
 period of 20 to 50 minutes, still below the 60-minute threshold established as
 the cutoff for considering spacing.
 
-In interactions with the bot that included spacing (33.3\% of the total
+In interactions with the chatbot that included spacing (33.3\% of the total
 conversations), approximately 31.4\% of the messages switched topics.
 Qualitative analysis of these interactions reveals that a significant portion
 of this interweaving was caused by spacing. In other words, some students use
-the bot for quick consultations, asking a question and then returning hours
+the chatbot for quick consultations, asking a question and then returning hours
 later with another question on a different subject.
 
 Thus, the data revealed that the existing interweaving is limited and does not
@@ -572,17 +562,24 @@ interaction.
 \section{Conclusion and Future Work}
 
 The objective of this work was to analyze the interactions of Java programming
-students with an educational bot developed using the RAG technique, employing
+students with an educational chatbot developed using the RAG technique, employing
 two metacognitive study strategies: spacing and interleaving.
 
 The theory of metacognition, along with the classification of student actions,
-proved effective in understanding and revealing how students utilize the bot.
+proved effective in understanding and revealing how students utilize the chatbot.
 The results showed that most messages fall into the categories of Conceptual
 Questions and Debugging Help, both known for promoting slower engagement and
 potentially fostering more active learning. However, the results also indicated
 that students' use of study strategies such as spacing and interleaving remains
 limited, from which we can conclude that encouraging students to apply these
 strategies more intentionally could enhance their learning while using GenAI.
+
+It is important to consider how GenAI tools impact students in various
+demographic groups, academic disciplines, cultural backgrounds, and levels of
+previous experience \citep{catalan21} \citep{neo22}. Consequently, this study is
+limited to a specific group of students and focuses on the use of a single GenAI
+tool. As a result, the findings may not be generalizable to other populations or
+tools.
 
 To further explore this, a broader study is planned to examine, for instance,
 the relationship between student profiles, use of metacognitive scaffolds, their

@@ -1,0 +1,2193 @@
+      CULTURA DIGITAL E EDUCAÇÃO Uma metodologia para a formação continuada de
+professores da Educação Básica            Carine Bueira Loureiro Sílvia de
+Castro Bertagnolli Maria Tanise Raphaelli Bosquerolli Antunes      Apresentação
+Este livro é fruto de dois percursos de pesquisa: primeiro deles foi
+desenvolvido pelo Grupo de Estudos e Pesquisa em Educação, Matemática e
+Tecnologias (GEPEMAT/CNPq/IFRS) e intitula-se Metodologia para a formação de
+professores para a Educação 4.0 (financiado pelo Edital FAPERGS SEBRAE/RS
+03/2021). O segundo, desenvolvido por um grupo interdisciplinar do Programa de
+Pós-graduação Profissional em Informática na Educação1, intitula-se Inovação
+pedagógica e qualificação da Educação Básica (financiado pelo Edital INOVA
+EAD/CAPES 2023). Embora distintos, os dois percursos são complementares. No
+primeiro deles foi criada a metodologia para a formação continuada de
+professores para a Cultura Digital, um produto de inovação disseminado e
+validado por meio do segundo percurso de pesquisa. A pesquisa que deu origem à
+metodologia foi desenvolvida em parceria com a 01 Coordenadoria de Educação do
+Rio Grande do Sul (01 CRE/SEDUC); a disseminação e validação da metodologia
+acontece por meio de formações continuadas em Cultura Digital ofertadas a 115
+professores de escolas de 3 cidades do Rio Grande do Sul — Caxias do Sul,
+segunda maior população do Estado, localizada na serra gaúcha; Novo Hamburgo,
+localizada na região do Vale dos Sinos; e Porto Alegre, capital Estado.   Ao nos
+propormos a desenvolver uma metodologia para a formação continuada de
+professores, os nossos esforços de pesquisa foram direcionados em dois eixos. O
+primeiro voltado para uma pesquisa documental relacionada às diretrizes para a
+formação continuada de professores. Para tanto, a Base Nacional Comum Curricular
+(BNCC) e a BNC-Formação constituíram o conjunto documental analisado. O segundo
+eixo voltou-se para uma pesquisa (de)formação2 realizada com professores daquela
+coordenadoria que, voluntariamente, a partir de um convite  1 PPPIE é um
+programa do Instituto Federal do Rio Grande do Sul (IFRS) Campus Porto Alegre. 2
+pesquisa (de)formação (FABRIS; OLIVEIRA; LIMA, 2021) que se constitui em “um
+modo de pensar-fazer pesquisa de naturezas participativa e formativa, promovendo
+a produção de dados e a formação dos participantes, ao mesmo tempo em que
+possibilita deformações em posições já assumidas, como verdades anteriores à
+participação na pesquisa, aí está o potencial formativo desta forma de fazer
+pesquisa (FABRIS et al., 2020, p. 781).   enviado em forma de mala direta e por
+meio de publicações em nossas redes sociais, engajaram-se em nosso projeto. A
+pesquisa foi submetida e aprovada no Comitê de Ética em Pesquisa do IFRS
+(CEP/IFRS), via Plataforma Brasil e todos os professores participantes assinaram
+o Termo de Consentimento Livre e Esclarecido (TCLE).  No período de novembro de
+2021 a maio de 2022, por meio de uma pesquisa (de)formação foram levantados os
+dados que embasaram o desenvolvimento da metodologia. Naquele período, as
+manifestações dos professores, participantes da pesquisa e vinculados a 01
+CRE/SEDUC, sobre os seus contextos de trabalho e sobre a infraestrutura física e
+tecnológica das escolas possibilitou ao Grupo de Pesquisa o entendimento de que
+a metodologia a ser desenvolvida teria de levar em consideração as
+especificidades de cada instituição de ensino, bem como as necessidades de seu
+corpo docente.  A partir destes esclarecimentos iniciais, convidamos o leitor a
+adentrar no livro que está dividido em quatro capítulos. O primeiro deles trata
+das concepções teóricas que fundamentam o conceito de Cultura Digital utilizado
+na elaboração da metodologia para a formação continuada de professores para a
+Cultura Digital.  No segundo Capítulo são apresentadas cada uma das etapas da
+metodologia com o intuito de explica-la e também de que ela possa ser replicada
+a partir de adaptações às necessidades de formações continuadas a serem
+ofertadas, futuramente, em diferentes escolas e níveis de ensino.  O Capítulo 3
+traz dados e aspectos relevantes observados durante o processo de disseminação e
+validação da metodologia, que aconteceu com 115 professores de escolas públicas
+de três cidades gaúchas. A metodologia e, como não poderia deixar que ser, as
+formações continuadas que permitiram a sua validação, forma desenvolvidas a
+partir do tripé ensino superior, profissão docente e escolas, defendido por
+Nóvoa (2022). Cada um destes espaços corresponde a um vértice de um triângulo e,
+segundo Nóvoa (2022, p. 63), é "na interação entre os três [...] que se
+encontram as potencialidades transformadoras da formação docente". Assim,
+destinamos o Capítulo 4 para dar voz aos sujeitos envolvidos em cada um dos
+vértices dessa triangularização, tanto no desenvolvimento da metodologia quanto
+na sua aplicação por meio das formações continuadas. Assim, o capítulo é
+composto por narrativas de professores, participantes da pesquisa que subsidiou
+a elaboração da metodologia e daqueles  envolvidos na sua disseminação e
+validação, e de bolsistas de Iniciação Científica e de Mestrado que compõem a
+equipe de pesquisa.  Através dos relatos de docentes e de bolsistas queremos,
+além de demarcar cada um dos vértices da triangularização que sustentam a
+metodologia para a formação continuada de professores para a Cultura Digital,
+dar voz a estas pessoas, fundamentais no processo de pesquisa, e fomentar outras
+formas de pensar, planejar e propor formações continuadas de professores seja
+para a Cultura Digital, seja no contexto de outras temáticas.    Carine, Sílvia
+e Maria Tanise                           CAPÍTULO 1 CULTURA DIGITAL E EDUCAÇÃO
+Neste Capítulo abordamos a noção de Cultura Digital para que o leitor possa se
+localizar e compreender o lugar de onde falamos. Em outras palavras, interessa-
+nos esclarecer como compreendemos a Cultura Digital e, deste modo, as
+concepções, bem como os referenciais teóricos que sustentaram a elaboração da
+metodologia.  Para tanto, iniciamos com uma contextualização acerca da
+emergência da expressão Cultura Digital e, para isso, fazemos um recuo no tempo
+e iniciamos pelos programas postos em funcionamento no Brasil nos últimos 40
+anos. Desde os anos 1980, um conjunto de ações voltadas para a disseminação de
+tecnologias digitais na educação foram viabilizadas tanto no sentido de fomentar
+o uso das tecnologias como ferramenta para a aprendizagem como para promover a
+inclusão digital. Sem entrar no mérito dos efeitos, da efetividade e dos
+resultados atingidos por estas ações, cabe elencá-las no sentido de melhor
+contextualizar a emergência da Cultura Digital e, de forma mais específica, a
+sua expressão na Base Nacional Comum Curricular (BNCC). Em relação à BNCC,
+demonstramos como nos distanciamos da forma como a Cultura Digital é concebida
+na Base e, partir dos conceitos de metamorfose digital (Beck, 2018) e
+metamorfose da escola (Nóvoa, 2022), concluímos o Capítulo com o entendimento de
+Cultura Digital como uma forma constitutiva das formas de viver, se relacionar,
+comunicar, sentir, trabalhar, etc. na Contemporaneidade.    1.1. Disseminação,
+inserção e uso das tecnologias digitais na educação  Em 1983, no âmbito da
+Secretaria Especial de Informática, foi criada a Comissão Especial número 11/83
+– Informática na Educação CE/IE. Esta Comissão aliada a ações conjuntas entre o
+Ministério da Educação e Cultura (MEC), a Secretaria Especial de Informática
+(SEI), o Conselho Nacional de Desenvolvimento Científico e  Tecnológico (CNPq) e
+a Financiadora de Estudos e Projetos (FINEP) aprovou em julho daquele ano o
+Projeto EDUCOM – Informática na Educação. O EDUCOM inaugurou os esforços
+empreendidos pelo Governo Federal em relação à disseminação e ao uso de recursos
+computacionais na educação pública brasileira. Foi um movimento importante e que
+serviu como subsídio para as ações que dariam continuidade a esse processo. Esse
+projeto tinha proposta de utilização da filosofia Logo3 como ferramenta de
+suporte aos processos de ensino e aprendizagem, “todos os centros de pesquisa do
+projeto EDUCOM atuaram na perspectiva de criar ambientes educacionais, usando o
+computador como recurso facilitador da aprendizagem” (Valente, 1999, p. 21). Com
+outro caráter, não mais em formato de projeto mas como programa, em 1989 é
+criado o Programa Nacional de Informática Educativa (PRONINFE) com o propósito
+de promover a "universalização do uso de tecnologia de ponta no sistema público
+de ensino" (Brasil, 1989, p. 1). Na sequência, em 1997, o PRONINFE é substituído
+pelo Programa Nacional de Informática na Educação (PROINFO) que visava a
+"informatização da Escola Pública" (Brasil, 1997, s/p.). As escolas que aderiram
+ao PROINFO, em 2010, puderam integrar-se ao Programa Um Computador por Aluno
+(PROUCA) cujo objetivo era "promover a inclusão digital pedagógica" (Brasil,
+2010, s/p.). Em 2017, com poucos desdobramentos nos anos seguintes, teve início
+o Programa Inovação Educação Conectada (PROIEC) que teve como proposta "apoiar a
+universalização do acesso à internet de alta velocidade e fomentar o uso
+pedagógico de tecnologias digitais na educação básica" (Brasil, 2017, s/p.).
+Embora neste ínterim, especialmente desde o final dos anos 1990, outros
+programas voltados para a disseminação das tecnologias digitais na Educação
+tenham sido implementados, o projeto EDUCOM juntamente com os programas
+PRONINFE, PROINFO e PROUCA são práticas estruturantes da propagação do uso das
+tecnologias digitais na educação pública. Nesses casos era patente o uso das
+tecnologias digitais, enquanto técnica, como um recurso, uma ferramenta a ser
+utilizada no processo de ensino e de aprendizagem. A tecnologia digital não se
+3 O Logo é uma linguagem de programação, em que o aluno descreve comandos a
+serem executados pela tartaruga Logo no computador. Através dos comandos
+definidos pelo usuário, a “tartaruga” percorre a tela do computador, de forma
+que os comandos sejam representados graficamente. Hoje, está em utilização no
+Brasil o software SuperLogo 3.0, uma adaptação da versão original da ferramenta,
+feita pela UNICAMP.   sobrepunha ao processo educativo, ela comporia, juntamente
+com outras tecnologias, possibilidades de mediação.  Na linha dos programas, em
+janeiro de 2023, pela primeira vez nestes 40 anos que marcam a trajetória de
+ações voltadas para a disseminação das tecnologias digitais na educação, foi
+promulgada uma política,  Política Nacional de Educação Digital (PNED), que
+contempla 5 eixos, com a Cultura Digital como o terceiro tópico do eixo Educação
+Digital. Fica evidente, neste caso, que a Cultura Digital é uma parte da
+Educação Digital e, ao estar em consonância com a Base Nacional Comum Curricular
+(BNCC), conforme mencionado no próprio documento (Brasil, 2018), a PNED não
+deixa dúvidas acerca de como a Cultura Digital é compreendida neste contexto:
+como uma parte de algo maior, um processo mais amplo.  Sobre Cultura Digital,
+segundo a BNCC:   Há que se considerar, ainda, que a cultura digital tem
+promovido mudanças sociais significativas nas sociedades contemporâneas. Em
+decorrência do avanço e da multiplicação das tecnologias de informação e
+comunicação e do crescente acesso a elas pela maior disponibilidade de
+computadores, telefones celulares, tablets e afins, os estudantes estão
+dinamicamente inseridos nessa cultura, não somente como consumidores. Os jovens
+têm se engajado cada vez mais como protagonistas da cultura digital, envolvendo-
+se diretamente em novas formas de interação multimidiática e multimodal e
+atuação social em rede, que se realizam de modo cada vez mais ágil [...]
+(Brasil, 2018, p. 61).  Embora a BNCC seja enfática em ressaltar que "os
+estudantes estão dinamicamente envolvidos nessa cultura” (BRASIL, 2018, p. 61),
+a Base não é assertiva no que diz respeito às diretrizes que definem a 5a
+competência, que é dedicada ao tema em questão. 5.ª competência: Compreender,
+utilizar e criar tecnologias digitais de informação e comunicação de forma
+crítica, significativa, reflexiva e ética nas diversas práticas sociais
+(incluindo as escolares) para se comunicar, acessar e disseminar informações,
+produzir conhecimentos, resolver problemas e exercer protagonismo e autoria na
+vida pessoal e coletiva. (Brasil, 2018, p.11).   Ainda que tenha previsto a
+necessidade de abordar a Cultura Digital entre as suas diretrizes, a BNCC
+deixou-a reduzida a um conjunto de habilidades e competências, como se saber
+operar os recursos tecnológicos digitais fosse suficiente para habitar, de forma
+ativa e consciente, um mundo regido pela digitalidade. Em outras palavras, a
+tecnologia é abordada na ordem da técnica, seu uso como  ferramenta. O
+desenvolvimento de habilidades e competências para o uso das Tecnologias de
+Informação e Comunicação (TICs) é uma condição necessária, mas não suficiente
+quando pensamos em Cultura Digital. Nas pesquisas e estudos do GEPEMAT, vamos um
+pouco na contramão da forma como a noção de Cultura Digital é abordada na BNCC e
+tal entendimento será melhor detalhado na seção a seguir.  1.2. Cultura Digital
+No Contexto Da BNCC   A BNCC (Brasil, 2018) vem em cumprimento da Lei de
+Diretrizes e Bases da Educação Nacional – LDBEN (Brasil, 1996) que prevê, em seu
+Art. 26, a elaboração de uma base nacional comum. Igualmente, a BNCC está
+consoante ao Plano Nacional de Educação – PNE (Brasil, 2014) e com as Diretrizes
+Curriculares Nacionais da Educação Básica – DCN (Brasil, 2013), sendo um
+documento normativo e, portanto, de cumprimento obrigatório. Em seus propósitos,
+a BNCC visa alinhar as políticas públicas no que tange “à formação de
+professores, à avaliação, à elaboração de conteúdos educacionais e aos critérios
+para a oferta de infraestrutura adequada para o pleno desenvolvimento da
+educação”. Além disso, essa normativa pretende ser um instrumento para garantir
+que todas as escolas alcancem “um patamar comum de aprendizagens a todos os
+estudantes” (Brasil, 2018, p. 8). Dito isto, convém tecermos algumas
+considerações a respeito dos contextos sociais, políticos e econômicos que
+permeiam a construção e aprovação desta normativa com o propósito de analisarmos
+a noção de cultura digital presente neste documento com maior clareza.  A BNCC
+foi elaborada com a participação da sociedade civil mediante a consulta pública
+e através das instituições e organizações não governamentais. A redação de seu
+texto ficou a cargo do Conselho Nacional de Secretarias de Educação (CONSED) e
+da União Nacional dos Dirigentes Municipais de Educação (UNDIME), com o apoio do
+Movimento Pela Base (MPB) e do movimento Todos Pela Educação (TPE).  O MPB
+desenvolveu uma plataforma denominada Observatório da Implementação da BNCC e do
+Novo Ensino Médio4 visando dar visibilidade e “transparência” ao processo de
+implementação das mudanças na educação promovidas pela BNCC. Nesta plataforma é
+possível encontrar informações a respeito da BNCC e do Novo Ensino Médio, além
+de oferecer material didático e apoio pedagógico para os professores e
+interessados. Este movimento surgiu em 2013 e, conforme informações coletadas em
+sua página5, é uma rede não governamental formada por pessoas e instituições
+visando apoiar a implementação da BNCC e do Novo Ensino Médio.  As pessoas que
+compõe esse movimento, bem como Institutos e Fundações, têm como objetivo
+desenvolver um projeto hegemônico para a educação brasileira. Dentre essas
+fundações figuram: Fundação Lemann; Fundação Roberto Marinho; Instituto
+Unibanco; Instituto Inspirare; Instituto Singularidades; Instituto Natura; Itaú;
+Instituto Ayrton Senna; Instituto Unibanco; Abave; Fundação Maria Souto Vidigal
+(Caetano, 2018). Essas fundações e institutos prestam todo o tipo de serviço
+educacional, tais como consultoria, formação docente e produção de materiais
+didáticos (softwares, livros, programas, dentre outros). Segundo Caetano (2019,
+p. 127) a Fundação Lemann participou da mobilização para a consulta pública da
+BNCC e da leitura crítica das duas versões deste documento.  A autora também
+chama a atenção a algumas das pessoas que participam do MPB e que integraram o
+MEC, como é o caso de Katia Smole (Grupo Mathema) e Maria Helena Castro (Abave).
+Semelhantemente, o movimento Todos Pela Educação (TPE) é composto por setores
+variados da sociedade, sendo seu conselho de fundadores formado pelas empresas
+Gerdau, Grupo RBS, Suzano, Itaú, Instituto Ayrton Senna, Instituto Synergos,
+IBOPE e SESC-SP, que se relaciona com a REDUCA (Rede Latino-Americana pela
+Educação) a qual mantém ligação com o Banco Interamericano de Desenvolvimento e
+com a União Europeia. No Conselho de Governança fazem parte outras empresas como
+Santander, Natura, DPaschoal, Gol, Rede Pão de Açúcar, Fundação Bradesco,
+Instituto Unibanco, Fundação Santillana, dentre outras. Considerando o contexto
+político e econômico do país, o envolvimento destes movimentos nas mudanças
+educacionais promovidas pela BNCC e pela Lei Nº 13.415  4 A plataforma
+Observatório está disponível em: https://observatorio.movimentopelabase.org.br/
+5 Movimento Pela Base está disponível em: https://movimentopelabase.org.br/
+(Brasil, 2018) evidencia a ação do empresariado influenciando diretamente os
+rumos da educação brasileira. Tendo essa clareza, é compreensível as alterações
+presentes nestes documentos, tais como o ensino por competências, a valorização
+de Língua Portuguesa e Matemática em detrimento de outros componentes
+curriculares, a ênfase exacerbada ao protagonismo e empreendedorismo estudantis,
+dentre outras mudanças. Ademais, ser empreendedor, na lógica neoliberal,
+significa obter sucesso por mérito próprio, abrindo seu caminho a despeito das
+adversidades, pois construiu as competências socioemocionais necessárias para
+tanto. Neste sentido, Loureiro; Kraemer e Lopes (2021) advertem que: a
+aprendizagem [...] fomentada pelas políticas educacionais supracitadas, ocupa
+lugar de destaque nas práticas pedagógicas destinadas a valorizar o desempenho e
+a desenvolver competências individuais voltadas a competição e a superação de si
+mesmo (Kraemer; Lopes, 2021, p. 103).  Na perspectiva escola-empresa, o
+resultado é mais significativo do que o processo, e o desempenho pessoal é
+superestimado (Laval, 2021). Ao falar em resultado, vale citar as avaliações
+externas realizadas sem considerar fatores internos e sociais que integram o
+contexto escolar e que, mediante seus resultados negativos, justificam as
+mudanças almejadas pelo empresariado e ratificam a necessidade das parcerias
+público-privada. Neste sentido, as parcerias supririam a ineficiência do Estado
+em prover uma educação de qualidade através do gerenciamento e/ou assessoramento
+administrativo e pedagógico das instituições de ensino. Assim, o Estado,
+seguidor da lógica neoliberal de fomentar a competitividade, faz da educação o
+seu braço para atender as demandas do mercado, criando as condições para formar
+as pessoas que suprirão as necessidades emergentes (Laval, 2021). Para tanto, a
+BNCC elenca as dez competências gerais que devem ser desenvolvidas na educação
+básica, conforme Figura 1:   Figura 1 - Quadro representativo das competências
+gerais da BNCC  Fonte: as Autoras Desta forma, através da construção das
+competências cognitivas, socioemocionais e tecnológicas, o aluno estaria
+capacitado para ingressar no mundo do trabalho, uma das finalidades da educação.
+Vale lembrar que o conceito de competência é primeiro utilizado em economia e,
+segundo Fleury e Fleury (2001, p. 188) é “um saber agir responsável e
+reconhecido, que implica mobilizar, integrar, transferir conhecimentos, recursos
+e habilidades, que agreguem valor econômico à organização e valor social ao
+indivíduo”. Neste sentido, competência tem a ver com a capacidade da pessoa em
+mobilizar seus conhecimentos, recursos e habilidades para executar uma ação de
+maneira que incorpore um valor econômico e social. A partir dos estudos de
+Perrenoud, com um enfoque construtivista, o termo competência assume um viés de
+inclusão, de formação integral e de desenvolvimento (Behar, 2008).  Para
+Perrenoud (2013), competência é a capacidade da pessoa em utilizar os saberes,
+habilidades e valores, construídos e acumulados, para agir adequadamente em
+determinadas situações problemas que poderão ocorrer dentro e fora do ambiente
+escolar. Semelhantemente, Behar (2008) conceitua competência como sendo a
+capacidade do sujeito em mobilizar os Conhecimentos, Habilidades e Atitudes
+(CHA) para solucionar os problemas do cotidiano. No Brasil, segundo Silva
+(2012), o termo competência começa a ser utilizado na educação com a LDBEN
+(Brasil, 1996), mas ganha visibilidade com a BNCC. Na BNCC, competência
+significa:    A mobilização de conhecimentos (conceitos e procedimentos),
+habilidades (práticas, cognitivas e socioemocionais), atitudes e valores para
+resolver demandas complexas da vida cotidiana, do pleno exercício da cidadania e
+do mundo do trabalho (BRASIL, 2018, p. 8). A partir de outra perspectiva, Laval
+(2021, p.76) explica que se identifica, na atualidade, um “uso estratégico das
+competências”, pois “substituir a palavra conhecimento pela palavra competência
+não é sem importância” (Laval, 2021, p. 76, grifos do autor). Para o autor, O
+emprego estratégico do termo tanto na empresa como na escola é indissociável da
+nova “gestão dos recursos humanos”, em que a escola representa o papel
+primitivo. Esse uso visa sobretudo pôr em questão a tarefa tradicional da
+escola, a transmissão do conhecimento e a formação intelectual e cultural no
+sentido mais amplo do termo (Laval, 2021, p. 76).  No mesmo sentido, Loureiro,
+Kraemer e Lopes (2021, p. 103) pontuam que a noção de competências, tal como
+abordada em diretrizes como a BNCC, “ocupa lugar de destaque nas práticas
+pedagógicas destinadas a valorizar o desempenho e a desenvolver competências
+individuais voltadas a competição e a superação de si mesmo”. Assim, a
+problematização que levantamos aqui não diz respeito à relevância do ensino
+voltado para a construção de competências, entretanto chamamos a atenção que,
+sendo esse o enfoque principal da educação, componentes curriculares que abordam
+conteúdos voltados para uma leitura social e filosófica de mundo, as artes e
+atividades físicas, ficam em segundo plano e com uma carga horária reduzida por
+não serem consideradas essenciais para a formação dos jovens e para o mercado.
+Ademais, o ensino para competências, como apresentado na BNCC e defendido por
+movimentos como MPB e TPE, enfatiza a empregabilidade do aluno e a educação não
+tem como garantir isso (Massechelein; Simons, 2022), mesmo que o jovem tenha
+construído tais competências. Neste contexto de empregabilidade, de
+empreendedorismo, de competição e de individualismo, emerge uma nova
+subjetividade na contemporaneidade, a do Homo discentis6, Loureiro; Kraemer e
+Lopes (2021). Desta forma, as políticas educacionais se curvam às demandas do
+neoliberalismo e a BNCC vem ao encontro  6 Homo discentis, ou seja, “o aprendiz
+permanente”, se referindo à condição da pessoa na sociedade contemporânea a qual
+exige qualificação permanente e a necessidade constante de capacitação a fim de
+atender às demandas do mercado e da evolução científica e tecnológica.
+(LOUREIRO; KRAEMER; LOPES, 2021, p. 100 e 103).   desta lógica, determinando a
+construção de aprendizagens voltadas para o desenvolvimento de habilidades e
+competências. Assim, o direito de aprendizagem, intrínseco na pedagogia da
+competência, está atrelado à subjetividade empresarial, ou seja, a pessoa
+empresária de si mesma e capaz de mobilizar os conhecimentos construídos,
+habilidades e atitudes para solucionar os problemas da vida diária (Loureiro;
+Kraemer e Lopes, 2021). Tendo em mente que a lógica neoliberal influenciou a
+construção e homologação do texto final da BNCC, nos resta analisar as
+competências relacionadas à cultura digital, uma das abordagens de nossa
+investigação. Das dez competências gerais, quatro delas se referem ao uso das
+TD: 1. Valorizar e utilizar os conhecimentos historicamente construídos sobre o
+mundo físico, social, cultural e digital para entender e explicar a realidade,
+continuar aprendendo e colaborar para a construção de uma sociedade justa,
+democrática e inclusiva. 2. Exercitar a curiosidade intelectual e recorrer à
+abordagem própria das ciências, incluindo a investigação, a reflexão, a análise
+crítica, a imaginação e a criatividade, para investigar causas, elaborar e
+testar hipóteses, formular e resolver problemas e criar soluções (inclusive
+tecnológicas) com base nos conhecimentos das diferentes áreas. [...] 4. Utilizar
+diferentes linguagens – verbal (oral ou visual-motora, como Libras, e escrita),
+corporal, visual, sonora e digital –, bem como conhecimentos das linguagens
+artística, matemática e científica, para se expressar e partilhar informações,
+experiências, ideias e sentimentos em diferentes contextos e produzir sentidos
+que levem ao entendimento mútuo. 5. Compreender, utilizar e criar tecnologias
+digitais de informação e comunicação de forma crítica, significativa, reflexiva
+e ética nas diversas práticas sociais (incluindo as escolares) para se
+comunicar, acessar e disseminar informações, produzir conhecimentos, resolver
+problemas e exercer protagonismo e autoria na vida pessoal e coletiva. [...]
+(Brasil, 2018, p. 9)           A competência 1 se refere aos conhecimentos já
+construídos sobre o mundo digital, dentre outros, tanto para entender a
+realidade quanto para prosseguir na aprendizagem, colaborando com a construção
+de uma sociedade melhor. A competência número 2 diz respeito ao uso, inclusive,
+das tecnologias para a solução e resolução de problemas. A competência 4 trata
+das diferentes linguagens, incluindo a digital. Por fim, a competência número 5
+compreende especificamente as TD, implicando a compreensão, utilização e criação
+de TD, de maneira reflexiva, ética, com criticidade, para a comunicação, acesso
+à informação, para o protagonismo e  autoria. Nesta lógica de competências,
+abordar as TD no contexto escolar parece estar direcionado ao uso instrumental
+destas ferramentas. Embora o termo “cultura digital” esteja contemplado na BNCC
+(BRASIL, 2018. p. 61), percebemos uma preocupação maior com a utilização das
+ferramentas do que com a reflexão sobre as subjetividades desenvolvidas em uma
+cultura digital.          Quanto a isso, Bortolazzo (2020, p. 371) chama a
+atenção de que o uso e desenvolvimento das tecnologias precisam de tempo de:
+“aprendizagem, maturação, adaptação e acomodação por parte dos sujeitos [...]”.
+Além disso, o autor acrescenta que a cultura digital envolve “tanto os artefatos
+quanto os sistemas de significação e comunicação que acabam por distinguir e
+demarcar o modo de vida contemporâneo dos outros” (Bortolazzo, 2020, p. 375).  O
+autor atenta que a cultura digital descreve um modo de vida permeado pelas TD e
+que estas influenciam a maneira como as pessoas vivem, se comunicam, se
+comportam e consomem.          O pensamento de Santaella (2003) converge com o
+de Bortolazzo (2016) ao considerar que as TD são os meios de propagação de
+informação ou comunicação e que, embora relevante seu estudo, são as mensagens
+transmitidas por esses canais, com o potencial de (trans)formar pensamentos e
+ações. Assim, abordar essa temática na educação vai além do que apenas
+desenvolver as competências para utilizar as TD. É necessário promover a
+reflexão a respeito dos conteúdos que estão vinculados a estes meios e como isso
+influencia as pessoas e transforma as vidas.          Dito isto, entendemos que
+as aprendizagens devem abranger essa reflexão crítica do mundo digitalizado e a
+compreensão sobre os sujeitos promotores das mudanças educacionais (não apenas,
+mas também sociais, econômicas, políticas e culturais) e seus interesses. Desta
+forma, a escola não pode ser reduzida ao espaço destinado ao desenvolvimento de
+competências. Ela deve ser o lugar de encontro e reencontro, do eu com o outro,
+na qual valores tais como cooperação e empatia não sejam apenas palavras. Um
+lugar de conhecimento e de diálogo, de participação e construção coletiva.
+1.3. Cultura Digital como um processo de metamorfose    A expressão “metamorfose
+digital” é utilizada por Ulrich Beck (2018), em contraposição à “revolução
+digital”, para fazer referência:   a metamorfose de modos de existência: a
+proximidade social está sendo desconectada da proximidade geográfica; a
+distinção entre ficção e realidade está empalidecendo; e modos de
+(in)controlabilidade pelo Estado-nação, com a contradição de ser incontrolável e
+controlável ao mesmo tempo, começam a aparecer (Beck, 2018, p.193).   Para Beck
+(2018), a "metamorfose do mundo" implica na "metamorfose digital" e utiliza a
+primeira destas expressões para se referir "a uma mudança extraordinária de
+visões de mundo" (Beck, 2018, p. 18). De acordo com o autor:  Pessoas que nunca
+saíram de suas aldeias, muito menos embarcaram num avião, ainda estão estreita e
+comumente ligadas ao mundo. [...] E estão ligadas ao mundo em especial porque o
+telefone celular se tornou uma parte essencial do cotidiano através do globo. A
+metamorfose nisso, no entanto, não quer dizer apenas que todo mundo está (em
+potencial) interligado, mas que esse ingresso no "mundo"significa ingressar em
+algo que segue uma lógica em tudo diferente (Beck, 2018, p. 22).  A partir deste
+entendimento, quando falamos em Cultura Digital e educação, não parece não ser
+adequado reduzirmos o debate às potencialidades dos recursos tecnológicos
+enquanto técnica, ferramenta para aprendizagem, comunicação, ou novas formas de
+interação. É fundamental entendermos que outras dimensões são abarcadas neste
+contexto, pois a Cultura Digital é algo constitutivo e, neste sentido, os
+artefatos tecnológicos digitais são materiais que compõem as nossas vidas
+cotidianas e que têm a ver com a maneira como nos relacionamos com o mundo, ao
+mesmo tempo em que o mundo vai se constituindo por meio destas relações. De
+acordo com Bortolazzo,  trata-se de algo que nos envolve como a atmosfera, algo
+no qual participamos como produtores, consumidores, disseminadores e que, por
+isso, tem integrado a vida cotidiana, invadido as casas e interferido nas
+relações que estabelecemos com o mundo, tanto material quanto simbólico, que nos
+rodeia (Bortolazzo, 2016, p. 11).   Assim, ao compreendermos a Cultura Digital a
+partir desta forma de concepção, precisamos ter em mente que outras formas de
+ser sujeito são constituídas, diferentes daquelas dos anos 1980, 1990 e primeira
+década dos anos  2000, quando tiveram início e foram implementados os programas
+que estruturam a inserção e disseminação das TICs na educação. Isso quer dizer
+que outras formas de ser e de estar no mundo se constituem na Cultura Digital.
+Portanto, não faz sentido pensar a aproximação entre Cultura Digital e Educação
+da mesma forma que pensamos a Informática na Educação, pois se trata de coisas
+distintas e com propósitos que são diferentes entre si. A Informática na
+Educação é um dos elementos que compõem a Cultura Digital, pois a primeira
+abarca uma parcela da sociedade, enquanto a cultura digital abarca a todos —
+sejamos nós usuários rotineiros das TICs, ou não7. E é neste ponto que reside a
+crítica sobre como a BNCC e a PNED trata a Cultura Digital como um sinônimo de
+Informática na Educação.  Todas essas mudanças afetam diretamente a educação e,
+por conseguinte, têm implicações tanto para a formação de estudantes quanto de
+professores. Por este viés, Nóvoa (2022), defende a importância e necessidade de
+manutenção da instituição escolar, mas para tanto é preciso promover a
+"metamorfose da escola". Para o autor, essa transformação se faz necessária por
+três razões principais:  primeiro, porque as aprendizagens são decisivas, mas a
+educação não se reduz apenas às aprendizagens, e não de pode ignorar a dimensão
+da socialização e de convivialidade; depois porque as questões de personalização
+são de grande importância, e respondem a um propósito antigo de assegurar a
+diferenciação pedagógica, mas a escola não se esgota no plano individual e
+constitui uma instituição central para a vida social; finalmente, porque a
+escola não pode ser vista apenas como um bem privado, arrastando uma lógica
+consumista, e tem de ser pensada também como um bem público e um bem comum
+(Nóvoa, 2022, p. 14).   Ao defender a "metamorfose da escola", Nóvoa (2022, p.
+15), chama a "atenção para a necessidade de organizar os ambientes educativos de
+modo a facilitarem o estudo, o trabalho cooperativo, a diferenciação pedagógica,
+a comunicação, a criação". Conforme adverte o autor, ao longo do século XX
+muitas reformas foram propostas no que diz respeito às organizações
+curriculares, porém a estrutura das salas de aula, a divisão do tempo escolar e
+o próprio trabalho do professor ficaram intactos (Nóvoa, 2022). Cabe, no
+entanto, enfatizar que a  7 Sugestão de filme: "Eu, Daniel Blake, Direção: Ken
+Loach e Roteiro Paul Laverty O filme demonstra o quanto estamos todos, queiramos
+ou não, inseridos na Cultura Digital.  transformação de que trata Nóvoa (2022)
+não é da ordem do digital e do tecnológico. "Essa seria uma mudança altamente
+indesejável. Perder-se-ia uma dimensão central da educação, a interação humana,
+a convivialidade, a aprendizagem da vida em comum" (Nóvoa, 2022, p. 29). As
+mudanças propostas pelo autor convergem para a ideia de escola como espaço
+comum. Comum que vem da comunicação, em que há possibilidades de diálogos e de
+partilha com os outros (Nóvoa, 2022).  Neste ponto é possível estabelecer a
+intersecção entre a noção de metamorfose da escola (Nóvoa, 2022), e metamorfose
+digital (Beck, 2018). Para o primeiro autor a comunicação, enquanto diálogo, é
+central para o estabelecimento do comum. Para o segundo, a comunicação, que
+deixa de ser unidirecional e torna-se multidirecional, é uma das principais
+mudanças produzidas pela metamorfose digital. Logo, não há como pensar a escola
+fora deste contexto de mudanças tão acentuadas e significativas, que transformam
+as nossas formas de nos relacionar com o outro e com o mundo de modo geral.
+Portanto, se há a defesa da metamorfose da escola, também há a necessidade da
+transformação da formação de professores. De forma mais específica, em relação à
+Cultura Digital, além das questões diretamente implicadas com o desenvolvimento
+de habilidades e competências para o uso das TICs, também é fundamental, e até
+mesmo urgente, a formação para o desenvolvimento de práticas pedagógicas
+autorais que propiciem ao aluno existir como sujeito.  As práticas pedagógicas
+autorais são aquelas em que a intencionalidade pedagógica do professor antecede
+o uso da ferramenta tecnológica. Em outras palavras, é a ferramenta que se
+encaixa à prática pedagógica e não ao contrário, pois a escolha dos recursos
+deve ter como premissa a intencionalidade pedagógica. Ou seja, o recurso
+tecnológico deve permitir ao professor (re)criar e (re)inventar “os modos pelos
+quais os alunos podem ser ensinados” (Enzweler, 2017, p. 41), e não exigir que a
+prática pedagógica seja moldada à ferramenta tecnológica.  Existir como sujeito
+é a expressão utilizada por Gert Biesta (2020) ao argumentar em favor da
+(Re)descoberta do ensino. De acordo com Biesta :  Existir como sujeito [...]
+significa estar em "estado de diálogo"com o quê e quem é o outro, ser abordado
+pelo e quem é o outro, ser ensinado pelo quê e quem é o outro, e ponderar o que
+isso significa para a nossa própria existência e para os desejos que temos em
+relação à nossa própria existência. Existir como sujeito, portanto, significa
+que nos engajamos com a questão de se o que desejamos é  desejável, não apenas
+para as nossas próprias vidas, mas também para as vidas que tentamos viver com
+os outros em um planeta que tem capacidade limitada para satisfazer todos os
+desejos projetados sobre ele (Biesta, 2020, p. 26).  Na Contemporaneidade,
+embora haja "novos discursos sobre a educação: sobre a qualidade da educação,
+sobre a neuroeducação, sobre as novas tecnologias. Esses discursos não pretendem
+colocar em prática um novo conceito de homem, eles visam otimizar o aprendizado"
+(Charlot, 2020, p. 281). Charlot (2022, p. 281), ratifica que "é preciso
+reintroduzir o humano no centro da reflexão sobre educação".  Por esse viés, ao
+compreender que a Cultura Digital é algo que nos constitui enquanto sujeitos,
+compreende-se também que propor uma metodologia para a formação continuada de
+professores para a Cultura Digital requer pensar nos sujeitos que se constituem
+neste contexto. Ou, colocado de outros modos: como propiciar aos alunos
+existirem como sujeitos, na concepção de Biesta (2020), na Cultura Digital? Como
+reintroduzir o humano no centro da reflexão sobre a aproximação entre Cultura
+Digital e educação? Estas indagações fazem sentido porque estar inserido na
+Cultura Digital implica em também fazer parte das conexões digitais em rede.
+Aliás, investir na constituição do Homo oeconomicus dicentis accessibilis
+(Loureiro; Lopes, 2019) — um sujeito aprendiz por toda a vida, disponível para
+acessar a conexão digital e ser acessado por meio dela em qualquer momento e
+lugar — já era, desde 2010, um dos principais movimentos mobilizados por meio do
+PROUCA. O que parece ter passado despercebido ações mobilizadas em prol  da
+inserção e do uso das TICs na educação, tanto por parte dos Programas quando
+pela BNCC, foi a preparação dos alunos — e para tanto a formação docente se faz
+fundamental — para habitarem um mundo digitalizado que "fica aberto para a
+expressão do desejo como comércio, mas também como explosões emocionais, ódios",
+etc. (Charlot, 2020, p. 124). Mais do que isso, trava-se na atualidade uma
+batalha em relação à atuação das plataformas que lucram com o Big Data, à
+exposição de crianças a violências digital, à contenção da propagação de Fake
+News e discursos de ódio apenas para mencionar algumas situações. Estas questões
+aqui mencionadas são inerentes à Cultura Digital.  Assim, propor uma metodologia
+para a formação continuada de professores implica em considerar questões
+pedagógicas para a sua estruturação, mas também as questões relacionadas à
+reintrodução do humano no centro da discussão. A  sustentação pedagógica está
+pautada na triangularização entre profissão, ensino superior e redes de escolas
+(Nóvoa, 2022), pois se entende que é na interação entre os três vértices "que se
+encontram as potencialidades transformadoras da formação docente" (Nóvoa, 2022,
+p. 63). Sobre a reintrodução do humano, tem-se a premissa de que formar para a
+Cultura Digital requer pensar as TICs também como artefatos para o
+desenvolvimento de práticas pedagógicas autorais que possibilitem ao aluno
+existir como sujeito.  Ao concluirmos este primeiro Capítulo, sublinhamos que
+falar em Cultura Digital significa ampliar a discussão para além do uso de TICs
+na educação como recursos mediadores da aprendizagem.      CAPÍTULO 2
+METODOLOGIA PARA FORMAÇÃO CONTINUADA DE PROFESSORES PARA A CULTURA DIGITAL
+Neste Capítulo, inicia-se com alguns esclarecimentos acerca das bases que dão
+sustentação teórica à metodologia proposta e, na sequência, apresentamos a
+estrutura e processo da metodologia em questão.  O primeiro dos esclarecimentos
+a serem feitos diz respeito ao sentido que a palavra metodologia assume neste
+livro. Entendemos metodologia como os "procedimentos", a "maneira de fazer"
+(Larrosa, 2018, p. 300). Mais precisamente,   [...] a metodologia não é outra
+coisa além da explicitação do que poderíamos chamar de as regras do jogo, regras
+que, como em todos os jogos, não basta saber, mas é preciso incorporar, e isso
+não se pode fazer a não ser jogando. E algumas regras, ademais, você tem que ir
+adivinhando e interpretando ao longo do jogo e isso, claro, pode ir variando em
+função do próprio desenvolvimento do jogo (as regras têm que "dar jogo" e não
+impedi-lo ou limitá-lo). (Larrosa, 2018, p. 300-301).   Assim, a metodologia
+aqui descrita não pretende ser algo fixo e nem determinante. No entanto, ela foi
+desenvolvida a partir de pressupostos teóricos que são fundamentais porque
+formam o eixo central dessa "maneira de fazer" uma formação continuada de
+professores para a Cultura Digital. No conjunto destes pressupostos, é
+fundamental destacar também que a triangularização entre profissão docente,
+ensino superior e redes de escolas (Nóvoa, 2022) faz sentido se forem
+consideradas as questões sociais característica de cada escola. Os aspectos
+técnicos e metodológicos apresentados a seguir sem dúvida são fundamentais, mas
+aliados a Laval e Vergne (2023), compreende-se que a formação continuada de
+professores para a Cultura Digital só faz sentido se questões sociais e
+políticas que atravessas a questão escolar forem consideradas.  O segundo
+esclarecimento diz respeito à noção de formação que entendemos com “exercício de
+si”, “a coragem de pensar por conta própria” (Dalbosco, 2020, p. 27). “Formação
+humana como exercício de si pela crítica à sociedade neoliberal e à noção de
+sujeito neoliberal”(Dalbosco, 2020, p. 27), que é o sujeito da concorrência,
+das avaliações em larga escala, da aprendizagem como motor do empreendedorismo.
+Sobre as bases que sustentam a elaboração da metodologia proposta, a primeira
+delas diz respeito "A ligação entre a formação e a profissão é central para
+construir programadas coerentes de formação, mas é também central para o
+prestígio e renovação da profissão docente" (Nóvoa, 2022, p. 64). Por este
+motivo, a triangularização dos saberes de  professores que exercem a docência em
+escolas de Educação Básica, de professores que desenvolvem suas pesquisas em
+instituições de ensino superior e dos demais sujeitos envolvidos no espaço
+escolar, é central para o desenvolvimento da metodologia para a formação
+continuada de professores. Isso implica que, de forma integrada e dialogada, a
+interação entre estes três grupos de pessoas é fundamental e comporá o que
+chamaremos de grupo referência da formação de professores para a Cultura
+Digital. É fundamental ressaltar que, neste cenário de metamorfose digital, da
+escola e da formação de professores, que guardam relação direta com a Cultura
+Digital, "O principal desafio pedagógico [...] é, sem dúvida, a necessária
+conversão do professor de informação em professor de saber" (Charlot, 2020, p.
+109). Isso quer dizer que uma formação para a Cultura Digital requer mais do que
+ensinar a usar um conjunto de aplicativos, softwares, ou plataformas. Implica em
+pensar nas produções e consequências próprias de um mundo em que até as relações
+humanas são digitalizadas. Portanto, Não se trata de convocar apenas as questões
+práticas ou a preparação profissional, no sentido técnico ou aplicado, mas de
+compreender a complexidade da profissão em todas as suas dimensões (teóricas,
+experienciais, culturais, políticas, ideológicas, simbólicas, etc.) (Nóvoa,
+2022, p. 62).  Desta forma, Nóvoa atenta aos aspectos relacionados às
+complexidades que permeiam a educação e que não devem ser omitidas das
+formações. Quanto à utilização de materiais já elaborados, na maioria das vezes
+esses conteúdos não contemplam a realidade escolar, tão pouco as necessidades
+dos estudantes ou o projeto pedagógico da instituição. Para Pagni (2020, p. 59)
+a “ação reflexiva” é essencial para a formação dos professores e isto porque o
+discurso liberal, voltado para formar “empreendedores de si”, reforça o
+individualismo e a “servidão maquínica”, ou seja, uma obediência desprovida da
+ação reflexiva. Para o autor, o agir reflexivo do professor pode conduzi-lo a
+pensar sua prática pedagógica e  promover “o despertar de nossa inércia e, quem
+sabe, de uma letargia replicada em nossas práticas [...]” (Pagni, 2020, p. 65).
+Neste sentido, em uma formação de professores é preciso ter presente que a
+tarefa educacional, discutida por Biesta (2018), é bastante complexa e que ela
+precisa estar comprometida com três domínios: o da qualificação, o da
+socialização e o da subjetivação e compete ao professor, em seu fazer
+pedagógico, manter um equilíbrio entre os três domínios (Biesta, 2018, p. 24).
+De acordo com Biesta (2018), embora a escola deva se preocupar com a
+qualificação dos jovens para que eles tenham o seu lugar na sociedade, este não
+pode ser o único domínio desenvolvido. Deste modo, ao pensar em uma formação
+para a Cultura Digital, apenas desenvolver habilidades e competências não se faz
+suficiente. É preciso ir além e fazer investimentos na socialização e na
+subjetivação no sentido de reinserir o humano no centro do processo. Se a
+qualificação é uma demanda da sociedade e do mercado, a socialização, que faz
+parte da própria organização escolar, não está restrita à profissionalização:
+Mas educação para a cidadania, educação religiosa, educação ambiental e
+“educações” similares também não são apenas sobre conhecimento, habilidades e
+caráter, mas sobre comunicação e inclusão em tradições e culturas. Assim, a
+educação ajuda os jovens a se orientar no mundo, a encontrar seu lugar, o que
+também afeta quem eles se tornam – sua formação como indivíduos e a aquisição de
+certa identidade (Biesta, 2018, p. 24).  As diferentes práticas pedagógicas
+desenvolvidas na escola não se restringem a desenvolver competências, mas que
+elas influenciam os relacionamentos, uma vez que auxiliam os jovens a estarem no
+mundo, e a própria formação como indivíduos (subjetivação). Neste ponto, o autor
+salienta que a questão mais importante não é como manter o equilíbrio entre
+esses três domínios, mas sim em “pensar e agir de um modo que remete às três
+dimensões – não apenas na prática, mas também na política e na pesquisa
+educacional” (Biesta, 2018, p. 24), ao que nos remete à intencionalidade
+pedagógica, ou, conforme Biesta (2020, p. 70), “domínios de propósito”. Ao nos
+propormos a desenvolver práticas pedagógicas autorais que propiciem ao aluno
+existir como sujeito, espera-se que levar em consideração que Loureiro (2021, p.
+187) “lançar mão das tecnologias na educação apenas como ferramenta de  e para a
+aprendizagem não é suficiente para formar sujeitos para viverem a digitalidade”.
+A escola precisa proporcionar que o aluno não seja apenas um receptor de
+informações, mas que ele se torne também um autor. Além disso, é necessária uma
+condução pedagógica para que o aluno consiga acessar a informação disponível na
+web, de maneira segura, e que saiba distinguir as fontes fidedignas e os
+conteúdos pertinentes (Loureiro, 2021). Assim, ao propormos uma metodologia para
+a formação continuada de professores para a Cultura digital, entende-se que mais
+importante do que elencar sugestões de atividades ou dispor conteúdos e modelos
+prontos, é oferecer espaços para pensar sobre as questões que nos atravessam
+enquanto sujeitos formadores de outros sujeitos e favorecer a autoria pedagógica
+dos professores no sentido de fortalecer a reintrodução do humano na Cultura
+Digital.   2.1. Metodologia: estrutura e processo  A metodologia aqui proposta é
+para uma formação continuada que ocorre ao longo de um semestre letivo, com
+encontros periódicos, presenciais e remotos síncronos. Os encontros devem
+ocorrer, preferencialmente, de forma presencial e em horário de trabalho do
+professor. Os encontros remotos síncronos não devem ultrapassar 2 horas de
+duração. A formação, baseada nesta metodologia, deve conter não menos do que 20
+horas e não ultrapassar 40 horas. A organização do que foi denominado de
+movimento levou em consideração os dados obtidos por meio da pesquisa
+Metodologia para a formação de professores para a Educação 4.0. Desta forma, a
+metodologia está organizada em 6 movimentos, como sintetiza a Figura 2.  Figura
+2 – Movimentos para constituir uma formação continuada para a Cultura Digital
+Fonte: Elaborado pelas autoras (2023).  1º movimento: Criação do grupo de
+referência  Objetivo: definir os membros que irão compor o grupo de referência
+da formação de professores. Modalidade: encontro presencial entre os professores
+ligados ao Ensino Superior, os professores diretamente ligados à docência na
+Educação Básica na escola em que ocorrerá a formação e os gestores da mesma
+escola.  Ações  serem desenvolvidas: neste encontro define-se o grupo
+referência, formado por representantes dos professores, um de cada nível de
+ensino (anos iniciais do ensino fundamental, anos finais do ensino fundamental e
+ensino médio), um gestor e 2 a 3 membros do grupo de estudos e pesquisa do
+Ensino Superior. Os membros do grupo de estudos e pesquisa do Ensino Superior
+têm a responsabilidade de ampliar o repertório de conhecimentos do grupo
+referência, por meio de referências bibliográficas, e assessorar na curadoria
+dos recursos digitais.   2º movimento: Reconhecimento das necessidades a serem
+abordadas na formação continuada para a Cultura Digital     Objetivo:
+identificar as expectativas, necessidades e ações que já são realizadas no
+contexto do ambiente escolar em relação ao uso de TICs na educação. Modalidade:
+encontro presencial com todos os professores que participarão da formação
+continuada para a docência na e para a Cultura Digital. Ações a serem
+desenvolvidas: O encontro será mediado pelos professores do grupo referência e
+nele deverão serem identificadas  as ações que já são desenvolvidas na escola em
+relação ao uso das TICs na educação escola, bem como as expectativas em relação
+à formação e as necessidades manifestadas pelos docentes e percebidas pelo grupo
+de referência. É importante que essas informações sejam registradas para poderem
+ser recuperadas no decorrer do desenvolvimento da formação.   Neste encontro é
+fundamental que o grupo de referência esteja atento para o nível de letramento
+digital dos professores que irão participar da formação continuada. Para tanto,
+sugere-se a proposição de uma atividade em um editor de texto e em um programa
+de criação/apresentação de slides para identificar o nível de letramento digital
+dos professores. Caso seja percebida a necessidade de nivelamento, esta deve
+ocorrer de forma presencial no primeiro encontro da formação continuada.   3º
+movimento: Apresentação da estrutura da formação continuada de professores para
+e na Cultura Digital Objetivo: apresentar ao grupo de professores que
+participarão da formação continuada os aspetos a serem desenvolvidos ao longo da
+formação.  Modalidade: encontro remoto síncrono (os encontros remotos não devem
+exceder 2 horas de duração)  Ações a serem desenvolvidas: apresentação, pelo
+grupo referência, aos participantes da formação dos principais itens elencados
+no movimento 2 e como foram definidos os aspectos a serem desenvolvidos na
+formação continuada. É importante registrar que os aspectos elencados pelo grupo
+de referência não devem ser fixos; eles funcionam como um fio condutor que pode
+ser adaptado de acordo com o desenvolvimento da formação continuada.  Registra-
+se também que neste encontro é possível serem incluídas novas necessidades, que
+porventura não emergiram no 2.º movimento.  4º movimento: elaboração das
+atividades a serem desenvolvidas na formação continuada de professores para e na
+Cultura Digital.  Objetivo: Planejar a formação continuada, bem como as TICs que
+serão abordadas em cada etapa. Modalidade: encontro remoto síncrono somente do
+grupo referência.  Ações a serem desenvolvidas: Neste encontro deverá ser
+realizada a curadoria dos recursos digitais que serão utilizados na formação
+continuada. A curadoria deve levar em consideração a gratuidade, usabilidade dos
+artefatos, a possibilidade do desenvolvimento de práticas pedagógicas autorais e
+a interação entre os estudantes. É fundamental que as etapas da formação
+continuada sejam planejadas para flexibilizar a participação dos docentes que
+atuam na escola, ao mesmo tempo em que o grupo de referência tem a
+responsabilidade por mediar e conduzir a formação de modo que sejam atendidos os
+aspectos identificados nos 2.º e 3.º movimentos. Destaca-se a importância de que
+as condições de infraestrutura da escola sejam levadas em consideração, bem como
+o nível de letramento digital dos professores. No decorrer dos encontros, o
+grupo de referência deverá fazer reuniões periódicas, ao final de cada uma, e
+consolidar o planejamento do encontro seguinte.  O número de encontros a serem
+realizados para o desenvolvimento da formação continuada de professores deverá
+ser definido pelo grupo de referência. Sugere-se que a carga horária não seja à
+20 horas e não ultrapasse 40 horas.    5.º movimento: desenvolvimento da
+formação continuada de professores para a Cultura Digital.  Objetivo: ofertar
+formação continuada de professores para a Cultura Digital. Modalidade: encontros
+presenciais e remotos síncronos e assíncronos. Ações a serem desenvolvidas: para
+o planejamento e desenvolvimento do 5o movimento utiliza-se o modelo de design
+instrucional proposto por Filatro (2008). De acordo com Filatro, design
+instrucional (DI) “é o processo de identificar um problema educacional e
+desenhar, desenvolver, implementar e avaliar uma solução para esse problema”
+(FILATRO, 2008, p. 25), podendo ser fixo, aberto ou contextualizado. Objetos de
+Aprendizagem e recursos digitais são exemplos de DI fixo. No DI aberto, a sua
+ênfase está na interação, no caso da metodologia aqui proposta, na interação
+entre o grupo de referência, os professores participantes da formação
+continuada. Os materiais não são disponibilizados todos ao mesmo tempo, o que
+permite adequações decorrentes do processo de avaliação. O DI contextualizado,
+segundo a autora, é mais apropriado para o aprendizado eletrônico imersivo.
+Filatro (2008) organiza esse  processo usando um modelo para o design
+instrucional denominado ADDIE (Analyze, Design, Develop, Implement, Evaluate,
+(ou, Análise, Design, Desenvolvimento, Implementação e Avaliação) (Figura 3), o
+qual é sistematizado em uma sequência de passos, em que as saídas de uma etapa
+constituem entradas das próximas etapas.   Figura 3 – Etapas do Modelo ADDIE
+Fonte: elaborado pelas autoras (2023)  A fase de análise consiste na compreensão
+do problema educacional e pensar soluções. Desta forma, nesta fase se procede o
+levantamento das necessidades, a caracterização do público-alvo e se verifica as
+possíveis restrições.  Na fase de design se realiza o planejamento do produto.
+Para tanto, utilizamos uma matriz de design para a estruturação do projeto
+baseada no modelo desenvolvido por Filatro (2008), que estabelece os elementos
+básicos de design instrucional, conforme Figura 4: Figura 4 – Matriz de design
+instrucional    Fonte: as Autoras, baseado em Filatro (2008, p. 45)  O
+desenvolvimento é a fase que completa o processo de concepção do produto. Esta
+etapa “compreende a produção e a adaptação de recursos e materiais didáticos
+impressos e/ou digitais, a parametrização de ambientes virtuais e a preparação
+dos suportes pedagógico, tecnológico e administrativo” (Filatro, 2008, p. 30).
+A fase de implementação, que corresponde à aplicação da proposta, e a avaliação
+do produto compreendem a etapa de execução. Filatro (2008), salienta que é na
+fase de execução que o público-alvo realiza as atividades, interage com os
+conteúdos e ferramentas. A avaliação se procede a partir das considerações a
+respeito da solução apresentada para o problema, ou seja, o produto educacional.
+Na Figura 58 é apresentado um exemplo de Matriz de DI desenvolvida a partir da
+metodologia aqui proposta e aplicada em uma formação continuada com um grupo de
+professores das redes municipais e estadual de uma cidade do interior do Rio
+Grande do Sul. Para a situação descrita na Figura 4, o ambiente virtual de
+aprendizagem (Moodle) foi utilizado como ferramenta para mediação da formação
+continuada em formato remoto com os professores.  8 A matriz da Figura 4 foi
+validada em banca de qualificação, ocorrida em dezembro de 2022, e defesa de
+mestrado, ocorrida em dezembro da 2023, com a presença de avaliadores externos e
+internos à instituição (MPIE/IFRS).    Matriz com detalhamento do planejamento
+do curso de formação continuada de professores “Cultura digital: possibilidades
+e concepções” Unidade Objetivo Papéis Ativida des Dura ção Conteúdo Ferramentas
+Avaliação Módulo 1 Cultura digital no contexto escolar Conhecer as diferentes
+concepções de cultura; Reconhecer a influência da internet na formação de
+subjetivida des; Compreender a tarefa da escola/professor para a construção da
+noção de cultura digital no contexto escolar. Professor (autor) Ser moderador
+nos debates; Promover a participação dos integrantes; Proporcionar momentos para
+discussão e compartilha mento de experiências; Planejar, desenvolver e
+implementar o curso; Oferecer tutoria para uso das TD.  Aluno (cursista):
+Explorar o conteúdo;  Realizar as atividades; Participar dos encontros e
+compartilhar experiências; Trabalhar de maneira coletiva. Apresentar soluções
+para o estudo de caso. Participar do fórum.   10 horas Mundo digitalizado:
+características e as subjetividades  Cultura digital e educação  Vídeo
+interativo (H5P) Fórum no Moodle Processual ao longo dos encontros e da
+realização das atividades, a partir das contribui ções dos participan tes.
+Módulo 2 Ferramentas digitais para autoria Reconhecer a importância da autoria
+pedagógica para o processo de ensino e de aprendiza gem; Conhecer e utilizar as
+ferramentas digitais para a autoria. Criar um livro digital com tutoriais para
+uso de ferramen tas digitais. 10 horas Sugestões de softwares livres para
+autoria e interação (H5P): Timeline; vídeo interativo; Single Choice Set;
+Dictation; Drag and Drop; Drag and words e outros. Livro interativo (H5P)
+Módulo 3 Intencionalidade pedagógica Reconhecer a importância do planejamento
+para uso das TD; Conhecer a Arquitetura Pedagógica como uma estratégia de
+planejamento Desenvol ver e aplicar uma AP. Comparti lhar com o grupo a experiên
+cia. 10 horas Intencionalidade pedagógica Documentation Tool (H5P)  Módulo 4 Ser
+sujeito no mundo digital Reconhecer-se como agente para a formação de sujeitos
+ativos Construir um painel coletivo. Participar do fórum. 10 horas  O papel da
+escola e do professor para a formação de sujeitos para Padlet Fórum Moodle   no
+mundo digitalizado.   a cultura digital   Feita a exemplificação de uma matriz
+de DI, segue-se com a descrição da metodologia, mais especificamente do 6.º
+movimento.  6.º movimento: finalização e avaliação da formação continuada pelo
+grupo de referência. Objetivo: avaliar as ações desenvolvidas e registrar
+necessidades de mudanças que forma identificadas. Modalidade: presencial, ou
+remota síncrona.  Ações a serem desenvolvidas: este encontro é dedicado à
+avaliação final da formação continuada por parte do grupo de referência. É
+importante serem registrados os aspectos positivos e as necessidades de
+modificações para uma próxima oferta.  Aos professores ligados ao Ensino
+Superior fica a tarefa de atualizar os saberes e conhecimentos a serem
+compartilhados em outras formações a serem desenvolvidas, além de compartilharem
+as impressões nos cursos de formação inicial de professores com a intenção de
+qualificar os futuros profissionais.  Os seis movimentos aqui descritos
+constituem o eixo estruturante da metodologia para a formação continuada de
+professores para a Cultura Digital proposta neste livro. Por se tratar de um
+processo, de um modo de fazer, conforme já mencionado, os movimentos sofrerão
+alterações conforme o contexto ao qual for aplicado. Entretanto, é fundamental
+que os 6 movimentos, que são estruturantes da metodologia, sejam mantidos e
+dentro de cada um deles sejam feitas as adaptações necessárias. Durante as ações
+desenvolvidas ao longo da formação continuada podem ser previstas atividades
+para serem realizadas de forma síncrona pelos professores participantes da
+formação continuada. As variações irão depender do perfil do público
+participante. Entretanto, embora durante a pesquisa que subsidiou a construção
+da metodologia os professores tenham manifestado preferência por formações em
+formato remoto, nossas observações demonstraram a importância dos encontros
+presenciais para promover a interação e o compartilhamento de práticas entre os
+professores.   Cabe registrar que, durante os encontros da pesquisa
+(de)formação, uma das professoras participantes ratificou a nossa obervações por
+meio do seguinte argumento: “[…] eu percebo assim, agora a gente fez […] os
+encontros de fechar o bimestre on-line, ou individual. Semana passada a gente
+fez ele presencial… tem uma troca maior […]. Acho que ainda os professores de
+Educação Fundamental ainda precisam dessa troca. […] Por mais que reclamem ‘a
+gente vai ter que se encontrar, a gente vai ter que ficar mais tempo’, mas ainda
+é mais provocativo, é mais válido essa troca […] Até porque tem uns que ainda
+não sabem entrar”.  Por este viés, acrescenta-se que, conforme está expresso no
+primeiro critério apresentado no documento, Critérios da formação continuada dos
+referenciais curriculares alinhados à BNCC,  1. Formação continuada não deve ser
+um evento único ou isolado – […] um formador que conheça a realidade da escola e
+das turmas. Além disso, para aprofundamento e reflexão sobre a prática do dia a
+dia, a formação deve acontecer na escola e prioritariamente entre pares. Por
+fim, a formação deve acontecer prioritariamente em serviço, ou seja, durante a
+carga horária de trabalho do professor, com um espaço físico de estudo e
+formação garantido (Movimento Pela Base Nacional Comum, 2022, p. 5, grifos
+nossos).  Deste modo, cabe sublinhar que a metodologia aqui proposta foi
+projetada para ser desenvolvida, preferencialmente, em formato presencial e em
+horário de trabalho dos professores. Antes de encerrarmos este Capítulo,
+apresentamos o Quadro 1  onde listamos TICs que compõem a curadoria digital por
+nós desenvolvida. São recursos que podem ser utilizados tanto nas formações
+continuadas de professores quando em sala de aula para criar recursos
+interativos para e com os estudantes. O Quadro 2 apresenta uma listagem de
+filmes e documentários relacionados ao tema Cultura Digital que servem como
+contextualização, disparadores de debates e complementação do que for
+desenvolvido nas formações ou em discussões de sala de aula9.   Quadro 1 –
+Sugestões de TIC para usar em sala de aula Nome        e       link    Descrição
+9 No caso de utilização dos filmes e documentários em sala de aula, com
+estudantes, é fundamental atentar para a classificação etária do objeto em
+questão.  Powtoon https://www.powtoon.com/ É uma ferramenta online para criar
+animações, permitindo criar animações 2D e Whiteboard. Com ela é possível criar
+animações autorais para explorar algum conteúdo. Canva
+https://www.canva.com/ O Canva possui diversos modelos que permitem a criação de
+diversos tipos de atividades, inclusive brainstorming de forma colaborativa.
+Essa ferramenta  permite a criação de vários tipos de recursos gráficos com
+fácil integração às redes sociais. Pode ser usado através de dispositivos
+móveis, como smatphones. Padlet https://pt-br.padlet.com/ O Padlet é um mural
+virtual onde o usuário pode expressar as suas ideias/opiniões sobre um assunto
+específico. Nele é possível interagir com outros usuários, colaborar e trocar
+ideias.  Ele permite várias configurações e possibilita interligar o conteúdo
+com redes sociais.  Jamboard https://jamboard.google.com/ O Jamboard é um quadro
+branco que pode ser facilmente integrado ao Google Meet, é possível inserir
+imagens do Google, salvar trabalhos na nuvem, você pode escrever à mão de modo
+fácil, usar um "pointer" virtual, incluir notas adesivas, enfim diversas
+funcionalidades. Uma característica interessante desse mural é que ele pode ser
+usado em computadores, dispositivos móveis (smartphones e tablets) Android e iOS
+Socrative https://www.socrative.com/ O Socrative é usado para elaborar
+questionários, pesquisas e exercícios. Permite exportar relatórios nos formatos
+.pdf e planilhas do Microsoft Excel. Possui versão para computador e celular, e
+o professor usa a versão Teacher e os alunos usam a versão Student. Ele
+possibilita criar perguntas de múltipla escolha (MC), verdadeiro ou falso (TF) e
+resposta curta (SA), sendo que permite usar votação. Os alunos respondem as
+perguntas e o docente controla o progresso em uma tabela de resultados ao vivo.
+Plickers https://www.plickers.com/ O Plickers é uma ferramenta para criar testes
+rápidos, onde o professor, usa cartões de respostas personalizados, que são
+lidos pelo celular e registram as respostas dos estudantes. Com isso é possível
+saber em tempo real as questões que cada estudante está acertando ou errando.
+Para usá-la é necessário, em primeiro lugar, criar a turma e as questões que
+deseja aplicar (usamos a versão para computador para fazer isso). Depois,
+aplicamos o teste em sala de aula, usando os cartões que são gerados para cada
+aluno (cada aluno corresponde a um cartão).  Playposit https://go.playposit.com/
+A ferramenta Playposit permite incluir atividades interativas em um vídeos,
+através de perguntas, questões de escolha múltipla, preenchimento de lacunas,
+respostas curtas, discussões, links entre outros recursos. Essa ferramenta
+permite criar uma turma e vincular os  vídeos interativos com a ela, os
+estudantes conseguem responder as questões contidas no vídeo e o docente pode,
+posteriormente, analisá-las. É possível visualizar as respostas de cada
+interação por estudante e exportar os dados em planilha. Thinglink
+https://www.thinglink.com/ O thinglink.. é uma ferramenta que possibilita criar
+imagens e vídeos interativos usando as etiquetas com conteúdos (som,
+fotografias, imagens, vídeos, texto, links), as quais devem ser posicionadas na
+imagem ou no vídeo para viabilizar a interação. Essa ferramenta gera um código
+que ele seja embutido  os seus vídeos em outras plataformas, como o Moodle e o
+Google classroom, por exemplo.  Genial.ly https://genial.ly/ O Genial.ly é uma
+plataforma online que possibilita a criação de conteúdo interativo, tais como
+apresentações interativas; Infográficos dinâmicos para divulgação de dados e
+informações; jogos educativos para auxiliar no processo de aprendizagem; vídeos
+com sons e pequenas animações; e-books interativos para leitura online.
+PollEveryWhere https://www.polleverywhere.com/  Plataforma online que permite
+criar questionários, onde os participantes podem responder questões e os
+resultados são “coletados” e apresentados em tempo real. As respostas podem ser
+enviadas através de SMS, twitter ou página web. Ela possui fácil integração com
+PowerPoint e Google slides. Possibilita incluir na sala de aula atividades como:
+votações, Word Cloud em tempo real, questões de múltipla escolha, surveys,
+imagens clicáveis, competições, etc.  Slido https://www.slido.com/ É uma
+plataforma Web que permite realizar perguntas e pesquisas em reuniões e eventos.
+Ela possibilita reunir perguntas, obter feedback instantâneo e compartilhar
+apresentações. Semelhante ao Poll Everywhere também possui questões de múltipla
+escolha, nuvem de palavras e pesquisas de imagens ou questionários. Ele possui
+um chat ao vivo e pode ser executada em dispositivos móveis Android e iOS.
+Fonte: Elaborado pelas autoras (2023)  Quadro 2 – Sugestões de filmes e
+documentários relacionados ao tema Cultura Digital   Filme   Descrição10
+O jogo da imitação (2015) Durante      a       Segunda Guerra  Mundial,        o
+governo britânico       monta   uma     equipe  que     tem     por     objetivo
+quebrar o       Enigma, o       famoso  código  que     os      alemães usam
+para    enviar  mensagens       aos     submarinos.     Um      de      seus
+10 As descrições foram extraídas do site Adoro Cinema, disponível em
+https://www.adorocinema.com/filmes/numero-cinemas/ Acesso em 10 de Mai. De 2023
+Direção:        Morten  Tyldum  Roteiro Graham Moore integrantes        é
+Alan    Turing  (Benedict       Cumberbatch),   um      matemático      de
+27      anos    estritamente    lógico  e       focado  no      trabalho,
+que     tem     problemas       de      relacionamento  com     praticamente
+todos   à       sua     volta.  Não     demora  muito   para    que     Turing,
+apesar  de      sua     intransigência, lidere  a       equipe. Seu      grande
+projeto         é       construir       uma     máquina         que     permita
+analisar       todas   as      possibilidades  de      codificação     do
+Enigma  em      apenas  18      horas,  de      forma   que     os      ingleses
+conheçam        as      ordens  enviadas        antes   que     elas    sejam
+executadas.     Entretanto,     para    que     o       projeto dê      certo,
+Turing  terá    que      aprender        a       trabalhar       em      equipe
+e       tem     Joan    Clarke  (Keira Knightley)      sua     grande
+incentivadora   .        Ela (2014)  Direção:   Spike   Jonze   Roteiro Spike
+Jonze    Em     Ela,    Theodore        (Joaquin        Phoenix)        é
+um      escritor        solitário,      que     acaba   de      comprar um
+novo    sistema operacional     para    seu     computador.     Para    a
+sua     surpresa,       ele     acaba   se      apaixonando     pela    voz
+deste   programa       informático,    dando   início  a       uma     relação
+amorosa entre   ambos.  Esta    história         de      amor    incomum
+explora         a       relação         entre   o       homem  contemporâneo   e
+a       tecnologia.   O quinto poder (2014)  Direção:   Bill    Condon  Roteiro
+Josh    Singer   Ao      fundar  o       polêmico       website  WikiLeaks,
+Julian  Assange         (Benedict      Cumberbatch)    contou  com     o
+apoio   do      amigo   Daniel  Domscheit-Berg  (Daniel Brühl). Com     o
+crescimento     do      site    e       do      grau    de      influência
+de      Assange,        a       relação entre   os      dois    acabou  bastante
+abalada.        Carice  van     Houten, Laura   Linney  e       Anthony Mackie
+completam       o       elenco.   A rede social (2010)  Direção:        David
+Fincher Roteiro Aaron   Sorkin   Em     uma     noite   de      outono  em
+2003,   Mark    Zuckerberg      (Jesse  Eisenberg),     analista         de
+sistemas        graduado        em      Harvard,        se      senta   em
+seu    computador       e       começa  a       trabalhar       em      uma
+nova    ideia.  Apenas  seis   anos    e       500     milhões de      amigos
+mais    tarde,  Zuckerberg      se      torna   o       mais    jovem
+bilionário      da      história        com     o       sucesso da      rede
+social  Facebook.       O       sucesso,         no      entanto,        o
+leva    a       complicações    em      sua     vida    social  e
+profissional.     Privacidade hackeada (2020)  Direção: Karim   Amer,   Jehane
+Noujaim Roteiro Karim   Amer,   Pedro   Kos     O        escândalo       da
+empresa         de      consultoria     Cambridge       Analytica       e
+do     Facebook        é       recontado       através da      história
+de      um      professor       americano.      Ao       descobrir       que,
+junto   com     240     milhões         de      pessoas,        suas
+informações      pessoais        foram   hackeadas       para    criar   perfis
+políticos       e      influenciar      as      eleições        americanas
+de      2016,   ele     embarca         em      uma    jornada para    levar   o
+caso    à       corte,  já      que     a       lei     americana       não
+protege suas    informações     digitais        mas     a       lei
+britânica       sim.      Anon (2020)  Direção: Andrew  Niccol  Roteiro Andrew
+Niccol          Em      um      mundo   futuro  onde    não     há      crime
+por     causa   de      um      sistema de      vigilância      extrema,
+um      detetive        (Clive  Owen)   acaba   encontrando     uma     mulher
+(Amanda Seyfried)       que     descobriu       uma     falha   no      regime
+de      não-privacidade e       que     ameaça  toda    a       construção
+da      sociedade.   O dilema das redes (2020)  Direção:        Jeff    Orlowski
+Roteiro Jeff    Orlowski,       Davis   Coombe          O       Dilema  das
+Redes   nos     mostra  como    os      magos   da      tecnologia      possuem
+o        controle        sobre   a       maneira         em      que
+pensamos,       agimos  e       vivemos.       Frequentadores   do      Vale
+do      Silício         revelam         como    as      plataformas     de
+mídias   sociais         estão   reprogramando   a       sociedade       e
+sua     forma   de     enxergar        a       vida.  Snowden (2016)  Direção:
+Oliver  Stone   Ex-funcionário   terceirizado    da      Agência         de
+Segurança       dos     Estados        Unidos,  Edward  Snowden         (Joseph
+Gordon-Levitt)  torna-se        inimigo        número   um      da      nação
+ao      divulgar        a       jornalistas     uma     série   de
+documentos      sigilosos       que     comprovam       atos    de
+espionagem      praticados       Roteiro Oliver   Stone, Kieran  Fitzgerald
+pelo   governo norte-americano contra  cidadãos        comuns  e
+lideranças      internacionais.   Neste Capítulo demonstramos as etapas que
+compõem a metodologia para a formação de professores para a Cultura Digital.
+Destaca-se a importância de ser um processo aberto e dialogado, cujas
+especificidades de cada formação se dará de acordo com as demandas e
+necessidades elencadas por cada escola. A metodologia não foi pensada e nem
+elaborada para funcionar como um procedimento fechado e acabado em si mesmo, mas
+sim para ser moldado ao longo do processo.  Portanto, são as características de
+cada instituição, de seu corpo docente e das articulações com os pesquisadores
+que definirão as abordagens a serem feitas em cada etapa do processo de formação
+definido no contexto da metodologia proposta. Salienta-se por fim que a
+metodologia aqui proposta foi construída em conjunto com professores atuantes na
+Educação Básica de escolas vinculadas a 01 Coordenadoria Regional de Educação
+(CRE/SEDUC) do Rio Grande do Sul. Espera-se com esta proposta promover
+modificações, ainda que pequenas e pontuais, na formação de professores para a
+Cultura Digital. Para tanto, é central o entendimento de  que a Cultura Digital
+é algo que nos constitui enquanto sujeitos, que ultrapassa o desenvolvimento de
+habilidades e competências para a manipulação de artefatos tecnológico é
+fundamental, mas que requer um entendimento sobre como afeta nossos modos de
+viver, nos relacionar, comunicar e nos percebermos na sociedade digitalizada.
+CAPÍTULO 3  Validação da metodologia: a interlocução com as escolas  O objetivo
+deste capítulo é descrever o processo de validação e disseminação da
+metodologia, ocorrido entre abril e setembro de 2024 e financiado pelo Edital
+INOVA EAD/CAPES 2023.  Durante a implementação da metodologia, a equipe de
+pesquisa foi composta por 4 pesquisadores, 7 bolsistas, sendo 3 de iniciação
+científica (IC) e 3 de mestrado profissional. Esta equipe atuou nas formações
+continuadas desenvolvidos em 6 escolas públicas, sendo 3 escolas estaduais e 1
+municipal em Porto Alegre, 1 escola estadual em Novo Hamburgo e 1 municipal em
+Caxias do Sul  Cada um dos encontros, à exceção do primeiro, foi mediado pelo
+grupo referência, composto por membros da equipe do projeto e por, pelo menos,
+um professor de cada escola. Para cada escola foi constituído um grupo
+referência, pois é através dele que são identificadas as ações que a escola já
+desenvolve em relação ao uso das tecnologias digitais na educação, as
+expectativas em relação à formação continuada e as necessidades e demandas do
+corpo docentes sobre Cultura Digital. Para cada escola envolvida no projeto há
+uma pasta no drive, compartilhada com a equipe de pesquisa, em que consta um
+diário de campo, registros de imagens e sons sobre cada uma das formações e o
+material didático utilizado em cada um dos encontros. No diário de campo são
+registradas as principais impressões observadas pela equipe de pesquisa durante
+as formações, bem como as expectativas do corpo docente daquela escola. Também
+são feitos registros sobre a infraestrutura física e tecnológica da escola para
+o planejamento dos encontros vindouros.  No primeiro encontro de cada formação
+aborda-se a noção de Cultura Digital e como a Informática na Educação está
+incluída no entendimento de Cultura Digital. Com isso se quer deixar claro para
+os professores que a Cultura Digital está para além do uso de tecnologias
+digitais como ferramentas mediadora do processo de aprendizagem e, portanto, é
+fundamental que a escola também esteja preparada para formar estudantes que
+compreendam como se dá a sua atuação na sociedade em rede digitalizada.
+Especialmente, como funcionam as redes sociais e as plataformas  — como Google
+for Education, Microsoft Teams, entre outras — voltadas para a educação
+escolarizada. A equipe de pesquisadores evidenciou nas formações aquilo Mendonça
+e Loureiro (2024) e Rubin e Loureiro (2021) haviam identificado em suas
+investigações, a saber: que ainda paira sobre a escola a ideia reducionista
+sobre Cultura Digital e, por consequência, em relação à inserção e ao uso das
+tecnologias digitais na educação. De forma mais específica, Mendonça e Loureiro
+(2024), em uma pesquisa pautada na metodologia Estados do Conhecimento,
+demonstram que 63,6% dos artigos analisados ainda trazem uma abordagem bastante
+instrumental sobre o uso das tecnologias digitais na educação.  Ou seja, apenas
+36,4% abordam a temática sob outras perspectivas, incluindo aí os aspectos
+sociais e culturais relacionado às tecnologias e seus impactos para além de
+meros instrumentos nas práticas pedagógicas (MENDONÇA; LOUREIRO, 2024). Estas
+constatações reafirmam a necessidade de uma abordagem que apresente aos
+professores a amplitude da noção de Cultura Digital, qual o lugar da Informática
+na Educação neste contexto e a necessidade de promover um uso crítico e
+reflexivo do uso das tecnologias digitais na educação básica. A partir dos
+registros feitos no diário de campo, a equipe de pesquisa planeja a próximo
+módulo da formação. O planejamento é coletivo e com a participação do professor
+referência e este engajamento é imprescindível para que os três segmentos —
+ensino superior, a profissão docente e as escolas — se encontrem e forem a
+tringularização que sustenta a metodologia e, por conseguinte, as formações
+continuadas. Conforme Silva, Anecleto & Santos (2021, p. 10), é essencial que as
+pesquisas de caráter formativo considerem a “complexidade do fazer pedagógico
+com a qual o professor constantemente se defronta para, a partir daí, pensar,
+colaborativamente, em reconfiguração da prática pedagógica considerando os
+problemas que a condicionam”.  Assim, é o planejamento coletivo, elaborado pelo
+grupo referência definido no 1o movimento metodológico, que conduz as formações
+em cada escola. Portanto, a partir do segundo módulo de formação continuada cada
+escola tem itinerários que se diferenciam entre si, pois o enfoque se dá nas
+particularidades de cada instituição e do seu corpo docente. Sobre as
+especificidades de cada escola, dentre as 6 envolvidas no processo de validação
+da metodologia, a E é uma escola de anos iniciais do Ensino  Fundamental e tem
+apenas uma sala com computadores e internet. Neste caso, as particularidades da
+escola levaram o grupo referência a planejar o segundo módulo baseado em
+computação desplugada. A aceitação do corpo docente foi positiva, apesar de
+alguns terem demonstrado estranhamento ao se depararem com uma formação para a
+Cultura Digital em que não estavam utilizando um recurso tecnológico digital.
+Por outro lado, este movimento nos ajudou a desconstruir a ideia de que a
+Cultura Digital está restrita ao uso de softwares educativos.  De outro modo, na
+escola D, uma escola de Ensino Fundamental e Médio, no primeiro encontro, a
+partir das manifestações de professores, ficou evidente a necessidade de uma
+abordagem mais voltada ao uso de recursos tecnológicos digitais adequado à faixa
+etária dos estudantes daquela escola e que pudesse ser utilizado no âmbito das
+diferentes áreas do conhecimento. Neste caso, optou-se por recursos que
+permitissem aos professores mais liberdade no planejamento e criação de suas
+aulas. Assim, ferramentas como Padlet, Canva e World Wall foram selecionadas
+para serem trabalhadas. Cabe referir que o primeiro módulo é constituído por uma
+apresentação mais teórica, em que são abordados aspectos relevantes e
+característicos da Cultura Digital. Os professores são convidados a
+problematizarem, junto com a equipe do projeto, algumas narrativas circulantes
+nas escolas e que derivam do senso comum, como, por exemplo, a ideia de que
+inserir um aplicativo como Tik Tok torna a aula mais interessante para o
+estudante. Nestes casos, convidamos os professores a reflexão sobre a
+constituição da escola, seu papel na sociedade e a importância da
+intencionalidade pedagógica, que deve ser central no planejamento do professor.
+O recurso pedagógico, seja ele tecnológico digital ou não, deve servir como um
+meio para atingir o objetivo traçado pelo professor. A partir do 2o módulo, as
+formações acontecem no formato de oficinas. Na escola B, uma escola de Ensino
+Fundamental, no 2o módulo também foi desenvolvida uma oficina sobre computação
+desplugada. No entanto, neste caso, diferentemente da escola E, a oficina foi
+desenvolvida no formato de preparação para a utilização do Scratch, que será
+trabalhado no 3o módulo. Nesta escola, embora o professor referência tenha
+sinalizado que o corpo docente conhecia a ferramenta Scratch, as impressões
+coletadas pelo grupo referência deixou claro que não era perceptível o domínio
+sobre a referida linguagem de programação. Desse modo, o 2o  módulo foi pensado
+como uma preparação para que no 3o o Scratch pudesse ser explorado de forma mais
+efetiva. O processo de validação da metodologia demonstrou a importância dos
+seis movimentos no sentido de preservar as especificidades de cada escola e seu
+corpo docente. Portanto, utilizar uma metodologia para a formação de professores
+que leve em consideração o contexto escolar parece fazer sentido para o êxito
+das formações continuadas. Além disso, verificou-se que as formações atingiram o
+objetivo de inserir as tecnologias digitais na educação Básica de forma a
+ultrapassar a visão tecnicista das ferramentas e a contemplar as especificidades
+da Cultura Digital. Conforme mencionado no Capítulo 2, a metodologia
+desenvolvida não é fixa e nem pretende ser determinante. No entanto, é
+importante frisar que ela foi desenvolvida a partir de pressupostos teóricos e
+práticos que são fundamentais para o seu sucesso e, portanto, merecem ser
+considerados: 1) a triangularização defendida por Nóvoa, pois ela imputa sentido
+em considerar as questões sociais característica de cada instituição; 2) o
+desenvolvimento das formações no contexto da escola e em horário de trabalho do
+professor; 3) a constituição de um grupo referência que conte com a participação
+de um professor referência da escola e 4) o planejamento coletivo de cada um dos
+módulos das formações. Por fim, mas de fundamental importância ratificamos que
+uma formação continuada de professores para a Cultura Digital só faz sentido se,
+além das questões voltadas para a inserção e o uso das tecnologias digitais,
+forem também consideradas as especificidades sociais e políticas que atravessas
+a escola.       Referências  Blikstein, Paulo, Silva, Rodrigo Barbosa e; Campos,
+Fábio. Macedo, Lívia. (2021). Relatório de Política Educacional. Dados para um
+Debate Democrático na Educação (D3E). São Paulo: D3E; Todos pela Educação, TLTL.
+Disponível em https://d3e.com.br/wp-
+content/uploads/2021/04/REL6_d3e_Tecnologia_AF-digital_v6_2204.pdf. Acesso em 30
+de Set. 2022.  BRASIL. Ministério da Educação. Base Nacional Comum Curricular.
+Brasília: MEC, 2018. Disponível em: http://basenacionalcomum.mec.gov.br/images/B
+NCC_EI_EF_110518_versaofinal_site.pdf. Acesso em: 22 fev. 2022.  BRASIL.
+Ministério da Educação. Programa Nacional de Informática Educativa (PRONINFE).
+Documento orientador. Brasília: Ministério da Educação e do Desporto, 1989.
+BRASIL. Ministério da Educação. Programa Nacional de Informática Na Educação
+(PROINFO). Diretrizes. Brasília: Ministério da Educação e do Desporto, 1997.
+BRASIL. Ministério da Educação. Programa Um Computador Por Aluno (PROUCA).
+Manual. Disponível em
+<www.uca.gov.br/institucional//dowloads/manual_eletronico.pdf > Acessado em 04
+de dez. de 2010.  BRASIL. Ministério da Educação. Plano Nacional de Educação
+2014-2024. Brasília, 2014. Disponível em:
+https://pne.mec.gov.br/images/pdf/pne_conhecendo_20_metas.pdf. Acesso em: 02 de
+abr. de 2022.  BRASIL – Lei n.º 9.394/96 de 20 de dezembro de 2016. Lei de
+Diretrizes e Bases da Educação Nacional: que estabelece as diretrizes e bases da
+educação nacional. – 12. Ed.  Brasília, Brasil: Câmara dos Deputados, Edição
+Câmara, 2016. – (Série legislação; n. 254).   BRASIL. Ministério da Educação.
+Portaria n.º 1.602, de 28 de dezembro de 2017a. Programa de Inovação Educação
+Conectada. Disponível em: http://portal.mec.gov.br/index.php?option=com_docman&v
+iew=download&alias=82391-portaria-1602&category_slug=fevereiro-2018-pdf-
+2&Itemid=30192. Acesso em: 27 jun. 2019.   BEHAR, Patricia Alejandra. (Col.).
+Modelos Pedagógicos em Educação a Distância. Porto Alegre: Artmed, 2009.  BECK,
+Ulrich. A metamorfose do mundo: novos conceitos para uma nova realidade. Rio de
+Janeiro: Zahar, 2018.   BIESTA, Gert. O dever de resistir: sobre escolas,
+professores e sociedade. Revista Educação. Porto Alegre, v. 41, n. 1, p. 21-29,
+jan.-abr. 2018.   BIESTA, Gert. A re(des)coberta do ensino. São Carlos: Pedro e
+João Editores, 2020.  BORTOLAZZO, Sandro. Das conexões entre cultura digital e
+educação: pensando a condição digital na sociedade contemporânea. ETD- Educação
+Temática Digital. Campinas, SP v.22 n.2 p. 369-388 abr./jun. 2020.  BORTOLAZZO.
+Sandro Faccin. O imperativo da cultura digital: entre novas tecnologias e
+estudos culturais. Revista Cadernos de Comunicação, Santa Maria, v.20, n.1, p.1
+de 24, jan./abr.2016.  CAETANO, Maria Raquel. A educação no contexto de crise do
+capital e as relações entre estado, mercado e terceiro setor nas políticas
+educacionais. Laplage em Revista (Sorocaba), vol.4, n.2, maio-ago. 2018,
+p.153-168  CHARTLOT, Bernard. Educação ou Barbárie? Uma escolha para a sociedade
+contemporânea. São Paulo: Cortez, 2020.  DALBOSCO, Claudio. A filosofia, a
+escolar e o experimentum formative: a libertas como cultivo da soberba
+inflamada. In: GALLO, Silvio; MEDONÇA, Samuel. A escola: uma questão pública.
+São Paulo: Parábola, 2020.   ENZWEILER, Deise. Intencionalidade pedagógica:
+relações entre ensinar e aprender. In: Inclusão e aprendizagem: contribuições
+para pensar as práticas pedagógicas. Curitiba: Appris, 2017.  FILATRO, Andrea.
+Design instrucional na prática. São Paulo: Pearson Education do Brasil, 2008.
+FLEURY, Maria Tereza Leme; FLEURY, Afonso. Construindo o conceito de
+competência. Revista de Administração Contemporânea. Vol. 5, ed. esp., p.
+183-196, Curitiba, 2001.  LARROSA, Jorge. P de professor. São Carlos:
+Pedro&João, 2018.  LOUREIRO, Carine; KRAEMER, Graciele; LOPES, Maura.
+Competências e direito de aprendizagem: protagonismo e vulnerabilidade. Cadernos
+Cedes, Campinas, v. 41, n. 114, p.99-109, mai. – ago., 2021.  LOUREIRO, Carine
+Bueira. Educação para viver no mundo digitalizado. In: LOUREIRO, Carine Bueria.;
+LOPES, Maura Corcini (Org.). Inclusão, aprendizagem e tecnologias em educação.
+São Paulo: Pimenta Cultura, 2021.  LOUREIRO, Carine Bueira; LOPES, Maura
+Corcini. Aprendizagem: o imperativo de uma nova ordem econômica e social para o
+desenvolvimento. Pedagogia y Saberes, Bogotá, n. 51, p. 89-101, 2019
+MASSECHELEIN, Jan; SIMONS, Maarten. Em defesa da escola: uma questão pública. 2ª
+Ed. Belo Horizonte: Autêntica, 2022. MENDONÇA, Nicoli waschburger; LOUREIRO,
+Carine Bueira. Estado do conhecimento em informática na educação no brasil. In:
+Feira Brasileira de Iniciação Científica: empreendedorismo, sustentabilidade,
+criatividade, inovação. Pomerode, 2024.   NÓVOA, António. Escolas e professores:
+proteger, transformar, valorizar. Salvador: SEC/IAT, 2022.   PAGNI, Pedro A.
+Resistências ao cotidiano escolar de exceção: o ingovernável, a desobediência e
+o julgar reflexivo. In: GALLO, Silvio; MENDONÇA, Samuel (Org.). A escola: uma
+questão pública. São Paulo: Parábola, 2020.   PERRENOUD, Philippe.  Desenvolver
+competências ou ensinar saberes? A escola que prepara para a vida. Porto Alegre
+(Brasil): Penso, 2013.  RUBIN, Andressa; LOUREIRO, Carine Bueira. Tecnologias
+digitais móveis na educação: desafios e possibilidade. In: II Seminário
+Internacional e III Seminário Nacional Formação Pedagógica e Pensamento Nômade:
+ensino, docência e criação, 2021, Lajeado. Anais de Textos Completos II
+Seminário Internacional e III Seminário Nacional Formação Pedagógica e
+Pensamento Nômade: ensino, docência e criação. Lajeado: UNIVATES, 2021. v. 1. p.
+449-455.  SANTAELLA, Lúcia. Culturas e artes do pós-humano: da cultura das
+mídias à cibercultura. São Paulo: Paulus, 2003  Silva, Obdália Santana Ferraz.;
+Anecleto, Úrsula Cunha; Santos, Sirlaine Pereira Nascimento. Educação, formação
+docente e multiletramentos: articulando projetos de pesquisa-formação. Educação
+e Pesquisa, v.47, p.e221083. 2021.  SILVA, Ketia Kellen Araújo da. Mapeamento de
+competências: um foco no aluno da educação a distância. Dissertação de mestrado
+apresentada para a Faculdade de Educação da Universidade Federal do Rio Grande
+do Sul, Porto Alegre, 2012, 186f.  VALENTE, José Armando. Informática na
+educação no Brasil. In: VALENTE, José Armando (org). O computador na sociedade
+do conhecimento. Coleção informática para a mudança na educação. São Paulo: USP,
+1999.     CAPÍTULO 4   Uma pesquisa como esta que fundamentou o desenvolvimento
+da metodologia exige um conjunto extenso de pessoas envolvidas e com diferentes
+formas de atuação. Foram diferentes ações que, articuladas, deram a sustentação
+para a elaboração da metodologia e escrita deste livro. Podemos citar os
+encontros semanais de estudos realizados entre os pesquisadores da Rede de
+Investigação em Inclusão, Aprendizagem e Tecnologias em Educação (RIIATE), as
+contribuições diretas da pesquisa que mestrado intitulada Formação de
+professores e Cultura Digital: possibilidades e concepções (MPIE/IFRS), as
+interlocuções e trabalho interdisciplinar dos professores do MPIE/IFRS, as
+pesquisa de Iniciação Científica e de Mestrado e a parceria indispensável de
+professores atuantes na Educação Básica.  A contribuição destes diferentes
+atores — professores e bolsistas de Iniciação Científica (IC) e de Mestrado
+Profissional (MP) está materializada na elaboração e validação da metodologia e
+nos relatos apresentados a seguir. Nas próximas páginas estão expressas a
+narrativa de uma das professoras, a Manoela, que integrou o grupo de docentes
+participantes da pesquisa (de)formação de professores que originou a metodologia
+para a formação de professores para a Cultura Digital e o artigo da Andressa,
+uma das bolsistas de IC que atuou de forma conjunta com o GEPEMAT na condução do
+processo de pesquisa e de produção da metodologia.  Os relatos que seguem são de
+docentes participantes das formações continuadas ofertadas nas escolas, Aline e
+Gabrieli, professoras da escola de Caxias do Sul; Cristina e Rafael, que exercem
+a docência em uma das escolas de Porto Alegre. O capítulo é finalizado com o
+relato, em forma de uma entrevista escrita, de duas bolsistas que compõem a
+equipe de pesquisa.  Por meio das narrativas destes professores e participantes
+da equipe de pesquisa esperamos que todos os envolvidos sintam-se representados
+e registramos o nosso profundo agradecimento a cada um que, direta ou
+indiretamente, envolveram-se com a pesquisa, a criação e a validação da
+metodologia. Nosso agradecimento também à Fundação de Apoio à Pesquisa do Rio
+Grande do Sul (FAPERGS), pelo apoio por meio do Programa de apoio a projetos de
+pesquisa e de inovação na área de Educação Básica (PROEdu), à Coordenação de
+Aperfeiçoamento de Pessoal de Nível Superior (CAPES), que por meio do Inova EAD
+Capes tornaram possível a  concretização do projeto Inovação Pedagógica e
+Qualificação da Educação Básica e a publicação deste livro, ao Instituto Federal
+do Rio Grande do Sul (IFRS) pelo apoio e incentivo à pesquisa, à Pós-graduação e
+à Iniciação Científica e Tecnológica.     3.1. Cultura digital na educação
+básica sob a perspectiva de uma professora da educação básica  Manoela Lopes11
+Inicialmente, saliento que no momento da inscrição neste curso averiguei que
+trabalharíamos com recursos diretamente disponibilizados mediante acessos às
+máquinas e redes sociais, e, diante da minha realidade escolar, não visualizava
+possibilidades na sua adequação diária, face à ausência de acesso aos meios
+necessários. Porém, a cada encontro realizado houve uma mudança no meu modo de
+olhar para o termo Cultura Digital. Um dos primeiros trabalhos colocado em
+prática para os alunos em sala de aula foi o uso do “Google Earth” focando na
+nossa localização referente à cidade de Porto Alegre, atividade que nos permitiu
+a interdisciplinaridade entre as áreas de conhecimento: Geografia, História,
+Matemática, Língua Portuguesa e Artes.   ● Na disciplina de Geografia, buscamos
+referências utilizando os pontos cardeais e colaterais. Os alunos levaram seus
+endereços e fizeram o trajeto dos mesmos até a escola, atividade que auxilia na
+localização da área onde vivem. Também identificamos os pontos principais do
+bairro, como mercados, lojas, parques e locais onde se divertem.
+Respectivamente, este exercício continuou nos auxiliando no cotidiano escolar,
+bem como na vida dos alunos fora da escola, pois os mesmos davam as coordenadas
+dos seus trajetos ou quando iam explicar algum passeio realizado no final de
+semana já obtinham uma melhor orientação.   ● História, Artes – Pesquisamos os
+pontos turísticos da cidade onde residimos (Porto Alegre/RS), momento que nos
+possibilitou visitar um Museu online que foi o Iberê Camargo; Google Arts &
+Culture. Foi surpreendente esta experiência, pois alguns dos alunos já conheciam
+e para outros foi novidade.  No final do ano, visitamos o teatro São Pedro e, no
+caminho, para minha  11 Professora lotada nas Escolas Estaduais de Ensino
+Fundamental Osório Duque Estrada e Cônego Paulo de Nadal, resididas em Porto
+Alegre/RS. Formada em Pedagogia Multimeios e Informática Educativa e Pós-
+graduada em Psicopedagogia Clínica e Institucional. Responsável por uma turma de
+4º e outra 5º ano do Ensino Fundamental há 9 anos.     surpresa, os alunos
+reconheceram vários locais que havíamos pesquisado no início do ano, e ao
+conhecerem o prédio do teatro por fora demonstraram encantamento com a beleza, o
+que demonstra curiosidade por parte deles. Também fomos ao parque Kinijinick na
+zona sul de Porto Alegre, o qual havíamos procurado, anteriormente, para
+averiguarmos a sua localização, o que ajudou a diminuir a ansiedade deles e
+disponibiliza observarem outras coisas na cidade, tornando-os mais
+participativos.  Saliento que durante o processo de construção do conhecimento,
+através destas respectivas pesquisas e do uso de materiais concretos como
+relógio de sol, desenho dos pontos, vídeos explicativos, foi possível perceber a
+transformação dos alunos, pois conecta o mundo dentro e fora da escola, mediante
+a aplicação de seu aprendizado no dia a dia.        Ademais, ressalto o uso do
+Kahoot, que é uma plataforma de aprendizado baseada em jogos, usada como
+tecnologia educacional em escolas e outras instituições de ensino. Seus jogos de
+aprendizado, Kahoots, são testes de múltipla escolha que permitem a geração de
+usuários e podem ser acessados por meio de um navegador da web ou do aplicativo
+Kahoot. Na prática escolar, criei jogos para os alunos com o objetivo de revisão
+dos conteúdos de Língua Portuguesa com questões de verdadeiro ou falso e para
+marcarem a opção correta (conteúdo substantivos). Eu projetava no quadro as
+perguntas e nos cromebooks o aluno respondia à pergunta, após o tempo, que o
+professor quando edita escolhe (exemplo 30 segundos) aparece na tela principal o
+placar, mudando conforme o tempo de resposta, sendo finalizado com o pódium. Tal
+trabalho compartilhei com as minhas colegas em uma reunião pedagógica.
+Ressalvo que na escola participamos da Mostra Científica e Cultural, onde
+apresentamos o projeto “Vamos tentar diminuir o lixo?”, e para tal foi
+confeccionado uma composteira de materiais recicláveis e realizamos a coleta do
+lixo orgânico, envolvendo pesquisa de material no google, bem como coleta e
+pesquisa de materiais orgânicos no jardim da escola. Após a coleta do material,
+colocamos em prática os cuidados necessários com a compostagem, organização do
+material com cartazes explicativos e slides no Canva. Os alunos colocaram a “mão
+na massa”, trouxeram resíduos de orgânicos permitidos para a composteira,
+picaram restos de alimentos, rasgaram caixa de ovos, colheram folhas secas.
+Observo que a pretensão da escola  é trabalhar no próximo ano com a composteira,
+pois possuem uma horta escolar, onde o professor de história trabalha com os
+alunos de sexto a nono ano. Então, o resultado com a nossa composteira é adubar
+a terra da horta já existente na escola. Ainda, reforço que na preparação do
+material para o Canva, foram utilizados vídeos e fotos do trabalho realizado
+pelos alunos, expostos no dia da Mostra Científica e Cultural com visitação da
+comunidade escolar. Eles se prepararam ensaiando suas falas e com a confecção de
+um avental decorado pelos mesmos para a apresentação.  Também fiz uso do Canva
+como estudante, para apresentação do meu projeto em um curso de Contação de
+histórias de bonecas negras. Este recurso me auxiliou na construção do projeto,
+razão pela qual considero que o curso que participei também faz parte da Cultura
+Digital, pois a construção da boneca de pano deixa a contação de história mais
+realista. Tal projeto me despertou mais interesse, depois que participei da
+pesquisa da Educação 4.0. Nesse trabalho, eu costurei toda a boneca negra de
+pano e apresentei a sua história para os alunos, escolhi Esperança Garcia.
+Anteriormente, na semana da Consciência Negra fiz esse trabalho com os alunos do
+quinto ano, momento em que pesquisaram a história dela e depois em grupos se
+apresentaram cada um com a sua visão sobre a Esperança Garcia, que teve a
+participação da direção e possibilitou um novo olhar para a educação
+antirracista dentro da escola; e com a minha outra turma, de quarto ano, eu
+contei a história e depois fui convidada pela professora responsável do quinto
+ano para repetir a contação de histórias com os seus alunos, quando nos reunimos
+no pátio da escola e com olhar muito sensível para a questão fizeram
+questionamentos interessantes e demonstraram estarem conectados com a história
+da Esperança Garcia. Por fim, no início do corrente ano (2023), na primeira
+reunião da escola, apresentei esse trabalho para os professores com o intuito de
+começarmos a trabalhar a educação antirracista em sala de aula. Portanto, com
+todas as dificuldades de falta de suprimentos em algumas escolas, como dias sem
+internet, sem material básico escolar como cola ou tesoura, nós educadores
+conseguimos superar os desafios e tornar a sala de aula mais agradável e
+produtiva de forma criativa, buscando sempre incentivar os alunos a tornarem-se
+participativos. E, concluo com a certeza de que continuarei a lançar desafios
+para mim mesma com todo o trabalho desenvolvido no curso e no meu crescimento
+como profissional.     3.2. Possibilidades para a educação 4.0 na educação
+básica no contexto da iniciação científica na perspectiva de uma bolsista
+Andressa Machado Rubin12       A Iniciação Científica (IC) é o primeiro contato
+que o estudante tem com a pesquisa em uma instituição de ensino. Através da IC
+os estudantes desenvolvem um aprendizado focado em uma linha científica da sua
+área, desenvolvem técnicas de consulta bibliográfica, têm os primeiros contatos
+com a metodologia científica e as aperfeiçoam. Além destas características, a IC
+também prepara os estudantes que pretendem cursar o mestrado e o doutorado após
+a graduação, segundo Pires (2002, p. 131), a IC:  [...] representa um
+instrumento de tomada de decisão do bolsista, ajudando-o a definir um rumo e a
+criar estratégias, no vasto e diversificado currículo dos cursos da graduação;
+possibilita ao bolsista ter o exemplo do orientador como referência para a
+construção de seu futuro profissional, induzindo-o ao ingresso direto no
+mestrado ou até mesmo no doutorado; permite ao bolsista o diálogo entre áreas
+diferentes, a do curso e a do projeto, abrindo-se um leque de possibilidades de
+formação para o exercício futuro de qualquer profissão.   Além disso, a IC
+possui uma importante relação com a sociedade em geral, isso se deve ao fato de
+que os resultados das pesquisas desenvolvidas podem contribuir para a solução de
+problemáticas sociais. Outro aspecto relevante é que esse método aproxima a
+academia  da sociedade, permitindo que o conhecimento produzido nas
+universidades seja compartilhado com a população, contribuindo para a formação
+de uma sociedade mais crítica e participativa  Compreendendo a importância que a
+pesquisa e a IC tem para os estudantes e, neste sentido, este artigo trará a
+trajetória da bolsista de Iniciação Científica que participou do projeto
+Metodologia para a Educação 4.0, estudante do curso de Licenciatura em Ciências
+da Natureza com habilitação em Biologia e Química do  12 Estudante do curso de
+Licenciatura em Ciências da Natureza com Habilitação em Biologia e Química do
+Instituto Federal do Rio Grande do Sul (IFRS), Campus Porto Alegre,
+andressarubin98@gmail.com.  Instituto Federal do Rio Grande do Sul (IFRS),
+Campus Porto Alegre. A pesquisa dispôs como objetivo criar práticas pedagógicas
+voltadas para a tarefa educativa por meio da Educação 4.0 e como finalidade
+buscar uma solução em conjunto para uma situação-problema específica, ou seja,
+teve como objetivo, com professores de escolas de Educação Básica do município
+de Porto Alegre, por meio de uma pesquisa (de)formação, desenvolver uma
+metodologia para a formação de professores para a Educação 4.0.  A construção da
+pesquisa, deu-se, primeiramente, pela estruturação do Estado da Arte investigado
+no portal de periódicos da Coordenação de Aperfeiçoamento Pessoal de Nível
+Superior (CAPES). Após o Estado da Arte, iniciou-se a pesquisa sobre os recursos
+digitais para dispositivos móveis dispostos gratuitamente no Google Play Store e
+na App Store. Além dos aplicativos, foram acrescentados recursos digitais sem a
+necessidade de instalação no celular ou computador, que são sites da Web
+gratuitos e que podem ser utilizados em atividades diversas em todas as matérias
+do ensino básico.   Posteriormente, pretendeu-se detalhar estes aplicativos e
+sites da Web, buscando encontrar recursos gratuitos que utilizassem realidade
+virtual (RV) e realidade aumentada (RA), sendo que dos cinco programas
+escolhidos somente um necessitava, obrigatoriamente, de instalação no aparelho
+de dispositivo móvel.  Cabe destacar também que as interações com os professores
+participantes da pesquisa aconteceram por meio de encontros virtuais mensais via
+Google Meet, momento em que era exercitada a escuta dos docentes em relação às
+práticas que eles vinham desenvolvendo, bem como as suas demandas e futuros
+delineamentos da pesquisa. O diálogo entre os professores e os pesquisadores é
+fundamental para consolidar saberes procedentes da prática profissional, pois
+essa “troca de experiências e a partilha de saberes consolidam espaços de
+formação mútua, nos quais cada professor é chamado a desempenhar,
+simultaneamente, o papel de formador e de formando.” (Nóvoa, 1992, p. 14).  Nos
+encontros on-line, aconteciam apresentações formuladas pela bolsista de IC sobre
+os recursos digitais que estavam envolvidos na respectiva pesquisa. Desse modo,
+apresentamos os recursos para que os professores pudessem conhecer e entender
+suas funcionalidades e, a partir deles, criarem possibilidades de utilização. A
+ideia era dispor de recursos que permitissem aos professores o desenvolvimento
+de práticas autorais, ou seja, baseadas em Masschelein e Simons (2013),
+interessa- nos pesquisar e apresentar aos professores participantes da pesquisa
+artefatos digitais que possibilitem a manutenção da centralidade da
+intencionalidade pedagógica. Isso quer dizer que a intencionalidade pedagógica
+antecede o uso do recurso digital. Desse modo,a autoria pedagógica do professor
+não fica formatada à tecnologia e, com isso, é preservada. No mesmo sentido,
+compreendemos que dessa maneira há a possibilidade de aliar o uso de tecnologias
+digitais a criação de espaços e tempos de suspensão, em que há lugar para
+problematizações, reflexões, criações e interrupções. Nos encontros on-line
+também havia o compartilhamento das experiências docentes e relato das
+impressões acerca das experiências discentes.   Ferramentas Tecnológicas 4.0
+Como a pesquisa teve como fio condutor a noção de Educação 4.0, a utilização de
+recursos de RV e RA foram o foco das buscas. Com isso, segundo Silva (2013), a
+RA é uma tecnologia que utiliza o dispositivo móvel para permitir ao usuário
+transportar o ambiente virtual para o ambiente real, podendo usar a interface do
+ambiente real para manusear os objetos reais e virtuais. A tecnologia da RA traz
+para a realidade do usuário os objetos tridimensionais para que a interação
+ocorra no mundo real. Devido a isso, a RA pode ser inserida na educação podendo
+ser utilizada pelos docentes em suas atividades, pois algumas de suas vantagens
+são o baixo custo do material utilizado, o pouco treinamento necessário para sua
+manipulação e é responsável por deixar a aula mais dinâmica e interativa. Já a
+RV é uma tecnologia que utiliza um ambiente digital o qual é gerado
+computacionalmente e pode ser experienciado de forma interativa como se fosse
+real (Jerald, 2015). Essa tecnologia permite uma imersão no ambiente virtual
+através dos recursos gráficos 3D ou imagens em 360° e dos efeitos sonoros. Para
+uma experiência mais imersiva no ambiente digital utiliza-se óculos de RV que
+proporcionam um amplo campo de visão, com diferentes graus e com sincronia de
+imagem de acordo com o movimento do usuário. Com isso, a empresa Google criou um
+óculos de RV denominado Google Cardboard que, devido ao seu valor acessível e ao
+fácil manuseio, é muito utilizado em instituições educacionais. Embora a
+Educação 4.0 surge como a adaptação do ambiente escolar acompanhando a evolução
+tecnológica (Santos; Maciel, 2020), entende-se que tais  recursos podem ser
+incorporados às práticas pedagógicas para possibilitar a inserção de outros
+elementos, bem como a preservação da autonomia pedagógica do professor. Neste
+sentido, buscou-se por recursos que chamamos de flexíveis e que permitem
+oferecer ao estudante experiências outras, capazes de favorecer o pensamento
+acerca das relações humanas. Com isso, utilizamos softwares gratuitos, em
+português e de fácil acesso para que professores e alunos pudessem acessá-los em
+seu dia a dia dentro e fora de sala de aula. Esses programas estão disponíveis
+na internet e podem ser baixados no computador ou celular.  O software que
+possui RA, utilizado em conjunto com os professores envolvidos na pesquisa, foi
+o aplicativo de dispositivo móvel AVATAR UFRGS, que necessita de instalação no
+dispositivo móvel e os softwares utilizados que possuem RV e que não precisam de
+instalação, podendo ser utilizados pelo site do próprio programa, foram o Google
+Arts e Culture, Google Earth, Phet Interative Simulations que é um laboratório
+virtual e o Youtube 360.  Com as tecnologias escolhidas em conjunto com os
+professores, em formato online por meio de encontros quinzenais, formulamos
+apresentações sobre os programas, trazendo respostas às dúvidas de utilizações
+dos mesmos. Nas apresentações colocava-se um resumo sobre o software, passo a
+passo de como utilizá-lo, os níveis de ensino que podem ser trabalhados, ideias
+de atividades transdisciplinares e as possibilidades de recursos e atividades.
+Nos encontros seguintes, os professores traziam suas experiências na utilização
+dos programas com os alunos em sala de aula           A Educação 4.0 está
+apoiada na ideia de que a informação está “acessível a todos de forma horizontal
+e circular, sem limite de tempo e espaço geográfico” (FÜHR; 2019). Entre os
+pilares da Educação 4.0 está o letramento digital, a incorporação de avanços
+tecnológicos digitais à gestão escolar e a inserção de tecnologias nas práticas
+pedagógicas por meio de metodologias diversificadas e promoção de práticas
+inovadoras no processo de aprendizagem (Escolas Disruptivas, 2021). Neste caso,
+entre as nossas propostas com os professores, abordamos temas como a
+governamentalidade algorítmica (Rouvroy, 2015) e diretrizes sobre proteção de
+crianças na internet (ONU, 2021) no decorrer dos encontros.           Segundo
+Biesta (2018), para obter-se uma educação de qualidade deve-se entender que a
+qualificação não é o central, mas que a socialização e a subjetivação  estão
+também sempre presentes e precisam ser consideradas. Nesse contexto, entende-se
+que a socialização e a subjetivação que tem a ver com a possibilidade de que os
+alunos e alunas “não adotem apenas uma identidade particular, não sejam apenas
+objetos das intenções e ações de outras pessoas, mas existam como (um) sujeito
+por direito próprio” (Biesta, 2018, p. 24) e, amparados em Biesta (2020),
+defende-se que recursos de RA e RV, quando bem compreendidos e utilizados para
+provocar o pensamento, podem contribuir para a existência do sujeito no mundo de
+uma forma responsável e crítica.  No âmbito das práticas pedagógicas, espera-se
+que a utilização das tecnologias esteja articulada à intencionalidade
+pedagógica, na qual a utilização esteja focada para além do recurso. Na Educação
+4.0 o professor tem um papel central no desenvolvimento das atividades e
+principalmente no auxílio no percorrer das mesmas. Com isso, compreende-se que
+não se trata de focar as tecnologias para o “treinamento de competências e
+habilidades, mas sim de exercícios práticos, de pensamentos, que tomam o sujeito
+na totalidade e o levam a meditar sobre si mesmo e sobre o mundo” (Dalbosco,
+2020, p. 31).  Atuação como Bolsista  Esse projeto em conjunto com os
+professores foi significativo, uma vez que continuo percorrendo o caminho da
+licenciatura e os diálogos e trocas com os professores acerca da profissão foram
+fundamentais, pois as “práticas de formação que tomam como referência as
+dimensões coletivas contribuem para a emancipação profissional e para a
+consolidação de uma profissão autônoma na produção dos seus saberes e dos seus
+valores” (Nóvoa, 1992, p. 15). Essas trocas de saberes vivenciadas com e entre
+os professores envolve uma perspectiva colaborativa e compartilhada de
+aprendizagem, em que os professores são vistos como sujeitos ativos na
+construção do conhecimento e na reflexão sobre a prática educativa. Nesse
+sentido,  essa troca não se limita apenas à transmissão de informações ou
+técnicas, mas implica uma atitude de escuta e diálogo, em que cada professor
+contribui com sua experiência e conhecimento.     Nos diálogos com os
+professores, além das trocas de experiências e conhecimentos, registrou-se a
+necessidade do desenvolvimento de políticas públicas e de investimentos para o
+acesso a tecnologias nas escolas de ensino básico público, sendo de fundamental
+importância a inserção de rede Wi-Fi com internet de qualidade  nas
+instituições.  Além do acesso ao Wi-Fi e a inserção de banda larga, é necessário
+aparelhos adequados, de fácil manuseio em sala de aula para que, principalmente,
+os alunos tenham acesso às tecnologias na escola, sendo que muitos não possuem
+acesso em suas residências.  Para o compartilhamento dos estudos e alguns dos
+resultados referentes à pesquisa referidas, foi criada uma conta no Instagram
+denominada @GEPEMAT sigla referente ao Grupo de Estudos em Pesquisa, Matemática
+e Tecnologias (GEPEMAT/CNPq/IFRS). Nesse perfil são compartilhadas indicações de
+livros dos grupos de pesquisa relacionados, reels com relatos de pesquisa e
+explanações sobre assuntos referentes aos temas dos projetos de pesquisa,
+indicações de recursos digitais, dicas de séries e filmes relacionados à
+tecnologia, artigos científicos, aulas abertas, conferências e palestras.
+Referências  BIESTA, Gert. O dever de resistir: sobre escolas, professores e
+sociedade. Educação PUCRS, Porto Alegre, v. 41, n. 1, p. 21-29, jan-abr, 2018.
+Disponível em:
+https://revistaseletronicas.pucrs.br/ojs/index.php/faced/article/view/29749.
+Acesso em: 24 out. 2021. BIESTA, Gert. A (re)descoberta do ensino. São Carlos:
+Pedro&João Editores, 2020. DALBOSCO, Claudio. A filosofia, a escola e o
+experimento formativo: a libertas como cultivo da soberba inflamada. In: GALLO,
+Sílvio; MENDONÇA, Samuel (Orgs.). A escola: uma questão pública. São Paulo:
+Parábola, 2020. FÜHR, Regina Candida. Educação 4.0 nos impactos da quarta
+revolução industrial. 1. Ed. Curitiba: Appris, 2019. JERALD, Jason. The VR book:
+human-centered design for virtual reality. San Rafael: Morgan & Claypool, 2015
+MASSCHELEIN, Jan; SIMONS, Maarten. Em defesa da escola. Belo Horizonte:
+Autêntica, 2013. NÓVOA, António. Formação de professores e profissão docente.
+Repositório Ulisboa, Lisboa, p. 1-27, 1992. Disponível em:
+https://repositorio.ul.pt/handle/10451/4758. Acesso em: 22 dez. 2021.  PIRES, R.
+C. M. A Contribuição da iniciação científica na formação do aluno de graduação
+numa universidade estadual. 2002. Dissertação (Mestrado em Educação) – Faculdade
+de Educação. Salvador: Universidade Federal da Bahia, 2002. SANTOS, Priscila da
+Silva; MACIEL, Priscila de Souza. A (R)Evolução Da Educação 4.0 No Ensino De
+Ciências E Matemática Em Escolas Da Rede Estadual Da Paraíba. Revista Novas
+Tecnologias na Educação, v. 18, n. 2, dez. 2020. SILVA, Adriana Simões de Sales
+Dias. Uso de Recurso Educacional com Mídias Interativas e Integradas On-Line em
+Ensino e Aprendizagem. 2013. Dissertação (Mestrado Profissional em Ensino de
+Ciências) – Programa de Pós-Graduação em Ensino de Ciências. Itajubá-MG:
+Universidade Federal De Itajubá, 2013.   3.3. FORMAÇÃO CONTINUADA DE
+PROFESSORES: UMA VISÃO SOB A PERSPECTIVA DA GESTÃO ESCOLAR   Aline Messias
+Oliveira13 Gabrieli Brollo Salomoni14  INTRODUÇÃO  No atual cenário educacional,
+a cultura digital tem ocupado um espaço cada vez mais relevante, influenciando
+diretamente o fazer pedagógico na escola e a aprendizagem dos estudantes. A
+evolução das tecnologias digitais exige que os professores adquiram novas
+competências e habilidades para integrar essas ferramentas em suas práticas
+pedagógicas, possibilitando uma aprendizagem mais significativa e próxima ao
+contexto dos estudantes. Para isso, é necessário que os gestores e professores
+invistam em formações continuadas para a qualificação das práticas docentes na
+escola e atravessar as barreiras que ainda os impedem de criar práticas
+pedagógicas significativas que irão beneficiar a aprendizagem dos estudantes,
+dentro do contexto da cultura digital.  A formação “Inovação pedagógica e
+qualificação da educação básica” promovida pelos docentes do Instituto Federal
+do Rio Grande do Sul - Campus Porto Alegre do Mestrado Profissional em
+Informática na Educação tem a duração de 5 meses, de junho a novembro de 2024,
+ocorrendo em encontros presenciais no horário de aula e no espaço escolar, com
+exceção do último encontro que será promovido no Campus Porto Alegre, com
+oficinas para os estudantes das escolas atendidas e palestras para os
+professores que participaram das formações ao longo do período. O objetivo da
+formação é incentivar a inovação pedagógica e promover a melhoria da qualidade
+do ensino na Educação Básica por meio da metodologia para formação continuada de
+professores da Educação Básica para a Cultura Digital.  13 Mestranda em Educação
+Básica pelo IFRS, especialista em Educação inclusiva com ênfase em neuroeducação
+e aplicação clínica pela UNISEPE/ UNIFIA e graduada em Pedagogia pela
+Universidade de Caxias do Sul. Atualmente está no cargo de vice-direção da EMEF
+San Gennaro.  14 Especialista em Coordenação Pedagógica pela Uniasselvi,
+Especialista MBA Gestão Empresarial pela Faculdade da Serra Gaúcha e graduada em
+Educação Física Licenciatura pela Faculdade da Serra Gaúcha. Atualmente está no
+cargo de coordenadora pedagógica e professora dos anos finais de educação física
+da EMEF San Gennaro.   Diante do objetivo da formação ofertada pelo IFRS e com a
+necessidade de formação pedagógica continuada para os professores, a EMEF15 San
+Gennaro do município de Caxias do Sul/ RS concordou em participar do Projeto
+proposto. A Escola San Gennaro é uma escola recente na rede municipal,
+inaugurada em 2021, conta com 201 estudantes matriculados nos anos, conforme
+boletim estatístico realizado em agosto de 2024, contemplando estudantes da
+educação infantil, anos iniciais e finais do ensino fundamental e atendendo a
+partir do presente ano letivo, como Escola de Tempo Integral. Visto essa
+mudança, a matriz curricular engloba disciplinas diversificadas além das
+disciplinas convencionais das demais escolas do Município, sendo possível trazer
+temáticas e discussões mais aprofundadas sobre diversas temáticas.  Assim, a
+formação visa instrumentalizar o fazer pedagógico dos docentes,  permitindo que
+os educadores atualizem seus conhecimentos e técnicas pedagógicas, integrando
+novas metodologias e recursos que enriquecem o processo de ensino-aprendizagem.
+Em um ambiente de tempo integral, onde os alunos permanecem na escola por
+períodos mais extensos, a capacidade do professor de diversificar e adaptar suas
+abordagens educacionais torna-se ainda mais crucial. A formação contínua também
+favorece a troca de experiências e práticas inovadoras entre os profissionais,
+promovendo um ambiente escolar mais dinâmico e eficiente. Dessa forma, investir
+em formação contínua é fundamental para garantir que os professores estejam bem
+preparados para atender às necessidades diversificadas de seus alunos e
+contribuir para um desenvolvimento educacional de alta qualidade.  2
+DESENVOLVIMENTO A cultura digital é um conceito amplo e está presente em todos
+os lugares, pois estamos conectados a todo momento. Ela está na integração das
+mídias, na comunicação instantânea que rompe barreiras geográficas, na produção
+de conteúdo, no compartilhamento de informações, no consumo de mídias, ela
+influencia e é influenciada pela cultura, economia, política e educação. Hoje a
+cultura digital  possibilita uma nova forma de existir, viver, produzir e ser e
+por isso, precisamos compreendê-la para inseri-se nela de forma consciente. Com
+tantos limites e desafios,  15 Escola Municipal de Ensino Fundamental   nos
+questionamos sobre o nosso  papel docente na cultura digital: seríamos
+transmissores, mediadores, doutrinadores, consultores de informação, curadores,
+facilitadores? Além destas dúvidas, questionamos também sobre o papel dos
+estudantes nas escolas e a relação deles com os saberes na cultura digital.  A
+formação de professores emerge como uma necessidade para conseguir algumas
+respostas e compreender os nossos papéis e o papel da cultura digital na escola
+e na educação. O Professor Nóvoa (2022), em uma entrevista realizada no
+Instituto de Educação da Universidade de Lisboa, Portugal disse: As tecnologias
+fazem parte da nossa vida, do dia a dia das nossas crianças, mas a educação dá-
+se sempre num contexto de relação humana. A educação não é apenas um ato
+individual, é uma dinâmica de aprendizagem com os outros. Ninguém se educa
+sozinho. É impossível. A relação humana é tão importante que não consigo
+imaginar que a educação possa ser feita de forma totalmente virtual, totalmente
+a distância. Os dispositivos digitais que temos ao nosso alcance são úteis,
+ninguém os deve recusar. Mas, dizer que a educação vai passar a ser feita
+unicamente a distância seria perder a dimensão da relação humana, do encontro
+humano que é absolutamente necessário. Não há educação sem o afeto, não há
+educação sem o sentimento, não há educação sem a relação humana profunda, de
+alunos com alunos, de alunos com professores. Não se pode conhecer sem sentir,
+não se pode aprender sem emoção, sem empatia. Não nos podemos educar sem os
+outros.  Educar-se com o outro é de suma importância para aprendermos mais sobre
+assuntos que nos inquietam e que são necessários para a nossa prática docente.
+Desta forma, o primeiro encontro da Formação “Inovação pedagógica e qualificação
+da educação básica”, ministrada pela professora Carine Bueira Loureiro, com
+auxílio de uma bolsista de IC16 e do Mestrado profissional possibilitou
+compreender melhor o que é a cultura digital e ampliar os conceitos acerca do
+assunto. Enquanto sujeitos, temos diversos papéis na cultura digital, pois
+participamos como produtores, consumidores e disseminadores. A cultura digital
+modifica a vida cotidiana, invadindo as casas e interferindo nas relações que
+estabelecemos com o mundo físico e simbólico, tornando-nos muitas vezes reféns
+da tecnologia e dos dispositivos digitais. Inicialmente, os professores foram
+provocados a pensar onde a tecnologia está presente em nosso cotidiano e como
+diversas funcionalidades foram integradas em um único dispositivo, como por
+exemplo o celular e sua função de relógio, câmera, calculadora, carteira
+digital, telefone, bloco de notas, comunicação instantânea, mobilidade de
+conexão de internet, etc.   16 Iniciação Científica  Através dessa reflexão, foi
+possível refletir sobre o quanto fazemos uso dessa tecnologia e por vezes,
+acabamos ficando alheios a outros recursos pedagógicos, que vão além das telas
+digitais. O livro físico, por exemplo, tem sido substituído por plataformas de
+leituras voltadas para as crianças e adolescentes, que muitas vezes não tem uma
+curadoria de profissionais da área da literatura. Acabamos por vezes esquecendo
+o quão rico é a experiência de ler um livro físico, sentir seu cheiro e manusear
+suas folhas durante a leitura. Com o uso das plataformas de leitura esse tipo de
+experiência não é possível, além do que, nos deparamos com histórias
+superficiais, que carecem de elementos imagéticos e narrativas enriquecedoras e
+que contam com recursos de leitura em voz alta - o qual o estudante não precisa
+ler para saber o que aquela história conta. As plataformas digitais de leitura
+possuem pontos positivos e podem ser utilizadas como um recurso pedagógico, mas
+não podem ser o único recurso literário a ser utilizado na escola. A
+“plataformização” da Educação, como foi citada na primeira formação pela
+Professora Carine, com plataformas abertas e fechadas são fenômeno no qual cada
+vez mais aspectos dos processos educacionais são mediados por plataformas
+digitais. Apesar de facilitar muitas coisas no planejamento do professor e
+parecer inovar nossas ações pedagógicas, precisamos estar atentos aos problemas
+que a “plataformização” na educação pode causar, uma vez que pode aumentar as
+desigualdades, privilegiando o acesso e recursos para alguns e impedindo de
+outros. Além disso, pode comprometer a privacidade dos dados dos estudantes e
+limitar a diversidade de perspectivas e métodos de ensino. É preciso deixar de
+lado a ingenuidade frente aos fascínios que a tecnologia nos proporciona e
+precisamos estar atentos às ações tendenciosas do sistema econômico de aparelhar
+o sistema educacional. Nesta primeira formação foi possível também refletir
+sobre a nossa BNCC, como ela foi construída e quais competências estão presentes
+nela e que se alinham com a cultura digital. Segundo a BNCC (2018), a quinta
+competências geral da Educação Básica destaca: Compreender, utilizar e criar
+tecnologias digitais de informação e comunicação de forma crítica,
+significativa, reflexiva e ética nas diversas práticas sociais (incluindo as
+escolares) para se comunicar, acessar e disseminar informações, produzir
+conhecimentos, resolver problemas e exercer protagonismo e autoria na vida
+pessoal e coletiva.  Vivenciamos atualmente em sala de aula uma geração de
+estudantes “pré e pós” pandemia, onde muitos interesses, atitudes e valores nos
+aspectos cognitivo,  social, emocional e comportamental mudaram em relação a
+geração passada. Nossos estudantes estão cada vez mais inseridos na cultura
+digital e de certo modo, alienados em softwares e aplicativos que em alguns
+casos não agregam em suas aprendizagens. Os estudantes desde pequenos já sabem
+fazer uso das tecnologias, mas necessitam de um direcionamento para utilizá-las
+com discernimento, bom senso e de forma ética. O desenvolvimento da quinta
+competência geral da BNCC prevê uma “utilidade sistêmica”, a formação de um
+sujeito funcional na sociedade, preparado para o mercado de trabalho. Precisamos
+ir além deste conceito, rompendo com ideias neoliberalistas que reduzem a
+educação a uma mera preparação profissional, relacionados a interesses
+econômicos. Segundo Loureiro e Lopes (2024) Entendemos que somente fomentar a
+participação na cultura digital, por meio do desenvolvimento de habilidades e
+competências que miram em técnicas para a resolução de problemas e para a
+preparação profissional, é uma visão reducionista do papel que as tecnologias
+digitais exercem na vida de cada um de nós. Mais do que fazer parte da cultura
+digital, defendemos uma participação crítica e refletida, e, para tanto,
+compreender como as subjetividades são interpeladas e modeladas na sociedade
+digitalizada torna-se fundamenta.”  Propor a participação dos nossos estudantes
+na cultura digital precisa ir além do desenvolvimento de habilidades e
+competências.  Ensinar somente o estudante a habilidade de utilizar o e-mail
+como uma ferramenta de comunicação não é o bastante. É preciso ensiná-lo a como
+utilizar essa ferramenta de forma funcional e com princípios, afinal, vivemos
+numa época que é necessário também refletir sobre questões éticas e boa conduta
+no meio digital. O professor Goergen, Pedro (2020) diz que  “A educação carece
+hoje de um novo sujeito histórico, de uma nova ideia básica e fundante, de uma
+nova transcendência histórica que sirva de fio condutor para o debate, discussão
+e construção da convivência humana, digna e justa para todos.” Precisamos formar
+sujeitos autônomos, ativos, subjetivamente conscientes e socialmente
+responsáveis, rompendo com processos de subjetivação neoliberal no contexto
+educacional.  A segunda formação, ministrada por  bolsista de IC e do Mestrado
+profissional, trouxe uma perspectiva diferente da cultura digital, mostrando que
+ela vai muito além do uso de equipamentos eletrônicos, com pensamento plugado e
+desplugado. Esta ideia corrobora com a ideia de Camargo, Daros (2021, p.7): Ser
+digital vai muito além do aparelhamento tecnológico. Trata-se sobretudo de uma
+mudança genuinamente paradigmática refletida na cultura e no mindset. Não
+depende unicamente da incorporação de ferramentas tecnológicas educacionais ou
+mesmo da automatização de uma série de  atividades previstas no cotidiano
+educativo, mas de como os profissionais da educação são capazes de introjetar
+esse modelo.  A educação moderna está cada vez mais imersa em tecnologias
+digitais, levando à integração de atividades plugadas (uso de dispositivos e
+softwares) e desplugadas (atividades sem tecnologia) no planejamento pedagógico.
+Esta formação então, se dá para apresentar aos docentes uma visão primária da
+iniciação do uso dos equipamentos eletrônicos. Esse enfoque integrado visa
+desenvolver habilidades essenciais como o pensamento computacional, raciocínio
+lógico e programação. A implementação  da  computação  na  matriz  curricular
+brasileira  se  torna  obrigatória  depois  da homologação  da  Base  Nacional
+Comum  Curricular  (BNCC)  da  computação  em  2022,  que instrui maneiras como
+a computação deve ser abordada por níveis (BRASIL, 2022). Diferente do que pensa
+o senso comum, o ensino da computação não requer somente compreender o uso de
+hardwares e softwares, mas compreender conceitos do pensamento computacional,
+raciocínio lógico e programação.  A formação oportunizou aos professores
+vivências e práticas que são viáveis e de fácil aplicação com as
+crianças/estudantes, abordando temáticas interdisciplinares, que planejadas
+podem desenvolver habilidades e competências de uma forma mais agradável,
+através da gamificação, brincadeiras e jogos, não necessariamente utilizando
+equipamentos eletrônicos. Conforme Silva, Sales e Castro (2019), dentre as
+metodologias, a gamificação vem ganhando destaque nacional e internacional
+devido a sua capacidade de envolver, engajar e motivar a ação do estudante em
+ambientes de aprendizagem, também ressalta que objetivo da gamificação é
+potencializar o processo de aprendizagem.  3 CONSIDERAÇÕES FINAIS  Imersos nas
+reflexões e debates proporcionados pelas formações pedagógicas, nos questionamos
+sobre qual o nosso papel enquanto gestão escolar e corpo docente, sob os avanços
+e a incorporação das tecnologias e informatização na educação. Estamos cada vez
+mais convencidos que as formações pedagógicas precisam ser continuadas e o novo
+cenário exige adotarmos o hábito de estudar no  nosso cotidiano escolar. Somente
+a graduação e pós graduação não conseguem dar conta das novas e atuais demandas,
+pois corremos o risco de ficarmos a mercê de fazer uma prática docente pautada
+somente nas necessidade de uma sociedade capitalista, ditada por documentos
+orientadores que visam formar somente um sujeito “mão de obra” para o mercado de
+trabalho. A formação continuada possibilitará uma prática docente que transcende
+o currículo e os objetos de conhecimentos previstos em nossos referenciais
+curriculares, indo além do desenvolvimento de competências descritas em nossos
+documentos.  A gestão escolar, tanto pedagógica quanto administrativa precisa
+estar sempre atenta aos movimentos que ocorrem na escola. Enquanto gestoras,
+estando nos cargos de vice-direção e coordenação pedagógica, sabemos o quanto é
+importante direcionar nosso olhar para o fazer pedagógico da escola,
+acompanhando tanto o corpo docente, como também o corpo discente e as
+necessidades e especificidades de cada um. É de suma importância acompanhar os
+projetos desenvolvidos e também atuar junto a eles, dando apoio, suporte e
+coordenando o trabalho dos professores junto aos estudantes. Atuar desta maneira
+possibilita uma visão para além das atividades burocráticas e administrativas
+que muitas vezes fazem parte da gestão escolar e desta forma, conseguimos ter
+uma visão para além de resultados que vimos em planilhas.  Conforme professores,
+que relataram utilizar os conceitos abordados na formação, de atividades
+desplugadas e também plugadas, ao aplicar mecânicas de jogos, como pontuações,
+desafios e recompensas, os professores conseguem transformar o processo de
+ensino em uma experiência mais envolvente e motivadora para os alunos. Essa
+abordagem estimula a participação ativa e o entusiasmo dos estudantes,
+promovendo um aprendizado mais dinâmico e interativo, além disso,  facilita a
+prática de habilidades de resolução de problemas e o desenvolvimento de
+competências colaborativas, uma vez que os alunos frequentemente trabalham em
+equipe para superar desafios e alcançar metas. O grupo docente mostrou-se muito
+receptivo nas formações e ansioso pelo novo assunto que seria abordado. Como
+sugestão, acreditamos que diminuir o tempo entre uma formação e outra
+facilitaria mais a compreensão do assunto e a continuidade do mesmo, sem que
+fosse necessário retomar alguns conceitos da formação anterior. As formações
+ministradas até o momento certamente contribuíram muito nos saberes docentes,
+abriram horizontes e mostraram que a cultura digital vai  além de uma aula no
+laboratório de informática, ultrapassando as conexões on-line. Para as próximas
+formações esperamos construir junto ao grupo do IFRS novas aprendizagens
+conectadas ao contexto escolar da educação básica e a realidade dos estudantes.
+A cultura digital nos mostra a importância de estarmos conectados. Porém, estar
+conectado não significa somente uma conexão móvel com dispositivos eletrônicos.
+Precisamos estar conectados com as pessoas, e mais especificamente com nossos
+estudantes e professores. A comunidade escolar é uma rede formada por famílias,
+estudantes, professores e funcionários e precisamos estar conscientes de nosso
+papel nesta rede, fazendo conexões para além do físico.  Segundo Nóvoa (2022)
+“Todos dependemos de todos. Se ensinarmos isso às crianças, estaremos a fazer o
+mais belo gesto pelo futuro da humanidade.”. A escola é o local onde convivemos
+com a diversidade e a diferença, onde criamos uma rede que depende de todos para
+conseguir funcionar e de fato cumprir sua função social.  Nós aprendemos de
+forma mútua, entre nossos pares, um com o outro e este compartilhamento é
+imprescindível para uma aprendizagem que transcende a vida escolar, nos
+aprimorar para a convivência em sociedade.  REFERÊNCIAS  BRASIL. Ministério da
+Educação. Base Nacional Comum Curricular. Brasília: MEC, 2018. Acesso em 14 ago.
+2024.  BRASIL. Ministério da Educação. Base Nacional Comum Curricular.
+Computação: complemento à BNCC. Brasília: MEC, 2022. Acesso em 19 ago. 2024.
+CAMARGO, F. DAROS, T. A sala de aula digital: estratégias pedagógicas para
+fomentar o aprendizado ativo, on-line e híbrido. 1. ed.Porto Alegre: Penso,
+2021. cap.1, p.7.  GALLO, S. MENDONÇA, S. A escola: uma questão pública.1. ed.
+São Paulo: Parábola, 2020.  LOMBA, Maria Lúcia Resende; FARIA FILHO, Luciano
+Mendes. Os professores e sua formação profissional: entrevista com antónio
+nóvoa. Educar em Revista, [S.L.], v. 38, 06 jan. 2024. FapUNIFESP (SciELO).
+Disponível em: https://www.scielo.br/j/er/a/gNwmBJ8p9vgw5z9Zmrxm6Tq/. Acesso em:
+17 ago. 2024.  LOUREIRO, Carine Bueira; LOPES, Maura Corcini. Tecnologias
+digitais na educação. Etd - Educação Temática Digital, [S.L.], v. 26, n. 0, p.
+1-16, 21 fev. 2024. Universidade Estadual de Campinas. Disponível em:
+https://periodicos.sbu.unicamp.br/ojs/index.php/etd/article/view/8669376/33574.
+Acesso em: 19 ago. 2024. SILVA, João Batista da, SALES, Gilvandenys Leite,
+CASTRO, Juscileide Braga de. Gamificação como estratégia de aprendizagem ativa
+no ensino de Física. Rev. Bras. Ensino Fís. 41 (4) • 2019.
+https://www.scielo.br/j/rbef/a/Tx3KQcf5G9PvcgQB4vswPbq/# . Acesso em 19 de ago.
+2024    3.4 O PROJETO INOVA CAPES E A PRÁTICA PEDAGÓGICA NA ESCOLA BRIGADEIRO
+FRANCISCO DE LIMA E SILVA   Cristina Beatriz Weschenfelder Días  17  Rafael
+Ricardo Dalssotto  18      INTRODUÇÃO  A contemporaneidade aponta para uma
+revolução na sociedade percebida nos diversos segmentos, bem como na escola,
+devido ao avanço tecnológico ocorrido, principalmente na última década, e a
+crescente disponibilidade de informações que  têm transformado radicalmente a
+sociedade, exigindo o desenvolvimento de novas competências e habilidades dos
+indivíduos. Desta forma, demandando da escola uma mudança  na sua estrutura e
+metodologias para atender às necessidades do  século XXI. Dentro deste contexto,
+de transição de um modelo pedagógico centrado no professor, para uma pedagogia
+que permita ser o aluno o protagonista do processo de ensino e aprendizagem, há
+a  necessidade urgente de mudança na formação docente, a qual perpassa a
+compreensão das diversas formas de aprender, além da atualização constante do
+docente para a utilização de metodologias ativas e tecnologias educacionais.
+Contudo, a formação continuada dos docentes esbarra na sobrecarga de trabalho e
+falta de tempo para planejamentos, pesquisas e estudos.  Todavia a formação
+diferenciada ofertada  pelo Projeto Inova Capes está possibilitando uma
+oportunidade  de aperfeiçoamento profissional para o nosso grupo de docentes,
+devido à sua metodologia inovadora, de realizar a formação dentro da escola, no
+nosso horário de trabalho, e levando em consideração as demandas que a escola
+17 Professora de Língua Portuguesa. Graduada em Letras (2014)  e  Segunda
+Licenciatura em Pedagogia (2018) – Mestranda em Informática na Educação - IFRS.
+( 2024).  Email: crisbwdias@gmail.com. 18 Professor de Ciências e Matemática.
+Graduado em Ciências Biológicas (licenciatura) (2013), Especialização em
+inventariamento e monitoramento de Fauna pela UFRGS (2015), e Biodiversidade e
+Conservação pelo IFFar (2023), Mestrando em Botânica pela UFRGS (2024). Email:
+rrdalssotto@gmail.com  possui, dando  voz aos  professores, além de ser
+totalmente prática; isso nos permite além de aprender nos colocarmos na posição
+de alunos novamente, podendo entender melhor de que forma  tais atividades podem
+funcionar na sala de aula. Diferentemente das formações oferecidas pela
+mantenedora, que exige que   os docentes  estejam na escola para assistir  lives
+cansativas de  formações  pedagógicas,   e que muitas vezes não tem  nenhuma
+conexão com a nossa realidade. Além disso,  a inovação pedagógica,
+principalmente no que diz respeito ao uso das tecnologias digitais, recai  sobre
+o professor, como  uma cobrança ainda mais evidente de que o educador deve estar
+em constante  processo de atualização e bem informado, não apenas em relação aos
+fatos e acontecimentos do mundo, e  conhecimentos curriculares e pedagógicos,
+mas principalmente, no que tange ao uso das  TIDC’s (Tecnologias da Educação e
+da Informação) na educação. As TIDC’s estão  disponíveis para as práticas
+pedagógicas e contribuem expressivamente no ambiente social e escolar,
+auxiliando na interação entre aluno, escola e mundo com o objetivo de aproximá-
+los de diversas informações. Considerando a evolução e a contextualização
+referentes às tecnologias na atualidade, elas são consideradas essenciais em
+nossas vidas e são de suma importância em nosso convívio, para uso profissional
+ou pessoal.  As TIDCs literalmente invadiram as nossas vidas, se fazendo
+presentes, como por exemplo, em nosso ambiente pessoal e doméstico, em grande
+parte dos eletrodomésticos; também são responsáveis por transformar nossas
+atividades de trabalho em funções práticas, assim como, por disseminar e
+compartilhar toda a comunicação gerada através das mídias, televisivas ou
+virtuais.  Diante desse cenário irreversível, a escola precisa estar preparada
+para fazer o elo entre este  mundo tecnológico e seus alunos, fazendo com que se
+beneficiem do uso das tecnologias, promovendo o desenvolvimento das habilidades
+como a resolução de problemas, a colaboração e o desenvolvimento crítico.   O
+PROJETO INOVA CAPES NO BRIGADEIRO      Fomos contemplados pelo  Projeto Inova
+Capes que  veio  contribuir de forma significativa com as atividades pedagógicas
+da nossa escola, assim como com uma mudança de postura dos professores, quanto a
+ideia de tecnologias na educação. No primeiro encontro da formação foi possível
+perceber que havia  uma certa desconfiança do grupo, possivelmente,  por
+imaginar ser apenas mais uma  formação, e embora tenha sido apenas uma conversa
+sobre a diferença entre “Cultura Digital” e “Informática na Educação”, sem
+prática, percebeu-se que a partir da explanação dos bolsistas,  os professores
+presentes foram mudando a sua postura, movimento percebido, a partir das
+perguntas e atitudes que demonstraram interesse no assunto. Os questionamentos
+que surgiram partiram das reflexões propostas, visto que, na maioria das vezes,
+não nos damos conta de que estamos imersos no mundo digital o tempo todo, e os
+alunos também, por isso, a dificuldade de fazê-los ficar sem o celular durante
+as aulas.  Aliás, este conflito entre permitir ou proibir o uso do celular na
+escola,  na sala de aula, tem sido um assunto frequente nas nossas reuniões,
+entretanto, sem chegarmos a um consenso que permita uma solução satisfatória
+para todos. Uma vez que, há um grupo de docentes que não quer o uso de forma
+alguma, e outro grupo que não se importa, embora comprovadamente, tem se
+verificado o baixo rendimento nos resultados dos alunos que usam muito o
+smartphone em aula. Inclusive, alguns professores usam o celular como moeda de
+troca, ou seja, quem termina a atividade pode fazer uso, no entanto, não é um
+uso direcionado, ou  como ferramenta para o aprendizado, é algo livre que além
+de causar distração, inibe o convívio social com os colegas.  Por conseguinte,
+reverter a forma como se está fazendo uso deste poderoso aparato tecnológico,
+por nós professores, e incorporarmos  as novas ferramentas disponíveis no nosso
+dia a dia,   nas nossas práticas pedagógicas, é um imenso desafio,
+principalmente, por não termos o conhecimento das possibilidades existentes.
+Todavia, a formação do Inova,  está nos fazendo  pensar,  que talvez tornar o
+celular um aliado nosso seja o melhor caminho. Conforme Bacich e Moran, et al.
+(2018, p. 12): A combinação de metodologias ativas com tecnologias digitais
+móveis é hoje estratégia para a inovação pedagógica. As tecnologias ampliam as
+possibilidades de pesquisa, autoria, comunicação e compartilhamento em rede,
+publicação, multiplicação de espaços e tempos; monitoram cada etapa do processo,
+tornam os resultados visíveis, os avanços e as dificuldades.    Contudo, há
+interesse por parte dos docentes da nossa escola,  em mudar este panorama, mas
+nos falta tempo para aprender sobre essas infinitas possibilidades  de
+inserirmos as metodologias ativas e tecnológicas em   nossas aulas, além  de
+incentivarmos  os nossos alunos a   fazerem  uso consciente e produtivo das
+ferramentas disponíveis, com um propósito voltado à  aprendizagem. De acordo com
+Cortella (2014, p. 53): Os processos educativos escolares não devem se adaptar
+às inovações, mas integrar novas formas ao seu cotidiano. Adaptar é postura
+passiva, enquanto integrar pressupõe metas de convergência. As tecnologias mais
+recentes podem fazer parte do trabalho pedagógico escolar, desde que utilizadas
+como ferramentas a serviço de objetivos educacionais que estejam claros na
+comunidade. Repito: tecnologia em si não é sinal de mentalidade moderna; o que
+moderniza é a atitude e a concepção pedagógica e social que se usa e, assim, uma
+mentalidade moderna lança mão da tecnologia por incorporar-se aos seus projetos,
+e não simplesmente por ser tecnologia. (Grifos nossos).  No segundo  encontro,
+o Inova  abordou o tema “Pensamento Computacional” e a “Computação Desplugada” e
+foi um sucesso. Até porque, embora a nossa escola tenha uma boa estrutura, tem
+problemas com o wi-fi, como a maioria das instituições públicas de ensino, e não
+podemos ficar paralisados diante da falta de internet, como se somente ela
+pudesse promover uma aprendizagem diferenciada e significativa para os nossos
+alunos.  Contudo, através da explanação das bolsistas, e com as atividades
+realizadas em que todos os professores presentes participaram de forma ativa,
+foi possível  entender que ao fazer uso de atividades desplugadas também estamos
+promovendo o pensamento computacional e desenvolvendo as habilidades de
+exploração e experimentação dos  alunos, as quais são extremamente importantes
+para a consolidação da aprendizagem. [...] A sala de aula pode ser um espaço
+privilegiado de cocriação, maker, de busca de soluções empreendedoras, em todos
+os níveis, onde estudantes e professores aprendam a partir de situações
+concretas, desafios, jogos,  experiências, vivências, problemas, projetos, com
+recursos que têm em mãos: materiais simples ou sofisticados [...].(Bacich e
+Moran, et al. , 2018, p.3). Ademais, as atividades desplugadas propostas pelas
+bolsistas,  nos remeteram à verdadeira essência  da aprendizagem criativa,
+através do  trabalho com  os pares e  o pensar brincando citados por Resnick
+(2020).  O fazer juntos está alinhado a uma das demandas atuais da sociedade,
+“[...] na qual quase todos os trabalhos exigem esforços colaborativos, e as
+questões sociais mais importantes demandam ações coletivas.” (Resnick, 2020,
+p.86). E na escola não é diferente, pois ninguém está sozinho.   Todos os dias
+os alunos convivem com os colegas em um processo de interação frutífero e
+importante.Os momentos de conversa sobre as atividades propostas, o
+compartilhamento de dúvidas ou de hipóteses geram situações em que são
+estimulados a falar e a ouvir. Falar sobre o que está pensando ajuda não só o
+próprio aluno a reelaborar e organizar seu processo de aprendizagem como também
+favorece os demais alunos a validar suas hipóteses ou a compreender porque
+pensam diferente do colega com quem estão falando; portanto é um momento rico e
+favorável ao processo de aprendizagem. ( GIOVANNI JÚNIOR, 2018, p. 25).  E,  nós
+professores que  temos muita dificuldade em realizar projetos
+interdisciplinares, de planejar e trocar com os colegas, de repente nos vimos
+como alunos, aprendendo com nossos pares, e entendendo que é possível trabalhar
+a interdisciplinaridade, que é produtivo para o processo de ensino aprendizagem
+este compartilhamento de ideias dos diferentes componentes curriculares. Esse
+amadurecimento e compreensão do grupo já pode ser percebido na nossa escola, o
+Projeto Inova está deixando suas sementes na Escola Brigadeiro. Na  sequência do
+segundo encontro, tivemos um  momento de planejamento para a criação de projetos
+para recuperação da carga horária correspondente ao período da enchente, e os
+professores estavam empolgados, e vários trabalhos interdisciplinares surgiram,
+sem que a equipe diretiva tivesse que intervir.   Projetos como o Inova  nos
+auxiliam a ter maiores e melhores perspectivas de futuro educacional e
+profissional. Lecionar é uma arte. Aprender com formações como essa que está
+acontecendo  na escola Brigadeiro é atraente para nós professores, pois está
+dentro do “real e oficial” de nossa realidade. Considerar a  importância dos
+professores enquanto agentes de pesquisa no decorrer de todos os processos
+escolares, dentre eles a formação, assim como toda ferramenta que puder agregar
+à  prática pedagógica, tem emergido como ponto imprescindível na carreira de
+todo professor. O engajamento do corpo docente é imperioso para alcançar papel
+decisivo na transformação da realidade local, explorando o conhecimento de cada
+educador, como também suas compreensões e anseios relacionados à prática
+profissional, por  seu turno almejada dentro da melhor proposta pedagógica
+possível para o corpo docente e para a comunidade escolar.  CONCLUSÃO Atualmente
+os meios tecnológicos tornaram-se o eixo condutor das atividades humanas em todo
+o mundo; aquilo que não pode ser realizado por contato físico e presencial, se
+realiza virtualmente por meio dos aplicativos que as tecnologias nos oferecem;
+bastando apenas termos internet.  Assim sendo, a escola não pode ficar de fora
+desta nova era, e precisamos preparar   os nossos alunos para atuarem de forma
+consciente e produtiva nesse novo cenário. E  um projeto  como o Inova Capes, de
+um instituto de tecnologia,  para nos auxiliar a descortinar essas lacunas de
+forma “plugada” ou “não-plugada”, sempre com muita técnica  e muito embasamento
+científico, certamente será um divisor de águas na nossa prática pedagógica,
+incentivando-nos a oferecer aos nossos alunos uma educação mais inovadora e
+conectada com as demandas do século XXI.  Referências  BACICH, Lilian, MORAN,
+José.(orgs). Metodologias ativas para uma educação inovadora: uma abordagem
+teórico-prática. Porto Alegre:  Penso, 2018. CORTELLA, Mario Sergio. Educação,
+Escola e Docência: novos tempos, novas atitudes. São Paulo: Cortez Editora,
+2014.  RESNICK, Mitchel. Jardim de Infância para a vida toda: por uma
+aprendizagem criativa, mão na massa e relevante para todos. Tradução: Mariana
+Casetto Cruz, Lívia Rulli Sobral; revisão técnica: Carolina Rodeghiero, Leo
+Burd; - Porto Alegre: Penso, 2020.    3.5 A visão de duas bolsistas sobre a
+participação na equipe do projeto Jamile Moraes Cézar19 Rayssa da Silva Souza20
+Escrevemos este relato em formato de uma entrevista escrita para contar sobre as
+nossas experiências como bolsista de Mestrado Profissional (EP) e de Iniciação
+Científica (IC) no projeto Inovação pedagógica e qualificação da educação
+básica. Por meio de algumas perguntas levantadas em reuniões da equipe de
+pesquisa, abordamos aspectos centrais do projeto, incluindo nossas motivações,
+desafios enfrentados, impactos gerados nas escolas participantes e expectativas
+para a conclusão do projeto. O relato foi organizado de modo a identificar
+claramente as respostas de cada participante da bolsa, destacando as
+contribuições individuais ao longo do desenvolvimento do projeto. Este formato
+visa oferecer uma visão detalhada e personalizada sobre como o projeto
+influenciou nosso desenvolvimento educacional e pessoal, além de como
+enfrentamos as dificuldades e percebemos o papel da tecnologia na educação.
+Introdução  Participar da bolsa Inova EAD capes tem sido uma experiência
+gratificante para nós duas, pois nos proporcionou uma visão abrangente tanto do
+campo tecnológico quanto do educacional, além de explorar a interseção entre
+ambos. Esse envolvimento tem gerado uma reflexão acerca do impacto da tecnologia
+na educação e a importância da nossa pesquisa para esse cenário. As reuniões com
+os professores foram valiosas, já que abordam temas interdisciplinares, os quais
+enriquecem nossa formação acadêmica. Através dessas discussões, é possível
+ampliar o nosso entendimento sobre as necessidades dos professores da Educação
+Básica e o papel da tecnologia nesse contexto. Além disso, a interação com
+profissionais de diferentes áreas e engajados reforça a relevância do projeto e
+destaca o potencial transformador que as tecnologias  19 Mestranda em
+Informática na Educação no Programa de Pós-graduação Profissional em Informática
+na Educação – IFRS Campus Porto Alegre. Bolsista de mestrado profissional no
+projeto Inovação pedagógica e qualificação da educação básica. 20 Aluna do
+Cursos de Tecnologia em Sistemas para Internet – IFRS Campus Porto Alegre.
+Bolsista de Iniciação Científica do projeto Inovação pedagógica e qualificação
+da educação básica  digitais possuem quando aplicadas de maneira consciente e
+com intencionalidade na educação.   1) Quais são as suas motivações para
+participar do projeto inova? Jamile (bolsista de MP): Um dos motivos foi o de
+retribuir à sociedade meu tempo e meu conhecimento adquirido no curso de
+Mestrado desta instituição. O segundo foi obter uma experiência em um projeto de
+pesquisa, e, principalmente, por ser voltado à formação de professores das redes
+públicas de ensino. O terceiro, foi a possibilidade de trabalhar coletivamente,
+atuando nas escolas e entendendo a individualidade de cada uma, respeitando suas
+limitações e seus interesses, mas pensando sempre no papel pedagógico que a
+tecnologia precisa ter. Rayssa (bolsista de IC): Minha motivação para participar
+do projeto está ligada à vontade de aprender e entender o contexto da tecnologia
+no ambiente educacional. A oportunidade de colaborar com professores e colegas
+de diversas áreas tem sido enriquecedora, pois permite aprendizado mútuo e o
+desenvolvimento de soluções que são diretamente aplicáveis em cada ambiente
+escolar escolhido pelo projeto. Além disso, ver o impacto positivo da pesquisa
+se tornou uma das minhas motivações, pois o uso consciente da tecnologia aliado
+ao contexto de cada escola me motiva a continuar me dedicando e colaborando ao
+projeto.  2) Ao iniciar o projeto, de que forma se sentiu desafiada?  Jamile
+(bolsista de MP): Desde o princípio me senti desafiada, pois a tecnologia não é
+minha área principal ou a que tenho mais experiência, com isso, fazer parte de
+uma pesquisa que quer contribuir com o trabalho docente das redes públicas de
+ensino me pareceu uma excelente forma de aprender mais e de poder desconstruir e
+reconstruir alguns conhecimentos. Para a realização prática do projeto, me sinto
+desafiada a cada visita, acolhendo as escolas individualmente, respeitando a
+motivação e o interesse dos docentes e buscando estimulá-los a perceber a
+tecnologia como algo maior que uma ferramenta de trabalho, tal como um livro
+didático, mas sim como parte do processo de ensino-aprendizagem.  Rayssa
+(bolsista IC): No início, o projeto foi desafiador para mim, principalmente por
+causa da minha timidez. Apresentar ferramentas desconhecidas por mim e interagir
+com os professores me deixava insegura. Mas aprender enquanto ensino os
+professores é uma experiência de crescimento pessoal extremamente importante
+para minha jornada. O ambiente colaborativo e o suporte dos colegas me ajudaram
+a desenvolver confiança e o entusiasmo dos professores reforçam que vale a pena
+passar por essas inseguranças.  3) Qual o impacto da nossa pesquisa na educação
+básica e nas escolas em que estamos trabalhando? Jamile (bolsista de MP): Nosso
+trabalho leva em consideração os pressupostos presentes na BNCC, sobretudo no
+anexo sobre tecnologia. Nesse sentido, todas as escolhas que estamos fazendo são
+escolhas que tentam contemplar não só a BNCC, mas ir além, mostrando que é
+possível desenvolver as habilidades e competências adequadas à tecnologia e ao
+pensamento computacional sem necessariamente com o uso de artefatos tecnológicos
+em sala de aula. Dessa forma, espero que possamos ter provocado um impacto
+positivo nas escolas participantes da pesquisa, auxiliando e motivando os
+docentes a usar a tecnologia sem medo, mas com muito questionamento e provocando
+os alunos a não tomar a internet, por exemplo, como uma verdade absoluta. Rayssa
+(bolsista IC): Acredito que a nossa pesquisa está criando um impacto
+significativo nas escolas, especialmente por instruir como a tecnologia pode ser
+integrada na educação com intencionalidade e consciência. Além disso, por levar
+em consideração a subjetividade de cada escola e seus recursos, o projeto acaba
+impactando ainda mais no meio educacional. E, para mim, foi uma surpresa ver que
+os professores estavam dispostos a abraçar essas mudanças e mudar a perspectiva
+que enxergavam a tecnologia e seu uso, tornando a importância de oferecer
+suporte ainda mais relevante para que eles se sintam confiantes no uso de
+ferramentas digitais. Através da pesquisa, tivemos a oportunidade de influenciar
+positivamente o ambiente escolar, promovendo uma cultura de inovação e reflexão
+crítica entre os docentes.     4) Quais as expectativas para finalizar o
+projeto? Jamile (bolsista de MP): Espero que o projeto produza muitos frutos nas
+escolas por onde passamos, que os docentes possam se desafiar e criar
+estratégias de aprendizagem com a tecnologia de modo que ela seja um
+ensinamento. Que a comunidade escolar perceba o quanto estamos inseridos na
+cultura digital e o quanto precisamos ser protagonistas de nossas escolhas, de
+nosso posicionamento, da criticidade diante das inúmeras possibilidades que a
+internet nos proporciona. E que nós também possamos nos sentir e efetivamente
+estarmos mais preparados para a realidade escolar atual. Rayssa (bolsista IC):
+Minhas expectativas para a conclusão do projeto são de que ele continue a
+inspirar mudanças positivas nas práticas pedagógicas das escolas envolvidas.
+Espero que os professores se sintam confortáveis para utilizar as tecnologias
+digitais de maneira crítica e criativa, e que os alunos possam se beneficiar de
+um ensino que dialogue com a realidade digital em que estão inseridos. Além
+disso, desejo que essa experiência continue a expandir meus conhecimentos,
+fortalecendo minha habilidade de colaborar com diferentes profissionais e
+aprimorando minha compreensão do papel da tecnologia na educação.  5) Como a
+participação no projeto contribuiu para o seu desenvolvimento profissional e
+pessoal? Rayssa (bolsista IC): “Como bolsista, o projeto me proporcionou um
+ambiente de aprendizagem, no qual eu fui desafiada a sair da minha zona de
+conforto ao ter que apresentar e conduzir atividades com as ferramentas
+digitais. Esse processo foi uma oportunidade de crescimento pessoal, pois me
+ajudou a desenvolver habilidades de comunicação, superar a timidez e construir
+confiança no trabalho em equipe. No aspecto educacional, a experiência ampliou
+minha compreensão sobre o uso da tecnologia na educação e me permitiu aplicar os
+conceitos aprendidos nas reuniões em contextos reais nas escolas, o que foi
+extremamente gratificante para me desenvolver enquanto aluna.”  Jamile (bolsista
+de MP): Sem dúvidas que minha participação no projeto tem contribuído muito para
+o meu desenvolvimento profissional e pessoal. Mesmo depois alguns anos atuando
+como professora, poder exercer o papel de aluna e auxiliar outros professores em
+seus projetos e angústias sobre a informática na educação tem proporcionado
+reflexões sobre minha prática, o quanto efetivamente sei sobre cultura digital,
+as ferramentas digitais, gameficação, entre outros aspectos que o projeto
+abrange. Além da possibilidade de estar em contato com diferentes realidades das
+escolas que fazem parte do projeto.  6) Como foram superadas as dificuldades
+encontradas ao longo do projeto? Rayssa (bolsista IC): Uma das minhas maiores
+dificuldades foi lidar com ferramentas digitais que eu ainda não conhecia e a
+timidez. Porém, essas dificuldades foram superadas através da prática e do apoio
+mútuo entre os membros da bolsa. Ao ensinar os professores, também fui
+aprendendo e me desenvolvendo, o que tornou o processo mais dinâmico e menos
+intimidante. O feedback positivo dos docentes também foi um incentivo para
+continuar aprimorando minhas habilidades. Jamile (bolsista de MP): Acho que as
+maiores dificuldades encontradas ao longo do projeto foram desconhecer
+ferramentas digitais e não saber usá-las anteriormente. A necessidade de
+planejar com antecedência as oficinas, já que necessitam da supervisão docente e
+são criadas por meio de trabalho colaborativo, o que também tem sido uma
+dificuldade a ser enfrentada, mas, ao contrário do que normalmente acontece, o
+grupo se ajuda, se apoia e está sempre unido.  7) De que maneira o projeto
+modificou sua visão sobre o papel da tecnologia na educação? Rayssa (bolsista
+IC): Antes do projeto, eu via a tecnologia como uma ferramenta na qual o
+educador tinha que se moldar para utilizá-la. No entanto, ao trabalhar
+diretamente com os docentes e com o embasamento teórico do INOVA, percebi que a
+tecnologia deve ser aplicada em sala de aula com um objetivo específico e não
+apenas para tentar tornar as aulas mais dinâmicas; é necessário ter um uso
+consciente e crítico dela. Ela tem o poder de modificar a maneira como o
+conhecimento é construído e compartilhado, mas exige uma abordagem consciente e
+planejada para ser eficiente, algo que o projeto tem enfatizado. Jamile
+(bolsista de MP): Como não sou da área de informática de formação na graduação,
+minha visão sobre a tecnologia era e ainda é reduzida, entendendo que os
+artefatos tecnológicos, softwares e apps seriam, de forma muito reducionista,
+apenas um apoio em sala de aula, não sendo capaz de produzir conhecimento e
+reflexão por ela mesma. Isso já mudou do início do projeto até agora, assim como
+a importância de termos criticidade para escolher o que queremos ver ou seguir
+nas redes sociais, ou o quanto é perigoso o mau uso da rede.  8) Como você
+avalia a recepção dos professores em relação aos encontros? Rayssa (bolsista
+IC): A recepção dos professores tem sido principalmente positiva. Eles
+demonstram curiosidade e interesse em conhecer novas ferramentas que possam
+enriquecer nas práticas pedagógicas e aprender nos encontros realizados na
+escola. Apesar da minha insegurança inicial, fiquei feliz em perceber que os
+professores não só gostam das ferramentas, como também as utilizam de maneiras
+interdisciplinares e criativas. Isso reforça a importância de apresentar novas
+tecnologias que sejam acessíveis e que possam ser adaptadas no contexto
+educacional de cada escola. Jamile (bolsista de MP): Em geral, há muito
+interesse e entusiasmo por parte dos professores participantes, o que é
+gratificante, acreditamos que estamos no caminho certo. O interessante dessa
+análise, podemos perceber que em algumas escolas a relação do professor com a
+tecnologia é mais avançada, alguns não têm receio de pesquisar, testar e
+aprender temas novos ou métodos novos. Por outro lado, também enfrentamos
+algumas resistências, principalmente voltadas ao não uso dos artefatos para
+desenvolver o pensamento computacional, por exemplo, como se fosse apenas em
+frente a tela que teríamos a solução para os problemas de engajamento dos alunos
+a respeito da sala de aula.   9) Como você espera aplicar o que aprendeu
+futuramente no meio acadêmico ou profissional?  Rayssa (bolsista IC): As
+experiências adquiridas no projeto serão fundamentais para o meu desenvolvimento
+acadêmico em Sistemas para Internet. Pretendo aplicar meu conhecimento de como a
+tecnologia pode ser integrada de forma significativa em ambientes educacionais e
+outros contextos que demandam uma abordagem interdisciplinar até em meus
+estudos, utilizando as ferramentas para que eu possa aprender e aprofundar as
+matérias que eu cursar; talvez até incentivar meus colegas a fazerem um trabalho
+colaborativo usando ferramentas digitais. Jamile (bolsista de MP): De certa
+forma tenho avaliado minhas atuações em sala de aula e de que forma posso
+aproximar a tecnologia pedagogicamente nos conteúdos dados. Tenho pensado em
+como utilizo os artefatos tecnológicos em minhas aulas e cheguei a conclusão de
+que eles atuam como meio para aprendizagem. Espero que até o final do curso
+tenha elaborado melhor essas questões e tenha soluções eficientes para que a
+tecnologia seja utilizada da melhor forma possível.  10) Quais dificuldades você
+encontrou ao conciliar os conhecimentos acadêmicos com as necessidades
+educacionais dos professores? Rayssa (bolsista IC): Conciliar o conhecimento
+acadêmico com as necessidades educacionais foi desafiador, principalmente
+porque, no meu curso, o foco é mais voltado para a lógica e a programação,
+enquanto o projeto é no uso pedagógico da tecnologia. Houve momentos nos quais
+eu precisei adaptar meu conhecimento para que fosse relevante para os
+professores, o que exigiu flexibilidade. Porém, o fato de eu ter realizado
+cursos voltados à área da educação e ter uma trajetória em psicologia, me
+auxiliou para conseguir me adaptar melhor às demandas do projeto. Jamile
+(bolsista de MP): Ao conciliar os conhecimentos acadêmicos com as necessidades
+dos professores, percebi que é mais difícil os conteúdos voltados aos
+aplicativos, principalmente os que envolvem lógica. Por outro lado, a
+experiência como docente auxilia na elaboração das oficinas, na organização da
+turma e também no contato com os professores.  11) Como você enxerga a evolução
+do projeto desde o início até o momento atual? Rayssa (bolsista IC): “O projeto
+evoluiu muito, tanto em termos de aceitação por parte dos professores quanto na
+qualidade das interações. No início, havia uma certa  desconfiança e hesitação
+por parte dos professores quanto à finalidade dos encontros. No entanto, na
+medida em que foram realizados os encontros, os professores começaram a perceber
+o valor das ferramentas apresentadas e como aplicá-las em suas práticas
+pedagógicas. Por isso, houve um aumento do engajamento e isso reflete a eficácia
+da abordagem colaborativa e da adaptação contínua das atividades às necessidades
+de cada escola.” Jamile (bolsista de MP): “Percebo que o projeto tem evoluído
+muito, tanto na qualidade das oficinas quanto dos exercícios, também a
+organização dos grupos e o planejamento das atividades estão cada vez melhores.
+A relação entre os participantes é muito boa. As reuniões são leves, tranquilas,
+em alguma medida exigentes, mas coerentes com a proposta do projeto.   12) Como
+você vê o papel da cultura digital nas escolas e na formação de alunos críticos
+e conscientes? Rayssa (bolsista IC): A cultura digital nas escolas tem um papel
+fundamental na formação de alunos críticos e conscientes. Ela não deve ser vista
+apenas como um conjunto de ferramentas tecnológicas, mas como um espaço de
+reflexão sobre o mundo digital em que vivemos. No projeto, temos discutido essas
+questões com os professores, incentivando-os a abordar a cultura digital de
+forma crítica em sala de aula. Acredito que a escola deve ser um espaço que
+prepara os alunos para serem não apenas consumidores da tecnologia, mas cidadãos
+conscientes do ambiente digital do qual participam. Jamile (bolsista de MP):
+Infelizmente a compreensão sobre cultura digital ainda é muito superficial, e
+isso é recorrente em toda a comunidade escolar, provavelmente porque o tema é
+pouco tratado e o uso da tecnologia é também superficial, sendo utilizados,
+quando possível, os artefatos apenas como ferramenta para a sala de aula. A
+partir do que discutimos no grupo de pesquisa, entendemos a urgência de trazer à
+escola a discussão sobre a cultura digital, pois estamos inseridos e convivemos
+com ela independente do grau de utilização dos artefatos. O uso indiscriminado
+ou sem reflexão alguma afetará cada vez mais os alunos e a sociedade como um
+todo, o cidadão cada vez menos interessado em ter um posicionamento crítico e
+provavelmente com sérias dificuldades de se relacionar com o outro, que não é
+igual a ele.       Sobre as autoras e os autores  Carine Bueira Loureiro –
+professora do Instituto Federal Rio Grande do Sul (IFRS), atua no Mestrato
+Profissional em Informática na Educação (IFRS/MPIE). Doutorado e Pós-doutorado
+em Educação pela Universidade do Vale do Rio dos Sinos (UNISINOS), Mestrado em
+Ciência da Computação e Licenciada em Matemática pela Pontifícia Universidade
+Católica do Rio Grande do Sul (PUCRS). Integrante da Rede de Investigação em
+Inclusão, Aprendizagem e Tecnologias em Educação (RIIATE).  Maria Tanise
+Raphaelli Bosquerolli - Mestra em Informática na Educação – MPIE/IFRS (2021).
+Possui Mestrado em Educação (UDE-Montevidéu/Uy - 2017/2022); Especialização em
+Metodologias do Ensino Superior (UNIRITTER, 2021); Especialização em Mídias na
+Educação (CINTED-UFRGS, 2018); Participa do Grupo de Estudos e Pesquisa em
+Educação, Matemática e Tecnologias (GEPEMAT/IFRS/CNPq). Possui experiência na
+área de Educação, com ênfase em Tecnologias na Educação. É professora da Rede
+Estadual do Estado do Rio Grande.  Silvia de Castro Bertagnolli -  Professora do
+Instituto Federal Rio Grande do Sul (IFRS) - Campus Porto Alegre, com atuação no
+Mestrado Profissional em Informática na Educação (MPIE/IFRS). Doutora e Mestre
+em Ciência da Computação pela Universidade Federal do Rio Grande do Sul
+(UFRGS).Bacharel em Informática pela Universidade Federal de Santa Maria (UFSM).
+Aline Messias de Oliveira - Professora da rede municipal de Caxias do Sul e
+atualmente está na função de vice-diretora na EMEF San Gennaro e assessora do
+setor de Comunicação e Eventos da Secretaria Municipal de Educação de Caxias do
+Sul. Possui graduação em Pedagogia na Universidade de Caxias do Sul e
+especialização em Educação inclusiva com ênfase em neuroeducação e aplicação
+clínica na UNISEPE/ UNIFIA. É Mestranda em Educação Básica pelo IFRS - Campus
+Farroupilha.    Gabrieli Brollo Salomoni - graduada em Educação Física pela
+Faculdade da Serra Gaúcha, com pós-graduação em Coordenação Pedagógica pela
+Uniasselvi e especialização MBA em Gestão Empresarial pela Faculdade da Serra
+Gaúcha. Professora da rede municipal de ensino de Caxias do Sul/RS. Atualmente,
+exerce o cargo de Coordenadora Pedagógica na Escola Municipal de Ensino
+Fundamental San Gennaro.    Andressa Machado Rubin - Estudante do curso de
+Licenciatura em Ciências da Natureza com Habilitação em Biologia e Química do
+Instituto Federal do Rio Grande do Sul (IFRS), Campus Porto Alegre.  Cristina
+B.W.Dias - No momento atua como vice-diretora - Professora de Língua Portuguesa.
+Graduada em Letras (2014)  e  Segunda Licenciatura em Pedagogia (2018) –
+Especialização em  Docência Métodos e Práticas Inovadoras (2015) , Administração
+Escolar, Supervisão e Orientação (2017)  Neuropsicopedagogia (2020), Estudos e
+Prática de Ensino da Língua Espanhola ( 2021)  e  Mestranda em Informática na
+Educação - IFRS. ( 2024).  Email: crisbwdias@gmail.com.  Jamile Cezar de Moraes
+- mestranda em Informática na Educação pelo IFRS Porto Alegre; mestre em
+Processos e Manifestações Culturais pela Feevale; bacharel em Turismo pela
+Feevale e licenciada em Letras-Português pela UFRGS. Atualmente é professora
+substituta no IFRS Restinga nos cursos de Lazer, Hospitalidade e Turismo.
+Manoela Lopes - Professora da Educação Básica da Rede Estadual  do Rio Grande do
+Sul. Formada em Pedagogia Multimeios e Informática Educativa e Pós-graduada em
+Psicopedagogia Clínica e Institucional. Responsável por uma turma de 4º e outra
+5º ano do Ensino Fundamental há 9 anos.     Rafael Ricardo Dalssotto -
+Professor de Ciências - séries finais do EF. Graduado em Ciências Biológicas
+(licenciatura) (2013), Especialização em inventariamento e monitoramento de
+Fauna pela UFRGS (2015), e Biodiversidade e Conservação pelo IFFar (2023),
+Mestrando em Botânica pela UFRGS (2024). Email: rrdalssotto@gmail.com      Este
+livro foi financiado com recursos do Programa de apoio a projetos de pesquisa e
+de inovação na área de Educação Básica (PROEdu/FAPERGS/SEBRAE).

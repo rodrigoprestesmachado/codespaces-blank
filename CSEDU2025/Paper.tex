@@ -135,32 +135,11 @@ paper and outlines future work.
 
 \section{\uppercase{Theoretical Framework}}
 
-This section presents the theoretical framework that underpins the study. First,
-we introduce the concept of metacognition used in this study. Next, we discuss
-related work exploring the use of metacognitive strategies and scaffolds
-in educational settings.
-
-\begin{table*}[htbp]
-  \caption{Categories - adapted from \cite{Ghimire24}}
-  \begin{center}
-    \renewcommand{\arraystretch}{1.6} % Increase the spacing between rows
-    \begin{tabular}{p{4cm} p{12cm}} % Remove vertical bars
-      \hline
-      \textbf{Category} & \textbf{Description} \\
-      \hline
-      Debugging Help (DH) & Prompts that seek help to identify, fix errors, or understand the provided code snippet. \\
-      Conceptual Question (CQ) & Prompts that are more about understanding concepts than specific code. \\
-      Student Correction (SC) & Prompts where the student corrects the chatbot. \\
-      Code Snippet  (CS) & Prompts that ask for a specific part of the code, like a function or a segment. \\
-      Complete Solution (CSO) & Prompts that request an entire solution or a complete code snippet. \\
-      Multiple Question (MQ) & Prompts where the user wants to solve a multiple choice exercise (Quiz). \\
-      Language Change (LC) & Prompts that request a change of idiom. \\
-      Uncategorized (U) & Prompts that do not fit into any of the above categories. \\
-      \hline
-    \end{tabular}
-    \label{tab:categories}
-  \end{center}
-\end{table*}
+This section outlines the theoretical framework that grounds the study. We
+begin by introducing the concept of metacognition, along with the spacing and
+interweaving strategies applied in this research. Next, we examine related works
+ organized into two subsections: the use of GenAI in programming and recent
+ studies emphasizing the importance of metacognition in the use of GenAI.
 
 \subsection{Metacognition}
 
@@ -198,7 +177,7 @@ within a single learning session, which has been shown to also enhance long-term
 learning and the application of student's knowledge in other contexts and
 situations \citep{Rivers21}.
 
-\subsection{Related Work}
+\subsection{GenAI and Programming}
 
 \cite{Margulieux24} conducted a study on how undergraduate students in
 introductory programming courses used generative AI to solve programming
@@ -213,18 +192,18 @@ and perceived it as less useful compared to their peers. However, no significant
 relationship was found between students’ self-regulation strategies and their
 use of AI.
 
-\cite{Bastani24} investigated the impact of generative artificial intelligence
-(AI), specifically GPT-4, on human learning, with a focus on mathematics
-education in a high school. The problem addressed was how the use of generative
-AI could affect the acquisition of new skills, which is crucial for long-term
-productivity. The method involved a controlled experiment with approximately
-one thousand students, who were exposed to two GPT-4-based tutors: a simple
-tutor (GPT Base) and another with safeguards designed to promote learning
-(GPT Tutor). The results showed that while access to GPT-4 improved performance
-on practice exercises (48\% with GPT Base and 127\% with GPT Tutor), the removal
-of access to GPT Base led to a 17\% decrease in student performance on exams.
-This indicated that the unrestricted use of *GPT Base* could hinder learning.
-However, the GPT Tutor was able to mitigate this negative effect.
+\cite{Bastani24} investigated the impact of GenAI, specifically GPT-4, on human
+learning, with a focus on mathematics education in a high school. The problem
+addressed was how the use of generative AI could affect the acquisition of new
+skills, which is crucial for long-term productivity. The method involved a
+controlled experiment with approximately one thousand students, who were exposed
+to two GPT-4-based tutors: a simple tutor (GPT Base) and another with safeguards
+designed to promote learning (GPT Tutor). The results showed that while access
+to GPT-4 improved performance on practice exercises (48\% with GPT Base and
+127\% with GPT Tutor), the removal of access to GPT Base led to a 17\% decrease
+in student performance on exams. This suggests that unrestricted use of
+\textit{GPT Base} could hinder learning. However, the GPT Tutor was able to
+mitigate this negative effect.
 
 \cite{Boudouaia24} investigated the impact of ChatGPT-facilitated programming on
 college students’ programming behaviors, performance, and perceptions. The
@@ -232,16 +211,40 @@ problem addressed was whether the use of ChatGPT in programming education could
 influence how students interacted with programming tasks, their learning
 outcomes, and their attitudes towards technology. The study employed a
 quasi-experimental design involving 82 college students divided into two groups:
-one using ChatGPT-assisted programming (CFP) and the other using traditional
-self-directed programming (SDP). The method combined mixed data collection
+one using ChatGPT-assisted Programming (CAP) and the other using traditional
+self-directed Programming (SDP). The method combined mixed data collection
 techniques, including behavioral logs, programming performance evaluations, and
-interviews. The results showed that students using the CFP mode exhibited more
-frequent behaviors such as debugging and reading feedback. Although CFP students
+interviews. The results showed that students using the CAP mode exhibited more
+frequent behaviors such as debugging and reading feedback. Although CAP students
 had a higher average score in programming performance, there was no
 statistically significant difference compared to the SDP group. However,
 students’ perceptions of ChatGPT improved significantly after the intervention,
 with increased perceived usefulness, ease of use, and intention to continue
 using the tool in the future.
+
+\begin{table*}[htbp]
+  \caption{Categories - adapted from \cite{Ghimire24}}
+  \begin{center}
+    \renewcommand{\arraystretch}{1.6} % Increase the spacing between rows
+    \begin{tabular}{p{4cm} p{12cm}} % Remove vertical bars
+      \hline
+      \textbf{Category} & \textbf{Description} \\
+      \hline
+      Debugging Help (DH) & Prompts that seek help to identify, fix errors, or understand the provided code snippet. \\
+      Conceptual Question (CQ) & Prompts that are more about understanding concepts than specific code. \\
+      Student Correction (SC) & Prompts where the student corrects the chatbot. \\
+      Code Snippet  (CS) & Prompts that ask for a specific part of the code, like a function or a segment. \\
+      Complete Solution (CSO) & Prompts that request an entire solution or a complete code snippet. \\
+      Multiple Question (MQ) & Prompts where the user wants to solve a multiple choice exercise (Quiz). \\
+      Language Change (LC) & Prompts that request a change of idiom. \\
+      Uncategorized (U) & Prompts that do not fit into any of the above categories. \\
+      \hline
+    \end{tabular}
+    \label{tab:categories}
+  \end{center}
+\end{table*}
+
+\subsection{GenAI and Metacognition}
 
 \cite{Sidra24} addressed the growing importance of metacognitive skills in an
 AI-enabled workforce. The problem discussed was how AI systems, especially
@@ -316,7 +319,7 @@ Object Orientation, (3) Testing, (4) Recursion, (5) Data Structures, and (6)
 Sorting and Searching Algorithms.
 
 The analysis phase involved the use of Python scripts to extract information
-from previously classified data. The datasets and code used in this process are
+from previously classified data. The data sets and code used in this process are
 available at: https://github.com/rodrigoprestesmachado/uc3m.
 
 \section{\uppercase{Results and Discussion}}
@@ -379,7 +382,7 @@ the code or the underlying concepts. Thus, it can be inferred that the prompts
 within the Code Snippet or Complete Solution category were often used as a
 starting point for a more in-depth study.
 
-Student corrections to chatbot responses accounted for 4.2\% of the interactions.
+Student corrections to chatbot responses represented 4.2\% of the interactions.
 In most cases, these corrections occurred when the student already had the
 correct answer to an exercise and identified an error in the chatbot response,
 as illustrated in conversation 2 in Figure \ref{fig:graph2}. These corrections
@@ -448,13 +451,13 @@ of code.
 
 Despite some occasional variation (3.54), prompts classified as Uncategorized
 exhibit a relatively low average time (1.65) for students to resume interaction
-with the chatbot. This variation occurs, in part, due to situations where students
+with the chatbot. This variation occurs, in part, because of situations where students
 end the conversation with an uncategorized message, such as a simple
-\textit{"thanks"} but later choose to resume the interaction.
+\textit{"thanks"}, but later choose to resume the interaction.
 
 When a student requests the chatbot to change the language (LC) in a response, the
-new interaction happens quickly (1.89) with little variation in response time
-(3.28), meaning it is predictable that the student will continue interacting.
+new interaction occurs quickly (1.89) with little variation in response time
+(3.28), meaning that it is predictable that the student will continue interacting.
 
 Although still below the overall average, students take a moderate amount of
 time (2.65) to resume interaction with the chatbot after requesting the solution to
@@ -481,7 +484,7 @@ while others involve requests for analysis of more complex code, like
 \textit{'explain this piece of code (accompanied by a complete method).'}
 
 Conceptual questions (CQ) generally result in a high average time (5.41) for
-students to re-engage with the chatbot. Moreover, the high standard deviation
+students to reengage with the chatbot. Moreover, the high standard deviation
 (10.54) indicates an unpredictable variation in response times. This
 unpredictability may be attributed to the fact that, in some cases, the
 complexity of the question and answer demands more reflection time from the
@@ -492,8 +495,8 @@ Finally, a message classified as a Complete Solution request (SCO) exhibits the
 longest average time (6.55) for students to resume interaction with the chatbot.
 Additionally, the high standard deviation (10.14) highlights significant
 unpredictability in response time. After requesting a complete solution,
-students tend to take longer to return, due to the complexity of the problems
-involved, such as the implementation of sorting algorithms like Heapsort. Table
+students tend to take longer to return due to the complexity of the problems
+involved, such as the implementation of sorting algorithms such as Heapsort. Table
 \ref{tab:averages} presents the means and standard deviations for each
 category.
 
@@ -504,6 +507,31 @@ process, such as 'Debugging Help,' 'Conceptual Question,' and 'Complete
 Solution.' This demonstrates that the level of student engagement varies
 according to the nature of the requested interaction, reflecting different
 approaches and depths in the learning process.
+
+\begin{table*}[htbp]
+  \caption{Average and Standard Deviation of Different Categories (in minutes)}
+  \begin{center}
+    \renewcommand{\arraystretch}{1.6} % Increase the spacing between rows
+    \begin{tabular}{p{4cm} p{4cm} p{4cm}} % Remove vertical bars
+      \hline
+      \textbf{Category} & \textbf{Average} & \textbf{Standard Deviation} \\
+      \hline
+      Code Snippet & 1.26 & 1.74 \\
+      Uncategorized & 1.65 & 3.54 \\
+      Language Change & 1.89 & 3.28 \\
+      Multiple Question & 2.65 & 6.10 \\
+      Student Correction & 3.17 & 7.33 \\
+      \hdashline
+      \textit{Overall} & \textit{3.43} & \textit{6.60} \\
+      \hdashline
+      Debugging Help & 4.84 & 10.13 \\
+      Conceptual Questions & 5.41 & 10.54 \\
+      Complete Solution & 6.55 & 10.14 \\
+      \hline
+    \end{tabular}
+    \label{tab:averages}
+  \end{center}
+\end{table*}
 
 \subsection{Interleaving}
 
@@ -535,39 +563,14 @@ suggest an effective study strategy, as it mainly arises from requests for
 exercise resolution and from the natural spacing pattern of a consultation
 interaction.
 
-\begin{table*}[htbp]
-  \caption{Average and Standard Deviation of Different Categories (in minutes)}
-  \begin{center}
-    \renewcommand{\arraystretch}{1.6} % Increase the spacing between rows
-    \begin{tabular}{p{4cm} p{4cm} p{4cm}} % Remove vertical bars
-      \hline
-      \textbf{Category} & \textbf{Average} & \textbf{Standard Deviation} \\
-      \hline
-      Code Snippet & 1.26 & 1.74 \\
-      Uncategorized & 1.65 & 3.54 \\
-      Language Change & 1.89 & 3.28 \\
-      Multiple Question & 2.65 & 6.10 \\
-      Student Correction & 3.17 & 7.33 \\
-      \hdashline
-      \textit{Overall} & \textit{3.43} & \textit{6.60} \\
-      \hdashline
-      Debugging Help & 4.84 & 10.13 \\
-      Conceptual Questions & 5.41 & 10.54 \\
-      Complete Solution & 6.55 & 10.14 \\
-      \hline
-    \end{tabular}
-    \label{tab:averages}
-  \end{center}
-\end{table*}
-
 \section{Conclusion and Future Work}
 
 The objective of this work was to analyze the interactions of Java programming
 students with an educational chatbot developed using the RAG technique, employing
 two metacognitive study strategies: spacing and interleaving.
 
-The theory of metacognition, along with the classification of student actions,
-proved effective in understanding and revealing how students utilize the chatbot.
+The metacognition theory, along with the classification of student actions,
+proved to be effective in understanding and revealing how students use the chatbot.
 The results showed that most messages fall into the categories of Conceptual
 Questions and Debugging Help, both known for promoting slower engagement and
 potentially fostering more active learning. However, the results also indicated
@@ -584,11 +587,10 @@ tools.
 
 To further explore this, a broader study is planned to examine, for instance,
 the relationship between student profiles, use of metacognitive scaffolds, their
-effective study strategies in using a GenAI and, learning outcomes.
-Additionally, to support educators in analyzing student behavior and providing
+effective study strategies in using a GenAI, and learning outcomes.
+In addition, to help educators analyze student behavior and provide
 more targeted assistance, an AI model is being developed to automatically
-classify student messages, offering valuable insights into how these tools are
-being used.
+classify student messages, offering valuable information on how these tools are used.
 
 \bibliographystyle{apalike}
 {\small

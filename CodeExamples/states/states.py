@@ -1,97 +1,114 @@
 import pandas as pd
 
-def generate_sequential_state_diagram(input_csv_path, output_puml_path):
+def generate_detailed_diagram_with_correct_numbering(input_csv_path, output_puml_path):
     """
-    Gera um diagrama de estados no formato .puml com momentos bloqueados e transições numerados sequencialmente.
+    Generates a state diagram in .puml format with correct numbering and
+    time conversion to hours when greater than 60 minutes.
 
-    Regras:
-    - Cada estado representa um tópico único.
-    - Momentos bloqueados dentro do estado são numerados sequencialmente.
-    - Transições entre estados são numeradas sequencialmente.
-    - Se o bloqueio tiver apenas uma interação, o tempo será "0 min".
-    - Transições podem incluir "interleaving" ou "interleaving and spacing" com o tempo de spacing.
+    Rules:
+    - Blocks and transitions are numbered sequentially.
+    - Time is converted to hours when greater than 60 minutes.
+    - Spacings and interleavings are represented by arrows (-->)
+      with details.
 
     Args:
-    - input_csv_path: Caminho para o arquivo CSV.
-    - output_puml_path: Caminho para salvar o arquivo .puml gerado.
+    - input_csv_path: Path to the CSV file.
+    - output_puml_path: Path to save the generated .puml file.
     """
-    # Carregar o CSV
-    data = pd.read_csv(input_csv_path, sep=';', encoding='utf-8')
-    # Converter colunas para os formatos corretos
-    data['Datetime'] = pd.to_datetime(data['Datetime'], format='%H:%M:%S - %d/%m/%Y', errors='coerce')
-    data = data.sort_values(by=['Id', 'Datetime'])  # Ordenar por estudante e tempo
+    # Load the CSV
+    data = pd.read_csv(input_csv_path, sep=';')
 
-    # Calcular a duração entre interações em minutos
-    data['Time_Diff'] = data['Datetime'].diff().dt.total_seconds().fillna(0) / 60
+    # Filter interactions performed by the user
+    user_interactions = data[data['Role'] == 'User'].copy()
 
-    # Identificar momentos bloqueados
-    data['Block_Number'] = (data['Time_Diff'] > 60).cumsum()
+    # Convert columns to the correct formats
+    user_interactions['Datetime'] = pd.to_datetime(
+        user_interactions['Datetime'], format='%H:%M:%S - %d/%m/%Y', errors='coerce')
+    user_interactions = user_interactions.sort_values(by=['Id', 'Datetime'])
 
-    # Iniciar o conteúdo do PUML
+    # Calculate the duration between interactions in minutes
+    user_interactions['Time_Diff'] = user_interactions['Datetime'].diff().dt.total_seconds().fillna(0) / 60
+
+    # Identify blocked moments
+    user_interactions['Block_Number'] = (user_interactions['Time_Diff'] > 60).cumsum()
+
+    # Start the PUML content
     puml_content = "@startuml\n\n"
 
-    # Definir estados por tópico
-    topics = data['Topic'].unique()
+    # Define states by topic
+    topics = user_interactions['Topic'].unique()
     for topic in topics:
         if pd.notna(topic):
             alias = topic.replace(" ", "_")
             puml_content += f'state "{topic}" as {alias}\n'
 
-    # Adicionar momentos bloqueados numerados dentro de cada estado
-    block_id = 1  # Numeração sequencial para bloqueios
-    grouped = data.groupby('Topic')
+    # Add interactions within each state
+    grouped = user_interactions.groupby('Topic')
+    block_id = 1  # Sequential numbering for blocks
+    transition_id = 1  # Sequential numbering for transitions
     for topic, group in grouped:
         if pd.isna(topic):
             continue
 
         alias = topic.replace(" ", "_")
-        group = group.sort_values(by=['Block_Number'])  # Ordenar por bloqueio
         state_content = ""
 
-        for _, block_group in group.groupby('Block_Number'):
+        # Group interactions by block
+        for block_num, block_group in group.groupby('Block_Number'):
+            actions = ', '.join(block_group['Classification'].dropna())
             if len(block_group) > 1:
                 block_time = (block_group['Datetime'].iloc[-1] - block_group['Datetime'].iloc[0]).total_seconds() / 60
             else:
-                block_time = 0  # Apenas uma interação no bloqueio
-            block_actions = ', '.join(block_group['Classification'].dropna().unique())
-            time_string = f"{block_time:.1f} min"
-            state_content += f"{block_id}: {block_actions} - {time_string}\\n"
+                block_time = 0  # Only one interaction in the block
+            time_string = f"{block_time / 60:.1f} h" if block_time > 60 else f"{block_time:.1f} min"
+            state_content += f"{block_id}: {actions} - {time_string}\\n"
             block_id += 1
 
         puml_content += f'{alias} : {state_content.strip()}\n'
 
-    # Criar transições numeradas sequencialmente
+    # Create numbered transitions
     previous_topic = None
     previous_time = None
-    transition_id = 1  # Numeração sequencial para transições
-    for _, row in data.iterrows():
+    for i, row in user_interactions.iterrows():
         current_topic = row['Topic']
         time_diff = row['Time_Diff']
 
-        if pd.notna(current_topic) and current_topic != previous_topic:
+        if pd.notna(current_topic):
             if previous_topic:
                 previous_alias = previous_topic.replace(" ", "_")
                 current_alias = current_topic.replace(" ", "_")
-                if previous_time > 60:
-                    puml_content += f'{previous_alias} --> {current_alias} : {transition_id}: interleaving and spacing ({previous_time:.1f} min)\n'
+
+                if current_topic == previous_topic:
+                    # Spacing and Retrieval
+                    if time_diff > 60:
+                        spacing_time = f"{time_diff / 60:.1f} h" if time_diff > 60 else f"{time_diff:.1f} min"
+                        puml_content += f'{previous_alias} --> {current_alias} : {transition_id}: spacing and retrieval ({spacing_time})\n'
+                        transition_id += 1
                 else:
-                    puml_content += f'{previous_alias} --> {current_alias} : {transition_id}: interleaving ({previous_time:.1f} min)\n'
-                transition_id += 1
+                    if time_diff > 60:
+                        # Spacing and Interleaving
+                        spacing_time = f"{time_diff / 60:.1f} h" if time_diff > 60 else f"{time_diff:.1f} min"
+                        puml_content += f'{previous_alias} --> {current_alias} : {transition_id}: interleaving and spacing ({spacing_time})\n'
+                    else:
+                        # Interleaving
+                        puml_content += f'{previous_alias} --> {current_alias} : {transition_id}: interleaving\n'
+                    transition_id += 1
+
             previous_topic = current_topic
             previous_time = time_diff
 
-    # Finalizar o diagrama
+    # Finalize the diagram
     puml_content += "\n@enduml"
 
-    # Escrever no arquivo de saída
+    # Write to the output file
     with open(output_puml_path, 'w') as file:
         file.write(puml_content)
 
-    print(f"Arquivo .puml gerado em: {output_puml_path}")
+    print(f".puml file generated at: {output_puml_path}")
 
 
-# Exemplo de uso
-input_csv = "2result.csv"  # Substitua pelo caminho do seu arquivo CSV
-output_puml = "sequential_state_diagram.puml"  # Substitua pelo caminho do arquivo .puml gerado
+# Example usage
+input_csv = "68result.csv"  # Replace with the path to your CSV file
+output_puml = "detailed_corrected_diagram.puml"  # Replace with the path to the generated .puml file
 
-generate_sequential_state_diagram(input_csv, output_puml)
+generate_detailed_diagram_with_correct_numbering(input_csv, output_puml)

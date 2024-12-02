@@ -14,7 +14,7 @@ if __name__ == "__main__":
     client = OrionChromaDBClient(collection_name)
 
     # Search for a term in the collection
-    search_results = client.search("psicóloga")
+    search_results = client.search("gestão de negócios")
     # print(f"Search results: {search_results}")
 
     print(search_results["ids"][0][0])

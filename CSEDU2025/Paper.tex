@@ -354,7 +354,7 @@ such as in conversation 15 of Figure \ref{fig:graph2}.
 
 \begin{figure*}[htbp]
   \centering
-  \includegraphics[scale=0.45]{img/figure2.png}
+  \includegraphics[scale=0.42]{img/figure2.png}
   \caption{Examples of conversations.}
   \label{fig:graph2}
 \end{figure*}
@@ -405,25 +405,22 @@ conversation 9 in Figure \ref{fig:graph2}.
 About the first part of the second research question: \textit{RQ2 - Was there
 spacing between student prompts?}
 
-For the analysis of the spacing, we initially considered a minimum interval of
-60 minutes as a reference to define the significant spacing \citep{Gadella24}.
-Based on this, our results showed that, of the 81 conversations analyzed, only
-27 (33.3\%) had at least one message with an interval greater than 60 minutes.
-Figure 2 illustrates the elapsed time between messages (delta). For example,
-in conversation 15, the first message was sent at time zero, while the second
-message was sent by the student after a delta of 0.6 minutes. Additionally,
-message 4 in conversation 15, as shown in Figure \ref{fig:graph2}, presents a
-delta of 69.1 minutes, which, according to our reference, characterizes
-significant spacing. Figure \ref{fig:graph3} also shows the number of spacings
-in each conversation. Among conversations that exhibited spacing, the
-average number of subsections per conversation was 2.2. Therefore, a
-conversation with one instance of spacing is typically divided into two distinct
-study subsections.
+For the spacing analysis, we initially considered a minimum interval of 60
+minutes as a reference to define the significant spacing \citep{Gadella24}.
+Based on this, our results showed that, of the 81 conversations analyzed, just
+27, or around 34\%, had at least one message with an interval more significant
+than 60 minutes. Figure \ref{fig:graph2} illustrates the elapsed time between
+messages (delta). For example, in conversation 15, the first message was sent
+at time zero, while the student sent the second message after a delta of 0.6
+minutes. Additionally, message 4 in conversation 15, as shown in Figure
+\ref{fig:graph2}, presents a delta of 69.1 minutes, which, according to our
+reference, characterizes spacing. The average number of subsections per
+conversation was 2.2 among conversations that exhibited spacing. Therefore, a
+conversation with one spacing is divided into two distinct study sessions.
 
 This data suggests that there is indeed little spacing between study sessions.
-It is worth noting that, in order to create a new section in CharlieBot,
-students must close the browser tab and start a new conversation, which results
-in losing the previous chat history.
+To create a new section in CharlieBot; students must close the browser tab and
+start a new conversation, which results in losing the previous chat history.
 
 \subsubsection{Interaction Time per Category}
 
@@ -432,8 +429,8 @@ category led to the most rapid and consistent interactions with the chatbot?}
 
 The objective of this research question was to study the time a student takes to
 re-engage with the bot after sending a message for each category. This analysis
-can offer insights into students' behavior: faster interactions might reflect
-less reflection, whereas longer pauses could indicate the opposite.
+can offer insights into students' behavior: faster interactions might with the
+chatbot might suggest a more passive learning posture.
 
 To calculate the average time and standard deviation for messages within a
 category initially was first observed conversations in which message timing was
@@ -454,14 +451,6 @@ although some requests are simple and lead to quick responses, others may be
 more complex and require more reflection time. However, the low average response
 time and minimal variability may indicate that students adopt a more passive
 learning posture when requesting the chatbot to generate pieces of code.
-
-\begin{figure*}[htbp]
-  \centering
-  \includegraphics[scale=0.39]{img/figure3.png}
-  \caption{Subsections per conversation. \textit{A zero value indicates
-  no subsection and no spacing.}}
-  \label{fig:graph3}
-\end{figure*}
 
 Despite occasional variation (3.59), prompts classified as Uncategorized exhibit
 a relatively low average time (1.70) for students to resume interaction with the
@@ -541,30 +530,42 @@ involved, such as the implementation of sorting algorithms such as Heapsort.
 About the third research question: \textit{RQ3 - Do students' interactions with
 the chatbot alternate between study topics to suggest interleaving?}
 
-To analyze the interweaving of topics, sections were initially divided into
-those that exhibited spacing and those that did not.
+Switching between topics can help students identify distinct concepts inside
+problems. The results show that approximately 50.8\% of the conversations
+include interleaving; consequently, 49.2\% are related to a single study topic.
+To gain a deeper comprehension of this interleaving, conversations were analyzed
+ by separating those without spacing from those that included spacing.
 
-In conversations with the chatbot that did not include spacing (66.7\% of the total
-conversations), approximately 19.2\% of the messages resulted in a change of
-topic. Qualitative analysis of what led to this interweaving indicates that
-part of it was due to students' requests for assistance in solving exercises
-from different topics, suggesting a less active learning approach, as the time
-interval for this type of interaction tends to be shorter than average.
-Additionally, some instances of interweaving were observed after a prolonged
-period of 20 to 50 minutes, still below the 60-minute threshold established as
-the cutoff for considering spacing.
+Conversations without spacing comprise around 66\% of the total, with 34.2\%
+showing a topic change, indicating interleaving (equivalent to 22.8\% of all
+conversations). Qualitative analysis of these conversations without spacing
+revealed that about 7\% of the conversations presented interleaving caused by
+students' at least one request to solve quizzes. However, the speed with which
+students interact with the chatbot to solve quizzes may suggest a more
+superficial reflection on the answers received (see section 4.2.1). On the other
+hand, 8.8\% of the conversations showed no spacing but included topic changes,
+suggesting that students effectively might employ a metacognitive interleaving
+strategy to distinguish concepts around a problem. Finally, 7\% of the
+conversations featured interaction pauses lasting between 20 and 59 minutes but
+fell short of the study's definition of spacing, which required pauses of over
+60 minutes. This subset of conversations revealed a natural interleaving of
+topics, reflecting a chatbot usage pattern that often mirrors how users search
+Web pages.
 
-In interactions with the chatbot that included spacing (33.3\% of the total
-conversations), approximately 31.4\% of the messages switched topics.
-Qualitative analysis of these interactions reveals that a significant portion
-of this interweaving was caused by spacing. In other words, some students use
-the chatbot for quick consultations, asking a question and then returning hours
-later with another question on a different subject.
+Conversations with spacing comprise approximately 34\% of the total, with 84.2\%
+indicating interleaving (equivalent to 28\% of all conversations). Pauses longer
+than 60 minutes revealed similar behavior to those shorter than 60 minutes, with
+students using the chatbot primarily for quick consultations, asking questions,
+and returning at least one hour late with a query about a different study topic.
+The argument that some students use the chatbot primarily as a tool for quick
+queries is supported by data showing an average of 4.18 messages per study
+session. Interestingly, only 6\% of the conversations involved students pausing
+their interaction with the chatbot for more than 60 minutes before sending a
+message related to the exact topic of study.
 
-Thus, the data revealed that the existing interweaving is limited and does not
-suggest an effective study strategy, as it mainly arises from requests for
-exercise resolution and from the natural spacing pattern of a consultation
-interaction.
+Therefore, although approximately 50.8\% of the conversations contain
+interleaving, the data shows that this topic switching is limited in terms of
+using a conscious metacognitive strategy.
 
 \section{Conclusion and Future Work}
 

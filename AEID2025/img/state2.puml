@@ -1,9 +1,0 @@
-@startuml
-
-state "Java" as Java
-
-[*] --> Java : 1: 0 h
-Java : 2: U, DH, DH, DH, DH, DH, CQ, CQ, CQ, CQ, U, \n DH, DH, DH, DH, DH, DH, DH, DH, DH -  46,9 min
-Java --> [*]
-
-@enduml

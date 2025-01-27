@@ -1,0 +1,366 @@
+\documentclass[sn-apa]{sn-jnl} % APA Reference Style
+
+%%%% Standard Packages
+
+\usepackage{graphicx}%
+\usepackage{multirow}%
+\usepackage{amsmath,amssymb,amsfonts}%
+\usepackage{amsthm}%
+\usepackage{mathrsfs}%
+\usepackage[title]{appendix}%
+\usepackage{xcolor}%
+\usepackage{textcomp}%
+\usepackage{manyfoot}%
+\usepackage{booktabs}%
+\usepackage{algorithm}%
+\usepackage{algorithmicx}%
+\usepackage{algpseudocode}%
+\usepackage{listings}%
+
+
+\begin{document}
+
+\title[Article Title]{Analyzing Students Use Metacognitive Strategies When
+Interacting with GenAI-Powered Chatbots in Programming Courses.}
+
+%%=============================================================%%
+%% GivenName	-> \fnm{Joergen W.}
+%% Particle	-> \spfx{van der} -> surname prefix
+%% FamilyName	-> \sur{Ploeg}
+%% Suffix	-> \sfx{IV}
+%% \author*[1,2]{\fnm{Joergen W.} \spfx{van der} \sur{Ploeg} 
+%%  \sfx{IV}}\email{iauthor@gmail.com}
+%%=============================================================%%
+
+\author*[1,2]{\fnm{Rodrigo} \sur{Prestes Machado}}\email{rodrigo.prestes@poa.ifrs.edu.br}
+
+\author[2,3]{\fnm{Second} \sur{Author}}\email{iiauthor@gmail.com}
+\equalcont{These authors contributed equally to this work.}
+
+\author[1,2]{\fnm{Third} \sur{Author}}\email{iiiauthor@gmail.com}
+\equalcont{These authors contributed equally to this work.}
+
+\affil*[1]{\orgdiv{Department}, \orgname{Organization}, \orgaddress{\street{Street}, \city{City}, \postcode{100190}, \state{State}, \country{Country}}}
+
+\affil[2]{\orgdiv{Department}, \orgname{Organization}, \orgaddress{\street{Street}, \city{City}, \postcode{10587}, \state{State}, \country{Country}}}
+
+\affil[3]{\orgdiv{Department}, \orgname{Organization}, \orgaddress{\street{Street}, \city{City}, \postcode{610101}, \state{State}, \country{Country}}}
+
+%%==================================%%
+%% Sample for unstructured abstract %%
+%%==================================%%
+
+\abstract{ This study aimed to analyze prompts of programming students with a
+chatbot powered by OpenAI’s GPT-3.5, enhanced with the Retrieval Augmented
+Generation (RAG) technique, within the context of a Java programming course. The
+focus was on students using two metacognitive strategies: interleaving and
+spacing. Student prompts were categorized into eight categories along with their
+respective study topics. Findings revealed that the categories and markers of
+spacing and interleaving were important in identifying study sessions with the
+chatbot. However, students showed limited intentional application of these
+learning strategies. These results highlight the need for more comprehensive
+guidance on leveraging AI tools to improve learning outcomes.
+}
+
+\keywords{Programming, Generative Artificial Intelligence, Chatbots, Spacing,
+Interleaving and Metacognition}
+
+\maketitle
+
+\section{Introduction}\label{sec1}
+
+Recent advances in Generative Artificial Intelligence (GenAI) have created
+new opportunities in both professional programming and education \citep{Puryear22}.
+In programming courses, students can employ GenAI tools to improve their
+understanding, receive personalized feedback, and access detailed explanations.
+For example, GitHub Copilot, a tool that is integrated into development
+environments, assists in providing real-time suggestions and accelerating code
+writing, which could help streamline the learning process. Educational chatbots,
+on the other hand, try to guide students through coding challenges, answer
+questions, and try to foster a deeper understanding of programming concepts.
+
+The study conducted by \cite{chan23} revealed that both undergraduate and
+postgraduate students have positive attitudes towards the use of GenAI.
+A systematic review organized by \cite{Lo24} demonstrated that students can
+effectively learn from ChatGPT, resulting in improved comprehension and academic
+achievement \citep{Callejo24}. Furthermore, it was observed that ChatGPT may
+allow students to regulate their learning pace and can potentially support
+self-regulated learning, particularly for students with prior technical and
+disciplinary knowledge \citep{Xia23}.
+
+However, researchers have also expressed concerns about the impact of these
+tools on students. The systematic review by \cite{Murillo23} indicated that the
+use of ChatGPT could lead to overreliance on the tool. \cite{chan23} noted that
+overdependence on ChatGPT could lead to a decrease in critical thinking, as
+students can make decisions based solely on the information provided by the
+tool. As a potential consequence, \cite{Bastani24} observed in a study that when
+programming students lost access to ChatGPT, those who had previously relied
+on it saw their performance drop by 17\%. In contrast, students who had never
+used the tool were unaffected and outperformed their peers.
+
+The confidence of students in these tools is well founded, as shown by
+\cite{Puryear22}, who found that GitHub Copilot can generate solutions for
+student assignments with precision rates ranging from 68\% to 95\%. However,
+\cite{Boudouaia24} observed that using ChatGPT without a structured learning
+approach did not provide significant improvement over traditional self-directed
+learning methods in programming. This raises concerns that students may become
+overly dependent on generative AI tools, potentially hindering their learning
+progress and missing opportunities to develop a deeper understanding of
+fundamental concepts.
+
+Regardless of teachers' preferences or beliefs, preliminary surveys conducted
+by \cite{Dickey24} indicate that more than 54.5\% of students are already using
+GenAI for homework, likely due to their perception of this technology as
+advantageous and intuitive \citep{Boudouaia24}. All of these studies highlight
+the need to increase the understanding of how students interact with these tools
+and how they can be used to improve learning, as emphasized by \cite{Lo24}.
+
+In response to the growing need for deeper insight into the use of GenAI tools
+in educational settings, this study aims to help address this gap by analyzing
+the interactions between students in a Java programming course and an
+educational chatbot powered by OpenAI gpt-3.5, enhanced with the
+Retrieval-Augmented Generation (RAG) technique. Specifically, it focuses on
+examining these interactions within the context of two metacognitive strategies:
+spacing \citep{Carvalho20} and interleaving \citep{Rivers21}. To achieve this
+objective, we formulate three research questions:
+
+\begin{itemize}
+    \item RQ1 - What distribution patterns emerged in the classified student
+    interaction prompts with the educational chatbot?
+    \item RQ2 - Was there spacing between student prompts? Which category led to
+    the most rapid and consistent interactions with the chatbot?
+    \item RQ3 - Do students' interactions with the chatbot alternate between study
+    topics to suggest interleaving?
+  \end{itemize}
+
+This paper is organized as follows. Section 2 presents the theoretical
+framework, Section 3 describes the material and methods used in the study,
+Section 4 presents the results and discussion, and Section 5 concludes the
+paper and outlines future work.
+
+\section{Theoretical Framework}\label{sec1}
+
+This section outlines the theoretical framework that is the basis of the study.
+We begin by introducing the concept of metacognition, along with the spacing and
+interweaving strategies applied in this research. Next, we present related works
+organized into two subsections: research involving GenAI and studies focusing
+on metacognition.
+
+\subsection{Metacognition}
+
+Given that GenAI often produces highly accurate and automatic responses
+\citep{Puryear22}, it is essential that students use these tools within an
+active learning process to enhance their learning outcomes. This active
+learning process can be further understood through the lens of metacognition,
+which focuses on awareness of one's mental processes. \cite{flavell79}
+proposed a model of metacognitive monitoring that includes four interrelated
+phenomena: Metacognitive Knowledge, Metacognitive Experience, Metacognitive
+Goals, and Metacognitive Actions. These processes do not occur in isolation, but
+they influence each other, altering cognitive progress over time.
+
+Metacognitive knowledge includes beliefs about variables that affect the
+outcomes of cognitive activities. It is divided into three types: beliefs about
+personal abilities, perceived difficulty in the task, and previously used
+strategies. Metacognitive Experience refers to the feelings that arise before,
+during, and after cognitive activity, such as frustration, confusion,
+satisfaction, and others. Metacognitive Goals are the key to regulating thought
+as they relate to the goals the individual seeks to achieve, directly
+influencing the actions taken. For example, if a student’s goal is to complete
+a task quickly, they may adopt a more passive approach to learning. Lastly,
+Metacognitive Actions involve the planning, monitoring, and evaluation of
+strategies used to achieve the goals. In terms of planning, students can
+determine how to approach a task, such as spacing their study sessions
+\citep{Carvalho20}, interleaving topics \citep{Rivers21}, utilizing
+retrieval practice \citep{larsen18}, and other possible strategies.
+
+Spacing and interleaving are two metacognitive strategies that have been shown
+to enhance learning outcomes and support the research questions of this study.
+Spacing refers to the practice of distributing study sessions over time, which
+has been shown to improve long-term retention and understanding of the material
+\citep{Carvalho20}. Interleaving involves mixing different topics or problems
+within a single learning session, which has been shown to also enhance long-term
+learning and the application of student's knowledge in other contexts and
+situations \citep{Rivers21} .
+
+\subsection{Related Work}
+
+\cite{Margulieux24} conducted a study on how undergraduate students in
+introductory programming courses used generative AI to solve programming
+problems in a naturalistic setting. The research focused on examining the
+relationship between AI usage and students’ self-regulation strategies,
+self-efficacy, and fear of failure in programming. Furthermore, the study
+explored how these variables interacted with the characteristics of the learners,
+the perceived usefulness of AI, and academic performance. The findings revealed
+that students with higher self-efficacy, lower fear of failure, or higher prior
+grades tended to use AI less frequently or later in the problem-solving process
+and perceived it as less useful compared to their peers. However, no significant
+relationship was found between students’ self-regulation strategies and their
+use of AI.
+
+% \cite{Boudouaia24} investigated the impact of ChatGPT-facilitated programming on
+% college students’ programming behaviors, performance, and perceptions. The
+% problem addressed was whether the use of ChatGPT in programming education could
+% influence how students interacted with programming tasks, their learning
+% outcomes, and their attitudes towards technology. The study employed a
+% quasi-experimental design involving 82 college students divided into two groups:
+% one using ChatGPT-assisted Programming (CAP) and the other using traditional
+% self-directed Programming (SDP). The method combined mixed data collection
+% techniques, including behavioral logs, programming performance evaluations, and
+% interviews. The results showed that students using the CAP mode exhibited more
+% frequent behaviors such as debugging and reading feedback. Although CAP students
+% had a higher average score in programming performance, there was no
+% statistically significant difference compared to the SDP group. However,
+% students’ perceptions of ChatGPT improved significantly after the intervention,
+% with increased perceived usefulness, ease of use, and intention to continue
+% using the tool in the future.
+
+The study of \cite{Boudouaia24} examined the effects of ChatGPT-assisted
+programming on university students' behaviors, performance, and perceptions.
+A quasi-experimental research was conducted with 82 students divided into two
+groups: one with ChatGPT-assisted programming (CAP) and the other with
+self-directed programming (SDP). The analysis included behavioral logs,
+performance evaluations, and interviews. Students in the CAP group engaged more
+actively in debugging and feedback review activities. Although they achieved
+slightly higher scores, there was no statistically significant difference in
+performance compared to the SDP group. Nevertheless, perceptions of ChatGPT
+improved significantly, highlighting greater perceived usefulness, ease of use,
+and intention to use the tool in the future.
+
+\cite{Bastani24} investigated the impact of GenAI, specifically GPT-4, on human
+learning, with a focus on mathematics education in a high school. The problem
+addressed was how the use of generative AI could affect the acquisition of new
+skills, which is crucial for long-term productivity. The method involved a
+controlled experiment with approximately one thousand students, who were exposed
+to two GPT-4-based tutors: a simple tutor (GPT Base) and another with safeguards
+designed to promote learning (GPT Tutor). The results showed that while access
+to GPT-4 improved performance on practice exercises (48\% with GPT Base and
+127\% with GPT Tutor), the removal of access to GPT Base led to a 17\% decrease
+in student performance on exams. This suggests that unrestricted use of
+\textit{GPT Base} could hinder learning. However, the GPT Tutor was able to
+mitigate this negative effect.
+
+\subsection{Metacognition Related Works}
+
+Learning based on metacognitive strategies has been shown to be effective in
+enhancing students’ performance and skills. \cite{Zheng19} investigated the
+effects of metacognitive scaffolds on group behavior, performance, and cognitive
+load in computer-supported collaborative environments. The results showed
+positive impacts on metacognitive behavior and group performance without
+increasing the cognitive load. \cite{LiWei23} proposed a metacognition-based
+collaborative approach to enhance performance in collaborative programming. The
+findings indicated that this approach influenced computational thinking,
+critical thinking, and metacognitive awareness. Similarly, \cite{Wang23}
+explored how metacognitive instruction affects computational thinking, critical
+thinking, and metacognitive skills in collaborative programming, observing
+
+\cite{Khusnul24} investigates
+the efficacy of a meta-learning approach in improving metacognitive and creative
+skills. This study confirms the effectiveness of metacognition strategies and
+elucidates the relationship between meta-learning and metacognition. This
+research suggests that meta-learning can improve metacognitive abilities,
+providing valuable insights into educational technology and course design in
+higher education settings.
+
+\cite{Sidra24} addressed the growing importance of metacognitive skills in an
+AI-enabled workforce. The problem discussed was how AI systems, especially in
+collaborative tools based on Large Language Models (LLMs), impacted human
+decision-making and the challenges they posed due to the lack of human-like
+metacognition in AI. The method used identified four main characteristics that
+differentiated human-AI interaction from human-human collaboration and proposed,
+based on the dual-process theory of human thought, that metacognitive thinking
+was crucial for the effective use of AI. The results indicated that human
+workers needed to develop and apply metacognitive skills, such as planning,
+monitoring, and evaluating their thought processes, to mitigate cognitive biases
+and improve decision-making when working with AI. The study concluded by
+recommending improvements in AI design and training to improve workers'
+metacognitive abilities, ensuring more effective collaboration with AI systems.
+
+\cite{Sidra24} explored the importance of metacognitive skills in an AI-enabled
+workforce, focusing on how AI, particularly tools using Large Language Models,
+affects human decision-making. They highlighted challenges arising from AI's
+lack of human-like metacognition and identified key differences between human
+AI and human-human collaboration. Using dual-process theory, they emphasized the
+need for workers to develop metacognitive skills like planning, monitoring, and
+evaluating to counter cognitive biases and enhance decision-making. The study
+recommended improving AI design and training to boost workers' metacognitive
+abilities for more effective collaboration.
+
+\section{\uppercase{Material and Method}}
+
+This section outlines the tools and procedures used in this study. CharlieBot
+served as the GenAI tool for educational purposes, and the method was structured
+into three distinct phases, each designed to systematically assess its
+interaction with students.
+
+\subsection{CharlieBot}
+
+CharlieBot is an educational chatbot powered by ChatGPT 3.5 and enhanced with
+Retrieval-Augmented Generation (RAG) \citep{Sun24}. RAG is an AI technique that
+integrates information retrieval with generative models. It first retrieves
+relevant documents or data from a knowledge base or external source using a
+retrieval model. Then, a generative model uses this retrieved information to
+generate more accurate, context-aware responses. This dual-step process enhances
+the quality and reliability of the chatbot's answers. A prior study on
+CharlieBot's performance revealed that most students found its responses
+appropriate for the Java programming course \citep{Hoyos24}.
+
+\subsection{Method}
+
+The study comprised three phases: data collection, categorization, and analysis.
+During the data collection phase, students enrolled in a second-semester Java
+course at the University Carlos III of Madrid (UC3M) were introduced to
+CharlieBot and allowed to use it without following any prescribed educational
+methodology. All data were collected anonymously to ensure that interactions
+could not be traced back to individual students or linked to their academic
+performance.
+
+During the categorization phase, the students' prompts were initially classified
+into eight distinct categories using the Claude.ai \citep{claude} tool.
+Subsequently, the authors of this study manually reviewed these classifications
+to ensure accuracy and alignment with the research objectives.
+
+\begin{table*}[htbp]
+    \caption{Categories - adapted from \cite{Ghimire24}}
+    \begin{center}
+      \renewcommand{\arraystretch}{1.2} % Increase the spacing between rows
+      \begin{tabular}{p{3cm} p{4cm} p{3cm}} % Remove vertical bars
+        \hline
+        \textbf{Category} & \textbf{Description} & \textbf{Example of prompt} \\
+        \hline
+        Debugging Help (DH) & Prompts that seek help to identify, fix errors, or understand the provided code snippet. & \textit{Would this code be ok? \{code\}} \\
+        Conceptual Question (CQ) & Prompts that are more about understanding concepts than specific code. & \textit{What does it mean for a method to be static?} \\
+        Student Correction (SC) & Prompts where the student corrects the chatbot. & \textit{The correct answer is B} \\
+        Code Snippet  (CS) & Prompts that ask for a specific part of the code, like a function or a segment. & \textit{A class inherits from another write this code} \\
+        Complete Solution (CSO) & Prompts that request an entire solution or a complete code snippet. & \textit{Give me the code for a selection sort} \\
+        Multiple Question (MQ) & Prompts where the user wants to solve a multiple choice exercise (Quiz). & \textit{A heap is a data structure appropriate for: \{options\}} \\
+        Language Change (LC) & Prompts that request a change of idiom. & \textit{In Spanish} \\
+        Uncategorized (U) & Prompts that do not fit into any of the above categories. & \textit{Thanks} \\
+        \hline
+      \end{tabular}
+      \label{tab:categories}
+    \end{center}
+  \end{table*}
+
+Initially, \cite{Ghimire24} proposed four categories: Debugging Help (DH),
+Conceptual Question (CQ), Code Snippet (CS), and Complete Solution (CSO).
+However, the data collected indicated the need for additional categories,
+leading to the inclusion of four more: Multiple Questions (MQ), Student
+Corrections (SC), Language Change (LC), and Uncategorized (U). Unlike study
+\cite{Ghimire24}, which analyzed students' behavior using artificial
+intelligence for specific programming tasks, our study allowed participants to
+explore the chatbot as they preferred. This approach enabled the emergence of
+additional categories of analysis, broadening the understanding of the tool's
+uses and interactions. Table \ref{tab:categories} presents these categories,
+their descriptions, and an example. Besides that, the topics covered in the
+students' prompts were categorized based on the course issues, which include
+(1) Java, (2) Object Orientation, (3) Testing, (4) Recursion, (5) Data
+Structures, and (6) Sorting and Searching Algorithms.
+
+The analysis phase involved using Python/Pandas scripts to extract information
+from previously classified data.
+
+
+% Ensure the bibliography style and data are correctly included
+\bibliography{sn-bibliography}
+
+\end{document}

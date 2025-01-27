@@ -1,6 +1,6 @@
-Id;Role;Message;Datetime;Classification;AI - 11%
-sw8caTVFztF5GZz;User;como es assertThrows;11:46:44 - 29/05/2024;Conceptual Questions;Yes
-sw8caTVFztF5GZz;semantic_search;;11:46:44 - 29/05/2024;;
+Id;Role;Message;Datetime;Classification;Topic;Change;AI - 11%
+sw8caTVFztF5GZz;User;como es assertThrows;11:46:44 - 29/05/2024;Conceptual Questions;Java;No;Yes
+sw8caTVFztF5GZz;semantic_search;;11:46:44 - 29/05/2024;;;;
 sw8caTVFztF5GZz;CharlieBOT;"En Java, el método assertThrows se utiliza para verificar que una determinada excepción es lanzada por un código de prueba. Aquí tienes un ejemplo de cómo se utiliza:
 
 @Test
@@ -14,9 +14,9 @@ En este ejemplo, estamos probando que al dividir un número por cero se lance un
 
 Es importante recordar que assertThrows es parte del framework de pruebas JUnit, por lo que necesitarás tener JUnit en tu proyecto para poder utilizarlo.
 
-Espero que esta explicación te sea útil. Si necesitas más ayuda, no dudes en preguntar.";11:46:47 - 29/05/2024;;
-sw8caTVFztF5GZz;User;como seria para una exception creada llamada BTreeException;11:47:46 - 29/05/2024;Code Snippet;Yes
-sw8caTVFztF5GZz;semantic_search;;11:47:46 - 29/05/2024;;
+Espero que esta explicación te sea útil. Si necesitas más ayuda, no dudes en preguntar.";11:46:47 - 29/05/2024;;;;
+sw8caTVFztF5GZz;User;como seria para una exception creada llamada BTreeException;11:47:46 - 29/05/2024;Code Snippet;Java;No;Yes
+sw8caTVFztF5GZz;semantic_search;;11:47:46 - 29/05/2024;;;;
 sw8caTVFztF5GZz;CharlieBOT;"Para verificar que se lance una excepción personalizada llamada BTreeException en un código de prueba, puedes utilizar el método assertThrows de la siguiente manera:
 
 @Test
@@ -31,9 +31,9 @@ En este ejemplo, estamos probando que al intentar insertar un valor nulo en un �
 
 Recuerda que BTreeException es una excepción personalizada que debes haber definido previamente en tu código.
 
-Si tienes más preguntas o necesitas ayuda adicional, no dudes en preguntar.";11:47:49 - 29/05/2024;;
-sw8caTVFztF5GZz;User;que tipos de testing existen;11:48:16 - 29/05/2024;Conceptual Questions;Yes
-sw8caTVFztF5GZz;semantic_search;;11:48:16 - 29/05/2024;;
+Si tienes más preguntas o necesitas ayuda adicional, no dudes en preguntar.";11:47:49 - 29/05/2024;;;;
+sw8caTVFztF5GZz;User;que tipos de testing existen;11:48:16 - 29/05/2024;Conceptual Questions;Testing;Yes;Yes
+sw8caTVFztF5GZz;semantic_search;;11:48:16 - 29/05/2024;;;;
 sw8caTVFztF5GZz;CharlieBOT;"En el contexto de la programación de sistemas, existen varios tipos de pruebas que se utilizan para garantizar la calidad y fiabilidad del software. Algunos de los tipos de pruebas más comunes son:
 
 Pruebas unitarias: Se centran en probar unidades individuales de código, como funciones o métodos, de forma aislada. En Java, las pruebas unitarias suelen realizarse con JUnit o TestNG.
@@ -51,9 +51,9 @@ Pruebas de seguridad: Se centran en identificar y corregir vulnerabilidades de s
 
 Estos son solo algunos ejemplos de los tipos de pruebas que se pueden realizar en el desarrollo de software. Cada tipo de prueba tiene su propio enfoque y propósito, y es importante considerar una combinación adecuada de pruebas para garantizar la calidad del software.
 
-Recuerda que mi función es ayudarte con preguntas relacionadas con la programación de sistemas. Si necesitas información sobre otros temas, te recomendaría que consultes la página web de la UC3M.";11:48:21 - 29/05/2024;;
-sw8caTVFztF5GZz;User;como funciona el selection sort;12:05:12 - 29/05/2024;Conceptual Questions;Yes
-sw8caTVFztF5GZz;semantic_search;;12:05:12 - 29/05/2024;;
+Recuerda que mi función es ayudarte con preguntas relacionadas con la programación de sistemas. Si necesitas información sobre otros temas, te recomendaría que consultes la página web de la UC3M.";11:48:21 - 29/05/2024;;;;
+sw8caTVFztF5GZz;User;como funciona el selection sort;12:05:12 - 29/05/2024;Conceptual Questions;Sorting;Yes;Yes
+sw8caTVFztF5GZz;semantic_search;;12:05:12 - 29/05/2024;;;;
 sw8caTVFztF5GZz;CharlieBOT;"El algoritmo de ordenamiento por selección (selection sort) es un algoritmo simple e intuitivo que funciona de la siguiente manera:
 
 Selección del elemento mínimo: El algoritmo busca el elemento más pequeño en el arreglo y lo intercambia con el elemento en la primera posición.
@@ -76,9 +76,9 @@ function selectionSort(arr)
 
 El algoritmo de ordenamiento por selección tiene una complejidad de tiempo de O(n^2), lo que significa que su rendimiento no es óptimo para arreglos grandes. Sin embargo, es fácil de implementar y entender, por lo que puede ser útil en ciertos contextos.
 
-Si necesitas más detalles sobre la implementación en Java o tienes alguna otra pregunta relacionada con sistemas de programación, no dudes en preguntar.";12:05:16 - 29/05/2024;;
-sw8caTVFztF5GZz;User;y el insertion sort;12:07:50 - 29/05/2024;Conceptual Questions;Yes
-sw8caTVFztF5GZz;semantic_search;;12:07:50 - 29/05/2024;;
+Si necesitas más detalles sobre la implementación en Java o tienes alguna otra pregunta relacionada con sistemas de programación, no dudes en preguntar.";12:05:16 - 29/05/2024;;;;
+sw8caTVFztF5GZz;User;y el insertion sort;12:07:50 - 29/05/2024;Conceptual Questions;Sorting;No;Yes
+sw8caTVFztF5GZz;semantic_search;;12:07:50 - 29/05/2024;;;;
 sw8caTVFztF5GZz;CharlieBOT;"El algoritmo de ordenamiento por inserción (insertion sort) es otro algoritmo de ordenamiento simple que funciona de la siguiente manera:
 
 División del arreglo: El arreglo se divide en dos partes: una parte ordenada y una parte desordenada. Inicialmente, la parte ordenada contiene solo el primer elemento del arreglo, y el resto del arreglo se considera desordenado.
@@ -102,9 +102,9 @@ function insertionSort(arr)
 
 Al igual que el algoritmo de selección, el algoritmo de inserción tiene una complejidad de tiempo de O(n^2). Sin embargo, en la práctica, el algoritmo de inserción tiende a ser más eficiente que el algoritmo de selección para arreglos pequeños o parcialmente ordenados.
 
-Si necesitas más detalles sobre la implementación en Java o tienes alguna otra pregunta relacionada con sistemas de programación, no dudes en preguntar.";12:07:54 - 29/05/2024;;
-sw8caTVFztF5GZz;User;como tienen que ser los atributos de una interfaz;12:30:02 - 29/05/2024;Conceptual Questions;Yes
-sw8caTVFztF5GZz;semantic_search;;12:30:02 - 29/05/2024;;
+Si necesitas más detalles sobre la implementación en Java o tienes alguna otra pregunta relacionada con sistemas de programación, no dudes en preguntar.";12:07:54 - 29/05/2024;;;;
+sw8caTVFztF5GZz;User;como tienen que ser los atributos de una interfaz;12:30:02 - 29/05/2024;Conceptual Questions;Object Orientation;Yes;Yes
+sw8caTVFztF5GZz;semantic_search;;12:30:02 - 29/05/2024;;;;
 sw8caTVFztF5GZz;CharlieBOT;"En Java, los atributos de una interfaz son implícitamente públicos, estáticos y finales. Esto significa que:
 
 Son públicos: Pueden ser accedidos desde cualquier clase.
@@ -122,9 +122,9 @@ En este ejemplo, MI_CONSTANTE y OTRO_ATRIBUTO son atributos de la interfaz MiInt
 
 Recuerda que las interfaces en Java se utilizan para definir un contrato que las clases pueden implementar, y no pueden contener implementaciones de métodos, solo la firma de los métodos que las clases que implementen la interfaz deben proporcionar.
 
-Si tienes más preguntas sobre interfaces en Java o cualquier otro tema relacionado con sistemas de programación, no dudes en preguntar.";12:30:07 - 29/05/2024;;
-sw8caTVFztF5GZz;User;que tipos de recursion existen;12:33:40 - 29/05/2024;Conceptual Questions;Yes
-sw8caTVFztF5GZz;semantic_search;"# Departamento de Ingeniería Telemática  ## Recursión  ### Programación de sistemas  **MATERIALES BASADOS EN EL TRABAJO DE DIVERSOS AUTORES:**   Carlos Alario Hoyos, Carlos Delgado Kloos, Mª Carmen Fernández Panadero, Julio Villena Román  - Recursión   - Tipos de recursión   - Recursión vs.```markdown # Departamento de Ingeniería Telemática  ## Recursión  ### Programación de sistemas  **MATERIALES BASADOS EN EL TRABAJO DE DIVERSOS AUTORES:**   Carlos Alario Hoyos, Carlos Delgado Kloos, Mª Carmen Fernández Panadero, Julio Villena Román  ### Contenidos  - Recursión - Tipos de recursión - Recursión vs.iteración  #### Recursión  - Proceso por el cual un método se llama a sí mismo de forma continuada hasta que se llegue a un determinado estado   - **Caso recursivo:** El método se invoca a sí mismo   - **Caso base:** Permite salir de la recursión - Un método recursivo debe tener al menos un caso recursivo y al menos un caso base   - El caso recursivo debe aproximarse al caso base - Los métodos recursivos utilizan sentencias más sencillas para simplificar problemas complejos  #### Ejemplo 1: Sumatorio de 1 a n (con n > 0)  ```java public static long s (int n){          if (n==1){         return 1;     }     else{         return s(n-1)+n;     } }   Caso base Caso recursivo  Ejemplo 2: Recursión mal diseñada* public static long s (int n){          if (n==1){         return 1;     }     else{         return s(n+1)+n;     } }   Caso base Caso recursivo (si n > 1)  Ejemplo 3: Sumatorio de n a 1000 public static long s (int n){          if (n==1000){         return 1000;     }     else if (n>1000){         return 0;     }     else{         return s(n+1)+n;     } }   Casos base Caso recursivo  Ejemplo 4: Cuenta atrás (con contador > 0) public static void cuentaAtras(int contador){     if(contador == 0){         return;     }     else{         System.out.println(contador+"" "");         cuentaAtras(--contador);         return;     } }   Caso base Caso recursivo  Ejercicio 1  Implementa el método recursivo square(int n), el cual permite calcular el cuadrado de n (cuando n > 1)Modificadores de acceso   Programación orientada a objetos  2.1. Herencia  2.2. Sobreescritura y sobrecarga  2.3. Casting  2.4. Clases abstractas e interfaces  2.5. Herencia múltiple y polimorfismo. Recursión  3.1. Concepto de recursión  3.2. Tipos de recursión (lineal, no lineal, mútua)  3.3. Recursión vs. iteración  3.4. Ejemplos de algoritmos recursivos Estructuras de datos, algoritmos y ejemplos de implementación  4.1. Listas enlazadas y doblemente enlazadas  4.2. Pilas  4.3. Colas (simples, dobles con prioridad)  4.4.Iteración   La recursión lineal por la cola se puede convertir de forma inmediata en iteración (bucle). Para otras formas de recursión se requieren técnicas de transformación de programas y posiblemente estructuras de datos más complejas.  Resumen  Identificar el rango de valores para terminación Caso(s) base y caso(s) recursivos que se aproximan al base Recursión lineal (máx. 1 llamada recursiva por rama) Por la cola (resultado en la última operación y fácilmente convertible a bucle) No por la cola (cálculo costoso)   Recursión no lineal (más de 1 llamada recursiva en alguna rama) Cascada o anidada.";12:33:40 - 29/05/2024;;
+Si tienes más preguntas sobre interfaces en Java o cualquier otro tema relacionado con sistemas de programación, no dudes en preguntar.";12:30:07 - 29/05/2024;;;;
+sw8caTVFztF5GZz;User;que tipos de recursion existen;12:33:40 - 29/05/2024;Conceptual Questions;Recursion;Yes;Yes
+sw8caTVFztF5GZz;semantic_search;"# Departamento de Ingeniería Telemática  ## Recursión  ### Programación de sistemas  **MATERIALES BASADOS EN EL TRABAJO DE DIVERSOS AUTORES:**   Carlos Alario Hoyos, Carlos Delgado Kloos, Mª Carmen Fernández Panadero, Julio Villena Román  - Recursión   - Tipos de recursión   - Recursión vs.```markdown # Departamento de Ingeniería Telemática  ## Recursión  ### Programación de sistemas  **MATERIALES BASADOS EN EL TRABAJO DE DIVERSOS AUTORES:**   Carlos Alario Hoyos, Carlos Delgado Kloos, Mª Carmen Fernández Panadero, Julio Villena Román  ### Contenidos  - Recursión - Tipos de recursión - Recursión vs.iteración  #### Recursión  - Proceso por el cual un método se llama a sí mismo de forma continuada hasta que se llegue a un determinado estado   - **Caso recursivo:** El método se invoca a sí mismo   - **Caso base:** Permite salir de la recursión - Un método recursivo debe tener al menos un caso recursivo y al menos un caso base   - El caso recursivo debe aproximarse al caso base - Los métodos recursivos utilizan sentencias más sencillas para simplificar problemas complejos  #### Ejemplo 1: Sumatorio de 1 a n (con n > 0)  ```java public static long s (int n){          if (n==1){         return 1;     }     else{         return s(n-1)+n;     } }   Caso base Caso recursivo  Ejemplo 2: Recursión mal diseñada* public static long s (int n){          if (n==1){         return 1;     }     else{         return s(n+1)+n;     } }   Caso base Caso recursivo (si n > 1)  Ejemplo 3: Sumatorio de n a 1000 public static long s (int n){          if (n==1000){         return 1000;     }     else if (n>1000){         return 0;     }     else{         return s(n+1)+n;     } }   Casos base Caso recursivo  Ejemplo 4: Cuenta atrás (con contador > 0) public static void cuentaAtras(int contador){     if(contador == 0){         return;     }     else{         System.out.println(contador+"" "");         cuentaAtras(--contador);         return;     } }   Caso base Caso recursivo  Ejercicio 1  Implementa el método recursivo square(int n), el cual permite calcular el cuadrado de n (cuando n > 1)Modificadores de acceso   Programación orientada a objetos  2.1. Herencia  2.2. Sobreescritura y sobrecarga  2.3. Casting  2.4. Clases abstractas e interfaces  2.5. Herencia múltiple y polimorfismo. Recursión  3.1. Concepto de recursión  3.2. Tipos de recursión (lineal, no lineal, mútua)  3.3. Recursión vs. iteración  3.4. Ejemplos de algoritmos recursivos Estructuras de datos, algoritmos y ejemplos de implementación  4.1. Listas enlazadas y doblemente enlazadas  4.2. Pilas  4.3. Colas (simples, dobles con prioridad)  4.4.Iteración   La recursión lineal por la cola se puede convertir de forma inmediata en iteración (bucle). Para otras formas de recursión se requieren técnicas de transformación de programas y posiblemente estructuras de datos más complejas.  Resumen  Identificar el rango de valores para terminación Caso(s) base y caso(s) recursivos que se aproximan al base Recursión lineal (máx. 1 llamada recursiva por rama) Por la cola (resultado en la última operación y fácilmente convertible a bucle) No por la cola (cálculo costoso)   Recursión no lineal (más de 1 llamada recursiva en alguna rama) Cascada o anidada.";12:33:40 - 29/05/2024;;;;
 sw8caTVFztF5GZz;CharlieBOT;"En el contexto de la programación, existen varios tipos de recursión. Los principales son:
 
 Recursión lineal: En la recursión lineal, una función se llama a sí misma una sola vez. La llamada recursiva ocurre en la última línea de la función y no se realizan más cálculos después de la llamada recursiva. Este tipo de recursión es más fácil de convertir en un bucle iterativo.
@@ -136,9 +136,9 @@ Recursión mutua: En la recursión mutua, dos o más funciones se llaman entre s
 
 Cada tipo de recursión tiene sus propias características y consideraciones a la hora de implementar algoritmos recursivos. Es importante comprender estos tipos para poder diseñar y analizar algoritmos de manera efectiva.
 
-Si necesitas más detalles sobre algún tipo específico de recursión o tienes alguna otra pregunta relacionada con sistemas de programación, no dudes en preguntar.";12:33:43 - 29/05/2024;;
-sw8caTVFztF5GZz;User;y la tail recursion que es;12:34:46 - 29/05/2024;Conceptual Questions;Yes
-sw8caTVFztF5GZz;semantic_search;;12:34:46 - 29/05/2024;;
+Si necesitas más detalles sobre algún tipo específico de recursión o tienes alguna otra pregunta relacionada con sistemas de programación, no dudes en preguntar.";12:33:43 - 29/05/2024;;;;
+sw8caTVFztF5GZz;User;y la tail recursion que es;12:34:46 - 29/05/2024;Conceptual Questions;Recursion;No;Yes
+sw8caTVFztF5GZz;semantic_search;;12:34:46 - 29/05/2024;;;;
 sw8caTVFztF5GZz;CharlieBOT;"La recursión de cola (tail recursion) es un tipo especial de recursión lineal en la que la llamada recursiva es la última operación que se realiza en la función. Esto significa que no hay cálculos adicionales que se realicen después de la llamada recursiva. En términos prácticos, esto permite que el compilador o intérprete optimice la llamada recursiva de manera que no se acumulen marcos de pila adicionales, lo que puede conducir a un uso más eficiente de la memoria.
 
 En el contexto de la programación, la recursión de cola es especialmente relevante en lenguajes que optimizan este tipo de recursión, como algunos lenguajes funcionales. En Java, la optimización de la recursión de cola no está garantizada, pero algunos compiladores pueden realizar esta optimización en casos específicos.
@@ -163,9 +163,9 @@ En este ejemplo, la función factorial es una función de envoltura que llama a 
 
 La recursión de cola es importante en el diseño de algoritmos eficientes y puede ser útil para evitar desbordamientos de pila en casos de recursión profunda.
 
-Si tienes más preguntas sobre la recursión de cola o cualquier otro tema relacionado con sistemas de programación, no dudes en preguntar.";12:34:51 - 29/05/2024;;
-sw8caTVFztF5GZz;User;y non tail recursion;12:35:43 - 29/05/2024;Conceptual Questions;Yes
-sw8caTVFztF5GZz;semantic_search;;12:35:43 - 29/05/2024;;
+Si tienes más preguntas sobre la recursión de cola o cualquier otro tema relacionado con sistemas de programación, no dudes en preguntar.";12:34:51 - 29/05/2024;;;;
+sw8caTVFztF5GZz;User;y non tail recursion;12:35:43 - 29/05/2024;Conceptual Questions;Recursion;No;Yes
+sw8caTVFztF5GZz;semantic_search;;12:35:43 - 29/05/2024;;;;
 sw8caTVFztF5GZz;CharlieBOT;"La recursión no de cola (non-tail recursion) es el tipo de recursión en el que la llamada recursiva no es la última operación que se realiza en la función. En otras palabras, después de la llamada recursiva, la función realiza más cálculos o procesamiento antes de devolver el resultado.
 
 En el contexto de la programación, la recursión no de cola puede ser menos eficiente en términos de uso de memoria, ya que cada llamada recursiva agrega un nuevo marco de pila a la pila de llamadas. Esto puede llevar a un desbordamiento de pila (stack overflow) si la recursión es demasiado profunda.
@@ -186,4 +186,4 @@ En este ejemplo, la función fibonacci realiza cálculos adicionales después de
 
 Es importante tener en cuenta que, a diferencia de la recursión de cola, la recursión no de cola no se presta a la optimización de la pila por parte de algunos compiladores o intérpretes, lo que puede llevar a un mayor uso de memoria y a posibles desbordamientos de pila en casos de recursión profunda.
 
-Si tienes más preguntas sobre la recursión no de cola o cualquier otro tema relacionado con sistemas de programación, no dudes en preguntar.";12:35:48 - 29/05/2024;;
+Si tienes más preguntas sobre la recursión no de cola o cualquier otro tema relacionado con sistemas de programación, no dudes en preguntar.";12:35:48 - 29/05/2024;;;;

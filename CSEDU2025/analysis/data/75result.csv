@@ -1,6 +1,6 @@
-Id;Role;Message;Datetime;Classification;AI - 11%
-GrErddLmx3yWnvJ;User;como es el bubble sort algorithm;21:01:39 - 28/05/2024;Conceptual Questions;Yes
-GrErddLmx3yWnvJ;semantic_search;;21:01:39 - 28/05/2024;;
+Id;Role;Message;Datetime;Classification;Topic;Change;AI - 11%
+GrErddLmx3yWnvJ;User;como es el bubble sort algorithm;21:01:39 - 28/05/2024;Conceptual Questions;Sorting;No;Yes
+GrErddLmx3yWnvJ;semantic_search;;21:01:39 - 28/05/2024;;;;
 GrErddLmx3yWnvJ;CharlieBOT;"El algoritmo de ordenamiento de burbuja (bubble sort) es un algoritmo sencillo que recorre una lista de elementos y los compara de a pares, intercambiándolos si están en el orden incorrecto. Este proceso se repite hasta que la lista esté completamente ordenada. Aquí tienes una implementación en Java: 
 public class BubbleSort {
     public static void bubbleSort(int[] arr) {
@@ -18,9 +18,9 @@ public class BubbleSort {
     }
 }
 
-Este algoritmo no es muy eficiente para listas grandes, pero es fácil de entender y de implementar. ¿Te gustaría saber algo más sobre este algoritmo o sobre algún otro tema de programación de sistemas?";21:01:42 - 28/05/2024;;
-GrErddLmx3yWnvJ;User;y el selection sort;21:02:20 - 28/05/2024;Conceptual Questions;Yes
-GrErddLmx3yWnvJ;semantic_search;;21:02:20 - 28/05/2024;;
+Este algoritmo no es muy eficiente para listas grandes, pero es fácil de entender y de implementar. ¿Te gustaría saber algo más sobre este algoritmo o sobre algún otro tema de programación de sistemas?";21:01:42 - 28/05/2024;;;;
+GrErddLmx3yWnvJ;User;y el selection sort;21:02:20 - 28/05/2024;Conceptual Questions;Sorting;No;Yes
+GrErddLmx3yWnvJ;semantic_search;;21:02:20 - 28/05/2024;;;;
 GrErddLmx3yWnvJ;CharlieBOT;"El algoritmo de ordenamiento por selección (selection sort) es otro algoritmo sencillo de ordenamiento. Funciona encontrando repetidamente el elemento mínimo (o máximo, dependiendo del orden deseado) desde la parte no ordenada de la lista y lo intercambia con el primer elemento no ordenado. Aquí tienes una implementación en Java: 
 public class SelectionSort {
     public static void selectionSort(int[] arr) {
@@ -40,9 +40,9 @@ public class SelectionSort {
     }
 }
 
-Al igual que el algoritmo de ordenamiento de burbuja, el algoritmo de ordenamiento por selección no es muy eficiente para listas grandes, pero es fácil de implementar y entender. ¿Hay algo más en lo que pueda ayudarte con respecto a programación de sistemas?";21:02:24 - 28/05/2024;;
-GrErddLmx3yWnvJ;User;y el insertion sort;21:02:42 - 28/05/2024;Conceptual Questions;Yes
-GrErddLmx3yWnvJ;semantic_search;;21:02:42 - 28/05/2024;;
+Al igual que el algoritmo de ordenamiento de burbuja, el algoritmo de ordenamiento por selección no es muy eficiente para listas grandes, pero es fácil de implementar y entender. ¿Hay algo más en lo que pueda ayudarte con respecto a programación de sistemas?";21:02:24 - 28/05/2024;;;;
+GrErddLmx3yWnvJ;User;y el insertion sort;21:02:42 - 28/05/2024;Conceptual Questions;Sorting;No;Yes
+GrErddLmx3yWnvJ;semantic_search;;21:02:42 - 28/05/2024;;;;
 GrErddLmx3yWnvJ;CharlieBOT;"El algoritmo de ordenamiento por inserción (insertion sort) es otro algoritmo simple de ordenamiento que construye una lista ordenada uno a uno, moviendo elementos no ordenados a su lugar correcto. Aquí tienes una implementación en Java: 
 public class InsertionSort {
     public static void insertionSort(int[] arr) {
@@ -59,4 +59,4 @@ public class InsertionSort {
     }
 }
 
-El algoritmo de ordenamiento por inserción es eficiente para listas pequeñas, pero no es tan eficiente como otros algoritmos para listas grandes. Sin embargo, es útil en ciertos escenarios y es fácil de implementar. ¿Hay algo más en lo que pueda ayudarte con respecto a programación de sistemas?";21:02:45 - 28/05/2024;;
+El algoritmo de ordenamiento por inserción es eficiente para listas pequeñas, pero no es tan eficiente como otros algoritmos para listas grandes. Sin embargo, es útil en ciertos escenarios y es fácil de implementar. ¿Hay algo más en lo que pueda ayudarte con respecto a programación de sistemas?";21:02:45 - 28/05/2024;;;;

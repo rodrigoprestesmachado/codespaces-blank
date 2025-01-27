@@ -1,0 +1,48 @@
+@startuml
+
+'1 - The student asks a conceptual question (column Classification in the .csv
+' file) about Java (column Topic in the .csv file) at time zero as it is just a
+' message in the study block
+Java : 1.1: Conceptual Question
+'2.1 - We analyze the time of the next message and see that the delta is 16 hours,
+'      13 minutes, and 33 seconds, so there was "Spacing".
+'2.2 - We also analyze if there was a change of topic, and we see that there was,
+'      so there was "Interleaving". So we create a transition from Java to Sorting
+'      with the label "Spacing and \n Interleaving - 16:13:33 where 16:13:33 is the
+'      time of the next message
+Java --> Sorting : Spacing and \n Interleaving - 16:13:33
+'3.1 - The student then asks a conceptual question about sorting at time zero
+' because the "Spacing" create another study session or block (number 2.1 -
+' block 2, message 1)
+Sorting : 2.1: Conceptual Question
+'4.1 - We analyze the time of the next message and see that the delta is 2 minutes
+'      and 7 seconds, so there was no spacing.
+'4.2 - We also analyze if there was a change of topic, and we see that there was,
+'      so there was "Interleaving". So we create a transition from Sorting to DS
+'      with the label "Interleaving"
+Sorting --> DS : Interleaving
+'5 - The student then asks a conceptual question about Data Structure in block 2,
+' message 2
+DS : 2.2: Conceptual Question - 02:07
+'6.1 - We analyze the time of the next message and see that the delta is 1 minute 
+'      and 27 seconds, so there was no "Spacing".
+'6.2 - We also analyze if there was a change of topic, and we see that there was, 
+'      so there was "Interleaving".
+DS --> Sorting : Interleaving
+'7.1 - The student then asks a conceptual question about Sorting
+'7.2 - We analyze the time of the next message and see that the delta is 34 seconds, 
+'      so there was no "Spacing".
+'7.3 - We also analyze if there was a change of topic, and we see that there was not, 
+'      so there was no "Interleaving".
+Sorting : 2.3: Conceptual Question - 01:27
+Sorting : 2.4: Conceptual Question - 00:34 - Total: 00:04:08
+
+'8 - Definitions of states for the diagram
+state "Sorting and searching" as Sorting
+state "Data structure" as DS
+state "Java" as Java
+
+'9 - the title cames from column 'Id' in the .csv file
+title oUpWDS7oeRxlFZk
+
+@enduml

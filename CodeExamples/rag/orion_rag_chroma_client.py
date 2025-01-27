@@ -77,7 +77,7 @@ class OrionChromaDBClient:
                 documents=[chunk]
             )
 
-    def search(self, query_text, n_results=3):
+    def search(self, query_text, n_results=5):
         """
         Searches the ChromaDB collection for documents matching the query.
 

@@ -1,15 +1,15 @@
-Id;Role;Message;Datetime;Classification;AI - 11%
-89YCavi5FmXNqs6;User;Hola buenas;17:29:49 - 28/05/2024;Uncategorized;Yes
-89YCavi5FmXNqs6;semantic_search;;17:29:49 - 28/05/2024;;
-89YCavi5FmXNqs6;CharlieBOT;¡Hola! ¿En qué puedo ayudarte hoy?;17:29:50 - 28/05/2024;;
+Id;Role;Message;Datetime;Classification;Topic;Change;AI - 11%
+89YCavi5FmXNqs6;User;Hola buenas;17:29:49 - 28/05/2024;Uncategorized;Data Structures;No;Yes
+89YCavi5FmXNqs6;semantic_search;;17:29:49 - 28/05/2024;;;;
+89YCavi5FmXNqs6;CharlieBOT;¡Hola! ¿En qué puedo ayudarte hoy?;17:29:50 - 28/05/2024;;;;
 89YCavi5FmXNqs6;User;"que sale de este codigo? 
 stack.push(3) 
 stack.push(2) 
 stack.push(9) 
 stack.push(stack.pop()*stack.pop); 
 stack.push(stack.pop()+stack.pop); 
-System.out.println(stack.pop());";17:30:02 - 28/05/2024;Debugging Help;Yes
-89YCavi5FmXNqs6;semantic_search;;17:30:02 - 28/05/2024;;
+System.out.println(stack.pop());";17:30:02 - 28/05/2024;Debugging Help;Data Structures;No;Yes
+89YCavi5FmXNqs6;semantic_search;;17:30:02 - 28/05/2024;;;;
 89YCavi5FmXNqs6;CharlieBOT;"El código que has proporcionado utiliza una pila (stack) para realizar 
 operaciones. Vamos a analizarlo paso a paso:
 
@@ -30,12 +30,12 @@ operaciones. Vamos a analizarlo paso a paso:
    pila, que en este caso es 21.
 
 Por lo tanto, el resultado que se imprimirá es 21. Si tienes alguna otra 
-pregunta o duda, no dudes en preguntar.";17:30:07 - 28/05/2024;;
-89YCavi5FmXNqs6;User;muchas grasias;17:31:07 - 28/05/2024;Uncategorized;Yes
-89YCavi5FmXNqs6;semantic_search;;17:31:07 - 28/05/2024;;
+pregunta o duda, no dudes en preguntar.";17:30:07 - 28/05/2024;;Data Structures;No;
+89YCavi5FmXNqs6;User;muchas grasias;17:31:07 - 28/05/2024;Uncategorized;Data Structures;No;Yes
+89YCavi5FmXNqs6;semantic_search;;17:31:07 - 28/05/2024;;;;
 89YCavi5FmXNqs6;CharlieBOT;"¡De nada! Si necesitas ayuda con cualquier otra cosa, no dudes en 
-preguntar. ¡Buena suerte con tus estudios de programación de sistemas!";17:31:08 - 28/05/2024;;
-89YCavi5FmXNqs6;User;maña es el examen, tu crees que apruebo?;17:31:30 - 28/05/2024;Uncategorized;Yes
+preguntar. ¡Buena suerte con tus estudios de programación de sistemas!";17:31:08 - 28/05/2024;;;;
+89YCavi5FmXNqs6;User;maña es el examen, tu crees que apruebo?;17:31:30 - 28/05/2024;Uncategorized;Data Structures;No;Yes
 89YCavi5FmXNqs6;semantic_search;"50% examen final: Conocimiento adquirido por el estudiante durante todo 
 el curso (*) Es obligatorio presentarse al examen final y sólo se hará 
 media con la nota de evaluación continua cuando la calificación en el 
@@ -65,12 +65,12 @@ vigente. SISTEMA DE EVALUACIÓN La evaluación de la asignatura se realizará
 con pruebas parciales y un examen final. La distribución de la nota estará 
 basada en los siguientes criterios:  50%: evaluación continua mediante 
 pruebas parciales: Conocimiento adquirido por el estudiante (teoría y 
-problemas) para un bloque de unidades didácticas.";17:31:30 - 28/05/2024;;
+problemas) para un bloque de unidades didácticas.";17:31:30 - 28/05/2024;;;;
 89YCavi5FmXNqs6;CharlieBOT;"Lo siento, pero no puedo ayudarte con esa pregunta. Mi función es 
 proporcionar asistencia en el tema de programación de sistemas. Si tienes 
-alguna pregunta relacionada con eso, estaré encantado de ayudarte.";17:31:32 - 28/05/2024;;
-89YCavi5FmXNqs6;User;para que sirve poner int entre parentesis;18:45:12 - 28/05/2024;Conceptual Questions;Yes
-89YCavi5FmXNqs6;semantic_search;;18:45:12 - 28/05/2024;;
+alguna pregunta relacionada con eso, estaré encantado de ayudarte.";17:31:32 - 28/05/2024;;;;
+89YCavi5FmXNqs6;User;para que sirve poner int entre parentesis;18:45:12 - 28/05/2024;Conceptual Questions;Java;Yes;Yes
+89YCavi5FmXNqs6;semantic_search;;18:45:12 - 28/05/2024;;;;
 89YCavi5FmXNqs6;CharlieBOT;"En Java, poner un ""int"" entre paréntesis no tiene un significado 
 específico en términos de programación de sistemas. Sin embargo, si estás 
 hablando de la programación en general, colocar un ""int"" entre paréntesis 
@@ -83,9 +83,9 @@ public void miFuncion(int numero) {
 
 En este caso, ""int numero"" indica que la función ""miFuncion"" toma un 
 parámetro de tipo entero llamado ""numero"". Si tienes alguna otra pregunta 
-sobre programación de sistemas, no dudes en preguntar.";18:45:16 - 28/05/2024;;
-89YCavi5FmXNqs6;User;"por ejemplo en setSalary((int) (getSalary()*1.2));";18:45:24 - 28/05/2024;Debugging Help;Yes
-89YCavi5FmXNqs6;semantic_search;;18:45:24 - 28/05/2024;;
+sobre programación de sistemas, no dudes en preguntar.";18:45:16 - 28/05/2024;;;;
+89YCavi5FmXNqs6;User;"por ejemplo en setSalary((int) (getSalary()*1.2));";18:45:24 - 28/05/2024;Debugging Help;Java;No;Yes
+89YCavi5FmXNqs6;semantic_search;;18:45:24 - 28/05/2024;;;;
 89YCavi5FmXNqs6;CharlieBOT;"En el ejemplo que has proporcionado, el uso de ""(int)"" entre paréntesis 
 se conoce como ""casting"". El casting se utiliza para convertir un tipo de 
 dato a otro. En este caso, ""(int)"" se utiliza para convertir el resultado 
@@ -102,4 +102,4 @@ expresión ""setSalary((int) (getSalary()*1.2))"":
 Es importante tener en cuenta que al hacer un casting de un tipo de dato a 
 otro, se pueden perder datos si el tipo de dato al que se está convirtiendo 
 no puede contener toda la información del tipo original. Si tienes más 
-preguntas sobre programación de sistemas, no dudes en preguntar.";18:45:27 - 28/05/2024;;
+preguntas sobre programación de sistemas, no dudes en preguntar.";18:45:27 - 28/05/2024;;;;

@@ -39,24 +39,32 @@ public class Circle {
      * arguments for precision and radii.
      *
      * @param args the command-line arguments where the first argument is the
-     *             precision and the subsequent arguments are the radii
+     * precision and the subsequent arguments are the radii
      */
     public static void main(String[] args) {
-
-        int precision = Integer.parseInt(args[0]);
         if (args.length == 0) {
             System.err.println(
-                    "Command­line arguments expected: precision and radii (1..n).");
-        } else if (precision < 0) {
-            System.err.println("The precision must be positive.");
+                "Command-line arguments expected: precision and radii (1..n).");
         } else {
-            Circle circle = new Circle(precision);
-
-            for (int i = 1; i < args.length; i++) {
-                double radius = Double.parseDouble(args[i]);
-                System.out.println(
-                        "Area of circle with radius " + radius + " is " +
-                                circle.area(radius));
+            try {
+                int precision = Integer.parseInt(args[0]);
+                if (precision < 0) {
+                    System.err.println("Precision must be positive.");
+                } else {
+                    Circle circle = new Circle(precision);
+                    for (int i = 1; i < args.length; i++) {
+                        try {
+                            double radius = Double.parseDouble(args[i]);
+                            System.out.println(
+                                "Area of circle with radius " + radius +
+                                " is " + circle.area(radius));
+                        } catch (NumberFormatException e) {
+                            System.err.println("Radius must be a number.");
+                        }
+                    }
+                }
+            } catch (NumberFormatException e) {
+                System.err.println("Precision must be an integer.");
             }
         }
     }
